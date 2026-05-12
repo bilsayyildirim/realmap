@@ -221,7 +221,7 @@ export function setHeatmapMode(
 const HEX_CHUNKS = 6;
 let hexInitialized = false;
 
-const HEX_OPACITY: maplibregl.FillPaint['fill-opacity'] = [
+const HEX_OPACITY = [
   'interpolate', ['linear'], ['zoom'],
   1,   0.40,
   3,   0.52,
