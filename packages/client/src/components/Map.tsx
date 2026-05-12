@@ -7,10 +7,7 @@ import { CityDrawer } from './CityDrawer';
 import { PlacesLayer } from './PlacesLayer';
 import { SearchBar } from './SearchBar';
 
-const STADIA_KEY = import.meta.env.VITE_STADIA_API_KEY as string | undefined;
-const TILE_URL = STADIA_KEY
-  ? `https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png?api_key=${STADIA_KEY}`
-  : 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png';
+const TILE_URL = 'https://{a-c}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png';
 
 interface MapProps {
   center: [number, number];
@@ -38,7 +35,7 @@ export const Map = ({ center, zoom }: MapProps) => {
               type: 'raster',
               tiles: [TILE_URL],
               tileSize: 256,
-              attribution: '© Stadia Maps, © OpenStreetMap contributors',
+              attribution: '© CARTO, © OpenStreetMap contributors',
             },
           },
           layers: [{ id: 'simple-tiles', type: 'raster', source: 'raster-tiles', minzoom: 0, maxzoom: 22 }],
