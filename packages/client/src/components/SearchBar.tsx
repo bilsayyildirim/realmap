@@ -22,9 +22,10 @@ export function SearchBar({ map, onCitySelect }: Props) {
 
   const results = useMemo(() => {
     if (!query.trim() || !places.length) return [];
-    const q = query.toLowerCase();
+    const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    const q = norm(query);
     return (places as any[])
-      .filter((p) => p.name?.toLowerCase().includes(q) || p.country?.toLowerCase().includes(q))
+      .filter((p) => (p.name && norm(p.name).includes(q)) || (p.country && norm(p.country).includes(q)))
       .slice(0, 8);
   }, [query, places]);
 
