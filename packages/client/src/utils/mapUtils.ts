@@ -216,56 +216,56 @@ export function setHeatmapMode(
 }
 
 // ---------------------------------------------------------------------------------
-// H3 hex grid — pre-built colored world background (loaded from hex_grid.json)
+// H3 hex grid — split into 6 chunks to stay within iOS WebGL index buffer limits
 // ---------------------------------------------------------------------------------
+const HEX_CHUNKS = 6;
 let hexInitialized = false;
+
+const HEX_OPACITY: maplibregl.FillPaint['fill-opacity'] = [
+  'interpolate', ['linear'], ['zoom'],
+  1,   0.40,
+  3,   0.52,
+  5,   0.68,
+  8,   0.60,
+  11,  0.42,
+  14,  0.12,
+];
 
 export async function initHexLayer(map: maplibregl.Map): Promise<void> {
   try {
-    if (hexInitialized || map.getSource('hex-source')) return;
+    if (hexInitialized || map.getSource('hex-source-0')) return;
   } catch {
-    return; // map mid-teardown
+    return;
   }
   hexInitialized = true;
 
-  try {
-    const res = await fetch('/data/hex_grid.json');
-    if (!res.ok) {
-      console.info('hex_grid.json not found — run make build-clusters to generate it');
-      return;
-    }
-    const geojson = await res.json();
-    if (map.getSource('hex-source')) return; // guard against race
-    map.addSource('hex-source', { type: 'geojson', data: geojson });
-    map.addLayer(
-      {
-        id: 'hex-fill',
-        type: 'fill',
-        source: 'hex-source',
-        paint: {
-          'fill-color': ['get', 'color'],
-          'fill-opacity': [
-            'interpolate', ['linear'], ['zoom'],
-            1,   0.40,
-            3,   0.52,
-            5,   0.68,
-            8,   0.60,
-            11,  0.42,
-            14,  0.12,
-          ],
-        },
-      },
-      'places',
-    );
-  } catch (e) {
-    console.info('hex_grid.json unavailable — run make build-clusters');
-  }
+  await Promise.all(
+    Array.from({ length: HEX_CHUNKS }, async (_, i) => {
+      try {
+        const res = await fetch(`/data/hex_grid_${i}.json`);
+        if (!res.ok) return;
+        const geojson = await res.json();
+        if (map.getSource(`hex-source-${i}`)) return;
+        map.addSource(`hex-source-${i}`, { type: 'geojson', data: geojson });
+        map.addLayer(
+          { id: `hex-fill-${i}`, type: 'fill', source: `hex-source-${i}`,
+            paint: { 'fill-color': ['get', 'color'], 'fill-opacity': HEX_OPACITY } },
+          'places',
+        );
+      } catch {
+        // chunk unavailable, skip
+      }
+    })
+  );
 }
 
 export function setHexMode(map: maplibregl.Map, enabled: boolean): void {
   try {
     if (!map.getLayer('hex-fill')) return;
-    map.setLayoutProperty('hex-fill', 'visibility', enabled ? 'visible' : 'none');
+    for (let i = 0; i < HEX_CHUNKS; i++) {
+      if (map.getLayer(`hex-fill-${i}`))
+        map.setLayoutProperty(`hex-fill-${i}`, 'visibility', enabled ? 'visible' : 'none');
+    }
   } catch {
     // map may be mid-teardown during HMR
   }
