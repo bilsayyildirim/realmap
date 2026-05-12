@@ -20,6 +20,7 @@ export const Map = ({ center, zoom }: MapProps) => {
   const mapLoadedRef = useRef(false);
 
   const [showPlaces, setShowPlaces] = useState(false);
+  const [hexReady, setHexReady] = useState(false);
   const [selectedCityName, setSelectedCityName] = useState<string | null>(null);
 
   useEffect(() => {
@@ -72,9 +73,22 @@ export const Map = ({ center, zoom }: MapProps) => {
     <>
       <div ref={mapContainer} style={{ width: '100%', height: '100%' }} />
 
+      {!hexReady && (
+        <div style={{
+          position: 'fixed', top: 0, left: 0, right: 0, height: 2, zIndex: 9999,
+          background: 'linear-gradient(90deg, #6366f1, #a78bfa, #6366f1)',
+          backgroundSize: '200% 100%',
+          animation: 'shimmer 1.4s infinite linear',
+        }} />
+      )}
+
+      <style>{`
+        @keyframes shimmer { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
+      `}</style>
+
       {showPlaces && map.current && (
         <>
-          <PlacesLayer map={map.current} onCitySelect={setSelectedCityName} />
+          <PlacesLayer map={map.current} onCitySelect={setSelectedCityName} onHexReady={() => setHexReady(true)} />
           <SearchBar map={map.current} onCitySelect={setSelectedCityName} />
 
           <IconButton

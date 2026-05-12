@@ -15,11 +15,13 @@ import {
 interface PlacesLayerProps {
   map: maplibregl.Map;
   onCitySelect: (cityName: string) => void;
+  onHexReady?: () => void;
 }
 
 export const PlacesLayer = ({
   map,
   onCitySelect,
+  onHexReady,
 }: PlacesLayerProps) => {
   const { places, loading, error } = usePlaces();
   const [isInitialized, setIsInitialized] = useState(false);
@@ -37,7 +39,7 @@ export const PlacesLayer = ({
       try {
         initializeMapLayers(map);
         initVoronoiLayer(map);
-        void initHexLayer(map);
+        void initHexLayer(map).then(() => onHexReady?.());
 
         map.on('click', 'places', (e: maplibregl.MapLayerMouseEvent) => {
           e.originalEvent?.stopPropagation();
