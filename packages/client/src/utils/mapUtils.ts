@@ -221,15 +221,8 @@ export function setHeatmapMode(
 const HEX_CHUNKS = 6;
 let hexInitialized = false;
 
-const HEX_OPACITY = [
-  'interpolate', ['linear'], ['zoom'],
-  1,   0.40,
-  3,   0.52,
-  5,   0.68,
-  8,   0.60,
-  11,  0.42,
-  14,  0.12,
-];
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const HEX_OPACITY: any = ['interpolate', ['linear'], ['zoom'], 1, 0.40, 3, 0.52, 5, 0.68, 8, 0.60, 11, 0.42, 14, 0.12];
 
 export async function initHexLayer(map: maplibregl.Map): Promise<void> {
   try {

@@ -206,6 +206,21 @@ make clean-raw         # Normalize & clean raw data files
 make dev-clean         # Full reset: Elasticsearch + build + seed + start dev servers
 ```
 
+## Pre-Push Checklist (required before every git push)
+
+**Never push without running these first:**
+
+```bash
+cd packages/client && npx tsc --noEmit    # TypeScript must be error-free
+```
+
+If the build is relevant (new components, changed imports):
+```bash
+pnpm --filter @realmap/client build       # Full Vite build must succeed
+```
+
+Only push after both pass with zero errors.
+
 ## Grid and Color Design
 
 **Hex grid (H3):**
