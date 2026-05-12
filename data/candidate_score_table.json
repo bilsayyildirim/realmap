@@ -1,0 +1,755 @@
+{
+  "runId": "1ee1aa0f22d9",
+  "timestamp": "2026-04-26T22:14:12.397Z",
+  "status": "degraded",
+  "canonicalArtifactsEmitted": false,
+  "datasetFingerprint": "b209f34bfba6",
+  "canonicalSpace": "pca50",
+  "guardSpace": "pca50",
+  "objectiveVersion": "q-v1",
+  "weights": {
+    "stability": 0.45,
+    "separation": 0.4,
+    "fragmentation": 0.15,
+    "collision": 0.1
+  },
+  "selectionProfile": "configured",
+  "candidates": [
+    {
+      "candidateId": "hdbscan(mcs=59, ms=17)",
+      "family": "HDBSCAN",
+      "params": {
+        "minClusterSize": 59,
+        "minSamples": 17
+      },
+      "qualityScore": 0.152311,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.349703,
+      "separationNorm": 0.674851,
+      "fragRaw": 0.12503,
+      "fragNorm": 0.117529,
+      "fragComponents": {
+        "penaltyCountComponent": 0.12503,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 30
+      },
+      "noiseRatio": 0.601803,
+      "redundancyMatrixMax": 0.995364,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.350 < 0.42; noise 60.2% > 32.0%",
+      "selected": false
+    },
+    {
+      "candidateId": "hdbscan-umap(n=84, d=12)",
+      "family": "HDBSCAN_VARIANT",
+      "params": {
+        "minClusterSize": 47,
+        "minSamples": 13,
+        "umap": {
+          "usedNeighbors": 84,
+          "usedComponents": 12,
+          "pcaComponentsUsed": "none"
+        }
+      },
+      "qualityScore": 0.15214,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.360068,
+      "separationNorm": 0.680034,
+      "fragRaw": 0.142128,
+      "fragNorm": 0.132489,
+      "fragComponents": {
+        "penaltyCountComponent": 0.142128,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 35
+      },
+      "noiseRatio": 0.623925,
+      "redundancyMatrixMax": 0.998411,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.360 < 0.42; noise 62.4% > 32.0%",
+      "selected": false
+    },
+    {
+      "candidateId": "hdbscan-umap(n=140, d=12)",
+      "family": "HDBSCAN_VARIANT",
+      "params": {
+        "minClusterSize": 47,
+        "minSamples": 17,
+        "umap": {
+          "usedNeighbors": 140,
+          "usedComponents": 12,
+          "pcaComponentsUsed": "none"
+        }
+      },
+      "qualityScore": 0.158065,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.383047,
+      "separationNorm": 0.691524,
+      "fragRaw": 0.131969,
+      "fragNorm": 0.123632,
+      "fragComponents": {
+        "penaltyCountComponent": 0.131969,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 32
+      },
+      "noiseRatio": 0.657108,
+      "redundancyMatrixMax": 0.998154,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.383 < 0.42; noise 65.7% > 32.0%",
+      "selected": false
+    },
+    {
+      "candidateId": "hdbscan-umap(n=210, d=12)",
+      "family": "HDBSCAN_VARIANT",
+      "params": {
+        "minClusterSize": 47,
+        "minSamples": 17,
+        "umap": {
+          "usedNeighbors": 210,
+          "usedComponents": 12,
+          "pcaComponentsUsed": "none"
+        }
+      },
+      "qualityScore": 0.160584,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.388734,
+      "separationNorm": 0.694367,
+      "fragRaw": 0.121507,
+      "fragNorm": 0.114415,
+      "fragComponents": {
+        "penaltyCountComponent": 0.121507,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 29
+      },
+      "noiseRatio": 0.681483,
+      "redundancyMatrixMax": 0.990034,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.389 < 0.42; noise 68.1% > 32.0%",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=2)",
+      "family": "KMEANS",
+      "params": {
+        "k": 2,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.179102,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": -0.09712,
+      "separationNorm": 0.45144,
+      "fragRaw": 0.009878,
+      "fragNorm": 0.009829,
+      "fragComponents": {
+        "penaltyCountComponent": 0.009878,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 2
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": -0.701363,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette -0.097 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=4)",
+      "family": "KMEANS",
+      "params": {
+        "k": 4,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.178526,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": -0.092898,
+      "separationNorm": 0.453551,
+      "fragRaw": 0.019484,
+      "fragNorm": 0.019296,
+      "fragComponents": {
+        "penaltyCountComponent": 0.019484,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 4
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": -0.001421,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette -0.093 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=6)",
+      "family": "KMEANS",
+      "params": {
+        "k": 6,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.070187,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": -0.154191,
+      "separationNorm": 0.422905,
+      "fragRaw": 0.028834,
+      "fragNorm": 0.028422,
+      "fragComponents": {
+        "penaltyCountComponent": 0.028834,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 6
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.805044,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette -0.154 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=8)",
+      "family": "KMEANS",
+      "params": {
+        "k": 8,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.095037,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": -0.123199,
+      "separationNorm": 0.438401,
+      "fragRaw": 0.037941,
+      "fragNorm": 0.03723,
+      "fragComponents": {
+        "penaltyCountComponent": 0.037941,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 8
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.635279,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette -0.123 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=12)",
+      "family": "KMEANS",
+      "params": {
+        "k": 12,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.078074,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": -0.095605,
+      "separationNorm": 0.452197,
+      "fragRaw": 0.055473,
+      "fragNorm": 0.053962,
+      "fragComponents": {
+        "penaltyCountComponent": 0.055473,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 12
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.805044,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette -0.096 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=16)",
+      "family": "KMEANS",
+      "params": {
+        "k": 16,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.080253,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": -0.046516,
+      "separationNorm": 0.476742,
+      "fragRaw": 0.072168,
+      "fragNorm": 0.069626,
+      "fragComponents": {
+        "penaltyCountComponent": 0.072168,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 16
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.871057,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette -0.047 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=20)",
+      "family": "KMEANS",
+      "params": {
+        "k": 20,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.087657,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": -0.006996,
+      "separationNorm": 0.496502,
+      "fragRaw": 0.0901,
+      "fragNorm": 0.086161,
+      "fragComponents": {
+        "penaltyCountComponent": 0.088103,
+        "penaltyTinyMassComponent": 0.001997,
+        "tinyClusterCount": 1,
+        "tinyMassDeficit": 15,
+        "effectiveK": 19
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.833168,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette -0.007 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=24)",
+      "family": "KMEANS",
+      "params": {
+        "k": 24,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.089791,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.010634,
+      "separationNorm": 0.505317,
+      "fragRaw": 0.103344,
+      "fragNorm": 0.098184,
+      "fragComponents": {
+        "penaltyCountComponent": 0.103344,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 24
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.829674,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": true,
+      "rejectReason": "quality_gate_failed: silhouette 0.011 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=25)",
+      "family": "KMEANS",
+      "params": {
+        "k": 25,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.088461,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.018449,
+      "separationNorm": 0.509224,
+      "fragRaw": 0.107053,
+      "fragNorm": 0.101522,
+      "fragComponents": {
+        "penaltyCountComponent": 0.107053,
+        "penaltyTinyMassComponent": 0,
+        "tinyClusterCount": 0,
+        "tinyMassDeficit": 0,
+        "effectiveK": 25
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.919064,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": true,
+      "rejectReason": "quality_gate_failed: silhouette 0.018 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=30)",
+      "family": "KMEANS",
+      "params": {
+        "k": 30,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.097874,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.079012,
+      "separationNorm": 0.539506,
+      "fragRaw": 0.127293,
+      "fragNorm": 0.119524,
+      "fragComponents": {
+        "penaltyCountComponent": 0.12503,
+        "penaltyTinyMassComponent": 0.002263,
+        "tinyClusterCount": 1,
+        "tinyMassDeficit": 17,
+        "effectiveK": 29
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.926789,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.079 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=35)",
+      "family": "KMEANS",
+      "params": {
+        "k": 35,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.099585,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.102898,
+      "separationNorm": 0.551449,
+      "fragRaw": 0.150782,
+      "fragNorm": 0.139965,
+      "fragComponents": {
+        "penaltyCountComponent": 0.142128,
+        "penaltyTinyMassComponent": 0.008654,
+        "tinyClusterCount": 5,
+        "tinyMassDeficit": 65,
+        "effectiveK": 30
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.921688,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.103 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=40)",
+      "family": "KMEANS",
+      "params": {
+        "k": 40,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.102243,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.125352,
+      "separationNorm": 0.562676,
+      "fragRaw": 0.165086,
+      "fragNorm": 0.152179,
+      "fragComponents": {
+        "penaltyCountComponent": 0.158429,
+        "penaltyTinyMassComponent": 0.006657,
+        "tinyClusterCount": 4,
+        "tinyMassDeficit": 50,
+        "effectiveK": 36
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.989519,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.125 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=45)",
+      "family": "KMEANS",
+      "params": {
+        "k": 45,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.103096,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.140607,
+      "separationNorm": 0.570303,
+      "fragRaw": 0.182526,
+      "fragNorm": 0.166837,
+      "fragComponents": {
+        "penaltyCountComponent": 0.174005,
+        "penaltyTinyMassComponent": 0.008521,
+        "tinyClusterCount": 7,
+        "tinyMassDeficit": 64,
+        "effectiveK": 38
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.937336,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.141 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=50)",
+      "family": "KMEANS",
+      "params": {
+        "k": 50,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.108272,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.177785,
+      "separationNorm": 0.588892,
+      "fragRaw": 0.200767,
+      "fragNorm": 0.181897,
+      "fragComponents": {
+        "penaltyCountComponent": 0.188917,
+        "penaltyTinyMassComponent": 0.01185,
+        "tinyClusterCount": 9,
+        "tinyMassDeficit": 89,
+        "effectiveK": 41
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.996461,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.178 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=55)",
+      "family": "KMEANS",
+      "params": {
+        "k": 55,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.109877,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.197332,
+      "separationNorm": 0.598666,
+      "fragRaw": 0.21973,
+      "fragNorm": 0.197264,
+      "fragComponents": {
+        "penaltyCountComponent": 0.20322,
+        "penaltyTinyMassComponent": 0.01651,
+        "tinyClusterCount": 11,
+        "tinyMassDeficit": 124,
+        "effectiveK": 44
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.998361,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.197 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=60)",
+      "family": "KMEANS",
+      "params": {
+        "k": 60,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.109952,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.204421,
+      "separationNorm": 0.602211,
+      "fragRaw": 0.230941,
+      "fragNorm": 0.206214,
+      "fragComponents": {
+        "penaltyCountComponent": 0.216961,
+        "penaltyTinyMassComponent": 0.01398,
+        "tinyClusterCount": 10,
+        "tinyMassDeficit": 105,
+        "effectiveK": 50
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.997296,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.204 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=65)",
+      "family": "KMEANS",
+      "params": {
+        "k": 65,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.107709,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.203602,
+      "separationNorm": 0.601801,
+      "fragRaw": 0.248557,
+      "fragNorm": 0.220074,
+      "fragComponents": {
+        "penaltyCountComponent": 0.230183,
+        "penaltyTinyMassComponent": 0.018374,
+        "tinyClusterCount": 13,
+        "tinyMassDeficit": 138,
+        "effectiveK": 52
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.998285,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.204 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=66)",
+      "family": "KMEANS",
+      "params": {
+        "k": 66,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.115574,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.243659,
+      "separationNorm": 0.62183,
+      "fragRaw": 0.249811,
+      "fragNorm": 0.221052,
+      "fragComponents": {
+        "penaltyCountComponent": 0.232769,
+        "penaltyTinyMassComponent": 0.017042,
+        "tinyClusterCount": 11,
+        "tinyMassDeficit": 128,
+        "effectiveK": 55
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.99437,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.244 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=67)",
+      "family": "KMEANS",
+      "params": {
+        "k": 67,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.097954,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.160693,
+      "separationNorm": 0.580347,
+      "fragRaw": 0.258635,
+      "fragNorm": 0.227895,
+      "fragComponents": {
+        "penaltyCountComponent": 0.235335,
+        "penaltyTinyMassComponent": 0.0233,
+        "tinyClusterCount": 14,
+        "tinyMassDeficit": 175,
+        "effectiveK": 53
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.997348,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.161 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=68)",
+      "family": "KMEANS",
+      "params": {
+        "k": 68,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.105659,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.202914,
+      "separationNorm": 0.601457,
+      "fragRaw": 0.265044,
+      "fragNorm": 0.232828,
+      "fragComponents": {
+        "penaltyCountComponent": 0.237883,
+        "penaltyTinyMassComponent": 0.027161,
+        "tinyClusterCount": 17,
+        "tinyMassDeficit": 204,
+        "effectiveK": 51
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.998008,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.203 < 0.42",
+      "selected": false
+    },
+    {
+      "candidateId": "kmeans(k=69)",
+      "family": "KMEANS",
+      "params": {
+        "k": 69,
+        "maxIterations": 300,
+        "seed": "realmap"
+      },
+      "qualityScore": 0.106838,
+      "stabilityRaw": 0,
+      "stabilityNorm": 0,
+      "separationRaw": 0.206736,
+      "separationNorm": 0.603368,
+      "fragRaw": 0.261449,
+      "fragNorm": 0.230065,
+      "fragComponents": {
+        "penaltyCountComponent": 0.240412,
+        "penaltyTinyMassComponent": 0.021036,
+        "tinyClusterCount": 14,
+        "tinyMassDeficit": 158,
+        "effectiveK": 55
+      },
+      "noiseRatio": 0,
+      "redundancyMatrixMax": 0.999528,
+      "collisionVetoPassed": true,
+      "guardReviewFlag": false,
+      "rejectReason": "quality_gate_failed: silhouette 0.207 < 0.42",
+      "selected": false
+    }
+  ]
+}

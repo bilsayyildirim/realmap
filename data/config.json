@@ -1,0 +1,6 @@
+{
+  "paths": {
+    "rawDir": "./data/raw",
+    "outDir": "./data"
+  }
+}

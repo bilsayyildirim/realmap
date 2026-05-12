@@ -1,0 +1,51 @@
+{
+  "runId": "1ee1aa0f22d9",
+  "timestamp": "2026-04-26T22:14:12.397Z",
+  "status": "degraded",
+  "canonicalArtifactsEmitted": false,
+  "datasetFingerprint": "b209f34bfba6",
+  "protocol": {
+    "datasetHash": "b209f34bfba6",
+    "seed": "realmap",
+    "frozenAblationLabel": null
+  },
+  "canonicalSpace": "pca50",
+  "guardSpace": "pca50",
+  "objectiveVersion": "q-v1",
+  "scoreWeights": {
+    "stability": 0.45,
+    "separation": 0.4,
+    "fragmentation": 0.15,
+    "collision": 0.1
+  },
+  "selectionProfile": "configured",
+  "thresholds": {
+    "collision": {
+      "mode": "monitor",
+      "rho": 0.85,
+      "calibrationComplete": false
+    },
+    "noise": {
+      "mode": "monitor",
+      "min": 0.03,
+      "max": 0.15
+    }
+  },
+  "runtime": {
+    "configured": {
+      "nNeighbors": "auto",
+      "nComponents": 12,
+      "epochs": 300,
+      "minDist": 0.03,
+      "metric": "cosine"
+    },
+    "actual": {
+      "nNeighbors": 64,
+      "nComponents": 12,
+      "epochs": 300,
+      "minDist": 0.03,
+      "metric": "cosine",
+      "pcaComponentsUsed": 50
+    }
+  }
+}

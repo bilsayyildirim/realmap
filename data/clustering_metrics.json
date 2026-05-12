@@ -1,0 +1,49 @@
+{
+  "runId": "1ee1aa0f22d9",
+  "timestamp": "2026-04-26T22:14:12.397Z",
+  "status": "degraded",
+  "canonicalArtifactsEmitted": false,
+  "datasetFingerprint": "b209f34bfba6",
+  "silhouette": 0.3497193748130199,
+  "noiseRatio": 0.6018025399426464,
+  "clusterCount": 30,
+  "totalPoints": 4882,
+  "strategy": "UMAP-HDBSCAN (no-feasible-candidate)",
+  "duration": 4478849.164706,
+  "memoryPeak": 648.4008255004883,
+  "qualityGates": {
+    "minSilhouette": 0.42,
+    "maxNoise": 0.32,
+    "degradedSilhouette": 0.55
+  },
+  "datasetHash": "b209f34bfba6",
+  "canonicalSpace": "pca50",
+  "guardSpace": "pca50",
+  "objectiveVersion": "q-v1",
+  "qualityScore": 0,
+  "selectionProfile": "configured",
+  "effectiveRuntimeParams": {
+    "actualNNeighbors": 64,
+    "actualNComponents": 12,
+    "actualEpochs": 300,
+    "pcaComponentsUsed": 50,
+    "minDist": 0.03,
+    "metric": "cosine"
+  },
+  "configuredRuntimeParams": {
+    "nNeighbors": "auto",
+    "nComponents": 12,
+    "epochs": 300,
+    "minDist": 0.03,
+    "metric": "cosine"
+  },
+  "hashes": {
+    "datasetHash": "b209f34bfba6",
+    "archetypeMappingHash": "464a2ee2a969",
+    "namedSpecialtyRemapHash": "25f2d35cd866"
+  },
+  "review": {
+    "manualReviewRequired": false,
+    "winnerExists": false
+  }
+}

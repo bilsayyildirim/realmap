@@ -1,0 +1,12 @@
+{
+  "runId": "1ee1aa0f22d9",
+  "timestamp": "2026-04-26T22:14:12.397Z",
+  "datasetFingerprint": "b209f34bfba6",
+  "k": 15,
+  "sampleSize": 1200,
+  "fullN": 4882,
+  "meanJaccard": 0.2961,
+  "medianJaccard": 0.3043,
+  "p10Jaccard": 0.0345,
+  "p90Jaccard": 0.5789
+}

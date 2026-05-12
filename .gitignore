@@ -1,0 +1,61 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Dependencies
+node_modules/
+.pnpm-store/
+packages/client/node_modules/
+
+# Build outputs (Vercel builds from source — don't commit dist)
+packages/client/dist/
+packages/scripts/dist/
+packages/shared/dist/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+data/raw/*.bak
+data/*.bak
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/settings.json
+*.swp
+*.swo
+
+# Vercel
+.vercel/
+
+# Large raw GIS / pipeline source files (not served by client)
+data/gadm_410.gpkg
+data/gadm_410-levels.gpkg
+data/whosonfirst-data-localadmin-latest/
+data/ne_10m_admin_1_states_provinces/
+data/ne_10m_admin_2_counties/
+data/ne_10m_populated_places/
+data/cities/
+
+# Pipeline-only outputs (generated, not needed by client)
+data/most_similar_different_continents.json
+data/most_similar_different_countries.json
+data/color_report.html
+
+# Duplicate copies — client uses packages/client/public/data/ exclusively
+data/hex_grid.json
+data/features.json
+data/global_color_calibration.json
+data/features_meta.json
+data/insights.json
+data/build_report.json
+packages/client/src/data/

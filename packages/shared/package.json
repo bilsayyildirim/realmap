@@ -1,0 +1,47 @@
+{
+  "name": "@realmap/shared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./client": {
+      "import": "./dist/client.js",
+      "types": "./dist/client.d.ts"
+    },
+    "./server": {
+      "import": "./dist/server.js",
+      "types": "./dist/server.d.ts"
+    }
+  },
+  "scripts": {
+    "prebuild": "pnpm clean",
+    "build": "tsc --build --incremental",
+    "watch": "tsc --build --incremental --watch",
+    "clean": "rimraf dist",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "country-state-city": "^3.2.1",
+    "@elastic/elasticsearch": "^8.12.1",
+    "@sinclair/typebox": "^0.32.15",
+    "countries-list": "^2.6.1",
+    "openai": "^4.104.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

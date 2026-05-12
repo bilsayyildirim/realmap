@@ -1,0 +1,53 @@
+{
+  "name": "@realmap/scripts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rimraf dist",
+    "clusters": "echo 'Use make build-clusters (runs run.py via Docker Python)'",
+    "correct-place-ids": "tsx src/correctPlaceIds.ts",
+    "extend-raw-data": "tsx src/extendRawData/index.ts"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.12.1",
+    "@realmap/shared": "workspace:*",
+    "@sinclair/typebox": "^0.32.15",
+    "@types/geojson": "^7946.0.14",
+    "chroma-js": "^3.1.2",
+    "cli-progress": "^3.12.0",
+    "countries-list": "^2.6.1",
+    "csv-parse": "^5.5.3",
+    "d3-array": "^3.2.4",
+    "hdbscan-ts": "^1.0.16",
+    "hnswlib-node": "^3.0.0",
+    "kd-tree-javascript": "^1.0.3",
+    "kmeans-ts": "^1.0.4",
+    "ml-matrix": "^6.12.1",
+    "ndjson": "^2.0.0",
+    "node-fetch": "^3.3.2",
+    "seedrandom": "^3.0.5",
+    "tsne-js": "^1.0.3",
+    "umap-js": "^1.4.0",
+    "wink-bm25-text-search": "^3.1.2",
+    "yargs": "^18.0.0",
+    "ml-kmeans": "^6.0.0",
+    "stream-json": "^1.9.1",
+    "ml-pca": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^3.1.1",
+    "@types/cli-progress": "^3.11.6",
+    "@types/d3-array": "^3.2.1",
+    "@types/kd-tree-javascript": "^1.0.3",
+    "@types/node": "^20.11.19",
+    "@types/seedrandom": "^3.0.8",
+    "@types/stream-json": "^1.7.8",
+    "@types/yargs": "^17.0.33",
+    "rimraf": "^5.0.5",
+    "stream-chain": "^3.4.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}

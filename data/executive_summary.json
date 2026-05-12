@@ -1,0 +1,68 @@
+{
+  "title": "🌍 World Food Clustering - Executive Summary",
+  "timestamp": "2025-08-19T11:38:42.780Z",
+  "buildHash": "5b94d98b",
+  "seed": "realmap",
+  "keyMetrics": {
+    "totalPlaces": 5447,
+    "totalClusters": 1613,
+    "silhouetteScore": "0.571",
+    "executionTime": "5832.7 minutes",
+    "memoryEfficiency": "313.2 KB per place"
+  },
+  "qualityAssessment": {
+    "overall": "✅ GOOD",
+    "silhouette": "0.571",
+    "interpretation": "Good cluster separation",
+    "recommendation": "Consider parameter tuning"
+  },
+  "datasetInsights": {
+    "coverage": "🌍 Global coverage across 7 continents",
+    "diversity": "950 unique culinary features",
+    "richness": "🍽️ Rich feature space",
+    "scale": "📊 Large-scale analysis"
+  },
+  "clusteringPerformance": {
+    "algorithm": "HDBSCAN with UMAP preprocessing",
+    "parameters": {
+      "minClusterSize": 2,
+      "minSamples": 1,
+      "quality": "⚠️ Suboptimal"
+    },
+    "noiseHandling": "✅ No noise points",
+    "colorDifferentiation": "✅ High color diversity"
+  },
+  "geographicPatterns": {
+    "continents": 7,
+    "countries": "Global coverage",
+    "clustering": "Distinct culinary regions identified",
+    "visualization": "Full-spectrum color mapping applied"
+  },
+  "technicalExcellence": {
+    "performance": "✅ Excellent scalability",
+    "memory": "⚠️ High memory usage",
+    "determinism": "✅ Seeded RNG for reproducible results",
+    "robustness": "✅ Comprehensive error handling"
+  },
+  "productionReadiness": {
+    "status": "⚠️ NEEDS OPTIMIZATION",
+    "criteria": {
+      "clusteringQuality": "❌ Below threshold",
+      "datasetSize": "✅ Sufficient",
+      "colorDifferentiation": "✅ Excellent",
+      "performance": "⚠️ Slow"
+    },
+    "recommendations": [
+      "⚠️ Consider tuning HDBSCAN parameters",
+      "✅ Dataset size is sufficient",
+      "✅ Color differentiation is excellent",
+      "⚠️ Consider optimization"
+    ]
+  },
+  "successMetrics": {
+    "culinaryDiscovery": "🌍 Global culinary patterns successfully identified",
+    "geographicInsights": "🌐 Geographic clustering reveals cultural boundaries",
+    "technicalAchievement": "⚡ High-performance clustering pipeline",
+    "visualQuality": "🎨 Rich color differentiation for map visualization"
+  }
+}

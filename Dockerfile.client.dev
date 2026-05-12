@@ -1,0 +1,36 @@
+FROM node:20-alpine
+
+# Install pnpm
+RUN npm install -g pnpm@10.8.1
+
+# Set working directory
+WORKDIR /app
+
+# Copy only files needed for dependency installation first
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY packages/shared/package.json ./packages/shared/
+COPY packages/client/package.json ./packages/client/
+
+# Copy .npmrc (for prefer-frozen-lockfile setting)
+COPY .npmrc ./
+
+# Install dependencies in container (no cache mount so optional deps like rollup get correct linux binary)
+RUN pnpm install --frozen-lockfile
+
+# Copy source code and configuration files
+COPY packages/shared ./packages/shared
+COPY packages/client ./packages/client
+COPY tsconfig*.json ./
+
+# Set environment variables
+ENV NODE_ENV=development \
+    PORT=3000
+
+# Expose port
+EXPOSE 3002
+
+# Entrypoint: ensure node_modules in volume is populated (Linux binaries) then run CMD
+COPY docker/client-entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["pnpm", "--filter", "@realmap/client", "dev", "--host"]

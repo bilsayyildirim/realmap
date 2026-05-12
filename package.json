@@ -1,0 +1,45 @@
+{
+  "name": "realmap",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A real-time map visualization application",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "start": "pnpm -r start",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean",
+    "seed:cities": "pnpm --filter @realmap/scripts seed:cities",
+    "format": "prettier --write \"**/*.ts\"",
+    "start:services": "docker-compose up -d",
+    "stop:services": "docker-compose down",
+    "seed": "pnpm start:services && sleep 10 && pnpm seed:cities",
+    "dev:client": "pnpm --filter @realmap/shared build && pnpm --filter @realmap/client dev",
+    "dev:client:watch": "pnpm --filter @realmap/shared watch & pnpm --filter @realmap/client dev",
+    "prepare": "husky install",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.14",
+    "@types/node": "^20.11.16",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0"
+  },
+  "dependencies": {
+    "country-state-city": "^3.2.1",
+    "hdbscan-ts": "1.0.16",
+    "hnswlib-node": "^3.0.0",
+    "ml-kmeans": "^6.0.0",
+    "ml-pca": "^4.1.1"
+  }
+}

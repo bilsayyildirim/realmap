@@ -1,0 +1,7127 @@
+[
+  {
+    "clusterId": 0,
+    "size": 118,
+    "centroid": [
+      5.461290667045382,
+      2.588818865248125
+    ],
+    "color": "hsl(205, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "herbs",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pepper",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "feta_cheese",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "walnut",
+        "count": 118,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "baking",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stuffing",
+        "count": 118,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 118,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Shkodër",
+      "Shkodër",
+      "Shkodër",
+      "Shkodër",
+      "Shkodër"
+    ]
+  },
+  {
+    "clusterId": 1,
+    "size": 89,
+    "centroid": [
+      5.2265519357444745,
+      2.145754148111353
+    ],
+    "color": "hsl(202, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "fish",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "seafood",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "parsley",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "almonds",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dates",
+        "count": 89,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 89,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 89,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "El Tarf",
+      "El Tarf",
+      "El Tarf",
+      "El Tarf",
+      "El Tarf"
+    ]
+  },
+  {
+    "clusterId": 2,
+    "size": 53,
+    "centroid": [
+      5.027800364076298,
+      1.8866304828716831
+    ],
+    "color": "hsl(201, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "fish",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "coconut",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cassava",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "bananas",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "breadfruit",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cloves",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "vanilla",
+        "count": 53,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 53,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Mutsamudu",
+      "Mutsamudu",
+      "Mutsamudu",
+      "Mutsamudu",
+      "Mutsamudu"
+    ]
+  },
+  {
+    "clusterId": 3,
+    "size": 116,
+    "centroid": [
+      5.128611597616762,
+      1.626544389486526
+    ],
+    "color": "hsl(201, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "corn",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cassava",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yerba_mate",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 116,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 116,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 116,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Charata",
+      "Charata",
+      "Charata",
+      "Charata",
+      "Charata"
+    ]
+  },
+  {
+    "clusterId": 4,
+    "size": 59,
+    "centroid": [
+      5.603907544137844,
+      1.9803645228499283
+    ],
+    "color": "hsl(205, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "trout",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "herbs",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "honey",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "berries",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cheese",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "mushrooms",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wild_greens",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 59,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "foraging",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "preserving",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "fermenting",
+        "count": 59,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 59,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Jermuk",
+      "Jermuk",
+      "Jermuk",
+      "Jermuk",
+      "Jermuk"
+    ]
+  },
+  {
+    "clusterId": 5,
+    "size": 128,
+    "centroid": [
+      5.573081339014122,
+      1.5870499537565959
+    ],
+    "color": "hsl(204, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "cod",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lobster",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "haddock",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dairy",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "berries",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "seaweed",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maple_syrup",
+        "count": 128,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 128,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 128,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Halifax",
+      "Halifax",
+      "Halifax",
+      "Halifax",
+      "Halifax"
+    ]
+  },
+  {
+    "clusterId": 6,
+    "size": 81,
+    "centroid": [
+      4.7015535604118535,
+      2.273943366078501
+    ],
+    "color": "hsl(199, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "couscous",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "herbs",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "coriander",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "almonds",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dates",
+        "count": 81,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 81,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 81,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Oum El Bouaghi",
+      "Oum El Bouaghi",
+      "Oum El Bouaghi",
+      "Oum El Bouaghi",
+      "Oum El Bouaghi"
+    ]
+  },
+  {
+    "clusterId": 7,
+    "size": 75,
+    "centroid": [
+      5.882930557209452,
+      2.3294231822331337
+    ],
+    "color": "hsl(207, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pistachios",
+        "count": 75,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "rice_cooking",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 75,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Kandahar",
+      "Kandahar",
+      "Kandahar",
+      "Kandahar",
+      "Kandahar"
+    ]
+  },
+  {
+    "clusterId": 8,
+    "size": 112,
+    "centroid": [
+      6.253296406046444,
+      1.6189351196826536
+    ],
+    "color": "hsl(209, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "dates",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "camel_meat",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cardamom",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chickpeas",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "mint",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 112,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 112,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Dubai",
+      "Dubai",
+      "Dubai",
+      "Dubai",
+      "Dubai"
+    ]
+  },
+  {
+    "clusterId": 9,
+    "size": 80,
+    "centroid": [
+      4.7685211603657995,
+      2.74618226121614
+    ],
+    "color": "hsl(200, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "cassava",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "palm_oil",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "peanuts",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili_peppers",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 80,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "drying",
+        "count": 80,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Kuito",
+      "Kuito",
+      "Kuito",
+      "Kuito",
+      "Kuito"
+    ]
+  },
+  {
+    "clusterId": 10,
+    "size": 87,
+    "centroid": [
+      5.842624878297868,
+      1.2342324562253186
+    ],
+    "color": "hsl(206, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "beef",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cheese",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fruit",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "seafood",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 87,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 87,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Toowoomba",
+      "Toowoomba",
+      "Toowoomba",
+      "Toowoomba",
+      "Toowoomba"
+    ]
+  },
+  {
+    "clusterId": 11,
+    "size": 98,
+    "centroid": [
+      5.073962491323208,
+      0.6956408027560632
+    ],
+    "color": "hsl(199, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "beef",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "apricot",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chutney",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "spice_mix",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wine",
+        "count": 98,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "braai",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "pickling",
+        "count": 98,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Cape Town",
+      "Cape Town",
+      "Cape Town",
+      "Cape Town",
+      "Cape Town"
+    ]
+  },
+  {
+    "clusterId": 12,
+    "size": 73,
+    "centroid": [
+      5.5883511581177645,
+      3.2379013731150947
+    ],
+    "color": "hsl(206, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "dates",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cardamom",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chickpeas",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "mint",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 73,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 73,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Doha",
+      "Doha",
+      "Doha",
+      "Doha",
+      "Doha"
+    ]
+  },
+  {
+    "clusterId": 13,
+    "size": 78,
+    "centroid": [
+      4.750526282329875,
+      1.214227437202712
+    ],
+    "color": "hsl(198, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "cassava",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sweet_potato",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "palm_oil",
+        "count": 78,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 78,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Huíla",
+      "Huíla",
+      "Huíla",
+      "Huíla",
+      "Huíla"
+    ]
+  },
+  {
+    "clusterId": 14,
+    "size": 78,
+    "centroid": [
+      6.563997105671364,
+      2.154806221991068
+    ],
+    "color": "hsl(212, 79%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yam",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "goat_meat",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "palm_oil",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cassava",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "crayfish_powder",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "okra",
+        "count": 78,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 78,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 78,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Lagos",
+      "Lagos",
+      "Lagos",
+      "Lagos",
+      "Lagos"
+    ]
+  },
+  {
+    "clusterId": 15,
+    "size": 39,
+    "centroid": [
+      6.355788376775314,
+      2.480545835503126
+    ],
+    "color": "hsl(211, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "quinoa",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "corn",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili_peppers",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cheese",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pork",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "avocado",
+        "count": 39,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "rice_cooking",
+        "count": 39,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "La Paz",
+      "La Paz",
+      "La Paz",
+      "La Paz",
+      "La Paz"
+    ]
+  },
+  {
+    "clusterId": 16,
+    "size": 58,
+    "centroid": [
+      4.918310499290453,
+      3.2440894068640356
+    ],
+    "color": "hsl(202, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "zebu",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "vanilla",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "coconut",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "ginger",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cloves",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lychee",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "banana",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 58,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 58,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Toamasina",
+      "Toamasina",
+      "Toamasina",
+      "Toamasina",
+      "Toamasina"
+    ]
+  },
+  {
+    "clusterId": 17,
+    "size": 41,
+    "centroid": [
+      4.491974815684516,
+      0.8511283443057499
+    ],
+    "color": "hsl(196, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "king_crab",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cheese",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "butter",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wine",
+        "count": 41,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 41,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 41,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Ushuaia",
+      "Ushuaia",
+      "Ushuaia",
+      "Ushuaia",
+      "Ushuaia"
+    ]
+  },
+  {
+    "clusterId": 18,
+    "size": 70,
+    "centroid": [
+      5.864205830004783,
+      0.6204236116410359
+    ],
+    "color": "hsl(205, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pistachios",
+        "count": 70,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "rice_cooking",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 70,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Mazar-i-Sharif",
+      "Mazar-i-Sharif",
+      "Mazar-i-Sharif",
+      "Mazar-i-Sharif",
+      "Mazar-i-Sharif"
+    ]
+  },
+  {
+    "clusterId": 19,
+    "size": 103,
+    "centroid": [
+      5.391431389632011,
+      0.16636744951082422
+    ],
+    "color": "hsl(201, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "couscous",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chickpeas",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cinnamon",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "preserved_lemon",
+        "count": 103,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "preserving",
+        "count": 103,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 103,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Algiers",
+      "Algiers",
+      "Algiers",
+      "Algiers",
+      "Algiers"
+    ]
+  },
+  {
+    "clusterId": 20,
+    "size": 58,
+    "centroid": [
+      6.256426804397073,
+      2.9795064658164425
+    ],
+    "color": "hsl(211, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "cassava",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "plantain",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yam",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "palm_oil",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "groundnut",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 58,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 58,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 58,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Kumasi",
+      "Kumasi",
+      "Kumasi",
+      "Kumasi",
+      "Kumasi"
+    ]
+  },
+  {
+    "clusterId": 21,
+    "size": 49,
+    "centroid": [
+      6.808860779614842,
+      2.946829271308375
+    ],
+    "color": "hsl(214, 79%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "beans",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cassava",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sweet_potato",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "banana",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cabbage",
+        "count": 49,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 49,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Kigali",
+      "Kigali",
+      "Kigali",
+      "Kigali",
+      "Kigali"
+    ]
+  },
+  {
+    "clusterId": 22,
+    "size": 67,
+    "centroid": [
+      6.384566849197537,
+      0.5509578888954847
+    ],
+    "color": "hsl(209, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "couscous",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "almonds",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dates",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 67,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 67,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Tiaret",
+      "Tiaret",
+      "Tiaret",
+      "Tiaret",
+      "Tiaret"
+    ]
+  },
+  {
+    "clusterId": 23,
+    "size": 82,
+    "centroid": [
+      4.2764130304269194,
+      3.371705782490095
+    ],
+    "color": "hsl(197, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pistachios",
+        "count": 82,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "rice_cooking",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 82,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 82,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Jalalabad",
+      "Jalalabad",
+      "Jalalabad",
+      "Jalalabad",
+      "Jalalabad"
+    ]
+  },
+  {
+    "clusterId": 24,
+    "size": 73,
+    "centroid": [
+      7.267787074023706,
+      2.7176732891943263
+    ],
+    "color": "hsl(217, 79%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "couscous",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "prunes",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "almonds",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cinnamon",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chickpeas",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lemon",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "honey",
+        "count": 73,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 73,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 73,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Fes",
+      "Fes",
+      "Fes",
+      "Fes",
+      "Fes"
+    ]
+  },
+  {
+    "clusterId": 25,
+    "size": 98,
+    "centroid": [
+      6.890235609503186,
+      3.786477800593404
+    ],
+    "color": "hsl(215, 79%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "maize",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cassava",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "coconut",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "plantain",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "spices",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 98,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 98,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 98,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Dar es Salaam",
+      "Dar es Salaam",
+      "Dar es Salaam",
+      "Dar es Salaam",
+      "Dar es Salaam"
+    ]
+  },
+  {
+    "clusterId": 26,
+    "size": 62,
+    "centroid": [
+      4.2371526215602096,
+      1.6561328760206304
+    ],
+    "color": "hsl(195, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "beef",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "corn",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yerba_mate",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cheese",
+        "count": 62,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 62,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 62,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Perico",
+      "Perico",
+      "Perico",
+      "Perico",
+      "Perico"
+    ]
+  },
+  {
+    "clusterId": 27,
+    "size": 86,
+    "centroid": [
+      3.90971596151296,
+      2.0252379514106305
+    ],
+    "color": "hsl(193, 76%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "beef",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "couscous",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "peppers",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "almonds",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dates",
+        "count": 86,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 86,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Saïda",
+      "Saïda",
+      "Saïda",
+      "Saïda",
+      "Saïda"
+    ]
+  },
+  {
+    "clusterId": 28,
+    "size": 85,
+    "centroid": [
+      7.065707507165978,
+      1.516182705364573
+    ],
+    "color": "hsl(215, 79%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pistachios",
+        "count": 85,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "rice_cooking",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 85,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 85,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Kabul",
+      "Kabul",
+      "Kabul",
+      "Kabul",
+      "Kabul"
+    ]
+  },
+  {
+    "clusterId": 29,
+    "size": 157,
+    "centroid": [
+      3.937239571562198,
+      0.047767905700395207
+    ],
+    "color": "hsl(190, 76%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "cassava",
+        "count": 157,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 157,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 157,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "coconut",
+        "count": 157,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 157,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "piri_piri",
+        "count": 157,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 157,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 157,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 157,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Beira",
+      "Beira",
+      "Beira",
+      "Beira",
+      "Beira"
+    ]
+  },
+  {
+    "clusterId": 30,
+    "size": 68,
+    "centroid": [
+      3.9216735665816636,
+      2.4655107307654918
+    ],
+    "color": "hsl(194, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "maize",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "goat_meat",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "ugali",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sukuma_wiki",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tilapia",
+        "count": 68,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 68,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 68,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Nairobi",
+      "Nairobi",
+      "Nairobi",
+      "Nairobi",
+      "Nairobi"
+    ]
+  },
+  {
+    "clusterId": 31,
+    "size": 69,
+    "centroid": [
+      3.9613952405486947,
+      1.0089776480120705
+    ],
+    "color": "hsl(192, 76%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "feta_cheese",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "herbs",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pepper",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "walnut",
+        "count": 69,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "baking",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stuffing",
+        "count": 69,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 69,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Tirana",
+      "Tirana",
+      "Tirana",
+      "Tirana",
+      "Tirana"
+    ]
+  },
+  {
+    "clusterId": 32,
+    "size": 77,
+    "centroid": [
+      6.884621678967194,
+      0.8754783786546786
+    ],
+    "color": "hsl(213, 79%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "teff",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "berbere",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lentils",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chicken",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "spiced_butter",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cabbage",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potato",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 77,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "fermenting",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 77,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 77,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Addis Ababa",
+      "Addis Ababa",
+      "Addis Ababa",
+      "Addis Ababa",
+      "Addis Ababa"
+    ]
+  },
+  {
+    "clusterId": 33,
+    "size": 137,
+    "centroid": [
+      2.923177966459848,
+      1.0408504986839873
+    ],
+    "color": "hsl(185, 76%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pistachios",
+        "count": 137,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "rice_cooking",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 137,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 137,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Ghazni",
+      "Ghazni",
+      "Ghazni",
+      "Ghazni",
+      "Ghazni"
+    ]
+  },
+  {
+    "clusterId": 34,
+    "size": 88,
+    "centroid": [
+      3.448230131323508,
+      3.7048585123782605
+    ],
+    "color": "hsl(192, 76%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "semolina",
+        "count": 88,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 88,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chickpeas",
+        "count": 88,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 88,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "spices",
+        "count": 88,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dates",
+        "count": 88,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 88,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 88,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "mint",
+        "count": 88,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 88,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 88,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 88,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Constantine",
+      "Constantine",
+      "Constantine",
+      "Constantine",
+      "Constantine"
+    ]
+  },
+  {
+    "clusterId": 35,
+    "size": 112,
+    "centroid": [
+      6.060431885097993,
+      4.105268784993518
+    ],
+    "color": "hsl(210, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "couscous",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "almonds",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dates",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "herbs",
+        "count": 112,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 112,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 112,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "M'Sila",
+      "M'Sila",
+      "M'Sila",
+      "M'Sila",
+      "M'Sila"
+    ]
+  },
+  {
+    "clusterId": 36,
+    "size": 115,
+    "centroid": [
+      4.946292460278313,
+      4.595280683462811
+    ],
+    "color": "hsl(203, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pistachios",
+        "count": 115,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "rice_cooking",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 115,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 115,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Herat",
+      "Herat",
+      "Herat",
+      "Herat",
+      "Herat"
+    ]
+  },
+  {
+    "clusterId": 37,
+    "size": 104,
+    "centroid": [
+      6.411740890583418,
+      -0.3286333731295664
+    ],
+    "color": "hsl(207, 78%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pistachios",
+        "count": 104,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "rice_cooking",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 104,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 104,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Kunduz",
+      "Kunduz",
+      "Kunduz",
+      "Kunduz",
+      "Kunduz"
+    ]
+  },
+  {
+    "clusterId": 38,
+    "size": 102,
+    "centroid": [
+      3.1239280862620626,
+      2.6983182333433966
+    ],
+    "color": "hsl(189, 76%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pistachios",
+        "count": 102,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "rice_cooking",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 102,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 102,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Khost",
+      "Khost",
+      "Khost",
+      "Khost",
+      "Khost"
+    ]
+  },
+  {
+    "clusterId": 39,
+    "size": 80,
+    "centroid": [
+      7.610739489317882,
+      0.07512048243448302
+    ],
+    "color": "hsl(217, 79%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "couscous",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chickpeas",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive_oil",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "paprika",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "harissa",
+        "count": 80,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 80,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 80,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Oran",
+      "Oran",
+      "Oran",
+      "Oran",
+      "Oran"
+    ]
+  },
+  {
+    "clusterId": 40,
+    "size": 67,
+    "centroid": [
+      7.768275184771639,
+      1.6090088267536817
+    ],
+    "color": "hsl(220, 79%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "matoke",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cassava",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "groundnut",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sweet_potato",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 67,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 67,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 67,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Kampala",
+      "Kampala",
+      "Kampala",
+      "Kampala",
+      "Kampala"
+    ]
+  },
+  {
+    "clusterId": 41,
+    "size": 86,
+    "centroid": [
+      8.112753032779372,
+      2.7138642201766348
+    ],
+    "color": "hsl(223, 80%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pistachios",
+        "count": 86,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "rice_cooking",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 86,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 86,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Maymana",
+      "Maymana",
+      "Maymana",
+      "Maymana",
+      "Maymana"
+    ]
+  },
+  {
+    "clusterId": 42,
+    "size": 99,
+    "centroid": [
+      4.990369350195621,
+      -1.0052686583107182
+    ],
+    "color": "hsl(196, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "saffron",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "raisins",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pistachios",
+        "count": 99,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "rice_cooking",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 99,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Faizabad",
+      "Faizabad",
+      "Faizabad",
+      "Faizabad",
+      "Faizabad"
+    ]
+  },
+  {
+    "clusterId": 43,
+    "size": 33,
+    "centroid": [
+      5.667882470251402,
+      -2.330515486383644
+    ],
+    "color": "hsl(198, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "cassava",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "palm_oil",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sweet_potato",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "okra",
+        "count": 33,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 33,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 33,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Kinshasa",
+      "Kinshasa",
+      "Kinshasa",
+      "Kinshasa",
+      "Kinshasa"
+    ]
+  },
+  {
+    "clusterId": 44,
+    "size": 75,
+    "centroid": [
+      6.779375737588212,
+      9.584807931299153
+    ],
+    "color": "hsl(213, 79%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "pork",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "butter",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cream",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "bread",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cheese",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "herbs",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rye_bread",
+        "count": 75,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "roasting",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 75,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Ås",
+      "Ås",
+      "Ås",
+      "Ås",
+      "Ås"
+    ]
+  },
+  {
+    "clusterId": 45,
+    "size": 49,
+    "centroid": [
+      -10.037279260597407,
+      5.435838830933741
+    ],
+    "color": "hsl(120, 82%, 60%)",
+    "topIngredients": [
+      {
+        "ingredient": "beef",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chimichurri",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "corn",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yerba_mate",
+        "count": 49,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 49,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 49,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Lanús",
+      "Lanús",
+      "Lanús",
+      "Lanús",
+      "Lanús"
+    ]
+  },
+  {
+    "clusterId": 46,
+    "size": 54,
+    "centroid": [
+      -10.239106283759853,
+      7.895476774575381
+    ],
+    "color": "hsl(126, 81%, 58%)",
+    "topIngredients": [
+      {
+        "ingredient": "millet",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sorghum",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "peanuts",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "okra",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 54,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 54,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Traoré",
+      "Traoré",
+      "Traoré",
+      "Traoré",
+      "Traoré"
+    ]
+  },
+  {
+    "clusterId": 47,
+    "size": 63,
+    "centroid": [
+      -7.5624588470856775,
+      3.9753197826748887
+    ],
+    "color": "hsl(127, 81%, 58%)",
+    "topIngredients": [
+      {
+        "ingredient": "millet",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sorghum",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "peanuts",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "okra",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 63,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 63,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 63,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Diré",
+      "Diré",
+      "Diré",
+      "Diré",
+      "Diré"
+    ]
+  },
+  {
+    "clusterId": 48,
+    "size": 47,
+    "centroid": [
+      -5.68475708001193,
+      5.100078360821986
+    ],
+    "color": "hsl(139, 80%, 55%)",
+    "topIngredients": [
+      {
+        "ingredient": "millet",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sorghum",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "peanuts",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "okra",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 47,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 47,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 47,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Barouéli",
+      "Barouéli",
+      "Barouéli",
+      "Barouéli",
+      "Barouéli"
+    ]
+  },
+  {
+    "clusterId": 49,
+    "size": 87,
+    "centroid": [
+      -8.80223014558799,
+      -5.775679289852454
+    ],
+    "color": "hsl(87, 85%, 70%)",
+    "topIngredients": [
+      {
+        "ingredient": "seafood",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tropical_fruits",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "coconut",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 87,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "barbecuing",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 87,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Hervey Bay",
+      "Hervey Bay",
+      "Hervey Bay",
+      "Hervey Bay",
+      "Hervey Bay"
+    ]
+  },
+  {
+    "clusterId": 50,
+    "size": 34,
+    "centroid": [
+      -7.152848022894054,
+      -5.140158042000023
+    ],
+    "color": "hsl(100, 84%, 67%)",
+    "topIngredients": [
+      {
+        "ingredient": "pork",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cabbage",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "bread",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "mustard",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cheese",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "parsley",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beer",
+        "count": 34,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "braising",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "soup_making",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 34,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "pickling",
+        "count": 34,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Wuppertal",
+      "Wuppertal",
+      "Wuppertal",
+      "Wuppertal",
+      "Wuppertal"
+    ]
+  },
+  {
+    "clusterId": 51,
+    "size": 95,
+    "centroid": [
+      -9.00500602941125,
+      -7.607399557388623
+    ],
+    "color": "hsl(81, 86%, 69%)",
+    "topIngredients": [
+      {
+        "ingredient": "tuna",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "coconut",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "breadfruit",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili_peppers",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lime",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "curry_leaves",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "mango",
+        "count": 95,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stir_frying",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "curry_making",
+        "count": 95,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "drying",
+        "count": 95,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Thinadhoo",
+      "Thinadhoo",
+      "Thinadhoo",
+      "Thinadhoo",
+      "Thinadhoo"
+    ]
+  },
+  {
+    "clusterId": 52,
+    "size": 99,
+    "centroid": [
+      -3.6580152886613475,
+      -0.5398752948909873
+    ],
+    "color": "hsl(137, 80%, 55%)",
+    "topIngredients": [
+      {
+        "ingredient": "wheat",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pork",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "ginger",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tofu",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "vegetables",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "soy_sauce",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "vinegar",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sesame",
+        "count": 99,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stir_frying",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "pickling",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "fermenting",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 99,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 99,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Kaifeng",
+      "Kaifeng",
+      "Kaifeng",
+      "Kaifeng",
+      "Kaifeng"
+    ]
+  },
+  {
+    "clusterId": 53,
+    "size": 39,
+    "centroid": [
+      -4.211606214387904,
+      -3.2818148657745962
+    ],
+    "color": "hsl(126, 81%, 58%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "camel_meat",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "flour",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dairy",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "butter",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tea",
+        "count": 39,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 39,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Akshukyr",
+      "Akshukyr",
+      "Akshukyr",
+      "Akshukyr",
+      "Akshukyr"
+    ]
+  },
+  {
+    "clusterId": 54,
+    "size": 54,
+    "centroid": [
+      -2.6978659570770875,
+      -4.67010952881502
+    ],
+    "color": "hsl(133, 80%, 56%)",
+    "topIngredients": [
+      {
+        "ingredient": "fish",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "peanuts",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cassava",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "vegetables",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pumpkin_seed_oil",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "milk",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 54,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 54,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "drying",
+        "count": 54,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Nkhotakota",
+      "Nkhotakota",
+      "Nkhotakota",
+      "Nkhotakota",
+      "Nkhotakota"
+    ]
+  },
+  {
+    "clusterId": 55,
+    "size": 75,
+    "centroid": [
+      -3.774117606796906,
+      -4.4195093214324315
+    ],
+    "color": "hsl(126, 81%, 58%)",
+    "topIngredients": [
+      {
+        "ingredient": "camel",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "goat",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sorghum",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "millet",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dates",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 75,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "fermenting",
+        "count": 75,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 75,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Garissa",
+      "Garissa",
+      "Garissa",
+      "Garissa",
+      "Garissa"
+    ]
+  },
+  {
+    "clusterId": 56,
+    "size": 52,
+    "centroid": [
+      -1.365952164383485,
+      -5.5830374503852465
+    ],
+    "color": "hsl(140, 79%, 54%)",
+    "topIngredients": [
+      {
+        "ingredient": "beef",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pork",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dill",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cabbage",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sunflower_oil",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrot",
+        "count": 52,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 52,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Bataysk",
+      "Bataysk",
+      "Bataysk",
+      "Bataysk",
+      "Bataysk"
+    ]
+  },
+  {
+    "clusterId": 57,
+    "size": 39,
+    "centroid": [
+      -5.546013519919641,
+      -2.9239784560235904
+    ],
+    "color": "hsl(118, 82%, 61%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "horse_meat",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "flour",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dairy",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "butter",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tea",
+        "count": 39,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 39,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Merke",
+      "Merke",
+      "Merke",
+      "Merke",
+      "Merke"
+    ]
+  },
+  {
+    "clusterId": 58,
+    "size": 29,
+    "centroid": [
+      -3.2750906252860137,
+      -6.107816706844554
+    ],
+    "color": "hsl(125, 81%, 58%)",
+    "topIngredients": [
+      {
+        "ingredient": "potato",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cabbage",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pork",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "flour",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cheese",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "caraway",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "egg",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "butter",
+        "count": 29,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 29,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 29,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Trnava",
+      "Trnava",
+      "Trnava",
+      "Trnava",
+      "Trnava"
+    ]
+  },
+  {
+    "clusterId": 59,
+    "size": 43,
+    "centroid": [
+      -7.71713009536436,
+      -3.1860496604391773
+    ],
+    "color": "hsl(103, 84%, 66%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "horse_meat",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "flour",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dairy",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "butter",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tea",
+        "count": 43,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 43,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Aksuek",
+      "Aksuek",
+      "Aksuek",
+      "Aksuek",
+      "Aksuek"
+    ]
+  },
+  {
+    "clusterId": 60,
+    "size": 28,
+    "centroid": [
+      -8.847728165587439,
+      -10.001354891681498
+    ],
+    "color": "hsl(77, 86%, 69%)",
+    "topIngredients": [
+      {
+        "ingredient": "fish",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "seafood",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lime",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "avocado",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili_peppers",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "corn",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cilantro",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 28,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "marinating",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 28,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 28,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "San José del Cabo",
+      "San José del Cabo",
+      "San José del Cabo",
+      "San José del Cabo",
+      "San José del Cabo"
+    ]
+  },
+  {
+    "clusterId": 61,
+    "size": 53,
+    "centroid": [
+      -9.140428791083034,
+      -12.184530132348383
+    ],
+    "color": "hsl(74, 87%, 68%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili_peppers",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cardamom",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "ginger",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 53,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 53,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "spicing",
+        "count": 53,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Obock",
+      "Obock",
+      "Obock",
+      "Obock",
+      "Obock"
+    ]
+  },
+  {
+    "clusterId": 62,
+    "size": 32,
+    "centroid": [
+      -7.258795618842274,
+      -0.4312324156508092
+    ],
+    "color": "hsl(114, 82%, 62%)",
+    "topIngredients": [
+      {
+        "ingredient": "olive_oil",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "veal",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "bread",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pasta",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cheese",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "herbs",
+        "count": 32,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "braising",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 32,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 32,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Chieti",
+      "Chieti",
+      "Chieti",
+      "Chieti",
+      "Chieti"
+    ]
+  },
+  {
+    "clusterId": 63,
+    "size": 35,
+    "centroid": [
+      -3.5005699224448548,
+      -9.145549994214829
+    ],
+    "color": "hsl(117, 82%, 61%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chicken",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "soy_sauce",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili_peppers",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "ginger",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lemongrass",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "coconut",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "turmeric",
+        "count": 35,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stir_frying",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "curry_making",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 35,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Shah Alam",
+      "Shah Alam",
+      "Shah Alam",
+      "Shah Alam",
+      "Shah Alam"
+    ]
+  },
+  {
+    "clusterId": 64,
+    "size": 43,
+    "centroid": [
+      -16.694091956785165,
+      12.143266008976845
+    ],
+    "color": "hsl(119, 82%, 60%)",
+    "topIngredients": [
+      {
+        "ingredient": "chestnut",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato_sauce",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "butter",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pide",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "yogurt",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "peach",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "olive",
+        "count": 43,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "roasting",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 43,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 43,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Bursa",
+      "Bursa",
+      "Bursa",
+      "Bursa",
+      "Bursa"
+    ]
+  },
+  {
+    "clusterId": 65,
+    "size": 52,
+    "centroid": [
+      -15.225335081083538,
+      -2.0074284131105937
+    ],
+    "color": "hsl(68, 87%, 68%)",
+    "topIngredients": [
+      {
+        "ingredient": "yogurt",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cheese",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pork",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "vegetables",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "herbs",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "bread",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "eggs",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "mushrooms",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "spices",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fruits",
+        "count": 52,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "braising",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "preserving",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 52,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Sofia",
+      "Sofia",
+      "Sofia",
+      "Sofia",
+      "Sofia"
+    ]
+  },
+  {
+    "clusterId": 66,
+    "size": 52,
+    "centroid": [
+      -14.07124193750644,
+      -2.5896198815617697
+    ],
+    "color": "hsl(69, 87%, 68%)",
+    "topIngredients": [
+      {
+        "ingredient": "herring",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rye_bread",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potato",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dill",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sour_cream",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 52,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "pickling",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 52,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 52,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Jūrmala",
+      "Jūrmala",
+      "Jūrmala",
+      "Jūrmala",
+      "Jūrmala"
+    ]
+  },
+  {
+    "clusterId": 67,
+    "size": 87,
+    "centroid": [
+      -16.813321538403276,
+      1.4434894493402954
+    ],
+    "color": "hsl(80, 86%, 69%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "camel_meat",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "flour",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dairy",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "butter",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tea",
+        "count": 87,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 87,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 87,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Beineu",
+      "Beineu",
+      "Beineu",
+      "Beineu",
+      "Beineu"
+    ]
+  },
+  {
+    "clusterId": 68,
+    "size": 37,
+    "centroid": [
+      -14.647870011153334,
+      1.87118673927703
+    ],
+    "color": "hsl(88, 85%, 70%)",
+    "topIngredients": [
+      {
+        "ingredient": "lamb",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "flour",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "dairy",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "butter",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tea",
+        "count": 37,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 37,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 37,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Borovoe",
+      "Borovoe",
+      "Borovoe",
+      "Borovoe",
+      "Borovoe"
+    ]
+  },
+  {
+    "clusterId": 69,
+    "size": 39,
+    "centroid": [
+      -19.38249220535151,
+      6.268095252360168
+    ],
+    "color": "hsl(95, 84%, 68%)",
+    "topIngredients": [
+      {
+        "ingredient": "wheat",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lentils",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "mutton",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chicken",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "ghee",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "ginger",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 39,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "tempering",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "slow_cooking",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 39,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "pickling",
+        "count": 39,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Khuzdar",
+      "Khuzdar",
+      "Khuzdar",
+      "Khuzdar",
+      "Khuzdar"
+    ]
+  },
+  {
+    "clusterId": 70,
+    "size": 123,
+    "centroid": [
+      -19.184465852854192,
+      -11.086003439017029
+    ],
+    "color": "hsl(0, 85%, 60%)",
+    "topIngredients": [
+      {
+        "ingredient": "rice",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lamb",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili_peppers",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cumin",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cardamom",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "ginger",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomato",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onion",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 123,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "stewing",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 123,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "spicing",
+        "count": 123,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Ali Sabieh",
+      "Ali Sabieh",
+      "Ali Sabieh",
+      "Ali Sabieh",
+      "Ali Sabieh"
+    ]
+  },
+  {
+    "clusterId": 71,
+    "size": 66,
+    "centroid": [
+      -17.86606825657062,
+      -8.387800716418262
+    ],
+    "color": "hsl(22, 87%, 62%)",
+    "topIngredients": [
+      {
+        "ingredient": "mutton",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beef",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "flour",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "milk",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "carrots",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "barley",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "butter",
+        "count": 66,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "steaming",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 66,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "fermenting",
+        "count": 66,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Tosontsengel",
+      "Tosontsengel",
+      "Tosontsengel",
+      "Tosontsengel",
+      "Tosontsengel"
+    ]
+  },
+  {
+    "clusterId": 72,
+    "size": 46,
+    "centroid": [
+      5.133972257597331,
+      -8.658471346037883
+    ],
+    "color": "hsl(178, 75%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "millet",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sorghum",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "peanuts",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "okra",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 46,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 46,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 46,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Ansongo",
+      "Ansongo",
+      "Ansongo",
+      "Ansongo",
+      "Ansongo"
+    ]
+  },
+  {
+    "clusterId": 73,
+    "size": 70,
+    "centroid": [
+      5.039300771157439,
+      17.48474707635448
+    ],
+    "color": "hsl(199, 77%, 50%)",
+    "topIngredients": [
+      {
+        "ingredient": "millet",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sorghum",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "rice",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "maize",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "peanuts",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "okra",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "fish",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 70,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "boiling",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "grilling",
+        "count": 70,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 70,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Koulikoro",
+      "Koulikoro",
+      "Koulikoro",
+      "Koulikoro",
+      "Koulikoro"
+    ]
+  },
+  {
+    "clusterId": 74,
+    "size": 25,
+    "centroid": [
+      -1.574528087812925,
+      14.422352010460347
+    ],
+    "color": "hsl(173, 76%, 51%)",
+    "topIngredients": [
+      {
+        "ingredient": "beef",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wheat",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "barley",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "game_meat",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "huckleberries",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "potatoes",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "wild_mushrooms",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "sage",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 25,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grilling",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "smoking",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "baking",
+        "count": 25,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 25,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Great Falls",
+      "Great Falls",
+      "Great Falls",
+      "Great Falls",
+      "Great Falls"
+    ]
+  },
+  {
+    "clusterId": 75,
+    "size": 35,
+    "centroid": [
+      20.655650294689003,
+      2.0190890881450327
+    ],
+    "color": "hsl(315, 85%, 60%)",
+    "topIngredients": [
+      {
+        "ingredient": "corn",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "beans",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "chili_peppers",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "avocado",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "tomatoes",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "cilantro",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "onions",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "garlic",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "lime",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "ingredient": "pork",
+        "count": 35,
+        "percentage": "100.0%"
+      }
+    ],
+    "topMethods": [
+      {
+        "method": "grinding",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "stewing",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "roasting",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "boiling",
+        "count": 35,
+        "percentage": "100.0%"
+      },
+      {
+        "method": "frying",
+        "count": 35,
+        "percentage": "100.0%"
+      }
+    ],
+    "samplePlaces": [
+      "Chiapas (Tuxtla Gutiérrez)",
+      "Chiapas (Tuxtla Gutiérrez)",
+      "Chiapas (Tuxtla Gutiérrez)",
+      "Chiapas (Tuxtla Gutiérrez)",
+      "Chiapas (Tuxtla Gutiérrez)"
+    ]
+  }
+]

@@ -1,0 +1,454 @@
+{
+  "cities": [
+    {
+      "id": "belgrade__europe__rs__central_serbia",
+      "name": "Belgrade",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "grilling": 0.95,
+        "roasting": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "novi_sad__europe__rs__vojvodina",
+      "name": "Novi Sad",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "roasting": 0.95,
+        "grilling": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "niš__europe__rs__southern_serbia",
+      "name": "Niš",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "grilling": 0.95,
+        "roasting": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "kragujevac__europe__rs__šumadija",
+      "name": "Kragujevac",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "roasting": 0.95,
+        "grilling": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "subotica__europe__rs__vojvodina",
+      "name": "Subotica",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "plum": 0.85,
+        "potato": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "grilling": 0.95,
+        "roasting": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "zrenjanin__europe__rs__vojvodina",
+      "name": "Zrenjanin",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "roasting": 0.95,
+        "grilling": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "šabac__europe__rs__mačva",
+      "name": "Šabac",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "plum": 0.85,
+        "potato": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "grilling": 0.95,
+        "roasting": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "pirot__europe__rs__southern_serbia",
+      "name": "Pirot",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "plum": 0.85,
+        "potato": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "roasting": 0.95,
+        "grilling": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "smederevo__europe__rs__podunavlje",
+      "name": "Smederevo",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "plum": 0.85,
+        "potato": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "grilling": 0.95,
+        "roasting": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "užice__europe__rs__western_serbia",
+      "name": "Užice",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "plum": 0.85,
+        "potato": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "roasting": 0.95,
+        "grilling": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "čačak__europe__rs__moravica",
+      "name": "Čačak",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "grilling": 0.95,
+        "roasting": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "kraljevo__europe__rs__raška",
+      "name": "Kraljevo",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "roasting": 0.95,
+        "grilling": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "kruševac__europe__rs__rasina",
+      "name": "Kruševac",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "grilling": 0.95,
+        "stewing": 0.9,
+        "roasting": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "vranje__europe__rs__pčinja",
+      "name": "Vranje",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "roasting": 0.95,
+        "grilling": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "leskovac__europe__rs__jablanica",
+      "name": "Leskovac",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "grilling": 0.95,
+        "roasting": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "zaječar__europe__rs__zaječar",
+      "name": "Zaječar",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "roasting": 0.95,
+        "grilling": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "sombor__europe__rs__west_bačka",
+      "name": "Sombor",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "grilling": 0.95,
+        "roasting": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "kikinda__europe__rs__north_banat",
+      "name": "Kikinda",
+      "ingredients": {
+        "pork": 0.95,
+        "paprika": 0.95,
+        "bean": 0.9,
+        "garlic": 0.9,
+        "onion": 0.9,
+        "pepper": 0.85,
+        "potato": 0.85,
+        "plum": 0.85,
+        "cabbage": 0.8,
+        "wheat": 0.8
+      },
+      "cookingMethods": {
+        "roasting": 0.95,
+        "grilling": 0.9,
+        "stewing": 0.9,
+        "boiling": 0.85,
+        "baking": 0.85
+      },
+      "famousDishes": [],
+      "extendedAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "pančevo__europe__rs

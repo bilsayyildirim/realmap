@@ -1,0 +1,87 @@
+[
+  "rice", "wheat", "corn", "barley", "oat", "rye", "buckwheat",
+  "teff", "sorghum", "millet", "cassava", "plantain", "potato",
+  "sweet_potato", "taro", "yam", "quinoa", "bulgur", "pasta", "noodle",
+  "breadfruit", "sago", "bread", "flatbread", "tortilla", "chapati",
+  "pita", "injera", "rye_bread", "sourdough", "cornbread", "bagel",
+  "baguette", "pretzel",
+
+  "beef", "pork", "lamb", "goat_meat", "chicken", "camel_meat",
+  "horse_meat", "duck", "offal", "rabbit", "game_meat", "llama_meat",
+  "yak_meat", "reindeer_meat", "seal_meat", "bison", "elk", "moose",
+  "caribou", "muskox", "veal", "mutton", "kangaroo", "whale",
+  "goose", "turkey", "venison", "dried_meat", "pigeon",
+
+  "fish", "shellfish", "shrimp", "crab", "squid", "cuttlefish", "dried_fish",
+  "fermented_fish", "river_fish", "smoked_fish", "anchovy", "bonito",
+  "sardine", "salmon", "prawn", "mussel", "clam", "lobster", "oyster",
+  "cod", "baccala", "herring", "tuna", "trout", "halibut", "sea_urchin",
+  "eel", "octopus", "barramundi", "catfish", "tilapia", "freshwater_fish",
+  "swordfish", "pollock", "arctic_char",
+
+  "tofu", "tempeh", "lentil", "chickpea", "bean", "black_eyed_pea",
+  "soybean", "fava_bean", "peanut", "egg",
+
+  "butter", "ghee", "cheese", "yogurt", "cream", "sour_cream",
+  "kefir", "milk", "feta", "mozzarella", "halloumi", "kajmak",
+  "pecorino", "skyr", "quark",
+
+  "tomato", "onion", "garlic", "eggplant", "cabbage", "pepper",
+  "carrot", "spinach", "okra", "leek", "artichoke", "zucchini",
+  "pumpkin", "bitter_melon", "bok_choy", "lotus_root", "bamboo_shoot",
+  "seaweed", "mushroom", "truffle", "wild_green", "collard_green",
+  "beet", "radish", "cucumber", "leafy_green", "pea", "green_onion",
+  "shallot", "kale", "celery", "water_chestnut", "mustard_green",
+  "green_bean", "black_cabbage", "molokhia", "matoke", "cocoyam",
+  "turnip", "endive", "capers", "cornmeal", "perilla",
+
+  "lemon", "lime", "citrus", "coconut", "coconut_milk", "banana", "mango",
+  "avocado", "olive", "date", "fig", "pomegranate", "pomegranate_molasses", "tamarind",
+  "apple", "grape", "passion_fruit", "jackfruit", "durian",
+  "preserved_lemon", "berry", "dried_fruit", "cherry", "apricot", "peach", "plum",
+  "blueberry", "cranberry", "cloudberry", "lingonberry", "papaya",
+  "pineapple", "lychee", "barberry", "quince", "acai", "kakadu_plum",
+  "wattle_seed", "dried_lime", "orange", "raisin", "strawberry",
+
+  "walnut", "almond", "pistachio", "pine_nut", "pecan", "cashew",
+  "macadamia", "sesame", "poppy_seed", "chia_seed", "chestnut",
+  "hazelnut",
+
+  "chili_pepper", "black_pepper", "sichuan_pepper", "cumin", "coriander",
+  "turmeric", "ginger", "cinnamon", "cardamom", "saffron", "paprika",
+  "sumac", "za_atar", "fenugreek", "asafoetida", "annatto", "berbere",
+  "ras_el_hanout", "harissa", "miso", "fish_sauce", "shrimp_paste",
+  "soy_sauce", "wasabi", "tahini", "vanilla", "cloves", "nutmeg",
+  "star_anise", "caraway", "juniper", "horseradish", "mustard",
+  "five_spice", "doubanjiang", "soybean_paste", "oyster_sauce",
+  "chili_oil", "niter_kibbeh", "mitmita", "merken", "jerk_spice",
+  "piri_piri", "galangal", "amchur", "rose_water",
+  "bean_paste", "mustard_seed", "mustard_oil",
+  "allspice", "gochujang", "doenjang", "sesame_oil",
+  "chili_guajillo", "chili_ancho", "aji_amarillo",
+  "urfa_biber", "aleppo_pepper",
+
+  "cilantro", "parsley", "mint", "dill", "basil", "thyme", "rosemary",
+  "oregano", "sage", "tarragon", "lemongrass", "lime_leaf", "pandan",
+  "epazote", "curry_leaf", "bay_leaf", "marjoram",
+
+  "olive_oil", "palm_oil", "coconut_oil", "lard", "chicken_fat",
+  "sesame_oil", "peanut_oil", "mustard_oil", "pumpkin_seed_oil",
+  "sunflower_oil", "argan_oil", "shea_butter",
+
+  "kimchi", "natto", "sauerkraut", "pickle", "injera",
+  "couscous", "baobab", "pumpkin_seed",
+
+  "sausage", "chorizo", "prosciutto", "mortadella", "blood_sausage", "bacon",
+  "ham", "biltong", "smoked_meat", "pastirma", "sucuk",
+  "jamon", "speck", "guanciale",
+
+  "mole", "chimichurri", "sofrito", "hummus", "dulce_de_leche",
+  "barbecue_sauce", "hot_sauce",
+
+  "wine", "tea", "coffee", "beer", "yerba_mate", "sake", "cider",
+  "rice_wine", "rooibos", "kava",
+
+  "honey", "maple_syrup", "molasses", "sugar_cane", "chocolate",
+  "vinegar", "dashi", "salt_fish"
+]

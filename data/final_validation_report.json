@@ -1,0 +1,33 @@
+{
+  "runId": "1ee1aa0f22d9",
+  "timestamp": "2026-04-26T22:14:12.397Z",
+  "status": "degraded",
+  "canonicalArtifactsEmitted": false,
+  "datasetFingerprint": "b209f34bfba6",
+  "structural": {
+    "pass": true,
+    "ingredientColumnViolations": [],
+    "methodColumnViolations": [],
+    "emptyVectorCount": 0,
+    "broadAxisLeakageHits": []
+  },
+  "statistical": {
+    "pass": false,
+    "silhouette": 0.3497193748130199,
+    "noise": 0.6018025399426464,
+    "collisionExceeded": false,
+    "collisionRho": 0.85,
+    "finalGateStatus": "degraded",
+    "winnerStability": 0
+  },
+  "semantic": {
+    "pass": true,
+    "manualReviewRequired": true,
+    "checklist": [
+      "greece_vs_turkey_not_identical",
+      "north_italy_vs_south_italy_not_identical",
+      "japan_vs_korea_overlap_not_extreme",
+      "india_internal_split_not_single_blob"
+    ]
+  }
+}

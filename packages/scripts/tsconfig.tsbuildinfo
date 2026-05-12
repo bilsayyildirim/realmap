@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/buildClusters/index.ts","./src/buildClusters/kmeansInterop.ts"],"errors":true,"version":"5.8.2"}

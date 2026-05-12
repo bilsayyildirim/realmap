@@ -1,0 +1,1029 @@
+{
+  "ingredients": {
+    "merges": [
+      {
+        "raw": "onions",
+        "canonical": "onion",
+        "count": 1646
+      },
+      {
+        "raw": "beans",
+        "canonical": "bean",
+        "count": 1589
+      },
+      {
+        "raw": "potatoes",
+        "canonical": "potato",
+        "count": 1261
+      },
+      {
+        "raw": "tomatoes",
+        "canonical": "tomato",
+        "count": 774
+      },
+      {
+        "raw": "eggs",
+        "canonical": "egg",
+        "count": 497
+      },
+      {
+        "raw": "vegetables",
+        "canonical": "vegetable",
+        "count": 471
+      },
+      {
+        "raw": "plantains",
+        "canonical": "plantain",
+        "count": 462
+      },
+      {
+        "raw": "dates",
+        "canonical": "date",
+        "count": 415
+      },
+      {
+        "raw": "maize",
+        "canonical": "corn",
+        "count": 398
+      },
+      {
+        "raw": "chickpeas",
+        "canonical": "chickpea",
+        "count": 365
+      },
+      {
+        "raw": "mushrooms",
+        "canonical": "mushroom",
+        "count": 333
+      },
+      {
+        "raw": "walnuts",
+        "canonical": "walnut",
+        "count": 311
+      },
+      {
+        "raw": "sour_cream",
+        "canonical": "cream",
+        "count": 308
+      },
+      {
+        "raw": "almonds",
+        "canonical": "almond",
+        "count": 305
+      },
+      {
+        "raw": "peanuts",
+        "canonical": "peanut",
+        "count": 297
+      },
+      {
+        "raw": "carrots",
+        "canonical": "carrot",
+        "count": 292
+      },
+      {
+        "raw": "coriander",
+        "canonical": "cilantro",
+        "count": 236
+      },
+      {
+        "raw": "legumes",
+        "canonical": "legume",
+        "count": 208
+      },
+      {
+        "raw": "hazelnuts",
+        "canonical": "hazelnut",
+        "count": 192
+      },
+      {
+        "raw": "pistachios",
+        "canonical": "pistachio",
+        "count": 175
+      },
+      {
+        "raw": "apples",
+        "canonical": "apple",
+        "count": 173
+      },
+      {
+        "raw": "nuts",
+        "canonical": "nut",
+        "count": 170
+      },
+      {
+        "raw": "fruits",
+        "canonical": "fruit",
+        "count": 169
+      },
+      {
+        "raw": "wild_greens",
+        "canonical": "green",
+        "count": 161
+      },
+      {
+        "raw": "grape_leaves",
+        "canonical": "grape_leaf",
+        "count": 153
+      },
+      {
+        "raw": "mussels",
+        "canonical": "mussel",
+        "count": 152
+      },
+      {
+        "raw": "olives",
+        "canonical": "olive",
+        "count": 147
+      },
+      {
+        "raw": "truffles",
+        "canonical": "mushroom",
+        "count": 140
+      },
+      {
+        "raw": "berries",
+        "canonical": "berry",
+        "count": 139
+      },
+      {
+        "raw": "dulce_de_leche",
+        "canonical": "sugar",
+        "count": 134
+      },
+      {
+        "raw": "chestnuts",
+        "canonical": "chestnut",
+        "count": 119
+      },
+      {
+        "raw": "maple_syrup",
+        "canonical": "sugar",
+        "count": 116
+      },
+      {
+        "raw": "peppers",
+        "canonical": "pepper",
+        "count": 105
+      },
+      {
+        "raw": "blueberries",
+        "canonical": "blueberry",
+        "count": 104
+      },
+      {
+        "raw": "groundnuts",
+        "canonical": "groundnut",
+        "count": 89
+      },
+      {
+        "raw": "camel_meat",
+        "canonical": "meat",
+        "count": 78
+      },
+      {
+        "raw": "goat_meat",
+        "canonical": "meat",
+        "count": 73
+      },
+      {
+        "raw": "lemons",
+        "canonical": "lemon",
+        "count": 62
+      },
+      {
+        "raw": "game_meat",
+        "canonical": "meat",
+        "count": 59
+      },
+      {
+        "raw": "collard_greens",
+        "canonical": "green",
+        "count": 59
+      },
+      {
+        "raw": "chile",
+        "canonical": "chili",
+        "count": 58
+      },
+      {
+        "raw": "raisins",
+        "canonical": "raisin",
+        "count": 52
+      },
+      {
+        "raw": "beetroot",
+        "canonical": "beet",
+        "count": 51
+      },
+      {
+        "raw": "beets",
+        "canonical": "beet",
+        "count": 30
+      },
+      {
+        "raw": "sweet_potatoes",
+        "canonical": "sweet_potato",
+        "count": 29
+      },
+      {
+        "raw": "leafy_greens",
+        "canonical": "green",
+        "count": 28
+      },
+      {
+        "raw": "grapes",
+        "canonical": "grape",
+        "count": 26
+      },
+      {
+        "raw": "curry_leaves",
+        "canonical": "curry_leaf",
+        "count": 26
+      },
+      {
+        "raw": "root_vegetables",
+        "canonical": "vegetable",
+        "count": 25
+      },
+      {
+        "raw": "peas",
+        "canonical": "pea",
+        "count": 25
+      },
+      {
+        "raw": "preserved_lemon",
+        "canonical": "lemon",
+        "count": 23
+      },
+      {
+        "raw": "river_fish",
+        "canonical": "fish",
+        "count": 23
+      },
+      {
+        "raw": "cherries",
+        "canonical": "cherry",
+        "count": 23
+      },
+      {
+        "raw": "pine_nuts",
+        "canonical": "pine_nut",
+        "count": 23
+      },
+      {
+        "raw": "wild_mushrooms",
+        "canonical": "mushroom",
+        "count": 23
+      },
+      {
+        "raw": "yams",
+        "canonical": "yam",
+        "count": 22
+      },
+      {
+        "raw": "pecans",
+        "canonical": "pecan",
+        "count": 22
+      },
+      {
+        "raw": "cranberries",
+        "canonical": "cranberry",
+        "count": 21
+      },
+      {
+        "raw": "huckleberries",
+        "canonical": "huckleberry",
+        "count": 21
+      },
+      {
+        "raw": "bananas",
+        "canonical": "banana",
+        "count": 20
+      },
+      {
+        "raw": "coconut_milk",
+        "canonical": "coconut",
+        "count": 18
+      },
+      {
+        "raw": "prawns",
+        "canonical": "prawn",
+        "count": 18
+      },
+      {
+        "raw": "horse_meat",
+        "canonical": "meat",
+        "count": 18
+      },
+      {
+        "raw": "apricots",
+        "canonical": "apricot",
+        "count": 17
+      },
+      {
+        "raw": "jaggery",
+        "canonical": "sugar",
+        "count": 16
+      },
+      {
+        "raw": "cold_water_fish",
+        "canonical": "fish",
+        "count": 15
+      },
+      {
+        "raw": "black_pepper",
+        "canonical": "pepper",
+        "count": 15
+      },
+      {
+        "raw": "yak_meat",
+        "canonical": "meat",
+        "count": 15
+      },
+      {
+        "raw": "reindeer_meat",
+        "canonical": "meat",
+        "count": 15
+      },
+      {
+        "raw": "kumara",
+        "canonical": "sweet_potato",
+        "count": 14
+      },
+      {
+        "raw": "figs",
+        "canonical": "fig",
+        "count": 14
+      },
+      {
+        "raw": "mate",
+        "canonical": "yerba_mate",
+        "count": 13
+      },
+      {
+        "raw": "tubers",
+        "canonical": "tuber",
+        "count": 13
+      },
+      {
+        "raw": "barberries",
+        "canonical": "barberry",
+        "count": 12
+      },
+      {
+        "raw": "tropical_fruits",
+        "canonical": "tropical_fruit",
+        "count": 12
+      },
+      {
+        "raw": "pandanus",
+        "canonical": "pandan",
+        "count": 11
+      },
+      {
+        "raw": "palm_sugar",
+        "canonical": "sugar",
+        "count": 10
+      },
+      {
+        "raw": "rice_wine",
+        "canonical": "wine",
+        "count": 10
+      },
+      {
+        "raw": "saltfish",
+        "canonical": "salt_fish",
+        "count": 10
+      },
+      {
+        "raw": "pears",
+        "canonical": "pear",
+        "count": 10
+      },
+      {
+        "raw": "chilies",
+        "canonical": "chili",
+        "count": 10
+      },
+      {
+        "raw": "blue_corn",
+        "canonical": "corn",
+        "count": 10
+      },
+      {
+        "raw": "pinon_nuts",
+        "canonical": "pine_nut",
+        "count": 10
+      },
+      {
+        "raw": "anchovies",
+        "canonical": "anchovy",
+        "count": 9
+      },
+      {
+        "raw": "shellfish",
+        "canonical": "seafood",
+        "count": 9
+      },
+      {
+        "raw": "curry_spices",
+        "canonical": "spice",
+        "count": 8
+      },
+      {
+        "raw": "green_bananas",
+        "canonical": "green_banana",
+        "count": 8
+      },
+      {
+        "raw": "scallions",
+        "canonical": "green_onion",
+        "count": 8
+      },
+      {
+        "raw": "bush_tomato",
+        "canonical": "tomato",
+        "count": 7
+      },
+      {
+        "raw": "cacao",
+        "canonical": "chocolate",
+        "count": 7
+      },
+      {
+        "raw": "butter_tea",
+        "canonical": "tea",
+        "count": 7
+      },
+      {
+        "raw": "preserved_lemons",
+        "canonical": "preserved_lemon",
+        "count": 7
+      },
+      {
+        "raw": "heirloom_tomatoes",
+        "canonical": "tomato",
+        "count": 7
+      },
+      {
+        "raw": "llama_meat",
+        "canonical": "meat",
+        "count": 6
+      },
+      {
+        "raw": "wine_grapes",
+        "canonical": "wine",
+        "count": 6
+      },
+      {
+        "raw": "seal_meat",
+        "canonical": "meat",
+        "count": 6
+      },
+      {
+        "raw": "wattle_seeds",
+        "canonical": "wattle_seed",
+        "count": 6
+      },
+      {
+        "raw": "plums",
+        "canonical": "plum",
+        "count": 6
+      },
+      {
+        "raw": "rooibos_tea",
+        "canonical": "tea",
+        "count": 6
+      },
+      {
+        "raw": "black_cabbage",
+        "canonical": "cabbage",
+        "count": 6
+      },
+      {
+        "raw": "pomegranates",
+        "canonical": "pomegranate",
+        "count": 5
+      },
+      {
+        "raw": "clams",
+        "canonical": "clam",
+        "count": 5
+      },
+      {
+        "raw": "zebu_beef",
+        "canonical": "beef",
+        "count": 5
+      },
+      {
+        "raw": "soybean_paste",
+        "canonical": "paste",
+        "count": 5
+      },
+      {
+        "raw": "prunes",
+        "canonical": "prune",
+        "count": 4
+      },
+      {
+        "raw": "turnips",
+        "canonical": "turnip",
+        "count": 4
+      },
+      {
+        "raw": "sugarcane",
+        "canonical": "sugar_cane",
+        "count": 4
+      },
+      {
+        "raw": "native_lemon",
+        "canonical": "lemon",
+        "count": 4
+      },
+      {
+        "raw": "game",
+        "canonical": "meat",
+        "count": 4
+      },
+      {
+        "raw": "rice_vinegar",
+        "canonical": "vinegar",
+        "count": 4
+      },
+      {
+        "raw": "poppy_seeds",
+        "canonical": "poppy_seed",
+        "count": 4
+      },
+      {
+        "raw": "shrimp_paste",
+        "canonical": "paste",
+        "count": 4
+      },
+      {
+        "raw": "mustard_greens",
+        "canonical": "green",
+        "count": 4
+      },
+      {
+        "raw": "tea_leaves",
+        "canonical": "tea",
+        "count": 4
+      },
+      {
+        "raw": "macadamia_nuts",
+        "canonical": "macadamia",
+        "count": 3
+      },
+      {
+        "raw": "chili_pepers",
+        "canonical": "chili_peppers",
+        "count": 3
+      },
+      {
+        "raw": "wild_berries",
+        "canonical": "berry",
+        "count": 3
+      },
+      {
+        "raw": "wild_fruits",
+        "canonical": "fruit",
+        "count": 3
+      },
+      {
+        "raw": "rosewater",
+        "canonical": "rose_water",
+        "count": 3
+      },
+      {
+        "raw": "black_lime",
+        "canonical": "lime",
+        "count": 3
+      },
+      {
+        "raw": "camel_milk",
+        "canonical": "milk",
+        "count": 3
+      },
+      {
+        "raw": "fermented_fish",
+        "canonical": "fish",
+        "count": 3
+      },
+      {
+        "raw": "greens",
+        "canonical": "green",
+        "count": 3
+      },
+      {
+        "raw": "bush_plum",
+        "canonical": "plum",
+        "count": 2
+      },
+      {
+        "raw": "yuca",
+        "canonical": "cassava",
+        "count": 2
+      },
+      {
+        "raw": "white_truffles",
+        "canonical": "mushroom",
+        "count": 2
+      },
+      {
+        "raw": "cloudberries",
+        "canonical": "cloudberry",
+        "count": 2
+      },
+      {
+        "raw": "dried_fruits",
+        "canonical": "fruit",
+        "count": 2
+      },
+      {
+        "raw": "molasses",
+        "canonical": "sugar",
+        "count": 2
+      },
+      {
+        "raw": "organic_vegetables",
+        "canonical": "vegetable",
+        "count": 2
+      },
+      {
+        "raw": "morel_mushrooms",
+        "canonical": "mushroom",
+        "count": 2
+      },
+      {
+        "raw": "crayfish_powder",
+        "canonical": "crayfish",
+        "count": 1
+      },
+      {
+        "raw": "mulberries",
+        "canonical": "mulberry",
+        "count": 1
+      },
+      {
+        "raw": "smoked_salmon",
+        "canonical": "salmon",
+        "count": 1
+      },
+      {
+        "raw": "fermented_lamb",
+        "canonical": "lamb",
+        "count": 1
+      },
+      {
+        "raw": "bush_onion",
+        "canonical": "onion",
+        "count": 1
+      },
+      {
+        "raw": "bush_mint",
+        "canonical": "mint",
+        "count": 1
+      },
+      {
+        "raw": " maize",
+        "canonical": "corn",
+        "count": 1
+      },
+      {
+        "raw": "whitefish",
+        "canonical": "fish",
+        "count": 1
+      },
+      {
+        "raw": "longjing_tea",
+        "canonical": "tea",
+        "count": 1
+      },
+      {
+        "raw": "broad_bean_paste",
+        "canonical": "paste",
+        "count": 1
+      },
+      {
+        "raw": "pickled_mustard",
+        "canonical": "mustard",
+        "count": 1
+      },
+      {
+        "raw": "smoked_meat",
+        "canonical": "meat",
+        "count": 1
+      },
+      {
+        "raw": "green_peas",
+        "canonical": "pea",
+        "count": 1
+      },
+      {
+        "raw": "canned_veg",
+        "canonical": "vegetable",
+        "count": 1
+      },
+      {
+        "raw": "powdered_milk",
+        "canonical": "milk",
+        "count": 1
+      },
+      {
+        "raw": "limes",
+        "canonical": "lime",
+        "count": 1
+      },
+      {
+        "raw": "taro_leaves",
+        "canonical": "taro",
+        "count": 1
+      },
+      {
+        "raw": "leeks",
+        "canonical": "leek",
+        "count": 1
+      },
+      {
+        "raw": "dry_fish",
+        "canonical": "fish",
+        "count": 1
+      },
+      {
+        "raw": "green_chili",
+        "canonical": "pepper",
+        "count": 1
+      },
+      {
+        "raw": "artichokes",
+        "canonical": "artichoke",
+        "count": 1
+      },
+      {
+        "raw": "pecorino_romano",
+        "canonical": "pecorino",
+        "count": 1
+      },
+      {
+        "raw": "san_marzano_tomatoes",
+        "canonical": "tomato",
+        "count": 1
+      },
+      {
+        "raw": "barolo_wine",
+        "canonical": "wine",
+        "count": 1
+      },
+      {
+        "raw": "balsamic_vinegar",
+        "canonical": "vinegar",
+        "count": 1
+      },
+      {
+        "raw": "flowers",
+        "canonical": "flower",
+        "count": 1
+      },
+      {
+        "raw": "cocoa",
+        "canonical": "chocolate",
+        "count": 1
+      },
+      {
+        "raw": "foraged_vegetables",
+        "canonical": "vegetable",
+        "count": 1
+      },
+      {
+        "raw": "cucumbers",
+        "canonical": "cucumber",
+        "count": 1
+      },
+      {
+        "raw": "green_onions",
+        "canonical": "green_onion",
+        "count": 1
+      },
+      {
+        "raw": "lingonberries",
+        "canonical": "lingonberry",
+        "count": 1
+      },
+      {
+        "raw": "stone_fruit",
+        "canonical": "fruit",
+        "count": 1
+      },
+      {
+        "raw": "fish_head",
+        "canonical": "fish",
+        "count": 1
+      },
+      {
+        "raw": "red_bean_paste",
+        "canonical": "paste",
+        "count": 1
+      },
+      {
+        "raw": "kaffir_lime_leaves",
+        "canonical": "lime",
+        "count": 1
+      },
+      {
+        "raw": "cashew_nuts",
+        "canonical": "cashew",
+        "count": 1
+      },
+      {
+        "raw": "bamboo_shoots",
+        "canonical": "bamboo_shoot",
+        "count": 1
+      },
+      {
+        "raw": "yak_milk",
+        "canonical": "milk",
+        "count": 1
+      },
+      {
+        "raw": "green_barley",
+        "canonical": "barley",
+        "count": 1
+      },
+      {
+        "raw": "highland_barley_beer",
+        "canonical": "beer",
+        "count": 1
+      },
+      {
+        "raw": "wood_ear_mushrooms",
+        "canonical": "mushroom",
+        "count": 1
+      },
+      {
+        "raw": "black_tea",
+        "canonical": "tea",
+        "count": 1
+      },
+      {
+        "raw": "wild_onions",
+        "canonical": "onion",
+        "count": 1
+      },
+      {
+        "raw": "buttermilk",
+        "canonical": "milk",
+        "count": 1
+      },
+      {
+        "raw": "chia_seeds",
+        "canonical": "chia_seed",
+        "count": 1
+      },
+      {
+        "raw": "pickles",
+        "canonical": "pickle",
+        "count": 1
+      },
+      {
+        "raw": "peaches",
+        "canonical": "peach",
+        "count": 1
+      },
+      {
+        "raw": "brown_sugar",
+        "canonical": "sugar",
+        "count": 1
+      },
+      {
+        "raw": "chokecherries",
+        "canonical": "chokecherry",
+        "count": 1
+      },
+      {
+        "raw": "hickory_nuts",
+        "canonical": "hickory_nut",
+        "count": 1
+      }
+    ],
+    "leadingSpaceKeys": [
+      " maize"
+    ],
+    "diacriticKeys": [
+      "jalapeño"
+    ]
+  },
+  "methods": {
+    "merges": [
+      {
+        "raw": "drying",
+        "canonical": "preserving",
+        "count": 806
+      },
+      {
+        "raw": "curing",
+        "canonical": "preserving",
+        "count": 287
+      },
+      {
+        "raw": "barbecuing",
+        "canonical": "grilling",
+        "count": 63
+      },
+      {
+        "raw": "wine_cooking",
+        "canonical": "cooking",
+        "count": 15
+      },
+      {
+        "raw": "freezing_raw",
+        "canonical": "preserving",
+        "count": 9
+      },
+      {
+        "raw": "broth_making",
+        "canonical": "soup_making",
+        "count": 7
+      },
+      {
+        "raw": "freezing",
+        "canonical": "preserving",
+        "count": 4
+      },
+      {
+        "raw": "wine_making",
+        "canonical": "brewing",
+        "count": 3
+      },
+      {
+        "raw": "sun_drying",
+        "canonical": "preserving",
+        "count": 3
+      },
+      {
+        "raw": "ramen_making",
+        "canonical": "pasta",
+        "count": 3
+      },
+      {
+        "raw": "noodle_making",
+        "canonical": "pasta",
+        "count": 3
+      },
+      {
+        "raw": "canning",
+        "canonical": "preserving",
+        "count": 2
+      },
+      {
+        "raw": "braai",
+        "canonical": "grilling",
+        "count": 1
+      },
+      {
+        "raw": "rosting",
+        "canonical": "roasting",
+        "count": 1
+      },
+      {
+        "raw": "broiling",
+        "canonical": "grilling",
+        "count": 1
+      },
+      {
+        "raw": "rice_pilaf",
+        "canonical": "rice_cooking",
+        "count": 1
+      },
+      {
+        "raw": "strewing",
+        "canonical": "stewing",
+        "count": 1
+      }
+    ],
+    "leadingSpaceKeys": [],
+    "diacriticKeys": [
+      "ragù",
+      "sautéing"
+    ]
+  },
+  "canonicalCollisions": {
+    "maize": [
+      "maize",
+      " maize"
+    ],
+    "black_eyed_peas": [
+      "black_eyed_peas",
+      "black-eyed_peas"
+    ],
+    "sauteing": [
+      "sauteing",
+      "sautéing"
+    ],
+    "jalapeno": [
+      "jalapeño",
+      "jalapeno"
+    ]
+  }
+}

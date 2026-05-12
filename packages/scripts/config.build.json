@@ -1,0 +1,13 @@
+{
+  "mode": "prod",
+  "seed": "realmap",
+  "paths": { "rawDir": "./data/raw", "outDir": "./data" },
+  "umap": {
+    "neighbors": 120,
+    "minDist": 0.05,
+    "epochs": 180,
+    "dims": 12,
+    "clusteringDims": 12
+  },
+  "reports": { "deepDives": false }
+}

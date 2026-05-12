@@ -1,0 +1,4836 @@
+{
+  "ingredients": [
+    {
+      "name": "acai",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "achiote",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "ahi_pepper",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "aji_amarillo",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "aji_peppers",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "algarrobo_flour",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "almonds",
+      "frequency": 125,
+      "percentage": "2.29%"
+    },
+    {
+      "name": "aloo_potatoes",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "amala",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "amchur",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "anchovies",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "anchovy",
+      "frequency": 13,
+      "percentage": "0.24%"
+    },
+    {
+      "name": "apple",
+      "frequency": 28,
+      "percentage": "0.51%"
+    },
+    {
+      "name": "apples",
+      "frequency": 191,
+      "percentage": "3.51%"
+    },
+    {
+      "name": "apricot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "apricots",
+      "frequency": 19,
+      "percentage": "0.35%"
+    },
+    {
+      "name": "arancini",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "arctic_char",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "argan_oil",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "arrowroot",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "artichoke",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "artichokes",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "artisanal_cheese",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "arugula",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "asafoetida",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "asparagus",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "avocado",
+      "frequency": 318,
+      "percentage": "5.84%"
+    },
+    {
+      "name": "bacon",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "bagna_cauda",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "baguette",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "balsamic_vinegar",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bamboo_shoot",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "bamboo_shoots",
+      "frequency": 70,
+      "percentage": "1.29%"
+    },
+    {
+      "name": "banana",
+      "frequency": 127,
+      "percentage": "2.33%"
+    },
+    {
+      "name": "bananas",
+      "frequency": 32,
+      "percentage": "0.59%"
+    },
+    {
+      "name": "barbecue_sauce",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "barberries",
+      "frequency": 49,
+      "percentage": "0.90%"
+    },
+    {
+      "name": "barberry",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "barley",
+      "frequency": 184,
+      "percentage": "3.38%"
+    },
+    {
+      "name": "barley_flour",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "barley_malt",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "barolo_wine",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "barramundi",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "basil",
+      "frequency": 44,
+      "percentage": "0.81%"
+    },
+    {
+      "name": "bay_leaves",
+      "frequency": 46,
+      "percentage": "0.84%"
+    },
+    {
+      "name": "bean",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bean_paste",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "bean_spices",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "beans",
+      "frequency": 1897,
+      "percentage": "34.83%"
+    },
+    {
+      "name": "beef",
+      "frequency": 1742,
+      "percentage": "31.98%"
+    },
+    {
+      "name": "beer",
+      "frequency": 139,
+      "percentage": "2.55%"
+    },
+    {
+      "name": "beetroot",
+      "frequency": 51,
+      "percentage": "0.94%"
+    },
+    {
+      "name": "beets",
+      "frequency": 119,
+      "percentage": "2.18%"
+    },
+    {
+      "name": "bell_pepper",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "berbere",
+      "frequency": 19,
+      "percentage": "0.35%"
+    },
+    {
+      "name": "berries",
+      "frequency": 143,
+      "percentage": "2.63%"
+    },
+    {
+      "name": "biltong",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bitter_leaf",
+      "frequency": 11,
+      "percentage": "0.20%"
+    },
+    {
+      "name": "black-eyed_peas",
+      "frequency": 19,
+      "percentage": "0.35%"
+    },
+    {
+      "name": "black_cabbage",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "black_eyed_peas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "black_lime",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "black_pepper",
+      "frequency": 19,
+      "percentage": "0.35%"
+    },
+    {
+      "name": "black_tea",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "blood_sausage",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "blueberries",
+      "frequency": 100,
+      "percentage": "1.84%"
+    },
+    {
+      "name": "bok_choy",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bonito_flakes",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "bratwurst",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "bread",
+      "frequency": 836,
+      "percentage": "15.35%"
+    },
+    {
+      "name": "breadfruit",
+      "frequency": 77,
+      "percentage": "1.41%"
+    },
+    {
+      "name": "bresaola",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "brie",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "broad_bean_paste",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "brocciu",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "brodetto",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "broth",
+      "frequency": 12,
+      "percentage": "0.22%"
+    },
+    {
+      "name": "buckwheat",
+      "frequency": 197,
+      "percentage": "3.62%"
+    },
+    {
+      "name": "buckwheat_flour",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "buckwheat_noodles",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "buffalo_mozzarella",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bulgur",
+      "frequency": 195,
+      "percentage": "3.58%"
+    },
+    {
+      "name": "bush_mint",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bush_onion",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bush_plum",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "bush_tomato",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "bush_tucker_berries",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "butter",
+      "frequency": 874,
+      "percentage": "16.05%"
+    },
+    {
+      "name": "butter_tea",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "buttermilk",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cabbage",
+      "frequency": 686,
+      "percentage": "12.59%"
+    },
+    {
+      "name": "cacao",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "cactus",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cakes",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "calvados",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "camel",
+      "frequency": 12,
+      "percentage": "0.22%"
+    },
+    {
+      "name": "camel_meat",
+      "frequency": 84,
+      "percentage": "1.54%"
+    },
+    {
+      "name": "camel_milk",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "camu_camu",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "canned_goods",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "canned_veg",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cannoli",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "capers",
+      "frequency": 66,
+      "percentage": "1.21%"
+    },
+    {
+      "name": "capsicum",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "caraway",
+      "frequency": 64,
+      "percentage": "1.17%"
+    },
+    {
+      "name": "cardamom",
+      "frequency": 133,
+      "percentage": "2.44%"
+    },
+    {
+      "name": "caribou",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "carrot",
+      "frequency": 37,
+      "percentage": "0.68%"
+    },
+    {
+      "name": "carrots",
+      "frequency": 441,
+      "percentage": "8.10%"
+    },
+    {
+      "name": "cashew_nuts",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cassava",
+      "frequency": 658,
+      "percentage": "12.08%"
+    },
+    {
+      "name": "castella",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "catfish",
+      "frequency": 42,
+      "percentage": "0.77%"
+    },
+    {
+      "name": "cauliflower",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "caviar",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "celery",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "ceviche",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "champagne",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "champon_noodles",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "chapati",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "charcoal_boiled_duck",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "chard",
+      "frequency": 20,
+      "percentage": "0.37%"
+    },
+    {
+      "name": "cheddar_cheese",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cheese",
+      "frequency": 1490,
+      "percentage": "27.35%"
+    },
+    {
+      "name": "cherries",
+      "frequency": 22,
+      "percentage": "0.40%"
+    },
+    {
+      "name": "cherry",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "cherry_tomato",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "chestnut",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "chestnuts",
+      "frequency": 14,
+      "percentage": "0.26%"
+    },
+    {
+      "name": "chia_seeds",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "chicken",
+      "frequency": 621,
+      "percentage": "11.40%"
+    },
+    {
+      "name": "chicken_fat",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "chickpea",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "chickpea_flour",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "chickpeas",
+      "frequency": 307,
+      "percentage": "5.64%"
+    },
+    {
+      "name": "chile",
+      "frequency": 52,
+      "percentage": "0.95%"
+    },
+    {
+      "name": "chili",
+      "frequency": 75,
+      "percentage": "1.38%"
+    },
+    {
+      "name": "chili_oil",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "chili_peppers",
+      "frequency": 701,
+      "percentage": "12.87%"
+    },
+    {
+      "name": "chilies",
+      "frequency": 67,
+      "percentage": "1.23%"
+    },
+    {
+      "name": "chimichurri",
+      "frequency": 35,
+      "percentage": "0.64%"
+    },
+    {
+      "name": "chocolate",
+      "frequency": 14,
+      "percentage": "0.26%"
+    },
+    {
+      "name": "chorizo",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "chutney",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cider",
+      "frequency": 17,
+      "percentage": "0.31%"
+    },
+    {
+      "name": "cilantro",
+      "frequency": 436,
+      "percentage": "8.00%"
+    },
+    {
+      "name": "cinnamon",
+      "frequency": 35,
+      "percentage": "0.64%"
+    },
+    {
+      "name": "citrus",
+      "frequency": 44,
+      "percentage": "0.81%"
+    },
+    {
+      "name": "clam",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "clams",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "cloudberries",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "cloves",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "cocoa",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "coconut",
+      "frequency": 480,
+      "percentage": "8.81%"
+    },
+    {
+      "name": "coconut_milk",
+      "frequency": 36,
+      "percentage": "0.66%"
+    },
+    {
+      "name": "cocoyam",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "cod",
+      "frequency": 58,
+      "percentage": "1.06%"
+    },
+    {
+      "name": "coffee",
+      "frequency": 154,
+      "percentage": "2.83%"
+    },
+    {
+      "name": "cognac",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cold_water_fish",
+      "frequency": 14,
+      "percentage": "0.26%"
+    },
+    {
+      "name": "collard_greens",
+      "frequency": 47,
+      "percentage": "0.86%"
+    },
+    {
+      "name": "conch",
+      "frequency": 0,
+      "percentage": "0.00%"
+    },
+    {
+      "name": "coriander",
+      "frequency": 249,
+      "percentage": "4.57%"
+    },
+    {
+      "name": "corn",
+      "frequency": 835,
+      "percentage": "15.33%"
+    },
+    {
+      "name": "corn_starch",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cornbread",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "cornmeal",
+      "frequency": 45,
+      "percentage": "0.83%"
+    },
+    {
+      "name": "cottage_cheese",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "cottonseed_oil",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "couscous",
+      "frequency": 197,
+      "percentage": "3.62%"
+    },
+    {
+      "name": "crab",
+      "frequency": 39,
+      "percentage": "0.72%"
+    },
+    {
+      "name": "cranberries",
+      "frequency": 19,
+      "percentage": "0.35%"
+    },
+    {
+      "name": "crayfish",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "crayfish_powder",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cream",
+      "frequency": 209,
+      "percentage": "3.84%"
+    },
+    {
+      "name": "cucumber",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "cucumbers",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cumin",
+      "frequency": 422,
+      "percentage": "7.75%"
+    },
+    {
+      "name": "cupuaçu",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "curanto",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "curd",
+      "frequency": 15,
+      "percentage": "0.28%"
+    },
+    {
+      "name": "curry",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "curry_leaves",
+      "frequency": 51,
+      "percentage": "0.94%"
+    },
+    {
+      "name": "curry_spices",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "dairy",
+      "frequency": 272,
+      "percentage": "4.99%"
+    },
+    {
+      "name": "dashi",
+      "frequency": 12,
+      "percentage": "0.22%"
+    },
+    {
+      "name": "dates",
+      "frequency": 392,
+      "percentage": "7.20%"
+    },
+    {
+      "name": "dendê_oil",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "dill",
+      "frequency": 427,
+      "percentage": "7.84%"
+    },
+    {
+      "name": "doubanjiang",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "dried_cheese",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "dried_fruits",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "dried_herbs",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "dry_fish",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "dry_fruits",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "duck",
+      "frequency": 22,
+      "percentage": "0.40%"
+    },
+    {
+      "name": "dulce_de_leche",
+      "frequency": 13,
+      "percentage": "0.24%"
+    },
+    {
+      "name": "dumplings",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "durian",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "egg",
+      "frequency": 15,
+      "percentage": "0.28%"
+    },
+    {
+      "name": "egg_noodles",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "eggplant",
+      "frequency": 131,
+      "percentage": "2.40%"
+    },
+    {
+      "name": "eggs",
+      "frequency": 524,
+      "percentage": "9.62%"
+    },
+    {
+      "name": "egusi",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "elk",
+      "frequency": 38,
+      "percentage": "0.70%"
+    },
+    {
+      "name": "endive",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "ewedu",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "fava_bean",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "fava_beans",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "fenugreek",
+      "frequency": 16,
+      "percentage": "0.29%"
+    },
+    {
+      "name": "fermented_beans",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "fermented_black_beans",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "fermented_cheese",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "fermented_fish",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "fermented_lamb",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "feta_cheese",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "fig",
+      "frequency": 18,
+      "percentage": "0.33%"
+    },
+    {
+      "name": "figs",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "fish",
+      "frequency": 1894,
+      "percentage": "34.77%"
+    },
+    {
+      "name": "fish_head",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "fish_sauce",
+      "frequency": 43,
+      "percentage": "0.79%"
+    },
+    {
+      "name": "five_spice",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "flatbread",
+      "frequency": 46,
+      "percentage": "0.84%"
+    },
+    {
+      "name": "flour",
+      "frequency": 173,
+      "percentage": "3.18%"
+    },
+    {
+      "name": "flowers",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "foie_gras",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "fontina",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "foraged_vegetables",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "frico",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "fruit",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "fruits",
+      "frequency": 272,
+      "percentage": "4.99%"
+    },
+    {
+      "name": "galangal",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "game",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "game_meat",
+      "frequency": 56,
+      "percentage": "1.03%"
+    },
+    {
+      "name": "ganja",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "garam_masala",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "garlic",
+      "frequency": 3280,
+      "percentage": "60.22%"
+    },
+    {
+      "name": "gbegiri",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "ghee",
+      "frequency": 102,
+      "percentage": "1.87%"
+    },
+    {
+      "name": "giardiniera",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "ginger",
+      "frequency": 570,
+      "percentage": "10.46%"
+    },
+    {
+      "name": "gingerbread",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "ginseng",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "glass_noodles",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "goanna",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "goat",
+      "frequency": 112,
+      "percentage": "2.06%"
+    },
+    {
+      "name": "goat_cheese",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "goat_meat",
+      "frequency": 85,
+      "percentage": "1.56%"
+    },
+    {
+      "name": "goji_berries",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "goose",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "gorgonzola",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "gram_flour",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "grape",
+      "frequency": 23,
+      "percentage": "0.42%"
+    },
+    {
+      "name": "grape_leaves",
+      "frequency": 17,
+      "percentage": "0.31%"
+    },
+    {
+      "name": "grapes",
+      "frequency": 17,
+      "percentage": "0.31%"
+    },
+    {
+      "name": "green_ant",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "green_banana",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "green_barley",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "green_beans",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "green_chili",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "green_onions",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "green_peas",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "groundnut",
+      "frequency": 14,
+      "percentage": "0.26%"
+    },
+    {
+      "name": "guanciale",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "haddock",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "halibut",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "halloumi",
+      "frequency": 0,
+      "percentage": "0.00%"
+    },
+    {
+      "name": "ham",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "hami_melon",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "harissa",
+      "frequency": 39,
+      "percentage": "0.72%"
+    },
+    {
+      "name": "hazelnut",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "heirloom_tomatoes",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "herbal_plants",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "herbs",
+      "frequency": 1334,
+      "percentage": "24.49%"
+    },
+    {
+      "name": "heritage_grains",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "herring",
+      "frequency": 75,
+      "percentage": "1.38%"
+    },
+    {
+      "name": "hickory_nuts",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "highland_barley_beer",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "honey",
+      "frequency": 240,
+      "percentage": "4.41%"
+    },
+    {
+      "name": "honey_ant",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "hops",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "horse_meat",
+      "frequency": 94,
+      "percentage": "1.73%"
+    },
+    {
+      "name": "horseradish",
+      "frequency": 58,
+      "percentage": "1.06%"
+    },
+    {
+      "name": "hot_dog_bun",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "hot_pepper",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "hot_sauce",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "hotdogs",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "huckleberries",
+      "frequency": 20,
+      "percentage": "0.37%"
+    },
+    {
+      "name": "hummus",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "jaggery",
+      "frequency": 29,
+      "percentage": "0.53%"
+    },
+    {
+      "name": "jalapeno",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "jamón",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "jenever",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "jota",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "jujubes",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "juniper",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "kaffir_lime_leaves",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "kajmak",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "kakadu_plum",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "kale",
+      "frequency": 11,
+      "percentage": "0.20%"
+    },
+    {
+      "name": "kangaroo",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "karashi",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "kava",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "kelp",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "kewra_water",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "khubz",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "kimchi",
+      "frequency": 11,
+      "percentage": "0.20%"
+    },
+    {
+      "name": "king_crab",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "kiwifruit",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "kumara",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "lamb",
+      "frequency": 1307,
+      "percentage": "23.99%"
+    },
+    {
+      "name": "leafy_greens",
+      "frequency": 25,
+      "percentage": "0.46%"
+    },
+    {
+      "name": "leek",
+      "frequency": 12,
+      "percentage": "0.22%"
+    },
+    {
+      "name": "legumes",
+      "frequency": 62,
+      "percentage": "1.14%"
+    },
+    {
+      "name": "lemon",
+      "frequency": 34,
+      "percentage": "0.62%"
+    },
+    {
+      "name": "lemongrass",
+      "frequency": 59,
+      "percentage": "1.08%"
+    },
+    {
+      "name": "lemons",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "lentil_flour",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "lentils",
+      "frequency": 290,
+      "percentage": "5.32%"
+    },
+    {
+      "name": "lettuce",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "lime",
+      "frequency": 537,
+      "percentage": "9.86%"
+    },
+    {
+      "name": "limes",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "lingonberry",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "liqueur",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "llama_meat",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "lobster",
+      "frequency": 20,
+      "percentage": "0.37%"
+    },
+    {
+      "name": "locust_beans",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "longjing_tea",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "lotus_root",
+      "frequency": 39,
+      "percentage": "0.72%"
+    },
+    {
+      "name": "lotus_seed",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "lychee",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "macadamia_nuts",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "macadamias",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "malbec_grapes",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "mango",
+      "frequency": 32,
+      "percentage": "0.59%"
+    },
+    {
+      "name": "manioc_flour",
+      "frequency": 131,
+      "percentage": "2.40%"
+    },
+    {
+      "name": "maple_syrup",
+      "frequency": 111,
+      "percentage": "2.04%"
+    },
+    {
+      "name": "marjoram",
+      "frequency": 45,
+      "percentage": "0.83%"
+    },
+    {
+      "name": "marmalade",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "masala",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "matcha",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "mate",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "matoke",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "mealie_meal",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "meat",
+      "frequency": 88,
+      "percentage": "1.62%"
+    },
+    {
+      "name": "meat_preserves",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "melon",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "melons",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "mentaiko",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "merquen",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "milk",
+      "frequency": 141,
+      "percentage": "2.59%"
+    },
+    {
+      "name": "millet",
+      "frequency": 331,
+      "percentage": "6.08%"
+    },
+    {
+      "name": "mineral_water",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "mint",
+      "frequency": 316,
+      "percentage": "5.80%"
+    },
+    {
+      "name": "mirabelle_plums",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "mirin",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "miso",
+      "frequency": 11,
+      "percentage": "0.20%"
+    },
+    {
+      "name": "mitmita",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "mochi",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "molasses",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "mountain_herbs",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "mozzarella",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "mud_crab",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "mulberries",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "mushrooms",
+      "frequency": 659,
+      "percentage": "12.10%"
+    },
+    {
+      "name": "muskox",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "mussel",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "mussels",
+      "frequency": 26,
+      "percentage": "0.48%"
+    },
+    {
+      "name": "mustard",
+      "frequency": 89,
+      "percentage": "1.63%"
+    },
+    {
+      "name": "mustard_greens",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "mustard_oil",
+      "frequency": 50,
+      "percentage": "0.92%"
+    },
+    {
+      "name": "mustard_seeds",
+      "frequency": 32,
+      "percentage": "0.59%"
+    },
+    {
+      "name": "mutton",
+      "frequency": 95,
+      "percentage": "1.74%"
+    },
+    {
+      "name": "nabulsi_cheese",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "native_lemon",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "niter_kibbeh",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "noodles",
+      "frequency": 41,
+      "percentage": "0.75%"
+    },
+    {
+      "name": "nori",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "nutmeg",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "nutritional_yeast",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "nuts",
+      "frequency": 267,
+      "percentage": "4.90%"
+    },
+    {
+      "name": "oats",
+      "frequency": 21,
+      "percentage": "0.39%"
+    },
+    {
+      "name": "octopus",
+      "frequency": 11,
+      "percentage": "0.20%"
+    },
+    {
+      "name": "offal",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "ogbono",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "oil",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "okra",
+      "frequency": 390,
+      "percentage": "7.16%"
+    },
+    {
+      "name": "olive",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "olive_oil",
+      "frequency": 939,
+      "percentage": "17.24%"
+    },
+    {
+      "name": "olives",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "onion",
+      "frequency": 541,
+      "percentage": "9.93%"
+    },
+    {
+      "name": "onions",
+      "frequency": 3119,
+      "percentage": "57.26%"
+    },
+    {
+      "name": "oregano",
+      "frequency": 11,
+      "percentage": "0.20%"
+    },
+    {
+      "name": "organic_vegetables",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "ossobuco",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "oyster_sauce",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "oysters",
+      "frequency": 23,
+      "percentage": "0.42%"
+    },
+    {
+      "name": "pacu",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "paiche",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "palm_heart",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "palm_oil",
+      "frequency": 195,
+      "percentage": "3.58%"
+    },
+    {
+      "name": "palm_sugar",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "panch_phoron",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pandan",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pandanus",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "paneer",
+      "frequency": 12,
+      "percentage": "0.22%"
+    },
+    {
+      "name": "panforte",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "papaya",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "paprika",
+      "frequency": 208,
+      "percentage": "3.82%"
+    },
+    {
+      "name": "parsley",
+      "frequency": 360,
+      "percentage": "6.61%"
+    },
+    {
+      "name": "pasta",
+      "frequency": 119,
+      "percentage": "2.18%"
+    },
+    {
+      "name": "pasta_rustica",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pastirma",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "pastries",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "peach",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "peaches",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "peanut",
+      "frequency": 26,
+      "percentage": "0.48%"
+    },
+    {
+      "name": "peanut_oil",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "peanuts",
+      "frequency": 488,
+      "percentage": "8.96%"
+    },
+    {
+      "name": "pear",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pears",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "peas",
+      "frequency": 20,
+      "percentage": "0.37%"
+    },
+    {
+      "name": "pecans",
+      "frequency": 17,
+      "percentage": "0.31%"
+    },
+    {
+      "name": "pecorino",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pecorino_romano",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pepper",
+      "frequency": 282,
+      "percentage": "5.18%"
+    },
+    {
+      "name": "peppers",
+      "frequency": 157,
+      "percentage": "2.88%"
+    },
+    {
+      "name": "periwinkle",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "piadina",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pickled_longbeans",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pickled_turnip",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pickled_vegetables",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "pickles",
+      "frequency": 17,
+      "percentage": "0.31%"
+    },
+    {
+      "name": "pide",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "pierogi",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pilot_whale",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "piment_d_espelette",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pine_nuts",
+      "frequency": 25,
+      "percentage": "0.46%"
+    },
+    {
+      "name": "pineapple",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "piri_piri",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "pistachio",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "pistachios",
+      "frequency": 49,
+      "percentage": "0.90%"
+    },
+    {
+      "name": "pita",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "pizza_dough",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "plantain",
+      "frequency": 38,
+      "percentage": "0.70%"
+    },
+    {
+      "name": "plantains",
+      "frequency": 483,
+      "percentage": "8.87%"
+    },
+    {
+      "name": "plum_sauce",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "plums",
+      "frequency": 46,
+      "percentage": "0.84%"
+    },
+    {
+      "name": "poi",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "poisson_cru",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "polenta",
+      "frequency": 81,
+      "percentage": "1.49%"
+    },
+    {
+      "name": "pollock",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pomegranate",
+      "frequency": 73,
+      "percentage": "1.34%"
+    },
+    {
+      "name": "pomegranates",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "poppy_seeds",
+      "frequency": 16,
+      "percentage": "0.29%"
+    },
+    {
+      "name": "pork",
+      "frequency": 1736,
+      "percentage": "31.87%"
+    },
+    {
+      "name": "potato",
+      "frequency": 90,
+      "percentage": "1.65%"
+    },
+    {
+      "name": "potato_starch",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "potatoes",
+      "frequency": 1835,
+      "percentage": "33.69%"
+    },
+    {
+      "name": "poultry",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "powdered_milk",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "prawns",
+      "frequency": 15,
+      "percentage": "0.28%"
+    },
+    {
+      "name": "preserved_lemon",
+      "frequency": 19,
+      "percentage": "0.35%"
+    },
+    {
+      "name": "preserved_lemons",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "preserved_vegetables",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "pretzels",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "prosciutto",
+      "frequency": 28,
+      "percentage": "0.51%"
+    },
+    {
+      "name": "prunes",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "pu_er_tea",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pumpkin",
+      "frequency": 32,
+      "percentage": "0.59%"
+    },
+    {
+      "name": "pumpkin_seed_oil",
+      "frequency": 42,
+      "percentage": "0.77%"
+    },
+    {
+      "name": "quandong",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "quark",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "quiche",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "quince",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "quinoa",
+      "frequency": 39,
+      "percentage": "0.72%"
+    },
+    {
+      "name": "radish",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "raisins",
+      "frequency": 88,
+      "percentage": "1.62%"
+    },
+    {
+      "name": "ramen_noodles",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "ramp",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "rape_seeds",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "red_bean_paste",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "red_chili",
+      "frequency": 11,
+      "percentage": "0.20%"
+    },
+    {
+      "name": "red_chili_powder",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "red_miso",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "reindeer",
+      "frequency": 19,
+      "percentage": "0.35%"
+    },
+    {
+      "name": "reindeer_meat",
+      "frequency": 11,
+      "percentage": "0.20%"
+    },
+    {
+      "name": "ricciarelli",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "rice",
+      "frequency": 2379,
+      "percentage": "43.68%"
+    },
+    {
+      "name": "rice_flour",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "rice_noodles",
+      "frequency": 18,
+      "percentage": "0.33%"
+    },
+    {
+      "name": "rice_vinegar",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "rice_wine",
+      "frequency": 25,
+      "percentage": "0.46%"
+    },
+    {
+      "name": "risotto",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "river_crab",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "river_fish",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "river_prawn",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "rooibos_tea",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "root_vegetables",
+      "frequency": 24,
+      "percentage": "0.44%"
+    },
+    {
+      "name": "rose_water",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "roselle",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "rosewater",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "rum",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "rye_bread",
+      "frequency": 281,
+      "percentage": "5.16%"
+    },
+    {
+      "name": "saffron",
+      "frequency": 130,
+      "percentage": "2.39%"
+    },
+    {
+      "name": "sage",
+      "frequency": 75,
+      "percentage": "1.38%"
+    },
+    {
+      "name": "sago",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "sake",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "salmon",
+      "frequency": 172,
+      "percentage": "3.16%"
+    },
+    {
+      "name": "salt",
+      "frequency": 13,
+      "percentage": "0.24%"
+    },
+    {
+      "name": "saltfish",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "san_marzano_tomatoes",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "sand_monitor",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "sansai",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "sara_udon",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "sattu",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "sauerkraut",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "sausage",
+      "frequency": 12,
+      "percentage": "0.22%"
+    },
+    {
+      "name": "sausages",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "scallions",
+      "frequency": 128,
+      "percentage": "2.35%"
+    },
+    {
+      "name": "scallops",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "sea_urchin",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "seafood",
+      "frequency": 653,
+      "percentage": "11.99%"
+    },
+    {
+      "name": "seal",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "seal_meat",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "seaweed",
+      "frequency": 44,
+      "percentage": "0.81%"
+    },
+    {
+      "name": "seitan",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "semolina",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "sesame",
+      "frequency": 121,
+      "percentage": "2.22%"
+    },
+    {
+      "name": "sesame_oil",
+      "frequency": 109,
+      "percentage": "2.00%"
+    },
+    {
+      "name": "sesame_seeds",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "shallots",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "shea_butter",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "sheanut_oil",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "sheep",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "sheep_cheese",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "shellfish",
+      "frequency": 14,
+      "percentage": "0.26%"
+    },
+    {
+      "name": "sherry",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "shiitake",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "shrimp",
+      "frequency": 266,
+      "percentage": "4.88%"
+    },
+    {
+      "name": "shrimp_paste",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "sichuan_pepper",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "skyr",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "smoked_fish",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "smoked_meat",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "smoked_pork",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "smoked_salmon",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "snail",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "snow_crab",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "sorghum",
+      "frequency": 342,
+      "percentage": "6.28%"
+    },
+    {
+      "name": "sour_cherries",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "sour_cream",
+      "frequency": 280,
+      "percentage": "5.14%"
+    },
+    {
+      "name": "soy",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "soy_sauce",
+      "frequency": 257,
+      "percentage": "4.72%"
+    },
+    {
+      "name": "soybean_paste",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "soybeans",
+      "frequency": 25,
+      "percentage": "0.46%"
+    },
+    {
+      "name": "spaghetti",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "speck",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "spice_mix",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "spiced_butter",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "spices",
+      "frequency": 438,
+      "percentage": "8.04%"
+    },
+    {
+      "name": "spinach",
+      "frequency": 51,
+      "percentage": "0.94%"
+    },
+    {
+      "name": "spätzle",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "squash",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "squid",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "star_anise",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "sticky_rice",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "sucuk",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "sugar",
+      "frequency": 30,
+      "percentage": "0.55%"
+    },
+    {
+      "name": "sugar_cane",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "sukuma_wiki",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "sumac",
+      "frequency": 115,
+      "percentage": "2.11%"
+    },
+    {
+      "name": "sunflower_oil",
+      "frequency": 20,
+      "percentage": "0.37%"
+    },
+    {
+      "name": "sweet_potato",
+      "frequency": 91,
+      "percentage": "1.67%"
+    },
+    {
+      "name": "swordfish",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "syrup_waffles",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tahini",
+      "frequency": 17,
+      "percentage": "0.31%"
+    },
+    {
+      "name": "takana",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "takoyaki_flour",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "taleggio",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tamarind",
+      "frequency": 75,
+      "percentage": "1.38%"
+    },
+    {
+      "name": "taro",
+      "frequency": 55,
+      "percentage": "1.01%"
+    },
+    {
+      "name": "taro_leaves",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tarro",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tea",
+      "frequency": 223,
+      "percentage": "4.09%"
+    },
+    {
+      "name": "tea_leaves",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "tea_oil",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tea_seed_oil",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "teff",
+      "frequency": 19,
+      "percentage": "0.35%"
+    },
+    {
+      "name": "tempeh",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tempura_flour",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "thyme",
+      "frequency": 15,
+      "percentage": "0.28%"
+    },
+    {
+      "name": "tilapia",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "tobacco",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tofu",
+      "frequency": 188,
+      "percentage": "3.45%"
+    },
+    {
+      "name": "tomato",
+      "frequency": 436,
+      "percentage": "8.00%"
+    },
+    {
+      "name": "tomato_sauce",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tomatoes",
+      "frequency": 1180,
+      "percentage": "21.66%"
+    },
+    {
+      "name": "tonkotsu_broth",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "tortilla",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "tropical_fruit",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tropical_fruits",
+      "frequency": 17,
+      "percentage": "0.31%"
+    },
+    {
+      "name": "trout",
+      "frequency": 74,
+      "percentage": "1.36%"
+    },
+    {
+      "name": "truffles",
+      "frequency": 42,
+      "percentage": "0.77%"
+    },
+    {
+      "name": "tsampa",
+      "frequency": 14,
+      "percentage": "0.26%"
+    },
+    {
+      "name": "tubers",
+      "frequency": 13,
+      "percentage": "0.24%"
+    },
+    {
+      "name": "tucupi",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "tuna",
+      "frequency": 21,
+      "percentage": "0.39%"
+    },
+    {
+      "name": "turkey",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "turmeric",
+      "frequency": 203,
+      "percentage": "3.73%"
+    },
+    {
+      "name": "turnips",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "ugali",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "ugwu_leaf",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "utazi",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "uziza",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "vanilla",
+      "frequency": 13,
+      "percentage": "0.24%"
+    },
+    {
+      "name": "veal",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "vegatables",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "vegetable_oil",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "vegetables",
+      "frequency": 676,
+      "percentage": "12.41%"
+    },
+    {
+      "name": "venison",
+      "frequency": 12,
+      "percentage": "0.22%"
+    },
+    {
+      "name": "vinegar",
+      "frequency": 163,
+      "percentage": "2.99%"
+    },
+    {
+      "name": "vineyard_grapes",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "walleye",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "walnut",
+      "frequency": 72,
+      "percentage": "1.32%"
+    },
+    {
+      "name": "wasabi",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "water_chestnuts",
+      "frequency": 11,
+      "percentage": "0.20%"
+    },
+    {
+      "name": "waterleaf",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "watermelon",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "wattle_seeds",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "whale",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "wheat",
+      "frequency": 1037,
+      "percentage": "19.04%"
+    },
+    {
+      "name": "wheat_flour",
+      "frequency": 14,
+      "percentage": "0.26%"
+    },
+    {
+      "name": "wheat_noodles",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "white_truffles",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "whitefish",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "wild_bamboo_shoots",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "wild_berries",
+      "frequency": 7,
+      "percentage": "0.13%"
+    },
+    {
+      "name": "wild_fruits",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "wild_greens",
+      "frequency": 23,
+      "percentage": "0.42%"
+    },
+    {
+      "name": "wild_herbs",
+      "frequency": 17,
+      "percentage": "0.31%"
+    },
+    {
+      "name": "wild_mushrooms",
+      "frequency": 24,
+      "percentage": "0.44%"
+    },
+    {
+      "name": "wild_onions",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "wild_rice",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "wine",
+      "frequency": 640,
+      "percentage": "11.75%"
+    },
+    {
+      "name": "wine_grapes",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "winter_melon",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "wiri_wiri_peppers",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "witchetty_grub",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "wood_ear_mushrooms",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "yak_butter",
+      "frequency": 19,
+      "percentage": "0.35%"
+    },
+    {
+      "name": "yak_cheese",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "yak_meat",
+      "frequency": 23,
+      "percentage": "0.42%"
+    },
+    {
+      "name": "yakka",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "yam",
+      "frequency": 103,
+      "percentage": "1.89%"
+    },
+    {
+      "name": "yerba_mate",
+      "frequency": 151,
+      "percentage": "2.77%"
+    },
+    {
+      "name": "yogurt",
+      "frequency": 564,
+      "percentage": "10.35%"
+    },
+    {
+      "name": "yuba",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "yuca",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "zaatar",
+      "frequency": 14,
+      "percentage": "0.26%"
+    },
+    {
+      "name": "zebu",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "zebu_beef",
+      "frequency": 5,
+      "percentage": "0.09%"
+    }
+  ],
+  "cookingMethods": [
+    {
+      "name": "acquacotta",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "aligot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "alkmaars_boterkoek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "alkmaars_brood",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "alkmaars_kaas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "alkmaars_koek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "alkmaars_worst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "amatriciana",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "anchoiade",
+      "frequency": 0,
+      "percentage": "0.00%"
+    },
+    {
+      "name": "andouille",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "andouillette",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "arancini",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "arnhems_boterkoek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "arnhems_brood",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "arnhems_kaas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "arnhems_koek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "arnhems_worst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "axoa",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "badische_brezel",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "badische_sauerbraten",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "baeckeoffe",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bagna_cauda",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "baking",
+      "frequency": 2492,
+      "percentage": "45.75%"
+    },
+    {
+      "name": "banyuls",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "barbecuing",
+      "frequency": 89,
+      "percentage": "1.63%"
+    },
+    {
+      "name": "berlingot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "beurre_blanc",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "biscuit_rose",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "blending",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "boeuf_bourguignon",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "boiling",
+      "frequency": 3769,
+      "percentage": "69.19%"
+    },
+    {
+      "name": "bollito",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "boudin_blanc",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bouillabaisse",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "bourride",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "braai",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "braising",
+      "frequency": 1062,
+      "percentage": "19.50%"
+    },
+    {
+      "name": "brandade",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "brandenburger_brot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "brandenburger_kartoffeln",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "brandenburger_klopse",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bratwurst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "bredele",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "brewing",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "brie_de_meaux",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "brodetto",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "broiling",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "broth_making",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "brési",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "cacio_e_pepe",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cagouilles",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "caillette",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cancoillotte",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "candied",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "candying",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "canning",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "cannoli",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "caponata",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cappelletti",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "carbonara",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "carciofi_alla_romana",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cassoulet",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "champon_making",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "choucroute",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cider_cooking",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "clam_bake",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "clearing",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "coconut_cooking",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "coconut_curing",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cognac",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cold_dishes",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "collioure",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "comté",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "confectionery",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "confit",
+      "frequency": 12,
+      "percentage": "0.22%"
+    },
+    {
+      "name": "coq_au_vin",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cotignac",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cotoletta",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cremant",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "cremes",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "crepe",
+      "frequency": 0,
+      "percentage": "0.00%"
+    },
+    {
+      "name": "crostini",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "croustade",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "curanto",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "curing",
+      "frequency": 10,
+      "percentage": "0.18%"
+    },
+    {
+      "name": "curry",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "dampfnudeln",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "diots",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "distilling",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "double_steaming",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "drying",
+      "frequency": 299,
+      "percentage": "5.49%"
+    },
+    {
+      "name": "dum_cooking",
+      "frequency": 69,
+      "percentage": "1.27%"
+    },
+    {
+      "name": "earth_oven",
+      "frequency": 28,
+      "percentage": "0.51%"
+    },
+    {
+      "name": "eindhovens_bossche_bol",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "eindhovens_boterkoek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "eindhovens_brood",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "eindhovens_kaas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "eindhovens_worst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "enschede_boterkoek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "enschede_brood",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "enschede_kaas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "enschede_koek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "enschede_worst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "erfurter_brot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "erfurter_schittchen",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "far_breton",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "farci",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "fermenting",
+      "frequency": 640,
+      "percentage": "11.75%"
+    },
+    {
+      "name": "ficelle_picarde",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "flamiche",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "flammkuchen",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "fondue",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "fonduta",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "foraging",
+      "frequency": 41,
+      "percentage": "0.75%"
+    },
+    {
+      "name": "fouace",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "freezing",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "freezing_raw",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "frittura",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "frying",
+      "frequency": 3002,
+      "percentage": "55.11%"
+    },
+    {
+      "name": "fränkischer_schäufele",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "galette",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "garbure",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "gateau_basque",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "gnocchi",
+      "frequency": 20,
+      "percentage": "0.37%"
+    },
+    {
+      "name": "gougère",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "gratin",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "gratin_dauphinois",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "gratin_savoyard",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "gratins",
+      "frequency": 8,
+      "percentage": "0.15%"
+    },
+    {
+      "name": "grinding",
+      "frequency": 6,
+      "percentage": "0.11%"
+    },
+    {
+      "name": "groninger_boterkoek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "groninger_brood",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "groninger_kaas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "groninger_koek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "groninger_worst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "grounding",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "grünkohl",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "gyutan_grilling",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "gâteau_battue",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "gâteau_de_foie",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "gâteau_nantais",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "haarlems_boterkoek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "haarlems_brood",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "haarlems_kaas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "haarlems_koek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "haarlems_worst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "heidelberger_brezel",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "heidelberger_sauerbraten",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "heidelberger_studentenkuss",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "hot_pot",
+      "frequency": 35,
+      "percentage": "0.64%"
+    },
+    {
+      "name": "infusing",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "jambon_de_reims",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "jambon_persillé",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "kaiseki_cooking",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "kieler_brot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "kieler_kuchen",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "kieler_sprotten",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "kig_ha_farz",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "knödel",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "kouign_amann",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "kugelhopf",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "labskaus",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "laplap",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "lübecker_brot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "lübecker_kuchen",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "lübecker_marzipan",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "macaron_d'amiens",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "magdeburger_brot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "magdeburger_bötel",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "magdeburger_klöße",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "magdeburger_kuchen",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "magdeburger_wurst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "marinating",
+      "frequency": 259,
+      "percentage": "4.75%"
+    },
+    {
+      "name": "millas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "mincing",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "miso_katsu_making",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "morille",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "mouclade",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "new_england_chowder",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "nijmeegs_boterkoek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "nijmeegs_brood",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "nijmeegs_kaas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "nijmeegs_koek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "nijmeegs_worst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "noodle_making",
+      "frequency": 44,
+      "percentage": "0.81%"
+    },
+    {
+      "name": "okonomiyaki_making",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "ossobuco",
+      "frequency": 21,
+      "percentage": "0.39%"
+    },
+    {
+      "name": "paella",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "pain_d'épices",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "palombacci",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "pan_bagnat",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "panelle",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "panettone",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "panzanella",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "pappa_al_pomodoro",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "parmigiana",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "passatelli",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pasta",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "pasta_alla_norma",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pastis",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "piadina",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pici",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "pickling",
+      "frequency": 873,
+      "percentage": "16.03%"
+    },
+    {
+      "name": "pied_de_porc",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pilaf_cooking",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "piment_d_espelette",
+      "frequency": 0,
+      "percentage": "0.00%"
+    },
+    {
+      "name": "pineau",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "piperade",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pissaladière",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "pithiviers",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pizza",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "poaching",
+      "frequency": 26,
+      "percentage": "0.48%"
+    },
+    {
+      "name": "polenta",
+      "frequency": 21,
+      "percentage": "0.39%"
+    },
+    {
+      "name": "porchetta",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "porridge",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "potsdamer_kuchen",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "potsdamer_platte",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "poule_au_pot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pounding",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "pounti",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "preserving",
+      "frequency": 710,
+      "percentage": "13.03%"
+    },
+    {
+      "name": "pâté_aux_pommes_de_terre",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "pâté_en_croûte",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "quernons",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "raclette",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "ragù",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "ratatouille",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "ravioles",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "ravioli",
+      "frequency": 20,
+      "percentage": "0.37%"
+    },
+    {
+      "name": "raw",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "red_cooking",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "regensburger_brot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "regensburger_wurst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "ribollita",
+      "frequency": 5,
+      "percentage": "0.09%"
+    },
+    {
+      "name": "rice_cooking",
+      "frequency": 558,
+      "percentage": "10.24%"
+    },
+    {
+      "name": "rice_pilaf",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "rillauds",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "rillettes",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "risotto",
+      "frequency": 23,
+      "percentage": "0.42%"
+    },
+    {
+      "name": "roasting",
+      "frequency": 2594,
+      "percentage": "47.62%"
+    },
+    {
+      "name": "rouille",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "salade_nicoise",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "salads",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "saltimbocca",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "saucisse_de_morteau",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "sauteing",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "sautéing",
+      "frequency": 56,
+      "percentage": "1.03%"
+    },
+    {
+      "name": "schwarzwälder_kirschtorte",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "schweinebraten",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "schäufele",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "simmering",
+      "frequency": 15,
+      "percentage": "0.28%"
+    },
+    {
+      "name": "skewering",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "slow_cooking",
+      "frequency": 710,
+      "percentage": "13.03%"
+    },
+    {
+      "name": "smoking",
+      "frequency": 1247,
+      "percentage": "22.89%"
+    },
+    {
+      "name": "socca",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "soup_making",
+      "frequency": 78,
+      "percentage": "1.43%"
+    },
+    {
+      "name": "sous_vide",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "spicing",
+      "frequency": 66,
+      "percentage": "1.21%"
+    },
+    {
+      "name": "spätzle",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "steaming",
+      "frequency": 1605,
+      "percentage": "29.47%"
+    },
+    {
+      "name": "stewing",
+      "frequency": 3955,
+      "percentage": "72.61%"
+    },
+    {
+      "name": "stir_frying",
+      "frequency": 298,
+      "percentage": "5.47%"
+    },
+    {
+      "name": "strangozzi",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "strewing",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "stuffing",
+      "frequency": 144,
+      "percentage": "2.64%"
+    },
+    {
+      "name": "sun_drying",
+      "frequency": 9,
+      "percentage": "0.17%"
+    },
+    {
+      "name": "sushi_making",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tajarin",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "takoyaki_making",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tarte_au_sucre",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tarte_flambee",
+      "frequency": 0,
+      "percentage": "0.00%"
+    },
+    {
+      "name": "tarte_tatin",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tartiflette",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tea_ceremony",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tea_oil_frying",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "tempering",
+      "frequency": 117,
+      "percentage": "2.15%"
+    },
+    {
+      "name": "thüringer_bratwurst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "thüringer_klöße",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "thüringer_rostbrätel",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tielle",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tilburgs_boterkoek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tilburgs_brood",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tilburgs_kaas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tilburgs_koek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tilburgs_worst",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "torta_al_testo",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "tortelli",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tourin",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "tripoux",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "truffade",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "truffle_dishes",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "ttoro",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "umbricelli",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "umu",
+      "frequency": 4,
+      "percentage": "0.07%"
+    },
+    {
+      "name": "utrechts_boterkoek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "utrechts_brood",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "utrechts_kaas",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "utrechts_koek",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "utrechts_stroopwafel",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "vitello_tonnato",
+      "frequency": 2,
+      "percentage": "0.04%"
+    },
+    {
+      "name": "wine_cooking",
+      "frequency": 25,
+      "percentage": "0.46%"
+    },
+    {
+      "name": "wine_making",
+      "frequency": 3,
+      "percentage": "0.06%"
+    },
+    {
+      "name": "würzburger_brot",
+      "frequency": 1,
+      "percentage": "0.02%"
+    },
+    {
+      "name": "würzburger_wein",
+      "frequency": 1,
+      "percentage": "0.02%"
+    }
+  ]
+}

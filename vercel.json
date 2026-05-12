@@ -1,0 +1,16 @@
+{
+  "buildCommand": "pnpm --filter @realmap/client build",
+  "outputDirectory": "packages/client/dist",
+  "installCommand": "pnpm install",
+  "rewrites": [
+    { "source": "/((?!data/).*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/data/(.*).json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }
+      ]
+    }
+  ]
+}

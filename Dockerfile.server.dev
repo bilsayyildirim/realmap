@@ -1,0 +1,90 @@
+FROM node:20-alpine
+
+# Install system dependencies
+RUN apk add --no-cache \
+    python3 \
+    python3-dev \
+    py3-pip \
+    py3-setuptools \
+    g++ \
+    make \
+    gdal \
+    gdal-dev \
+    lsof \
+    curl
+
+# Install Python scientific computing packages
+RUN apk add --no-cache \
+    py3-numpy \
+    py3-scipy \
+    py3-scikit-learn
+
+# Install pnpm globally
+RUN npm install -g pnpm@10.8.1
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY pnpm-lock.yaml ./
+COPY pnpm-workspace.yaml ./
+COPY package.json ./
+COPY packages/shared/package.json ./packages/shared/
+COPY packages/server/package.json ./packages/server/
+COPY packages/scripts/package.json ./packages/scripts/
+
+# Copy .npmrc (for prefer-frozen-lockfile setting)
+COPY .npmrc ./
+
+# Copy tsconfig files
+COPY tsconfig.json ./
+COPY packages/shared/tsconfig.json ./packages/shared/
+COPY packages/server/tsconfig.json ./packages/server/
+COPY packages/scripts/tsconfig.json ./packages/scripts/
+
+# Install dependencies with frozen lockfile for deterministic builds
+# Note: --unsafe-perm required for native module compilation (hnswlib-node, etc.)
+RUN pnpm config set registry https://registry.npmmirror.com/ \
+    && pnpm install --frozen-lockfile --unsafe-perm \
+    && pnpm store prune
+
+# Copy source code
+COPY packages/shared ./packages/shared
+COPY packages/server ./packages/server
+COPY packages/scripts ./packages/scripts
+COPY pycore ./pycore
+COPY test_bayes.py ./
+
+# Build packages
+RUN pnpm --filter @realmap/shared build \
+    && pnpm --filter @realmap/server build \
+    && pnpm --filter @realmap/scripts build
+
+# Set environment variables
+ENV NODE_ENV=development
+ENV PORT=3001
+ENV GDAL_DATA=/usr/share/gdal
+
+# Expose port
+EXPOSE 3001
+
+# Use a shell script as entrypoint to handle cleanup
+# Place entrypoint in /entrypoint.sh (outside /app) to avoid volume mount override
+RUN printf '#!/bin/sh\n\
+# Kill any existing process on port 3001\n\
+if command -v lsof >/dev/null 2>&1; then\n\
+    lsof -ti:3001 | xargs -r kill -9 2>/dev/null || true\n\
+else\n\
+    echo "lsof not available, skipping port cleanup"\n\
+fi\n\
+\n\
+if [ -z "$1" ]; then\n\
+    # No arguments provided, start the server\n\
+    exec pnpm --filter @realmap/server dev\n\
+else\n\
+    # Execute the provided command\n\
+    exec "$@"\n\
+fi\n' > /entrypoint.sh && chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
+CMD []

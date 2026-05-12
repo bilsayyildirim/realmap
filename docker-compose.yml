@@ -1,0 +1,107 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
+    platform: linux/arm64
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - 'ES_JAVA_OPTS=-Xms256m -Xmx256m'
+      - cluster.routing.allocation.disk.threshold_enabled=false
+      - path.data=/usr/share/elasticsearch/data
+      - path.logs=/usr/share/elasticsearch/logs
+      - path.repo=/usr/share/elasticsearch/backup
+      - ES_TMPDIR=/usr/share/elasticsearch/tmp
+    ports:
+      - '9200:9200'
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+      - elasticsearch_logs:/usr/share/elasticsearch/logs
+      - elasticsearch_backup:/usr/share/elasticsearch/backup
+      - elasticsearch_tmp:/usr/share/elasticsearch/tmp
+    tmpfs:
+      - /usr/share/elasticsearch/tmp:size=256m
+    healthcheck:
+      test:
+        [
+          'CMD-SHELL',
+          'curl -s http://localhost:9200/_cluster/health | grep -q ''"status":"\\(green\\|yellow\\)"''',
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 120
+      start_period: 30s
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.12.2
+    platform: linux/arm64
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - '5601:5601'
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          'CMD-SHELL',
+          "curl -s http://kibana:5601/api/status | grep -q 'available.*true'",
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server.dev
+    platform: linux/arm64
+    ports:
+      - '3001:3001'
+    volumes:
+      - ./packages/server:/app/packages/server
+      - ./packages/shared:/app/packages/shared
+      - ./package.json:/app/package.json
+      - ./pnpm-workspace.yaml:/app/pnpm-workspace.yaml
+      - ./pnpm-lock.yaml:/app/pnpm-lock.yaml
+      - ./data:/app/data
+      - /app/packages/server/node_modules
+      - /app/packages/shared/node_modules
+    environment:
+      - NODE_ENV=development
+      - ELASTICSEARCH_NODE=http://elasticsearch:9200
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client.dev
+    platform: linux/arm64
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./packages/client:/app/packages/client
+      - ./packages/shared:/app/packages/shared
+      - ./package.json:/app/package.json
+      - ./pnpm-workspace.yaml:/app/pnpm-workspace.yaml
+      - ./pnpm-lock.yaml:/app/pnpm-lock.yaml
+      - /app/packages/client/node_modules
+      - /app/packages/shared/node_modules
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - server
+
+volumes:
+  elasticsearch_data:
+  elasticsearch_logs:
+  elasticsearch_backup:
+  elasticsearch_tmp:
+
+networks:
+  elastic:
+    driver: bridge

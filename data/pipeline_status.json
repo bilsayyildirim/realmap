@@ -1,0 +1,114 @@
+{
+  "runId": "1ee1aa0f22d9",
+  "timestamp": "2026-04-26T22:14:12.397Z",
+  "canonicalArtifactsEmitted": false,
+  "status": "degraded",
+  "reason": "no_feasible_candidates_after_veto; statistical_validation_failed",
+  "failedGates": [
+    "silhouette",
+    "noise",
+    "no_feasible_candidates_after_veto",
+    "statistical_validation"
+  ],
+  "chosenStrategy": "UMAP-HDBSCAN (no-feasible-candidate)",
+  "metrics": {
+    "silhouette": 0.3497193748130199,
+    "noise": 0.6018025399426464,
+    "clusters": 30,
+    "duration": 4472670.420745,
+    "memoryPeak": 648.4008255004883,
+    "preSnapNoise": 0.6018025399426464,
+    "preSnapSil": 0.3497193748130199
+  },
+  "params": {
+    "umap": {
+      "configured": {
+        "metric": "cosine",
+        "minDist": 0.03,
+        "spread": 1,
+        "nComponents": 12,
+        "epochs": 300
+      },
+      "actual": {
+        "nNeighbors": 64,
+        "nComponents": 12,
+        "epochs": 300,
+        "pcaComponentsUsed": 50,
+        "minDist": 0.03,
+        "metric": "cosine"
+      }
+    },
+    "hdbscan": {
+      "minClusterSize": 59,
+      "minSamples": 17
+    },
+    "strategy": "UMAP-HDBSCAN (no-feasible-candidate)",
+    "hdbscanScore": {
+      "alpha": 0.65,
+      "beta": 0.55,
+      "gamma": 0.15
+    },
+    "used": "hdbscan",
+    "datasetFingerprint": "b209f34bfba6",
+    "optimization": {
+      "canonicalSpace": "pca50",
+      "guardSpace": "pca50",
+      "objectiveVersion": "q-v1",
+      "scoreWeights": {
+        "stability": 0.45,
+        "separation": 0.4,
+        "fragmentation": 0.15,
+        "collision": 0.1
+      },
+      "selectionProfile": "configured",
+      "qualityScore": 0,
+      "winnerName": "none",
+      "guardReview": false,
+      "noisePolicy": {
+        "mode": "monitor",
+        "min": 0.03,
+        "max": 0.15,
+        "inBand": false
+      },
+      "collisionPolicy": {
+        "mode": "monitor",
+        "rho": 0.85,
+        "winnerRedundancyMax": 0,
+        "pass": true
+      }
+    },
+    "config": {
+      "methodsMode": "continuous",
+      "archetypeWeight": 0.22,
+      "flavorWeight": 1.06,
+      "techniqueWeight": 1.06,
+      "cooccurrenceWeight": 0.05,
+      "cooccurrenceTopK": 2,
+      "rareFeatureBoost": {
+        "enabled": true,
+        "maxBoost": 1.2,
+        "freqThreshold": 0.02
+      },
+      "geoWeight": 0,
+      "useGeoCategories": false
+    },
+    "env": {
+      "FORCE_BARS": false
+    }
+  },
+  "softWarnings": [
+    "degraded_silhouette"
+  ],
+  "geometryOk": true,
+  "partitionOk": false,
+  "calibrationHash": "b62e4974083be9b8",
+  "knnFidelity": {
+    "k": 15,
+    "sampleSize": 1200,
+    "fullN": 4882,
+    "meanJaccard": 0.2961,
+    "medianJaccard": 0.3043,
+    "p10Jaccard": 0.0345,
+    "p90Jaccard": 0.5789
+  }
+}

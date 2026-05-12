@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Real Map",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/src",
+      "runtimeArgs": ["--remote-debugging-port=9222"],
+      "sourceMaps": true,
+      "smartStep": true,
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

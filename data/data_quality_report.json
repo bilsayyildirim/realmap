@@ -1,0 +1,722 @@
+{
+  "totalRecords": 4882,
+  "missingIngredients": 0,
+  "missingCookingMethods": 0,
+  "invalidValueDrops": 0,
+  "clampCount": 0,
+  "missingRequiredFields": 89,
+  "invalidGeoCount": 0,
+  "canonicalCollisions": {
+    "maize": [
+      "maize",
+      " maize"
+    ],
+    "black_eyed_peas": [
+      "black_eyed_peas",
+      "black-eyed_peas"
+    ],
+    "sauteing": [
+      "sauteing",
+      "sautéing"
+    ],
+    "jalapeno": [
+      "jalapeño",
+      "jalapeno"
+    ]
+  },
+  "topFrequentRawKeys": {
+    "ingredients": [
+      {
+        "key": "almond",
+        "count": 306
+      },
+      {
+        "key": "green",
+        "count": 255
+      },
+      {
+        "key": "beet",
+        "count": 255
+      },
+      {
+        "key": "blueberry",
+        "count": 104
+      },
+      {
+        "key": "raisin",
+        "count": 75
+      },
+      {
+        "key": "spice",
+        "count": 64
+      },
+      {
+        "key": "plum",
+        "count": 48
+      },
+      {
+        "key": "molokhia",
+        "count": 46
+      },
+      {
+        "key": "fat",
+        "count": 31
+      },
+      {
+        "key": "aji_pepper",
+        "count": 27
+      },
+      {
+        "key": "pecan",
+        "count": 22
+      },
+      {
+        "key": "green_onion",
+        "count": 21
+      },
+      {
+        "key": "cranberry",
+        "count": 21
+      },
+      {
+        "key": "huckleberry",
+        "count": 21
+      },
+      {
+        "key": "bay_leaf",
+        "count": 19
+      },
+      {
+        "key": "prawn",
+        "count": 18
+      },
+      {
+        "key": "noodle",
+        "count": 17
+      },
+      {
+        "key": "pickle",
+        "count": 16
+      },
+      {
+        "key": "oyster",
+        "count": 15
+      },
+      {
+        "key": "tuber",
+        "count": 13
+      },
+      {
+        "key": "pretzel",
+        "count": 13
+      },
+      {
+        "key": "merken",
+        "count": 11
+      },
+      {
+        "key": "paste",
+        "count": 11
+      },
+      {
+        "key": "mustard_seed",
+        "count": 10
+      },
+      {
+        "key": "wild_herb",
+        "count": 9
+      },
+      {
+        "key": "dumpling",
+        "count": 9
+      },
+      {
+        "key": "dende_oil",
+        "count": 8
+      },
+      {
+        "key": "fresh_cheese",
+        "count": 8
+      },
+      {
+        "key": "bagel",
+        "count": 7
+      },
+      {
+        "key": "deli_meat",
+        "count": 7
+      },
+      {
+        "key": "wattle_seed",
+        "count": 6
+      },
+      {
+        "key": "spatzle",
+        "count": 6
+      },
+      {
+        "key": "poppy_seed",
+        "count": 6
+      },
+      {
+        "key": "spice_blend",
+        "count": 6
+      },
+      {
+        "key": "bonito",
+        "count": 6
+      },
+      {
+        "key": "water_chestnut",
+        "count": 5
+      },
+      {
+        "key": "fermented_shrimp",
+        "count": 5
+      },
+      {
+        "key": "sweet_sour",
+        "count": 5
+      },
+      {
+        "key": "prune",
+        "count": 4
+      },
+      {
+        "key": "turnip",
+        "count": 4
+      },
+      {
+        "key": "llama",
+        "count": 4
+      },
+      {
+        "key": "pepper_hot",
+        "count": 4
+      },
+      {
+        "key": "macadamia",
+        "count": 3
+      },
+      {
+        "key": "preserved_vegetable",
+        "count": 3
+      },
+      {
+        "key": "noodle_rice",
+        "count": 3
+      },
+      {
+        "key": "hing",
+        "count": 3
+      },
+      {
+        "key": "dried_fruit",
+        "count": 3
+      },
+      {
+        "key": "sourdough",
+        "count": 3
+      },
+      {
+        "key": "grouper",
+        "count": 3
+      },
+      {
+        "key": "blue_cheese",
+        "count": 3
+      }
+    ],
+    "methods": [
+      {
+        "key": "simmering_soup",
+        "count": 34
+      },
+      {
+        "key": "cooking",
+        "count": 15
+      },
+      {
+        "key": "risotto",
+        "count": 14
+      },
+      {
+        "key": "ossobuco",
+        "count": 12
+      },
+      {
+        "key": "polenta",
+        "count": 12
+      },
+      {
+        "key": "ravioli",
+        "count": 12
+      },
+      {
+        "key": "braising_wine",
+        "count": 11
+      },
+      {
+        "key": "noodle_preparation",
+        "count": 10
+      },
+      {
+        "key": "paella",
+        "count": 6
+      },
+      {
+        "key": "pissaladiere",
+        "count": 5
+      },
+      {
+        "key": "ratatouille",
+        "count": 5
+      },
+      {
+        "key": "raw",
+        "count": 4
+      },
+      {
+        "key": "smoke",
+        "count": 4
+      },
+      {
+        "key": "umu",
+        "count": 4
+      },
+      {
+        "key": "salade_nicoise",
+        "count": 4
+      },
+      {
+        "key": "socca",
+        "count": 4
+      },
+      {
+        "key": "salads",
+        "count": 4
+      },
+      {
+        "key": "melting",
+        "count": 3
+      },
+      {
+        "key": "pounding",
+        "count": 3
+      },
+      {
+        "key": "ribollita",
+        "count": 3
+      },
+      {
+        "key": "simmering",
+        "count": 3
+      },
+      {
+        "key": "sous_vide",
+        "count": 3
+      },
+      {
+        "key": "blackening",
+        "count": 3
+      },
+      {
+        "key": "pit_cooking",
+        "count": 2
+      },
+      {
+        "key": "tarte_flambee",
+        "count": 2
+      },
+      {
+        "key": "bresi",
+        "count": 2
+      },
+      {
+        "key": "comte",
+        "count": 2
+      },
+      {
+        "key": "morille",
+        "count": 2
+      },
+      {
+        "key": "saucisse_de_morteau",
+        "count": 2
+      },
+      {
+        "key": "rillettes",
+        "count": 2
+      },
+      {
+        "key": "crepe",
+        "count": 2
+      },
+      {
+        "key": "grunkohl",
+        "count": 2
+      },
+      {
+        "key": "knodel",
+        "count": 2
+      },
+      {
+        "key": "vitello_tonnato",
+        "count": 2
+      },
+      {
+        "key": "okonomiyaki_making",
+        "count": 2
+      },
+      {
+        "key": "baking_flatbread",
+        "count": 2
+      },
+      {
+        "key": "wok_frying",
+        "count": 2
+      },
+      {
+        "key": "porridge",
+        "count": 2
+      },
+      {
+        "key": "sauce",
+        "count": 1
+      },
+      {
+        "key": "saucisse_de_toulouse",
+        "count": 1
+      },
+      {
+        "key": "toulouse_sausage",
+        "count": 1
+      },
+      {
+        "key": "gougere",
+        "count": 1
+      },
+      {
+        "key": "jambon_persille",
+        "count": 1
+      },
+      {
+        "key": "pain_d_epices",
+        "count": 1
+      },
+      {
+        "key": "anchoiade",
+        "count": 1
+      },
+      {
+        "key": "rouille",
+        "count": 1
+      },
+      {
+        "key": "gateau_battue",
+        "count": 1
+      },
+      {
+        "key": "macaron_d_amiens",
+        "count": 1
+      },
+      {
+        "key": "quernons",
+        "count": 1
+      },
+      {
+        "key": "rillauds",
+        "count": 1
+      }
+    ]
+  },
+  "archetypeColumnsByDocFrequency": [
+    {
+      "column": "arc:technique.grilling",
+      "rowCount": 4562
+    },
+    {
+      "column": "arc:technique.boiling",
+      "rowCount": 4296
+    },
+    {
+      "column": "arc:flavor.spiced",
+      "rowCount": 4146
+    },
+    {
+      "column": "arc:dish.soup_stew",
+      "rowCount": 3819
+    },
+    {
+      "column": "arc:archetype.stew_heavy",
+      "rowCount": 3747
+    },
+    {
+      "column": "arc:ingredient.meat_red",
+      "rowCount": 3426
+    },
+    {
+      "column": "arc:technique.frying",
+      "rowCount": 3303
+    },
+    {
+      "column": "arc:flavor.aromatic",
+      "rowCount": 3073
+    },
+    {
+      "column": "arc:flavor.spiced_intensity_medium",
+      "rowCount": 2933
+    },
+    {
+      "column": "arc:ingredient.legume",
+      "rowCount": 2877
+    },
+    {
+      "column": "arc:flavor.fresh",
+      "rowCount": 2831
+    },
+    {
+      "column": "arc:ingredient.seafood",
+      "rowCount": 2768
+    },
+    {
+      "column": "arc:technique.baking",
+      "rowCount": 2722
+    },
+    {
+      "column": "arc:ingredient.dairy",
+      "rowCount": 2557
+    },
+    {
+      "column": "arc:flavor.acidic",
+      "rowCount": 2530
+    },
+    {
+      "column": "arc:process.preservation",
+      "rowCount": 2523
+    },
+    {
+      "column": "arc:flavor.fat_heavy",
+      "rowCount": 2495
+    },
+    {
+      "column": "arc:archetype.roast_heavy",
+      "rowCount": 2478
+    },
+    {
+      "column": "arc:ingredient.spice",
+      "rowCount": 2220
+    },
+    {
+      "column": "arc:ingredient.herb",
+      "rowCount": 1933
+    },
+    {
+      "column": "arc:ingredient.nuts_seeds",
+      "rowCount": 1869
+    },
+    {
+      "column": "arc:technique.braising",
+      "rowCount": 1718
+    },
+    {
+      "column": "arc:flavor.herb_fresh",
+      "rowCount": 1607
+    },
+    {
+      "column": "arc:ingredient.fat_dairy",
+      "rowCount": 1585
+    },
+    {
+      "column": "arc:ingredient.fruit",
+      "rowCount": 1507
+    },
+    {
+      "column": "arc:ingredient.fat_olive",
+      "rowCount": 1194
+    },
+    {
+      "column": "arc:technique.pickling",
+      "rowCount": 1173
+    },
+    {
+      "column": "arc:ingredient.poultry",
+      "rowCount": 1150
+    },
+    {
+      "column": "arc:technique.fermenting",
+      "rowCount": 1078
+    },
+    {
+      "column": "arc:archetype.bread_centric",
+      "rowCount": 1068
+    },
+    {
+      "column": "arc:ingredient.sweetener",
+      "rowCount": 858
+    },
+    {
+      "column": "arc:process.fermented",
+      "rowCount": 693
+    },
+    {
+      "column": "arc:ingredient.egg",
+      "rowCount": 692
+    },
+    {
+      "column": "arc:flavor.fermented",
+      "rowCount": 595
+    },
+    {
+      "column": "arc:ingredient.fat_oil",
+      "rowCount": 518
+    },
+    {
+      "column": "arc:ingredient.fat_coconut",
+      "rowCount": 515
+    },
+    {
+      "column": "arc:flavor.umami",
+      "rowCount": 503
+    },
+    {
+      "column": "arc:flavor.sweet",
+      "rowCount": 421
+    },
+    {
+      "column": "arc:archetype.filled_dough_parcel",
+      "rowCount": 404
+    },
+    {
+      "column": "arc:flavor.spiced_intensity_high",
+      "rowCount": 391
+    },
+    {
+      "column": "arc:ingredient.beverage",
+      "rowCount": 350
+    },
+    {
+      "column": "arc:process.preserved_cured",
+      "rowCount": 229
+    },
+    {
+      "column": "arc:ingredient.fat_seed_oil",
+      "rowCount": 193
+    },
+    {
+      "column": "arc:dish.bread_centric",
+      "rowCount": 174
+    },
+    {
+      "column": "arc:process.wrapped",
+      "rowCount": 153
+    },
+    {
+      "column": "arc:archetype.air_dried_cured_meat",
+      "rowCount": 142
+    },
+    {
+      "column": "arc:archetype.spiced_sausage",
+      "rowCount": 141
+    },
+    {
+      "column": "arc:process.stovetop",
+      "rowCount": 64
+    },
+    {
+      "column": "arc:technique.high_heat",
+      "rowCount": 64
+    },
+    {
+      "column": "arc:flavor.salty",
+      "rowCount": 64
+    },
+    {
+      "column": "arc:dish.sausage",
+      "rowCount": 45
+    },
+    {
+      "column": "arc:ingredient.noodles",
+      "rowCount": 41
+    },
+    {
+      "column": "arc:flavor.spiced_intensity_low",
+      "rowCount": 36
+    },
+    {
+      "column": "arc:dish.grilled_roasted",
+      "rowCount": 24
+    },
+    {
+      "column": "arc:ingredient.rice",
+      "rowCount": 20
+    },
+    {
+      "column": "arc:technique.brewing",
+      "rowCount": 10
+    },
+    {
+      "column": "arc:ingredient.fat_legume_oil",
+      "rowCount": 10
+    },
+    {
+      "column": "arc:technique.slow_cooking",
+      "rowCount": 5
+    },
+    {
+      "column": "arc:technique.blending",
+      "rowCount": 2
+    },
+    {
+      "column": "arc:archetype.mezze",
+      "rowCount": 1
+    }
+  ],
+  "protectedArchetypeColumns": [
+    "arc:archetype.air_dried_cured_meat",
+    "arc:archetype.bread_centric",
+    "arc:archetype.filled_dough_parcel",
+    "arc:archetype.mezze",
+    "arc:archetype.roast_heavy",
+    "arc:archetype.spiced_sausage",
+    "arc:archetype.stew_heavy",
+    "arc:flavor.acidic",
+    "arc:flavor.aromatic",
+    "arc:flavor.fat_heavy",
+    "arc:flavor.fermented",
+    "arc:flavor.fresh",
+    "arc:flavor.herb_fresh",
+    "arc:flavor.salty",
+    "arc:flavor.spiced",
+    "arc:flavor.spiced_intensity_high",
+    "arc:flavor.spiced_intensity_low",
+    "arc:flavor.spiced_intensity_medium",
+    "arc:flavor.sweet",
+    "arc:flavor.umami",
+    "arc:process.fermented",
+    "arc:process.preservation",
+    "arc:process.preserved_cured",
+    "arc:process.stovetop",
+    "arc:process.wrapped",
+    "arc:technique.baking",
+    "arc:technique.blending",
+    "arc:technique.boiling",
+    "arc:technique.braising",
+    "arc:technique.brewing",
+    "arc:technique.fermenting",
+    "arc:technique.frying",
+    "arc:technique.grilling",
+    "arc:technique.high_heat",
+    "arc:technique.pickling",
+    "arc:technique.slow_cooking",
+    "co:acid_herb_olive",
+    "co:rice_ferment_seafood",
+    "co:starch_dairy_baking"
+  ],
+  "canonicalKeyValidation": {
+    "pass": true,
+    "ingredientColumnViolations": [],
+    "methodColumnViolations": [],
+    "canonicalCollisionKeyCount": 4
+  }
+}

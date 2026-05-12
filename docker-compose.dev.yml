@@ -1,0 +1,108 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - 'ES_JAVA_OPTS=-Xms512m -Xmx512m'
+      - cluster.routing.allocation.disk.threshold_enabled=false
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    ports:
+      - '9200:9200'
+    networks:
+      - elastic
+    healthcheck:
+      test:
+        [
+          'CMD-SHELL',
+          'curl -s -f http://localhost:9200/_cluster/health || exit 1',
+        ]
+      interval: 30s
+      timeout: 30s
+      retries: 10
+      start_period: 40s
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.12.2
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - '5601:5601'
+    networks:
+      - elastic
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+
+  server:
+    tty: true
+    stdin_open: true
+    build:
+      context: .
+      dockerfile: Dockerfile.server.dev
+      cache_from:
+        - realmap-server:latest
+    image: realmap-server:latest
+    environment:
+      - NODE_ENV=development
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+    working_dir: /app
+    volumes:
+      # Mount entire repo root - includes lockfile, packages, data, and all workspace files
+      - .:/app
+      # Keep store and node_modules in Docker volumes so pnpm install runs on one FS (avoids ENOENT) and gets Linux binaries
+      - server_pnpm_store:/app/.pnpm-store
+      - server_node_modules:/app/node_modules
+    ports:
+      - '3001:3001'
+    networks:
+      - elastic
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    healthcheck:
+      test: ['CMD-SHELL', 'curl -s http://localhost:3001/health || exit 1']
+      interval: 30s
+      timeout: 30s
+      retries: 10
+      start_period: 60s
+
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client.dev
+      cache_from:
+        - realmap-client:latest
+    image: realmap-client:latest
+    environment:
+      - NODE_ENV=development
+      - VITE_API_URL=http://localhost:3001
+    working_dir: /app
+    volumes:
+      # Mount entire repo root for source; node_modules in volume so container gets Linux rollup/vite binaries
+      - .:/app
+      - client_node_modules:/app/node_modules
+    ports:
+      - '3000:3000'
+    networks:
+      - elastic
+    depends_on:
+      server:
+        condition: service_healthy
+
+volumes:
+  elasticsearch_data:
+    driver: local
+  server_pnpm_store:
+    driver: local
+  server_node_modules:
+    driver: local
+  client_node_modules:
+    driver: local
+
+networks:
+  elastic:
+    driver: bridge
