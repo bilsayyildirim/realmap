@@ -7,7 +7,7 @@ import { CityDrawer } from './CityDrawer';
 import { PlacesLayer } from './PlacesLayer';
 import { SearchBar } from './SearchBar';
 
-const TILE_URL = 'https://{a-c}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png';
+const TILE_URL = 'https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png';
 
 interface MapProps {
   center: [number, number];
