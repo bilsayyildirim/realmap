@@ -9,8 +9,8 @@
       "lngA": 122.5621,
       "latB": 38.1041,
       "lngB": -122.2566,
-      "colorA": "#00bbd4",
-      "colorB": "#00cc8a",
+      "colorA": "#00b1b8",
+      "colorB": "#00bc58",
       "shared_ingredients": [
         {
           "key": "garlic",
@@ -79,130 +79,80 @@
       ]
     },
     {
-      "cityA": "Auki",
-      "cityB": "West Jordan",
-      "km": 10420,
+      "cityA": "Taoyuan",
+      "cityB": "Edison",
+      "km": 12551,
       "cosine_sim": 1.0,
-      "latA": -8.7676,
-      "lngA": 160.6981,
-      "latB": 40.6097,
-      "lngB": -111.9391,
-      "colorA": "#00bd9f",
-      "colorB": "#bcd200",
+      "latA": 24.9936,
+      "lngA": 121.3009,
+      "latB": 40.5187,
+      "lngB": -74.4121,
+      "colorA": "#00dbf8",
+      "colorB": "#b8c14d",
       "shared_ingredients": [
         {
-          "key": "taro",
-          "score": 0.92
-        },
-        {
-          "key": "sweet_potato",
-          "score": 0.88
-        },
-        {
-          "key": "coconut",
+          "key": "garlic",
           "score": 0.85
         },
         {
-          "key": "fish",
+          "key": "rice",
+          "score": 0.85
+        },
+        {
+          "key": "soy_sauce",
+          "score": 0.85
+        },
+        {
+          "key": "onion",
+          "score": 0.82
+        },
+        {
+          "key": "green_onion",
           "score": 0.8
         },
         {
-          "key": "plantain",
-          "score": 0.78
+          "key": "noodle",
+          "score": 0.8
+        },
+        {
+          "key": "sesame_oil",
+          "score": 0.8
+        },
+        {
+          "key": "tofu",
+          "score": 0.8
         }
       ],
       "diff_ingredients": [
         {
-          "key": "coconut_milk",
+          "key": "beef",
           "scoreA": 0.0,
-          "scoreB": 0.92
+          "scoreB": 0.8
         },
-        {
-          "key": "pork",
-          "scoreA": 0.0,
-          "scoreB": 0.92
-        },
-        {
-          "key": "rice",
-          "scoreA": 0.0,
-          "scoreB": 0.92
-        },
-        {
-          "key": "cassava",
-          "scoreA": 0.9,
-          "scoreB": 0.0
-        },
-        {
-          "key": "banana",
-          "scoreA": 0.85,
-          "scoreB": 0.0
-        },
-        {
-          "key": "yam",
-          "scoreA": 0.85,
-          "scoreB": 0.0
-        }
-      ]
-    },
-    {
-      "cityA": "Yakutsk",
-      "cityB": "Grytviken",
-      "km": 18839,
-      "cosine_sim": 1.0,
-      "latA": 62.0281,
-      "lngA": 129.7326,
-      "latB": -54.281,
-      "lngB": -36.508,
-      "colorA": "#b96575",
-      "colorB": "#57afda",
-      "shared_ingredients": [
         {
           "key": "fish",
-          "score": 0.95
-        },
-        {
-          "key": "reindeer_meat",
-          "score": 0.9
-        },
-        {
-          "key": "wheat",
-          "score": 0.8
-        },
-        {
-          "key": "butter",
-          "score": 0.65
-        }
-      ],
-      "diff_ingredients": [
-        {
-          "key": "dried_meat",
-          "scoreA": 0.95,
-          "scoreB": 0.0
-        },
-        {
-          "key": "horse_meat",
-          "scoreA": 0.9,
-          "scoreB": 0.0
-        },
-        {
-          "key": "seal_meat",
-          "scoreA": 0.0,
-          "scoreB": 0.9
-        },
-        {
-          "key": "game_meat",
-          "scoreA": 0.88,
-          "scoreB": 0.0
-        },
-        {
-          "key": "rice",
-          "scoreA": 0.0,
-          "scoreB": 0.85
-        },
-        {
-          "key": "mushroom",
           "scoreA": 0.8,
           "scoreB": 0.0
+        },
+        {
+          "key": "tomato",
+          "scoreA": 0.0,
+          "scoreB": 0.8
+        },
+        {
+          "key": "bread",
+          "scoreA": 0.0,
+          "scoreB": 0.78
+        },
+        {
+          "key": "chicken",
+          "scoreA": 0.0,
+          "scoreB": 0.78
+        },
+        {
+          "key": "potato",
+          "scoreA": 0.0,
+          "scoreB": 0.78
         }
       ]
     },
@@ -215,8 +165,8 @@
       "lngA": 34.7735,
       "latB": 34.1425,
       "lngB": -118.2551,
-      "colorA": "#a2afff",
-      "colorB": "#e5aeff",
+      "colorA": "#7ba0ff",
+      "colorB": "#c26ff2",
       "shared_ingredients": [
         {
           "key": "olive_oil",
@@ -285,55 +235,117 @@
       ]
     },
     {
-      "cityA": "Taoyuan",
-      "cityB": "Edison",
-      "km": 12551,
+      "cityA": "Yakutsk",
+      "cityB": "Grytviken",
+      "km": 18839,
       "cosine_sim": 1.0,
-      "latA": 24.9936,
-      "lngA": 121.3009,
-      "latB": 40.5187,
-      "lngB": -74.4121,
-      "colorA": "#008cb4",
-      "colorB": "#92a21b",
+      "latA": 62.0281,
+      "lngA": 129.7326,
+      "latB": -54.281,
+      "lngB": -36.508,
+      "colorA": "#ffbac7",
+      "colorB": "#72c9f8",
       "shared_ingredients": [
         {
-          "key": "garlic",
-          "score": 0.85
+          "key": "fish",
+          "score": 0.95
         },
         {
-          "key": "rice",
-          "score": 0.85
+          "key": "reindeer_meat",
+          "score": 0.9
         },
         {
-          "key": "soy_sauce",
-          "score": 0.85
-        },
-        {
-          "key": "onion",
-          "score": 0.82
-        },
-        {
-          "key": "green_onion",
+          "key": "wheat",
           "score": 0.8
         },
         {
-          "key": "noodle",
-          "score": 0.8
-        },
-        {
-          "key": "sesame_oil",
-          "score": 0.8
-        },
-        {
-          "key": "tofu",
-          "score": 0.8
+          "key": "butter",
+          "score": 0.65
         }
       ],
       "diff_ingredients": [
         {
-          "key": "beef",
+          "key": "dried_meat",
+          "scoreA": 0.95,
+          "scoreB": 0.0
+        },
+        {
+          "key": "horse_meat",
+          "scoreA": 0.9,
+          "scoreB": 0.0
+        },
+        {
+          "key": "seal_meat",
           "scoreA": 0.0,
-          "scoreB": 0.8
+          "scoreB": 0.9
+        },
+        {
+          "key": "game_meat",
+          "scoreA": 0.88,
+          "scoreB": 0.0
+        },
+        {
+          "key": "rice",
+          "scoreA": 0.0,
+          "scoreB": 0.85
+        },
+        {
+          "key": "mushroom",
+          "scoreA": 0.8,
+          "scoreB": 0.0
+        }
+      ]
+    },
+    {
+      "cityA": "Hsinchu",
+      "cityB": "Jersey City",
+      "km": 12565,
+      "cosine_sim": 1.0,
+      "latA": 24.8138,
+      "lngA": 120.9675,
+      "latB": 40.7178,
+      "lngB": -74.0431,
+      "colorA": "#00e6dc",
+      "colorB": "#79d883",
+      "shared_ingredients": [
+        {
+          "key": "rice",
+          "score": 0.92
+        },
+        {
+          "key": "soy_sauce",
+          "score": 0.88
+        },
+        {
+          "key": "garlic",
+          "score": 0.76
+        },
+        {
+          "key": "ginger",
+          "score": 0.75
+        },
+        {
+          "key": "onion",
+          "score": 0.72
+        },
+        {
+          "key": "tofu",
+          "score": 0.66
+        },
+        {
+          "key": "sesame_oil",
+          "score": 0.62
+        },
+        {
+          "key": "noodle",
+          "score": 0.58
+        }
+      ],
+      "diff_ingredients": [
+        {
+          "key": "mushroom",
+          "scoreA": 0.85,
+          "scoreB": 0.0
         },
         {
           "key": "fish",
@@ -341,159 +353,159 @@
           "scoreB": 0.0
         },
         {
-          "key": "tomato",
-          "scoreA": 0.0,
-          "scoreB": 0.8
+          "key": "shallot",
+          "scoreA": 0.8,
+          "scoreB": 0.0
         },
         {
-          "key": "bread",
-          "scoreA": 0.0,
-          "scoreB": 0.78
+          "key": "chili_pepper",
+          "scoreA": 0.72,
+          "scoreB": 0.0
         },
         {
-          "key": "chicken",
-          "scoreA": 0.0,
-          "scoreB": 0.78
+          "key": "vinegar",
+          "scoreA": 0.7,
+          "scoreB": 0.0
         },
         {
-          "key": "potato",
-          "scoreA": 0.0,
-          "scoreB": 0.78
+          "key": "sugar_cane",
+          "scoreA": 0.65,
+          "scoreB": 0.0
         }
       ]
     }
   ],
   "lonely_cuisines": [
     {
-      "city": "Sélibaby",
-      "avg_neighbor_similarity": 0.94,
-      "continent": "Africa",
-      "color": "#008eba"
-    },
-    {
-      "city": "Córdoba",
-      "avg_neighbor_similarity": 0.95,
-      "continent": "North America",
-      "color": "#00eef5"
-    },
-    {
-      "city": "Zhangjiajie",
-      "avg_neighbor_similarity": 0.955,
-      "continent": "Asia",
-      "color": "#007498"
-    },
-    {
-      "city": "Corinth",
-      "avg_neighbor_similarity": 0.96,
+      "city": "Monemvasia",
+      "avg_neighbor_similarity": 0.931,
       "continent": "Europe",
-      "color": "#ffc4f5"
+      "color": "#bf00c0"
     },
     {
-      "city": "Maldonado",
-      "avg_neighbor_similarity": 0.99,
+      "city": "Sélibaby",
+      "avg_neighbor_similarity": 0.932,
+      "continent": "Africa",
+      "color": "#a0e5ff"
+    },
+    {
+      "city": "Yueyang",
+      "avg_neighbor_similarity": 0.947,
+      "continent": "Asia",
+      "color": "#4ae1ff"
+    },
+    {
+      "city": "Tuxpan",
+      "avg_neighbor_similarity": 0.954,
+      "continent": "North America",
+      "color": "#0097a2"
+    },
+    {
+      "city": "Itabira",
+      "avg_neighbor_similarity": 0.959,
       "continent": "South America",
-      "color": "#ffaab1"
+      "color": "#9c9700"
     }
   ],
   "crossroads": [
     {
-      "city": "Yakutsk",
+      "city": "Ilulissat",
+      "continents_covered": 4,
+      "top_neighbors": [
+        "Aasiaat",
+        "Uummannaq",
+        "Utqiaġvik",
+        "Paamiut",
+        "Qaqortoq"
+      ],
+      "color": "#e2cf7c"
+    },
+    {
+      "city": "Paamiut",
+      "continents_covered": 4,
+      "top_neighbors": [
+        "Uummannaq",
+        "Aasiaat",
+        "Ilulissat",
+        "Tórshavn",
+        "Qaqortoq"
+      ],
+      "color": "#e5ce7d"
+    },
+    {
+      "city": "Aasiaat",
       "continents_covered": 4,
       "top_neighbors": [
         "Nuuk",
-        "Norilsk",
+        "Ilulissat",
+        "Utqiaġvik",
+        "Qaqortoq",
+        "Paamiut"
+      ],
+      "color": "#dfcf7d"
+    },
+    {
+      "city": "Yakutsk",
+      "continents_covered": 4,
+      "top_neighbors": [
+        "Utqiaġvik",
+        "Sisimiut",
+        "Inuvik",
         "Rovaniemi",
-        "Kiruna",
-        "Longyearbyen"
-      ],
-      "color": "#b96575"
-    },
-    {
-      "city": "Hamar",
-      "continents_covered": 4,
-      "top_neighbors": [
-        "Yakutsk",
-        "Grytviken",
-        "Gjøvik",
-        "Kongsvinger",
-        "Kiruna"
-      ],
-      "color": "#e6001a"
-    },
-    {
-      "city": "Lillehammer",
-      "continents_covered": 4,
-      "top_neighbors": [
-        "Fagernes",
-        "Hamar",
-        "Gjøvik",
-        "Grytviken",
-        "Kiruna"
-      ],
-      "color": "#e50f23"
-    },
-    {
-      "city": "Gjøvik",
-      "continents_covered": 4,
-      "top_neighbors": [
-        "Fagernes",
-        "Elverum",
-        "Hamar",
-        "Kongsvinger",
         "Grytviken"
       ],
-      "color": "#e50020"
+      "color": "#ffbac7"
     },
     {
-      "city": "Norilsk",
+      "city": "Qaqortoq",
       "continents_covered": 4,
       "top_neighbors": [
-        "Rovaniemi",
+        "Sisimiut",
         "Utqiaġvik",
-        "Yakutsk",
-        "Inuvik",
-        "Sisimiut"
+        "Aasiaat",
+        "Nuuk",
+        "Ilulissat"
       ],
-      "color": "#d55b63"
+      "color": "#ffc4b0"
     }
   ],
   "diverse_countries": [
     {
-      "countryCode": "SC",
-      "city_count": 32,
-      "hue_std_deg": 67.8
-    },
-    {
       "countryCode": "HR",
       "city_count": 26,
-      "hue_std_deg": 64.4
-    },
-    {
-      "countryCode": "GE",
-      "city_count": 10,
-      "hue_std_deg": 63.9
+      "hue_std_deg": 73.7
     },
     {
       "countryCode": "AU",
       "city_count": 67,
-      "hue_std_deg": 62.1
+      "hue_std_deg": 72.9
+    },
+    {
+      "countryCode": "AR",
+      "city_count": 134,
+      "hue_std_deg": 67.8
+    },
+    {
+      "countryCode": "GL",
+      "city_count": 8,
+      "hue_std_deg": 64.2
     },
     {
       "countryCode": "KZ",
       "city_count": 111,
-      "hue_std_deg": 56.9
+      "hue_std_deg": 63.2
     }
   ],
   "flavor_families": [
     {
-      "cluster_id": 2,
-      "label": "Potato & Pork",
+      "cluster_id": 0,
+      "label": "Potato & Beef",
       "top_ingredients": [
         "potato",
-        "pork",
-        "cheese"
+        "beef",
+        "pork"
       ],
-      "city_count": 1906,
+      "city_count": 1814,
       "continents": [
         "Africa",
         "Antarctica",
@@ -504,43 +516,25 @@
         "Oceania",
         "South America"
       ],
-      "color": "#daa200"
+      "color": "#fea02c"
     },
     {
-      "cluster_id": 6,
-      "label": "Cassava & Lime",
-      "top_ingredients": [
-        "cassava",
-        "lime",
-        "rice"
-      ],
-      "city_count": 709,
-      "continents": [
-        "Africa",
-        "Asia",
-        "Europe",
-        "North America",
-        "Oceania",
-        "South America"
-      ],
-      "color": "#00f167"
-    },
-    {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "label": "Yogurt & Lamb",
       "top_ingredients": [
         "yogurt",
         "lamb",
         "flatbread"
       ],
-      "city_count": 655,
+      "city_count": 840,
       "continents": [
+        "Africa",
         "Asia",
         "Europe",
         "Europe/Asia",
         "North America"
       ],
-      "color": "#9e99ff"
+      "color": "#a4a8ff"
     },
     {
       "cluster_id": 1,
@@ -550,78 +544,98 @@
         "sorghum",
         "millet"
       ],
-      "city_count": 637,
+      "city_count": 662,
       "continents": [
         "Africa",
         "Asia",
         "South America"
       ],
-      "color": "#00abba"
+      "color": "#00e5fe"
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 7,
+      "label": "Plantain & Bean",
+      "top_ingredients": [
+        "plantain",
+        "bean",
+        "coconut"
+      ],
+      "city_count": 605,
+      "continents": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Oceania",
+        "South America"
+      ],
+      "color": "#2da900"
+    },
+    {
+      "cluster_id": 5,
       "label": "Olive Oil & Olive",
       "top_ingredients": [
         "olive_oil",
         "olive",
         "wheat"
       ],
-      "city_count": 550,
+      "city_count": 576,
       "continents": [
         "Africa",
         "Asia",
         "Europe",
-        "Europe/Asia"
+        "Europe/Asia",
+        "South America"
       ],
-      "color": "#ffb9e6"
+      "color": "#bd3e9c"
     },
     {
-      "cluster_id": 0,
-      "label": "Soy Sauce & Ginger",
+      "cluster_id": 3,
+      "label": "Rice & Soy Sauce",
       "top_ingredients": [
+        "rice",
         "soy_sauce",
-        "ginger",
-        "rice"
+        "ginger"
       ],
-      "city_count": 448,
+      "city_count": 522,
       "continents": [
         "Africa",
         "Asia",
         "Europe",
-        "North America"
+        "North America",
+        "South America"
       ],
-      "color": "#009dd1"
+      "color": "#00cfd2"
     },
     {
-      "cluster_id": 5,
-      "label": "Lamb & Carrot",
+      "cluster_id": 2,
+      "label": "Carrot & Lamb",
       "top_ingredients": [
-        "lamb",
         "carrot",
-        "cumin"
+        "lamb",
+        "yogurt"
       ],
-      "city_count": 418,
+      "city_count": 310,
       "continents": [
-        "Africa",
         "Asia",
         "Europe"
       ],
-      "color": "#9785fa"
+      "color": "#cdc3ff"
     },
     {
-      "cluster_id": 7,
-      "label": "Couscous & Date",
+      "cluster_id": 6,
+      "label": "Couscous & Flatbread",
       "top_ingredients": [
         "couscous",
-        "date",
-        "chickpea"
+        "flatbread",
+        "lamb"
       ],
-      "city_count": 186,
+      "city_count": 180,
       "continents": [
         "Africa",
         "Asia"
       ],
-      "color": "#a6a6ff"
+      "color": "#98bcff"
     }
   ]
 }
