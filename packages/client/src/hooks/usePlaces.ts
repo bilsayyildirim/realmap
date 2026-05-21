@@ -37,7 +37,7 @@ async function fetchPlacesOnce(): Promise<Place[]> {
   for (const path of candidates) {
     try {
       const url = await dataUrl(path);
-      const res = await fetch(url);
+      const res = await fetch(url, { cache: 'no-store' });
       if (!res.ok) continue;
       const parsed = await res.json();
       if (Array.isArray(parsed)) { arr = parsed; break; }

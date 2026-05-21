@@ -231,7 +231,7 @@ export async function initHexLayer(map: maplibregl.Map): Promise<void> {
     Array.from({ length: HEX_CHUNKS }, async (_, i) => {
       try {
         const url = await dataUrl(`/data/hex_grid_${i}.json`);
-        const res = await fetch(url);
+        const res = await fetch(url, { cache: 'no-store' });
         if (!res.ok) return;
         const geojson = await res.json();
         if (map.getSource(`hex-source-${i}`)) return;
