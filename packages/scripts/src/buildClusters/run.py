@@ -1140,7 +1140,7 @@ def build_hex_grid(
     # Confirmed visually superior to auto-computed (84km = blocky) and adaptive (273km = over-blurred).
     # 200km means cities ~400km apart still have ~14% relative weight, so transitions
     # stay smooth across country-sized regions without losing all local detail.
-    BLEND_SIGMA_KM = 200.0
+    BLEND_SIGMA_KM = 50.0
     BLEND_SIGMA_CHORD_SQ = _chord_sq(BLEND_SIGMA_KM)
     MAX_BLEND_DIST_KM = 5000
     MAX_BLEND_CHORD_SQ = _chord_sq(MAX_BLEND_DIST_KM)
