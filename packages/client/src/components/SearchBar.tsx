@@ -10,7 +10,16 @@ import { usePlaces } from '../hooks/usePlaces';
 
 interface Props {
   map: maplibregl.Map;
-  onCitySelect: (cityName: string) => void;
+  onCitySelect: (cityId: string) => void;
+}
+
+// "GB" → "United Kingdom", "CA" → "Canada", etc. Falls back to the code itself.
+const regionNames = (() => {
+  try { return new Intl.DisplayNames(['en'], { type: 'region' }); } catch { return null; }
+})();
+function countryName(code?: string): string {
+  if (!code) return '';
+  try { return regionNames?.of(code) ?? code; } catch { return code; }
 }
 
 export function SearchBar({ map, onCitySelect }: Props) {
@@ -25,7 +34,11 @@ export function SearchBar({ map, onCitySelect }: Props) {
     const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
     const q = norm(query);
     return (places as any[])
-      .filter((p) => (p.name && norm(p.name).includes(q)) || (p.country && norm(p.country).includes(q)))
+      .filter((p) =>
+        (p.name && norm(p.name).includes(q)) ||
+        (p.countryCode && norm(countryName(p.countryCode)).includes(q)) ||
+        (p.continent && norm(p.continent).includes(q))
+      )
       .slice(0, 8);
   }, [query, places]);
 
@@ -42,7 +55,7 @@ export function SearchBar({ map, onCitySelect }: Props) {
 
   const select = useCallback((place: any) => {
     map.flyTo({ center: [place.longitude, place.latitude], zoom: 10, duration: 1600, essential: true });
-    onCitySelect(place.name ?? '');
+    onCitySelect(place.id ?? '');
     collapse();
   }, [map, onCitySelect, collapse]);
 
@@ -117,32 +130,41 @@ export function SearchBar({ map, onCitySelect }: Props) {
               <>
                 <Box sx={{ height: '1px', bgcolor: 'rgba(255,255,255,0.06)' }} />
                 <List dense disablePadding sx={{ py: 0.5 }}>
-                  {results.map((place: any, i: number) => (
-                    <ListItemButton
-                      key={place.id ?? place.name}
-                      selected={i === activeIdx}
-                      onClick={() => select(place)}
-                      onMouseEnter={() => setActiveIdx(i)}
-                      sx={{
-                        px: 2, py: 0.85, gap: 1.5,
-                        '&.Mui-selected, &:hover': { bgcolor: 'rgba(255,255,255,0.05)' },
-                      }}
-                    >
-                      <Box sx={{
-                        width: 9, height: 9, borderRadius: '50%',
-                        bgcolor: getCityColor(place), flexShrink: 0,
-                        boxShadow: `0 0 4px ${getCityColor(place)}66`,
-                      }} />
-                      <Box sx={{ minWidth: 0 }}>
-                        <Typography sx={{ color: 'rgba(255,255,255,0.9)', fontSize: 13, lineHeight: 1.4 }}>
-                          {place.name}
-                        </Typography>
-                        <Typography sx={{ color: 'rgba(255,255,255,0.4)', fontSize: 11 }}>
-                          {place.country}
-                        </Typography>
-                      </Box>
-                    </ListItemButton>
-                  ))}
+                  {results.map((place: any, i: number) => {
+                    const country = countryName(place.countryCode);
+                    const subtitle = [country, place.continent].filter(Boolean).join(' · ');
+                    return (
+                      <ListItemButton
+                        key={place.id ?? `${place.name}-${place.latitude}-${place.longitude}`}
+                        selected={i === activeIdx}
+                        onClick={() => select(place)}
+                        onMouseEnter={() => setActiveIdx(i)}
+                        sx={{
+                          px: 2, py: 0.85, gap: 1.5,
+                          '&.Mui-selected, &:hover': { bgcolor: 'rgba(255,255,255,0.05)' },
+                        }}
+                      >
+                        <Box sx={{
+                          width: 9, height: 9, borderRadius: '50%',
+                          bgcolor: getCityColor(place), flexShrink: 0,
+                          boxShadow: `0 0 4px ${getCityColor(place)}66`,
+                        }} />
+                        <Box sx={{ minWidth: 0, display: 'flex', alignItems: 'baseline', gap: 1, flexWrap: 'nowrap', overflow: 'hidden' }}>
+                          <Typography sx={{ color: 'rgba(255,255,255,0.9)', fontSize: 13, lineHeight: 1.4, flexShrink: 0 }}>
+                            {place.name}
+                          </Typography>
+                          {subtitle && (
+                            <Typography sx={{
+                              color: 'rgba(255,255,255,0.4)', fontSize: 11, lineHeight: 1.4,
+                              overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                            }}>
+                              {subtitle}
+                            </Typography>
+                          )}
+                        </Box>
+                      </ListItemButton>
+                    );
+                  })}
                 </List>
               </>
             )}

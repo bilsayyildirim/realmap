@@ -15,7 +15,7 @@ import {
 
 interface PlacesLayerProps {
   map: maplibregl.Map;
-  onCitySelect: (cityName: string) => void;
+  onCitySelect: (cityId: string) => void;
   onHexReady?: () => void;
 }
 
@@ -44,8 +44,8 @@ export const PlacesLayer = ({
 
         map.on('click', 'places', (e: maplibregl.MapLayerMouseEvent) => {
           e.originalEvent?.stopPropagation();
-          const name = e.features?.[0]?.properties?.name;
-          if (name) onCitySelect(name);
+          const id = e.features?.[0]?.properties?.id;
+          if (id) onCitySelect(id);
         });
         map.on('mouseenter', 'places', () => { map.getCanvas().style.cursor = 'pointer'; });
         map.on('mouseleave', 'places', () => { map.getCanvas().style.cursor = ''; });

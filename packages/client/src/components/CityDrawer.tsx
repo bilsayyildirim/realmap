@@ -8,7 +8,7 @@ import { usePlaces } from '../hooks/usePlaces';
 import { getCityColor } from '../utils/colorUtils';
 
 interface Props {
-  cityName: string | null;
+  cityId: string | null;
   onClose: () => void;
 }
 
@@ -37,12 +37,12 @@ function distToScore(dist: number): number {
   return Math.max(3, Math.min(99, Math.round((1 - dist / 35) * 100)));
 }
 
-export const CityDrawer = ({ cityName, onClose }: Props) => {
+export const CityDrawer = ({ cityId, onClose }: Props) => {
   const { places } = usePlaces();
 
   const city = useMemo(
-    () => (cityName ? places.find((p) => p.name === cityName) ?? null : null),
-    [cityName, places]
+    () => (cityId ? (places as any[]).find((p) => p.id === cityId) ?? null : null),
+    [cityId, places]
   );
 
   const data = useMemo(() => {

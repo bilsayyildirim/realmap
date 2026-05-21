@@ -197,7 +197,7 @@ export const FoodSpaceMap = ({ open }: FoodSpaceMapProps) => {
   const handleClick = (e: React.MouseEvent) => {
     const rect = canvasRef.current!.getBoundingClientRect();
     const p = canvasToPlace(e.clientX - rect.left, e.clientY - rect.top);
-    if (p) setSelectedCity(p.name);
+    if (p) setSelectedCity((p as any).id ?? null);
   };
 
   if (!open) return null;
@@ -263,7 +263,7 @@ export const FoodSpaceMap = ({ open }: FoodSpaceMapProps) => {
         )}
       </Box>
 
-      <CityDrawer cityName={selectedCity} onClose={() => setSelectedCity(null)} />
+      <CityDrawer cityId={selectedCity} onClose={() => setSelectedCity(null)} />
     </Box>
   );
 };
