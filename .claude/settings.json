@@ -90,7 +90,24 @@
       "Bash(sort -k5 -rn)",
       "Bash(python3 data/validate_all.py --detail)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\([c['name'] for c in d]\\); print\\(json.dumps\\(d[0]['ingredients'], indent=2\\)\\)\")",
-      "Bash(python3 /tmp/fix_batch2.py)"
+      "Bash(python3 /tmp/fix_batch2.py)",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\(sorted\\(data\\)\\)\")",
+      "Bash(python3 /tmp/fix_turkey.py)",
+      "Bash(python3 -c 'import sys; keys=eval\\(sys.read\\(\\)\\); print\\([k for k in keys if any\\(x in k for x in ['\\\\''abalone'\\\\'','\\\\''bracken'\\\\'','\\\\''bean_sprout'\\\\'','\\\\''beansprout'\\\\'','\\\\''glass'\\\\'','\\\\''mixed_grain'\\\\'','\\\\''wheat_noodle'\\\\'','\\\\''offal'\\\\'','\\\\''potato'\\\\'','\\\\''chicken'\\\\'','\\\\''duck'\\\\'','\\\\''turkey'\\\\'','\\\\''flatbread'\\\\'','\\\\''buckwheat'\\\\'','\\\\''barley'\\\\'','\\\\''corn'\\\\'','\\\\''millet'\\\\'','\\\\''sorghum'\\\\'','\\\\''cassava'\\\\'','\\\\''wild_mush'\\\\'','\\\\''pine_nut'\\\\'','\\\\''walnut'\\\\'','\\\\''grape_leaf'\\\\'','\\\\''oyster'\\\\'','\\\\''horse'\\\\'','\\\\''agave'\\\\'','\\\\''chocolate'\\\\'','\\\\''vanilla'\\\\'','\\\\''maple'\\\\'','\\\\''lobster'\\\\'','\\\\''bison'\\\\'','\\\\''salmon'\\\\'','\\\\''crab'\\\\'','\\\\''halibut'\\\\'','\\\\''scallop'\\\\'','\\\\''clam'\\\\'','\\\\''cod'\\\\'','\\\\''herring'\\\\'','\\\\''eel'\\\\'','\\\\''anchovy'\\\\'','\\\\''sturgeon'\\\\'','\\\\''pike'\\\\'','\\\\''catfish'\\\\'','\\\\''venison'\\\\'','\\\\''game_meat'\\\\'','\\\\''reindeer'\\\\'','\\\\''camel'\\\\'','\\\\''goat_meat'\\\\'','\\\\''lamb'\\\\'','\\\\''pork_knuckle'\\\\'','\\\\''sausage'\\\\'','\\\\''smoked'\\\\'','\\\\''lard'\\\\'','\\\\''butter'\\\\'','\\\\''cream'\\\\'','\\\\''sour_cream'\\\\'','\\\\''cheese'\\\\'','\\\\''yogurt'\\\\'','\\\\''milk'\\\\'','\\\\''wine'\\\\'','\\\\''beer'\\\\'','\\\\''vodka'\\\\'','\\\\''tea'\\\\'','\\\\''coffee'\\\\'','\\\\''date'\\\\'','\\\\''pomegranate'\\\\'','\\\\''barberry'\\\\'','\\\\''rosewater'\\\\'','\\\\''saffron'\\\\'','\\\\''cardamom'\\\\'','\\\\''cinnamon'\\\\'','\\\\''cumin'\\\\'','\\\\''paprika'\\\\'','\\\\''turmeric'\\\\'','\\\\''coriander'\\\\'','\\\\''fenugreek'\\\\'','\\\\''sumac'\\\\'','\\\\''allspice'\\\\'','\\\\''pine_nut'\\\\'','\\\\''poppy_seed'\\\\'','\\\\''sesame'\\\\'','\\\\''raisin'\\\\'','\\\\''dried_fruit'\\\\'','\\\\''achiote'\\\\'','\\\\''habanero'\\\\'','\\\\''chipotle'\\\\'','\\\\''epazote'\\\\'','\\\\''pineapple'\\\\'','\\\\''lime'\\\\'','\\\\''tomato'\\\\'','\\\\''avocado'\\\\'','\\\\''chili_guajillo'\\\\'','\\\\''chili_ancho'\\\\'','\\\\''bean'\\\\'','\\\\''black_bean'\\\\'','\\\\''pinto'\\\\'','\\\\''lentil'\\\\'','\\\\''chickpea'\\\\'','\\\\''sunflower'\\\\'','\\\\''canola'\\\\'','\\\\''olive_oil'\\\\'','\\\\''palm_oil'\\\\'','\\\\''coconut_oil'\\\\'','\\\\''ghee'\\\\'','\\\\''lard'\\\\'']\\)\\)]')",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\(json.dumps\\(data[0], indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; print\\(json.dumps\\(json.load\\(sys.stdin\\), indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(c['name'], '|', c.get\\('region',''\\), '|', list\\(c.get\\('ingredients',{}\\).keys\\(\\)\\)[:8]\\) for c in data]\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(sorted\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/bilsayyildirim/Documents/bilsay/realmap/packages/scripts/src/buildClusters/master_ingredients.json'\\)\\); print\\(sorted\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/bilsayyildirim/Documents/bilsay/realmap/packages/scripts/src/buildClusters/master_ingredients.json'\\)\\); print\\(type\\(d\\)\\); print\\(d[:5] if isinstance\\(d,list\\) else list\\(d.items\\(\\)\\)[:5]\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/bilsayyildirim/Documents/bilsay/realmap/packages/scripts/src/buildClusters/master_ingredients.json'\\)\\); print\\(sorted\\(d\\)\\)\")",
+      "Bash(python3 data/validate_all.py --verbose)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d, indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,math;d=json.load\\(open\\('data/hex_grid.json'\\)\\);feats=d.get\\('features',[]\\);n=len\\(feats\\);chunk=math.ceil\\(n/6\\);[open\\(f'data/hex_grid_{i}.json','w'\\).write\\(json.dumps\\({'type':'FeatureCollection','features':feats[i*chunk:\\(i+1\\)*chunk]}\\)\\) for i in range\\(6\\)];print\\(f'  Split {n} cells into 6 chunks \\(~{chunk} each\\)'\\)\")",
+      "Bash(sed -n '1048,1053p' /Users/bilsayyildirim/Documents/bilsay/realmap/packages/scripts/src/buildClusters/run.py)",
+      "Bash(sed -n '1271,1278p' /Users/bilsayyildirim/Documents/bilsay/realmap/packages/scripts/src/buildClusters/run.py)",
+      "WebFetch(domain:basemaps.cartocdn.com)",
+      "Bash(grep -v '^$')"
     ],
     "additionalDirectories": [
       "/tmp"

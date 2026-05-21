@@ -124,24 +124,18 @@ export function initializeMapLayers(map: maplibregl.Map): void {
       id: 'places',
       type: 'circle',
       source: 'places',
-      minzoom: 3,
+      minzoom: 9,
       paint: {
+        'circle-color': ['get', 'color'],
         'circle-radius': [
           'interpolate', ['linear'], ['zoom'],
-          3, 2.5,
-          5, 3.5,
-          8, 5,
-          12, 8,
+          9, 3,
+          12, 6,
+          15, 10,
         ],
-        'circle-color': 'rgba(0,0,0,0)',
-        'circle-stroke-width': [
-          'interpolate', ['linear'], ['zoom'],
-          3, 1,
-          5, 1.5,
-          8, 2,
-          12, 2.5,
-        ],
-        'circle-stroke-color': '#aaa', // temp until updateMapSource runs
+        'circle-opacity': 0.9,
+        'circle-stroke-color': 'rgba(0,0,0,0.35)',
+        'circle-stroke-width': 1.5,
       },
     });
   }
@@ -240,10 +234,13 @@ export async function initHexLayer(map: maplibregl.Map): Promise<void> {
         const geojson = await res.json();
         if (map.getSource(`hex-source-${i}`)) return;
         map.addSource(`hex-source-${i}`, { type: 'geojson', data: geojson });
+        // Insert below 'water' so the CartoDB ocean polygon clips hex cells at the
+        // coastline for free — zero extra data, pixel-perfect coastlines.
+        const beforeId = map.getLayer('water') ? 'water' : 'places';
         map.addLayer(
           { id: `hex-fill-${i}`, type: 'fill', source: `hex-source-${i}`,
             paint: { 'fill-color': ['get', 'color'], 'fill-opacity': HEX_OPACITY } },
-          'places',
+          beforeId,
         );
       } catch {
         // chunk unavailable, skip
@@ -292,20 +289,22 @@ export function initGlowLayer(map: maplibregl.Map): void {
       paint: {
         'circle-radius': [
           'interpolate', ['linear'], ['zoom'],
-          1, 18,
-          4, 28,
-          7, 40,
-          10, 20,
+          1, 12,
+          4, 20,
+          7, 30,
+          9, 18,
+          11, 0,
         ],
         'circle-color': ['get', 'color'],
         'circle-opacity': [
           'interpolate', ['linear'], ['zoom'],
-          1, 0.25,
-          5, 0.30,
-          9, 0.20,
-          12, 0.0,
+          1, 0.18,
+          4, 0.22,
+          7, 0.18,
+          9, 0.10,
+          11, 0.0,
         ],
-        'circle-blur': 1.2,
+        'circle-blur': 1.4,
         'circle-stroke-width': 0,
       },
     },

@@ -7,6 +7,7 @@ import {
   initHexLayer,
   initializeMapLayers,
   initVoronoiLayer,
+  updateGlowSource,
   updateHeatmapSource,
   updateMapSource,
   updateVoronoiSource,
@@ -77,6 +78,7 @@ export const PlacesLayer = ({
       if (features.length === 0) return;
 
       await updateMapSource(map, 'places', features);
+      updateGlowSource(map, features);
       updateVoronoiSource(map, features);
       if (places) await updateHeatmapSource(map, places);
     };

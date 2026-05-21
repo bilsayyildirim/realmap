@@ -1,11 +1,11 @@
 {
   "version": "2",
-  "timestamp": "2026-05-12T17:57:32.000359Z",
+  "timestamp": "2026-05-21T12:03:19.663032Z",
   "pipeline": "umap-embedding-v2",
-  "cities": 5526,
-  "features": 304,
-  "ingredientFeatures": 280,
-  "methodFeatures": 24,
+  "cities": 5509,
+  "features": 307,
+  "ingredientFeatures": 284,
+  "methodFeatures": 23,
   "embeddingDimensions": 12,
   "umapParams": {
     "metric": "cosine",
@@ -14,5 +14,5 @@
     "randomState": 42
   },
   "minCityCount": 5,
-  "durationSeconds": 26.1
+  "durationSeconds": 18.8
 }

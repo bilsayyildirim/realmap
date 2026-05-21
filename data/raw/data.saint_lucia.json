@@ -1,1 +1,323 @@
-[{"id":"LC-CAS","name":"Castries","type":"City","continent":"North America","countryCode":"LC","latitude":14.0101,"longitude":-60.9875,"region":"Castries","population":20000,"timeZone":"America/St_Lucia","ingredients":{"salt_fish":0.95,"cassava":0.9,"breadfruit":0.9,"coconut":0.9,"yam":0.85,"plantain":0.85,"chicken":0.82,"fish":0.82,"bean":0.78,"pork":0.72,"lime":0.78,"onion":0.75},"cookingMethods":{"boiling":0.95,"stewing":0.9,"grilling":0.85,"frying":0.85}},{"id":"LC-VIE","name":"Vieux Fort","type":"City","continent":"North America","countryCode":"LC","latitude":13.7167,"longitude":-60.95,"region":"Vieux Fort","population":4600,"timeZone":"America/St_Lucia","ingredients":{"salt_fish":0.92,"cassava":0.9,"breadfruit":0.88,"coconut":0.88,"shrimp":0.8,"yam":0.82,"plantain":0.82,"fish":0.85,"crab":0.72,"pork":0.7,"lime":0.78,"chicken":0.75},"cookingMethods":{"boiling":0.9,"stewing":0.9,"grilling":0.85,"frying":0.8}},{"id":"LC-SOU","name":"Soufrière","type":"City","continent":"North America","countryCode":"LC","latitude":13.8561,"longitude":-61.055,"region":"Soufrière","population":2900,"timeZone":"America/St_Lucia","ingredients":{"salt_fish":0.92,"cassava":0.88,"breadfruit":0.88,"coconut":0.88,"pork":0.8,"yam":0.82,"plantain":0.82,"fish":0.82,"crab":0.72,"lime":0.75,"hot_sauce":0.7,"onion":0.72},"cookingMethods":{"boiling":0.9,"stewing":0.9,"grilling":0.85,"frying":0.8}},{"id":"LC-GRO","name":"Gros Islet","type":"City","continent":"North America","countryCode":"LC","latitude":14.0806,"longitude":-60.9536,"region":"Gros Islet","population":2100,"timeZone":"America/St_Lucia","ingredients":{"fish":0.95,"shrimp":0.88,"salt_fish":0.88,"coconut":0.88,"crab":0.8,"breadfruit":0.85,"yam":0.8,"plantain":0.82,"lime":0.82,"pork":0.72,"cassava":0.78,"hot_sauce":0.72},"cookingMethods":{"boiling":0.9,"stewing":0.9,"grilling":0.85,"frying":0.8}},{"id":"LC-MIC","name":"Micoud","type":"City","continent":"North America","countryCode":"LC","latitude":13.8167,"longitude":-60.9,"region":"Micoud","population":2700,"timeZone":"America/St_Lucia","ingredients":{"banana":0.9,"salt_fish":0.88,"cassava":0.88,"breadfruit":0.88,"coconut":0.85,"yam":0.82,"plantain":0.85,"fish":0.78,"bean":0.75,"pork":0.7,"lime":0.72,"onion":0.68},"cookingMethods":{"boiling":0.9,"stewing":0.9,"grilling":0.85,"frying":0.8}},{"id":"LC-DEN","name":"Dennery","type":"City","continent":"North America","countryCode":"LC","latitude":13.9333,"longitude":-60.8833,"region":"Dennery","population":3000,"timeZone":"America/St_Lucia","ingredients":{"fish":0.92,"salt_fish":0.9,"cassava":0.88,"breadfruit":0.85,"coconut":0.85,"shellfish":0.75,"yam":0.8,"plantain":0.8,"pork":0.7,"lime":0.72,"bean":0.72,"onion":0.68},"cookingMethods":{"boiling":0.9,"stewing":0.9,"grilling":0.85,"frying":0.8}},{"id":"LC-CHO","name":"Choiseul","type":"City","continent":"North America","countryCode":"LC","latitude":13.8,"longitude":-61.05,"region":"Choiseul","population":2000,"timeZone":"America/St_Lucia","ingredients":{"salt_fish":0.9,"cassava":0.88,"breadfruit":0.88,"coconut":0.85,"banana":0.8,"yam":0.8,"plantain":0.82,"fish":0.78,"pork":0.75,"bean":0.72,"lime":0.7,"onion":0.68},"cookingMethods":{"boiling":0.9,"stewing":0.9,"grilling":0.85,"frying":0.8}},{"id":"LC-LAB","name":"Laborie","type":"City","continent":"North America","countryCode":"LC","latitude":13.75,"longitude":-60.9833,"region":"Laborie","population":1700,"timeZone":"America/St_Lucia","ingredients":{"fish":0.9,"salt_fish":0.9,"cassava":0.88,"breadfruit":0.85,"coconut":0.85,"shellfish":0.72,"yam":0.8,"plantain":0.8,"pork":0.72,"lime":0.72,"bean":0.7,"garlic":0.65},"cookingMethods":{"boiling":0.9,"stewing":0.9,"grilling":0.85,"frying":0.8}},{"id":"LC-ANA","name":"Anse La Raye","type":"City","continent":"North America","countryCode":"LC","latitude":13.95,"longitude":-61.05,"region":"Anse La Raye","population":1200,"timeZone":"America/St_Lucia","ingredients":{"fish":0.95,"shrimp":0.85,"crab":0.8,"salt_fish":0.88,"coconut":0.88,"breadfruit":0.85,"yam":0.8,"plantain":0.8,"lime":0.8,"cassava":0.78,"pork":0.68,"hot_sauce":0.72},"cookingMethods":{"boiling":0.9,"stewing":0.9,"grilling":0.85,"frying":0.8}},{"id":"LC-CAN","name":"Canaries","type":"City","continent":"North America","countryCode":"LC","latitude":13.9,"longitude":-61.0667,"region":"Canaries","population":800,"timeZone":"America/St_Lucia","ingredients":{"fish":0.92,"salt_fish":0.88,"cassava":0.88,"breadfruit":0.85,"coconut":0.85,"shellfish":0.75,"banana":0.78,"yam":0.8,"plantain":0.8,"lime":0.72,"pork":0.68,"onion":0.65},"cookingMethods":{"boiling":0.9,"stewing":0.9,"grilling":0.85,"frying":0.8}}]
+[
+  {
+    "id": "LC-CAS",
+    "name": "Castries",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "LC",
+    "latitude": 14.0101,
+    "longitude": -60.9875,
+    "region": "Castries",
+    "population": 20000,
+    "timeZone": "America/St_Lucia",
+    "ingredients": {
+      "salt_fish": 0.95,
+      "cassava": 0.9,
+      "breadfruit": 0.9,
+      "coconut": 0.9,
+      "yam": 0.85,
+      "plantain": 0.85,
+      "chicken": 0.82,
+      "fish": 0.82,
+      "bean": 0.78,
+      "pork": 0.72,
+      "lime": 0.78,
+      "onion": 0.75
+    },
+    "cookingMethods": {
+      "boiling": 0.95,
+      "stewing": 0.9,
+      "grilling": 0.85,
+      "frying": 0.85
+    }
+  },
+  {
+    "id": "LC-VIE",
+    "name": "Vieux Fort",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "LC",
+    "latitude": 13.7167,
+    "longitude": -60.95,
+    "region": "Vieux Fort",
+    "population": 4600,
+    "timeZone": "America/St_Lucia",
+    "ingredients": {
+      "salt_fish": 0.92,
+      "cassava": 0.9,
+      "breadfruit": 0.88,
+      "coconut": 0.88,
+      "shrimp": 0.8,
+      "yam": 0.82,
+      "plantain": 0.82,
+      "fish": 0.85,
+      "crab": 0.72,
+      "pork": 0.7,
+      "lime": 0.78,
+      "chicken": 0.75
+    },
+    "cookingMethods": {
+      "boiling": 0.9,
+      "stewing": 0.9,
+      "grilling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LC-SOU",
+    "name": "Soufrière",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "LC",
+    "latitude": 13.8561,
+    "longitude": -61.055,
+    "region": "Soufrière",
+    "population": 2900,
+    "timeZone": "America/St_Lucia",
+    "ingredients": {
+      "salt_fish": 0.92,
+      "cassava": 0.88,
+      "breadfruit": 0.88,
+      "coconut": 0.88,
+      "pork": 0.8,
+      "yam": 0.82,
+      "plantain": 0.82,
+      "fish": 0.82,
+      "crab": 0.72,
+      "lime": 0.75,
+      "hot_sauce": 0.7,
+      "onion": 0.72
+    },
+    "cookingMethods": {
+      "boiling": 0.9,
+      "stewing": 0.9,
+      "grilling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LC-GRO",
+    "name": "Gros Islet",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "LC",
+    "latitude": 14.0806,
+    "longitude": -60.9536,
+    "region": "Gros Islet",
+    "population": 2100,
+    "timeZone": "America/St_Lucia",
+    "ingredients": {
+      "fish": 0.97,
+      "shrimp": 0.82,
+      "salt_fish": 0.88,
+      "coconut": 0.88,
+      "crab": 0.8,
+      "breadfruit": 0.85,
+      "yam": 0.8,
+      "plantain": 0.82,
+      "lime": 0.92,
+      "pork": 0.72,
+      "cassava": 0.78,
+      "hot_sauce": 0.72,
+      "lobster": 0.85
+    },
+    "cookingMethods": {
+      "boiling": 0.9,
+      "stewing": 0.9,
+      "grilling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LC-MIC",
+    "name": "Micoud",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "LC",
+    "latitude": 13.8167,
+    "longitude": -60.9,
+    "region": "Micoud",
+    "population": 2700,
+    "timeZone": "America/St_Lucia",
+    "ingredients": {
+      "banana": 0.97,
+      "salt_fish": 0.82,
+      "cassava": 0.95,
+      "breadfruit": 0.92,
+      "coconut": 0.85,
+      "yam": 0.82,
+      "plantain": 0.85,
+      "fish": 0.78,
+      "bean": 0.75,
+      "pork": 0.7,
+      "lime": 0.72,
+      "onion": 0.68
+    },
+    "cookingMethods": {
+      "boiling": 0.9,
+      "stewing": 0.9,
+      "grilling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LC-DEN",
+    "name": "Dennery",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "LC",
+    "latitude": 13.9333,
+    "longitude": -60.8833,
+    "region": "Dennery",
+    "population": 3000,
+    "timeZone": "America/St_Lucia",
+    "ingredients": {
+      "fish": 0.92,
+      "salt_fish": 0.9,
+      "cassava": 0.88,
+      "breadfruit": 0.85,
+      "coconut": 0.85,
+      "shellfish": 0.75,
+      "yam": 0.8,
+      "plantain": 0.8,
+      "pork": 0.7,
+      "lime": 0.72,
+      "bean": 0.72,
+      "onion": 0.68
+    },
+    "cookingMethods": {
+      "boiling": 0.9,
+      "stewing": 0.9,
+      "grilling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LC-CHO",
+    "name": "Choiseul",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "LC",
+    "latitude": 13.8,
+    "longitude": -61.05,
+    "region": "Choiseul",
+    "population": 2000,
+    "timeZone": "America/St_Lucia",
+    "ingredients": {
+      "salt_fish": 0.92,
+      "cassava": 0.95,
+      "breadfruit": 0.9,
+      "coconut": 0.85,
+      "banana": 0.72,
+      "yam": 0.9,
+      "plantain": 0.82,
+      "fish": 0.78,
+      "pork": 0.75,
+      "bean": 0.72,
+      "lime": 0.7,
+      "onion": 0.68
+    },
+    "cookingMethods": {
+      "boiling": 0.9,
+      "stewing": 0.9,
+      "grilling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LC-LAB",
+    "name": "Laborie",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "LC",
+    "latitude": 13.75,
+    "longitude": -60.9833,
+    "region": "Laborie",
+    "population": 1700,
+    "timeZone": "America/St_Lucia",
+    "ingredients": {
+      "fish": 0.9,
+      "salt_fish": 0.9,
+      "cassava": 0.88,
+      "breadfruit": 0.85,
+      "coconut": 0.85,
+      "shellfish": 0.72,
+      "yam": 0.8,
+      "plantain": 0.8,
+      "pork": 0.72,
+      "lime": 0.72,
+      "bean": 0.7,
+      "garlic": 0.65
+    },
+    "cookingMethods": {
+      "boiling": 0.9,
+      "stewing": 0.9,
+      "grilling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LC-ANA",
+    "name": "Anse La Raye",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "LC",
+    "latitude": 13.95,
+    "longitude": -61.05,
+    "region": "Anse La Raye",
+    "population": 1200,
+    "timeZone": "America/St_Lucia",
+    "ingredients": {
+      "fish": 0.97,
+      "shrimp": 0.72,
+      "crab": 0.9,
+      "salt_fish": 0.92,
+      "coconut": 0.95,
+      "breadfruit": 0.85,
+      "yam": 0.8,
+      "plantain": 0.8,
+      "lime": 0.8,
+      "cassava": 0.78,
+      "pork": 0.68,
+      "hot_sauce": 0.72
+    },
+    "cookingMethods": {
+      "boiling": 0.9,
+      "stewing": 0.9,
+      "grilling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LC-CAN",
+    "name": "Canaries",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "LC",
+    "latitude": 13.9,
+    "longitude": -61.0667,
+    "region": "Canaries",
+    "population": 800,
+    "timeZone": "America/St_Lucia",
+    "ingredients": {
+      "fish": 0.92,
+      "salt_fish": 0.88,
+      "cassava": 0.88,
+      "breadfruit": 0.85,
+      "coconut": 0.85,
+      "shellfish": 0.75,
+      "banana": 0.78,
+      "yam": 0.8,
+      "plantain": 0.8,
+      "lime": 0.72,
+      "pork": 0.68,
+      "onion": 0.65
+    },
+    "cookingMethods": {
+      "boiling": 0.9,
+      "stewing": 0.9,
+      "grilling": 0.85,
+      "frying": 0.8
+    }
+  }
+]

@@ -1,264 +1,233 @@
 # RealMap — Project Specification
 
-> Read this before every session. These requirements do not change without explicit
-> user instruction. When in doubt, consult these principles.
+> Read before every session. These principles do not change without explicit user
+> instruction. When in doubt, consult them.
 
 ---
 
 ## Vision
 
-A scientific cartography of human food culture. ~6500 cities. 289 culinary dimensions.
-Color distance = culinary distance. The map paints itself through data — nothing else
-determines a city's color.
+A scientific cartography of human food culture. ~6500 cities. ~290 culinary
+dimensions. Color distance = culinary distance. The map paints itself through
+data — nothing else determines a city's color.
 
 ---
 
-## Core Principles
+## The One Rule
 
-0. **100% scientific, no exceptions.** Every ingredient score must be defensible against
-   real ethnographic, anthropological, or culinary science sources. No values are chosen
-   to make cities look visually distinct, to pass tests, or to match expectations. If two
-   cities genuinely share a cuisine, they share colors — that is correct. Never adjust
-   data to achieve a desired visual outcome. Every change to ingredient scores must have
-   a factual justification (academic source, food science, documented culinary tradition).
-   Do not tune UMAP seeds to pass specific color tests — the seed only affects rotation,
-   not topology, and should be chosen for global layout quality, not to satisfy hand-
-   picked pairs. When test expectations conflict with data truth, fix the tests, not the data.
+**Score each city from real local cuisine. Never from country, region, religion,
+politics, or visual outcome. The goal is the unbiased world as it is.**
 
-1. **Zero geographic/political bias.** Color comes from food data alone. No continent
-   zones, no country buckets, no regional groupings in color assignment. If Ethiopian
-   and Indian cities share spice/legume profiles, they share hues. That is correct —
-   it reveals a real culinary connection. Never override it with geography.
-
-2. **Variance is the point.** Istanbul vs. Trabzon vs. Gaziantep vs. İzmir should all
-   look different. Regional diversity within a country is what makes this map valuable.
-   Cities must be scored independently, not inherited from country stereotypes.
-
-3. **Honest, PhD-level data.** Every ingredient score is defensible against real
-   culinary sources. Scores reflect what locals eat daily, not restaurant menus or
-   tourist food. No clichés, no stereotypes, no padding.
-
-4. **Global consistency.** rice=0.95 in Tokyo means the same as rice=0.95 in Bangkok.
-   The scale is global. Normalization happens globally, not per-region.
-
-5. **Chili bridges are correct.** High chili usage correctly links India, Mexico,
-   Korea, Ethiopia, Sichuan. They ARE connected along that dimension. The 12D embedding
-   separates them in all other dimensions (fat type, starch, fermentation, aromatics).
-   Do not suppress this signal.
-
-6. **2D color wheel, not 1D rope.** Food cultures form a 2D sheet with clusters and
-   bridges — not a 1D line. Hue comes from the 2D UMAP color embedding (angle in the
-   2D plane), not from a linear rank ordering. This prevents topology artifacts.
+Everything below is a consequence of this rule.
 
 ---
 
-## Data Quality Standards
+## Mandatory Workflow — Never Stop Until Perfect
 
-**Fundamental rules (non-negotiable):**
+After every data or pipeline change:
 
-- **Each city must be handled per-city.** Every city in every `data/raw/data.*.json` file must have its own individually researched ingredient and cooking method scores. No city may share a byte-identical profile with any other city. The scores must reflect what people actually eat and cook in THAT SPECIFIC CITY — not its region, not its country, not its cultural zone.
+1. Run `python3 /tmp/audit_map.py` (or equivalent) to compute per-country
+   angular hue spread across all 240+ country files. A country with
+   ≥30 cities and **angular spread < 30°** (no significant gap in its sorted
+   hue circle) is **templated** — fix it. (Stdev is an inferior metric:
+   cuisines that legitimately cluster around one cuisine center will have low
+   stdev but acceptable spread; only true templating compresses spread.)
+2. Sample hex colors at known city lat/lon to verify the map visually matches
+   real culinary geography (e.g., Aegean Turkey should hue-band with
+   Mediterranean Europe, not Anatolian interior).
+3. Identify the highest-impact remaining templating (largest cities × lowest
+   hue stdev) and fix that country next.
+4. Rebuild (`make build-clusters`), re-audit, repeat.
+5. **Do not stop** while any country with ≥30 cities still has hue stdev < 15°,
+   or any visible region on the world map looks monochrome where the
+   underlying cuisines are genuinely diverse. Perfect = honest variance
+   everywhere; templated zones are never acceptable.
 
-- **No regional or zone-based assignment.** Do not write code that assigns cities to zones and gives them zone profiles. If two cities happen to have similar scores, that is fine — but the similarity must be because the data is genuinely similar, not because they were given the same template. Each city's data must be independently entered and justified.
+The audit is what "looking at the map" means for the assistant — it does not
+need a screenshot to know the state of the world.
 
-- **All raw ingredient and method keys must be handled.** Every key used in any `data/raw/data.*.json` file must either exist in `master_ingredients.json` / `master_methods.json`, or have a mapping in `canonical_keys.json`. Zero unknown keys is the required state.
+---
 
-- **Global culinary coverage.** The dataset must cover world cuisine with the same scientific rigor everywhere — from İzmir to London to Lagos to Tokyo. No city is treated as less important than another. Every city's data should be the result of the same level of research.
+## Data Principles (non-negotiable)
 
-**Per-city requirements:**
-- ≥ 8 meaningfully scored ingredients (not just universal staples)
-- Signature local ingredients MUST be present and scored:
+1. **Per-city, independently scored.** Every city in `data/raw/data.*.json` has
+   its own profile, researched from what people in THAT city actually eat —
+   not its country, not its region, not its ethnic zone. No two cities share a
+   byte-identical profile, and similarity (when it exists) must reflect genuine
+   culinary kinship, not a shared template.
+
+2. **No templates, no national defaults, no zone assignment code.** Do not
+   write helpers that paint cities from a country/regional palette. If you find
+   yourself copy-pasting a profile, stop — research the next city instead.
+
+3. **PhD-level defensibility.** Every score must trace to ethnographic,
+   anthropological, or culinary-science grounding (what locals eat daily — not
+   restaurants, not tourist menus, not stereotypes). If you can't justify a
+   score against real food culture, don't write it.
+
+4. **Globally consistent scale.** `rice=0.95` in Tokyo means the same as in
+   Bangkok. Normalization is global; never per-country, never per-continent.
+
+5. **Honest similarity is correct.** If two cities genuinely share a cuisine,
+   they share colors — that is a true finding, not a bug. Do not invent
+   differences to force visual separation. Do not chase cosine thresholds.
+
+6. **Zero geographic/political bias in coloring.** Color comes only from food
+   data. No continent zones, no country buckets, no regional priors. If
+   Ethiopian and Indian cities share spice/legume profiles, they share hues —
+   that reveals a real connection. Never override it with geography.
+
+7. **Chili / fermentation / oil bridges are signal, not noise.** High chili
+   correctly links India, Mexico, Korea, Ethiopia, Sichuan along one axis. The
+   12D structural embedding separates them on every other axis (fat, starch,
+   ferment, aromatics). Do not suppress cross-cultural bridges.
+
+8. **Tests serve the data, not vice versa.** When a test expectation conflicts
+   with food truth, fix the test. Do not edit data to satisfy a hand-picked
+   pair, do not tune UMAP seeds to chase pair separation.
+
+---
+
+## Per-City Requirements
+
+- ≥ 8 meaningfully scored ingredients (universal staples alone don't count)
+- ≥ 4 ingredients with score ≥ 0.5
+- Each city covers most of: starch, protein, fat, aromatics, ferment, signature
+- Signature ingredients **must** appear where they belong, e.g.:
   - `teff`, `injera`, `berbere` in Ethiopian cities
   - `miso`, `dashi`, `nori` in Japanese cities
   - `za'atar`, `sumac` in Levantine cities
-  - `saffron`, `rose_water` in Iranian cities
-  - `pistachio` in Gaziantep
-  - `anchovy` in Trabzon
-  - `harissa` in Tunis/Algiers
-  - `maple_syrup` in Montreal/Quebec
+  - `saffron` in Iranian / Khorasan cities
+  - `pistachio` in Gaziantep, `anchovy` in Trabzon
+  - `harissa` in Tunis / Algiers
+  - `maple_syrup` in Montréal / Québec
   - `gochujang` in Korean cities
   - `preserved_lemon` in Moroccan cities
-  - etc.
 
-**Reject all of:**
-- Filler values: 0.44, 0.4656, 0.4386, 0.4325, 0.4086, 0.3694 (full list in validate_data.py)
+## Forbidden
+
+- Filler values (full list in `validate_data.py`): 0.44, 0.4656, 0.4386, 0.4325,
+  0.4086, 0.3694, 0.3256, 0.2944
 - Generic keys: `herb`, `herbs`, `seafood`, `vegetables`, `spices`, `chili_peppers`
-- Stuffing as a cooking method
-
-**Feature space dimensions (what good city data captures):**
-
-| Dimension | Key features |
-|-----------|-------------|
-| Starch base | rice, wheat, corn, potato, cassava, flatbread, teff, quinoa |
-| Protein | beef, pork, lamb, fish, chicken, legumes/bean, tofu, egg |
-| Fat type | olive_oil, butter, ghee, coconut_oil, palm_oil, lard |
-| Heat | chili_pepper (global bridge — correctly connects spice cultures) |
-| Fermented | soy_sauce, miso, fermented_fish, kimchi, cheese, yogurt, injera |
-| Aromatics | garlic, ginger, onion — quantities discriminate even universal ingredients |
-| Signature spices | saffron, za'atar, berbere, ras_el_hanout, gochujang, tandoori_masala |
-| Local staples | teff, yam, plantain, breadfruit, poi, injera, quinoa |
-| Technique | fermenting, stir_frying, tandoor, earth_oven, smoking, pickling |
+- `stuffing` as a cooking method
+- Any ingredient/method key not in `master_ingredients.json` /
+  `master_methods.json` (or mapped via `canonical_keys.json`)
+- Byte-identical city profiles
 
 ---
 
-## Embedding Design
+## Pipeline (do not tune to chase pairs)
 
-### 12D UMAP — structural embedding
+### Structural embedding — 12D UMAP
 ```
 n_components=12, metric=cosine, n_neighbors=20, min_dist=0.05, random_state=42
 ```
-Purpose: city similarity, CityDrawer "similar cities", Elasticsearch search.
+Used for similarity search (CityDrawer "similar cities", Elasticsearch).
 
-### 2D UMAP — color embedding
+### Color embedding — 3D PCA (deterministic)
 ```
-n_components=2, metric=cosine, n_neighbors=15, min_dist=0.10, random_state=51
+PCA(n_components=3) on raw 364-D feature matrix
 ```
-Purpose: Hue assignment ONLY. n_neighbors=15 keeps tight local neighborhoods so
-cross-cultural connections (Palermo→N.Africa, Venice→Central Europe) dominate over
-within-country similarity — n_neighbors≥20 collapses all Italian cities to one point.
-Seed=51 is the canonical fixed seed for reproducibility — it is NOT tuned to satisfy
-any specific city pair. Changing the seed to force a desired color separation is bias.
-When data changes cause layout shifts, the layout shift is the expected correct behavior.
+Used **only** for hue/chroma/lightness. PCA is the right tool here, not UMAP:
+- **Deterministic** (no random seed dependence).
+- **Preserves global variance**: the most culinarily-different cuisines land
+  furthest apart in the 3D output. UMAP previously collapsed unrelated
+  cuisines onto the same hue angle (e.g. Scandinavian raw-cosine 0.22 to
+  Iranian came out at UMAP-cosine 0.71, both rendering red-pink). PCA does
+  not have this failure mode.
+- **PC1 / PC2 / PC3** typically capture: dominant staple/protein axis, fat
+  type / fermentation axis, signature spice axis.
 
-**Color mapping limitation (inherent, not a bug):**
-Mapping 289D food space to a 1D circular hue is inherently lossy. Some culinarily
-distinct city pairs will appear at similar hue angles — this is a projection artifact,
-not a data error. The largest improvements to color quality come from data quality
-(unique, accurate city profiles) not from pipeline parameter tuning. Do not adjust
-UMAP parameters, seeds, or calibration to fix specific pairs — fix the data instead.
+### Color formula — H/C/L are independent axes
+- **Hue H** = `atan2(PC2, PC1)` of 3D PCA, equalized via `angle_percentiles`
+  → [0°, 360°]. Macro-clusters get the full angular spread.
+- **Chroma C** = `|PC3|` (orthogonal to the hue plane), equalized →
+  [0.12, 0.38]. Distinguishes cities sharing H but differing on the third axis.
+- **Lightness L** = `√(PC1² + PC2²)`, equalized → [0.54, 0.82]. Distinctive
+  cuisines score high → bright.
 
-Color mapping — **H/C/L are fully independent axes**:
-- **Hue H**: `atan2(hue2d[1], hue2d[0]) + π` → histogram-equalized via 512-pt CDF → [0°, 360°]
-- **Chroma C**: `|wNorm|` (|PC3| of 12D PCA) → histogram-equalized via `w_abs_percentiles` → [0.12, 0.38]
-  Why PC3 not 2D radius: tight clusters (Japan, Korea) collapse to UMAP center → radius≈0.04 → near-gray.
-  PC3 is orthogonal to the hue plane and captures a real culinary dimension.
-- **Lightness L**: `sqrt(uNorm² + vNorm²)` (PC1+PC2 plane magnitude) → equalized via `uv_magnitude_percentiles` → [0.54, 0.82]
-  Measures culinary distance from the global mean — distinctive cuisines score high → bright.
+Output: OKLCH → gamut-clipped sRGB hex via chroma.js.
 
-Stored in `features.json` as `hue2d: [x, y]` (normalized 2D UMAP coordinates).
-`global_color_calibration.json` (version "3") contains: B, mu, sigma, quantiles,
-`angle_percentiles`, `w_abs_percentiles`, `uv_magnitude_percentiles`.
+`global_color_calibration.json` carries: `angle_percentiles`,
+`w_abs_percentiles`, `uv_magnitude_percentiles`, plus B/mu/sigma/quantiles.
 
-### Why 2D not 1D
-1D forces a linear ordering onto 2D/3D manifold data → topology artifacts
-(disconnected cuisines land adjacent on the 1D rope). 2D preserves neighborhood
-structure in both dimensions. The color wheel is the natural representation.
+**Inherent limitation:** mapping ~290D food space to a 1D circular hue is
+lossy — some culinarily distinct pairs land at similar hue angles. Fix this by
+improving data, not by tuning UMAP parameters.
 
 ---
 
-## Color Rendering
+## Hex Grid (display)
 
-- **Color space**: OKLCH (perceptually uniform — gradients look smooth in all browsers)
-- **Gamut clipping**: binary-search compression, preserves H first, L second, compresses C
-- **Browser targets**: Chrome/macOS (P3), Chrome/Windows (sRGB), Firefox, Safari
-- **L range**: [0.54, 0.82] — no muddy darks, no blown-out highlights
-- **C range**: [0.12, 0.38] — never gray (min C ensures vibrancy), never oversaturated
-- **Final output**: sRGB hex via chroma.js — safe on all displays
-
----
-
-## Test Requirements (300+ total)
-
-Run after every build: `python3 data/validate_data.py`
-
-**Structural tests**: Zero fillers, no generic keys, no stuffing method  
-**Presence tests**: ~40 pairs — culturally defining ingredients must exist  
-**Similarity tests**: ~200 pairs — cosine bounds across same-tradition / cross-cultural  
-**Color tests**: ~60 pairs — hue separation guarantees for culinarily distinct cities  
-**Statistical**: ≥80% of cross-continental top-200 pairs have ≥10° hue diff  
+- H3 resolution 4 (~22 km side) — required for small islands and coastlines
+- Natural Earth 50m land mask — captures Balkans, archipelagos, peninsulas
+- Vector tile basemap (CartoDB dark-matter GL) — hex fills inserted **before**
+  the `water` layer so the ocean polygon clips coastlines pixel-perfect
+- `BLEND_SIGMA_KM = 200` — Gaussian smoothing for cell colors
+- Gradients must flow continuously between adjacent cells
 
 ---
 
 ## What This Is NOT
 
 - Not a geographic atlas (color ≠ continent or country)
-- Not a restaurant guide or tourist food map
-- Not a demographic, political, or ethnic map
-- Not country-level aggregation (cities matter independently)
+- Not a restaurant or tourist guide
+- Not a demographic, political, religious, or ethnic map
+- Not country-level aggregation — cities matter independently
 
 ---
 
-## Key Files
+## Files
 
 | File | Role |
 |------|------|
-| `data/raw/data.*.json` | Source truth — 241 country/region files |
-| `packages/scripts/src/buildClusters/run.py` | Full UMAP pipeline |
+| `data/raw/data.*.json` | Source truth (one file per country/region) |
+| `packages/scripts/src/buildClusters/run.py` | UMAP + PCA + OKLCH pipeline |
 | `packages/scripts/src/buildClusters/clean_raw.py` | Data cleaning |
 | `packages/scripts/src/buildClusters/canonical_keys.json` | Spelling normalization |
-| `packages/scripts/src/buildClusters/master_ingredients.json` | 348-key ingredient whitelist |
-| `packages/scripts/src/buildClusters/master_methods.json` | 26-key method whitelist |
-| `data/features.json` | Build output: 6559 cities with embeddings |
-| `data/global_color_calibration.json` | Build output: PCA/UMAP calibration |
-| `data/validate_data.py` | Test suite (must all pass) |
-| `data/color_report.py` | Visual HTML report |
-| `packages/client/src/utils/colorUtils.ts` | getCityColor() — embedding → OKLCH |
-| `packages/client/src/utils/mapUtils.ts` | GeoJSON layer management |
-| `packages/client/src/components/CityDrawer.tsx` | City detail panel |
+| `packages/scripts/src/buildClusters/master_ingredients.json` | Ingredient whitelist |
+| `packages/scripts/src/buildClusters/master_methods.json` | Method whitelist |
+| `data/features.json` | Build output: cities with embeddings + colors |
+| `data/global_color_calibration.json` | Build output: per-axis CDFs |
+| `data/validate_data.py` | Curated culinary pair tests |
+| `data/validate_all.py` | Full-coverage structural validation |
+| `packages/client/src/utils/colorUtils.ts` | `getCityColor()` → OKLCH |
+| `packages/client/src/utils/mapUtils.ts` | Map layers (points, hex, voronoi, glow) |
+| `packages/client/src/components/Map.tsx` | Map component |
 | `Makefile` | Pipeline orchestration |
 
-## Build Commands
+## Commands
 
 ```bash
-make build-clusters    # Run UMAP pipeline → features.json + calibration artifacts
-make color-report      # Generate visual HTML report → data/color_report.html
-make seed-cities       # Load features.json → Elasticsearch index
-make clean-raw         # Normalize & clean raw data files
-make dev-clean         # Full reset: Elasticsearch + build + seed + start dev servers
+make build-clusters    # Full pipeline: features.json + calibration + hex grid
+make color-report      # Visual HTML diff → data/color_report.html
+make seed-cities       # Index features.json into Elasticsearch
+make clean-raw         # Normalize raw data files
+make dev-clean         # Full reset: ES + build + seed + dev servers
 ```
-
-## Pre-Push Checklist (required before every git push)
-
-**Never push without running these first:**
-
-```bash
-cd packages/client && npx tsc --noEmit    # TypeScript must be error-free
-```
-
-If the build is relevant (new components, changed imports):
-```bash
-pnpm --filter @realmap/client build       # Full Vite build must succeed
-```
-
-Only push after both pass with zero errors.
-
-## Grid and Color Design
-
-**Hex grid (H3):**
-- Resolution 4 (~288k cells globally, ~22km side) — required for correct coverage of small islands (Cyprus, Malta, Aegean), narrow peninsulas, and coastal detail.
-- Land mask: Natural Earth 50m (~1420 polygons) — required to capture all Balkan countries, small islands, and complex coastlines.
-- Black hex cells = ocean (correct). No black cells on land.
-- Color blending: `BLEND_SIGMA_KM = 200` — Gaussian blend sigma in km. Controls gradient smoothness between city color points.
-- Gradients must be visible and smooth — the color should flow continuously across adjacent hex cells, not jump.
-
-**Color mapping pipeline (H/C/L are independent):**
-- H (Hue): 2D UMAP angle, histogram-equalized to spread across full 360°
-- C (Chroma): |PC3| of 12D PCA, equalized → [0.12, 0.38] — never gray, never oversaturated
-- L (Lightness): sqrt(uNorm² + vNorm²) of PC1+PC2, equalized → [0.54, 0.82]
-- OKLCH color space, gamut-clipped, output as sRGB hex
 
 ## Validation
 
-Two validators must both pass after any data or pipeline change:
+Both must pass after any data or pipeline change:
 
 ```bash
-python3 data/validate_all.py    # full-coverage structural validation (no custom logic)
+python3 data/validate_all.py    # structural (schema-derived, all cities)
 python3 data/validate_data.py   # curated culinary pair tests
 ```
 
-`validate_all.py` rules (schema-derived, no hard-coded city names):
-- All ingredient/method keys must be in master whitelists
+`validate_all.py` rules:
+- All keys must be in master whitelist or canonical mapping
 - No filler values, no generic keys, no banned methods
-- ≥ 8 ingredients with score > 0; ≥ 4 with score ≥ 0.5
-- Country FAIL if ≥ 80% of city pairs have cosine ≥ 0.99 (copy-paste detection)
+- ≥ 8 ingredients scored > 0; ≥ 4 scored ≥ 0.5
+- Country FAIL if ≥ 80% of city pairs share cosine ≥ 0.99 (copy-paste detection)
 
-Ideal target: 0 FAIL countries, minimal WARN. Current state reflects data completeness.
+## Pre-Push Checklist
 
-## Current Build State
-
-- ~5800 cities validated, 289 features (265 ingredients + 24 methods)
-- 12D UMAP structural embedding (n_neighbors=20, seed=42)
-- 2D UMAP color embedding (n_neighbors=15, seed=51) — **calibration version 3**
-- Color: H = 2D UMAP angle equalized, C = |PC3| equalized, L = uv_magnitude equalized
-- `make build-clusters` runs both validators post-build
-- Data quality: 112 countries FAIL validation (mostly homogeneous copy-pasted profiles)
-  → fixing city-level differentiation is the primary quality improvement lever
+Never push without:
+```bash
+cd packages/client && npx tsc --noEmit
+```
+And for client-relevant changes:
+```bash
+pnpm --filter @realmap/client build
+```

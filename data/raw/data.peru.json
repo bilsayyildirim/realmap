@@ -1,1 +1,429 @@
-[{"id":"PE-LIM","name":"Lima","type":"City","continent":"South America","countryCode":"PE","latitude":-12.0464,"longitude":-77.0428,"region":"Lima Province","population":9600000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"lime":0.88,"aji_amarillo":0.92,"chili_pepper":0.85,"garlic":0.9,"onion":0.88,"rice":0.85,"potato":0.9,"cilantro":0.82,"avocado":0.8,"olive":0.75,"egg":0.72,"corn":0.82},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-AQP","name":"Arequipa","type":"City","continent":"South America","countryCode":"PE","latitude":-16.409,"longitude":-71.5375,"region":"Arequipa","population":1029000,"timeZone":"America/Lima","ingredients":{"chili_pepper":0.95,"potato":0.92,"corn":0.82,"lamb":0.85,"aji_amarillo":0.9,"rice":0.82,"garlic":0.85,"onion":0.85,"cheese":0.8,"egg":0.78,"cassava":0.72,"quinoa":0.88},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-TRU","name":"Trujillo","type":"City","continent":"South America","countryCode":"PE","latitude":-8.1116,"longitude":-79.0288,"region":"La Libertad","population":970000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"potato":0.9,"lime":0.88,"rice":0.62,"chili_pepper":0.85,"garlic":0.46,"onion":0.4,"avocado":0.36,"corn":0.82,"cilantro":0.26},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-CHI","name":"Chiclayo","type":"City","continent":"South America","countryCode":"PE","latitude":-6.7714,"longitude":-79.8409,"region":"Lambayeque","population":738000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"potato":0.9,"lime":0.88,"garlic":0.64,"onion":0.58,"chili_pepper":0.85,"rice":0.42,"avocado":0.38,"corn":0.82,"cilantro":0.3,"cassava":0.26},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-PIU","name":"Piura","type":"City","continent":"South America","countryCode":"PE","latitude":-5.1945,"longitude":-80.6328,"region":"Piura","population":485000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"potato":0.9,"lime":0.88,"garlic":0.64,"onion":0.58,"chili_pepper":0.85,"rice":0.42,"corn":0.82,"cilantro":0.34,"avocado":0.3,"cassava":0.26},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-IQT","name":"Iquitos","type":"City","continent":"South America","countryCode":"PE","latitude":-3.7437,"longitude":-73.2516,"region":"Loreto","population":467000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"plantain":0.88,"cassava":0.9,"coconut":0.85,"mango":0.82,"rice":0.8,"chili_pepper":0.8,"garlic":0.75,"lemongrass":0.78,"cilantro":0.8,"wild_green":0.75,"corn":0.8},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-CUZ","name":"Cusco","type":"City","continent":"South America","countryCode":"PE","latitude":-13.5319,"longitude":-71.9675,"region":"Cusco","population":428000,"timeZone":"America/Lima","ingredients":{"potato":0.92,"quinoa":0.88,"lamb":0.85,"aji_amarillo":0.64,"corn":0.82,"cheese":0.5,"chili_pepper":0.42,"garlic":0.38,"onion":0.34,"trout":0.3,"egg":0.26},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-HYO","name":"Huancayo","type":"City","continent":"South America","countryCode":"PE","latitude":-12.065,"longitude":-75.2049,"region":"Junín","population":364000,"timeZone":"America/Lima","ingredients":{"potato":0.92,"quinoa":0.88,"lamb":0.85,"aji_amarillo":0.64,"corn":0.82,"cheese":0.5,"egg":0.42,"chili_pepper":0.38,"garlic":0.34,"onion":0.3,"trout":0.26},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-PCL","name":"Pucallpa","type":"City","continent":"South America","countryCode":"PE","latitude":-8.3929,"longitude":-74.5821,"region":"Ucayali","population":326000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"plantain":0.88,"cassava":0.9,"rice":0.82,"mango":0.8,"coconut":0.78,"chili_pepper":0.78,"garlic":0.72,"wild_green":0.8,"lemongrass":0.72,"cilantro":0.78,"corn":0.8},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-JUL","name":"Juliaca","type":"City","continent":"South America","countryCode":"PE","latitude":-15.4909,"longitude":-70.1263,"region":"Puno","population":273000,"timeZone":"America/Lima","ingredients":{"quinoa":0.88,"potato":0.92,"lamb":0.85,"trout":0.88,"corn":0.82,"aji_amarillo":0.8,"cheese":0.8,"garlic":0.75,"onion":0.75,"chili_pepper":0.78},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-CJA","name":"Cajamarca","type":"City","continent":"South America","countryCode":"PE","latitude":-7.1658,"longitude":-78.5,"region":"Cajamarca","population":226031,"timeZone":"America/Lima","ingredients":{"fish":0.8,"plantain":0.9,"cassava":0.88,"rice":0.97,"mango":0.78,"coconut":0.65,"wild_green":0.78,"chili_pepper":0.82,"garlic":0.7,"cilantro":0.78,"lemongrass":0.7,"potato":0.88,"corn":0.85,"lime":0.8},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-ICA","name":"Ica","type":"City","continent":"South America","countryCode":"PE","latitude":-14.0678,"longitude":-75.7298,"region":"Ica","population":242923,"timeZone":"America/Lima","ingredients":{"fish":0.92,"chili_pepper":0.85,"lime":0.88,"garlic":0.85,"onion":0.85,"rice":0.82,"avocado":0.8,"cilantro":0.8,"corn":0.82,"potato":0.9,"aji_amarillo":0.78,"tomato":0.7},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-TAR","name":"Tarapoto","type":"City","continent":"South America","countryCode":"PE","latitude":-6.4861,"longitude":-76.3558,"region":"San Martín","population":202154,"timeZone":"America/Lima","ingredients":{"fish":0.92,"plantain":0.88,"cassava":0.9,"rice":0.82,"mango":0.78,"coconut":0.75,"wild_green":0.78,"chili_pepper":0.75,"garlic":0.7,"cilantro":0.78,"lemongrass":0.7,"corn":0.8},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-HUA","name":"Huaura","type":"City","continent":"South America","countryCode":"PE","latitude":-10.0481,"longitude":-77.6108,"region":"Lima Region","population":86101,"timeZone":"America/Lima","ingredients":{"fish":0.76,"chili_pepper":0.88,"lime":0.88,"garlic":0.85,"onion":0.85,"rice":0.82,"avocado":0.8,"cilantro":0.8,"corn":0.82,"potato":0.92,"aji_amarillo":0.78,"tomato":0.7,"quinoa":0.88,"lamb":0.97},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-PUN","name":"Puno","type":"City","continent":"South America","countryCode":"PE","latitude":-15.8402,"longitude":-70.0219,"region":"Puno","population":140839,"timeZone":"America/Lima","ingredients":{"potato":0.92,"quinoa":0.88,"lamb":0.97,"corn":0.82,"aji_amarillo":0.85,"chili_pepper":0.82,"cheese":0.8,"garlic":0.72,"onion":0.78,"trout":0.75,"egg":0.72},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-TUM","name":"Tumbes","type":"City","continent":"South America","countryCode":"PE","latitude":-3.5661,"longitude":-80.4513,"region":"Tumbes","population":111595,"timeZone":"America/Lima","ingredients":{"fish":0.8,"plantain":0.74,"cassava":0.88,"rice":0.82,"mango":0.78,"coconut":0.75,"wild_green":0.78,"chili_pepper":0.82,"garlic":0.7,"cilantro":0.78,"lemongrass":0.7,"potato":0.88,"corn":0.85,"lime":0.97},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-HUM","name":"Huánuco","type":"City","continent":"South America","countryCode":"PE","latitude":-9.9281,"longitude":-76.2426,"region":"Huánuco","population":196068,"timeZone":"America/Lima","ingredients":{"fish":0.8,"plantain":0.94,"cassava":0.88,"rice":0.82,"mango":0.78,"coconut":0.75,"wild_green":0.78,"chili_pepper":0.82,"garlic":0.7,"cilantro":0.78,"lemongrass":0.7,"potato":0.88,"corn":0.85,"lime":0.78},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-CHA","name":"Chachapoyas","type":"City","continent":"South America","countryCode":"PE","latitude":-6.232,"longitude":-77.8711,"region":"Amazonas","population":31730,"timeZone":"America/Lima","ingredients":{"fish":0.8,"plantain":0.9,"cassava":0.88,"rice":0.82,"mango":0.78,"coconut":0.75,"wild_green":0.78,"chili_pepper":0.97,"garlic":0.58,"cilantro":0.78,"lemongrass":0.7,"potato":0.88,"corn":0.85,"lime":0.8},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-HTZ","name":"Chimbote","type":"City","continent":"South America","countryCode":"PE","latitude":-9.0733,"longitude":-78.59,"region":"Áncash","population":313275,"timeZone":"America/Lima","ingredients":{"fish":0.8,"plantain":0.9,"cassava":0.88,"rice":0.82,"mango":0.78,"coconut":0.75,"wild_green":0.78,"chili_pepper":0.82,"garlic":0.7,"cilantro":0.7,"lemongrass":0.7,"potato":0.88,"corn":0.97,"lime":0.8},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-MOQ","name":"Moquegua","type":"City","continent":"South America","countryCode":"PE","latitude":-17.1935,"longitude":-70.9352,"region":"Moquegua","population":58711,"timeZone":"America/Lima","ingredients":{"potato":0.92,"quinoa":0.96,"lamb":0.85,"corn":0.82,"aji_amarillo":0.85,"chili_pepper":0.82,"cheese":0.76,"garlic":0.78,"onion":0.78,"trout":0.75,"egg":0.72},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-TAR2","name":"Tarma","type":"City","continent":"South America","countryCode":"PE","latitude":-11.4208,"longitude":-75.695,"region":"Junín","population":91000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"chili_pepper":0.88,"lime":0.88,"garlic":0.97,"onion":0.85,"rice":0.82,"avocado":0.8,"cilantro":0.8,"corn":0.82,"potato":0.92,"aji_amarillo":0.66,"tomato":0.7,"quinoa":0.88,"lamb":0.85},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-SUL","name":"Sullana","type":"City","continent":"South America","countryCode":"PE","latitude":-4.8995,"longitude":-80.6983,"region":"Piura","population":192066,"timeZone":"America/Lima","ingredients":{"fish":0.97,"plantain":0.9,"cassava":0.88,"rice":0.82,"mango":0.78,"coconut":0.75,"wild_green":0.78,"chili_pepper":0.82,"garlic":0.7,"cilantro":0.78,"lemongrass":0.56,"potato":0.88,"corn":0.85,"lime":0.8},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-HUA2","name":"Huancavelica","type":"City","continent":"South America","countryCode":"PE","latitude":-12.7764,"longitude":-74.976,"region":"Huancavelica","population":32819,"timeZone":"America/Lima","ingredients":{"fish":0.92,"chili_pepper":0.88,"lime":0.88,"garlic":0.85,"onion":0.85,"rice":0.78,"avocado":0.8,"cilantro":0.8,"corn":0.82,"potato":0.97,"aji_amarillo":0.78,"tomato":0.7,"quinoa":0.88,"lamb":0.85},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-HUAR","name":"Huaraz","type":"City","continent":"South America","countryCode":"PE","latitude":-9.529,"longitude":-77.5288,"region":"Áncash","population":120000,"timeZone":"America/Lima","ingredients":{"fish":0.8,"plantain":0.9,"cassava":0.88,"rice":0.82,"mango":0.78,"coconut":0.75,"wild_green":0.72,"chili_pepper":0.82,"garlic":0.7,"cilantro":0.78,"lemongrass":0.7,"potato":0.97,"corn":0.85,"lime":0.8},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-ANC","name":"Anchash","type":"City","continent":"South America","countryCode":"PE","latitude":-9.8355,"longitude":-78.945,"region":"Áncash","population":300000,"timeZone":"America/Lima","ingredients":{"fish":0.8,"plantain":0.9,"cassava":0.96,"rice":0.82,"mango":0.74,"coconut":0.75,"wild_green":0.78,"chili_pepper":0.82,"garlic":0.7,"cilantro":0.78,"lemongrass":0.7,"potato":0.88,"corn":0.85,"lime":0.8},"cookingMethods":{"grilling":0.9,"stewing":0.88,"frying":0.85,"boiling":0.85,"raw":0.78,"smoking":0.72}},{"id":"PE-PIU2","name":"Pisco","type":"City","continent":"South America","countryCode":"PE","latitude":-13.7107,"longitude":-76.2052,"region":"Ica","population":127017,"timeZone":"America/Lima","ingredients":{"fish":0.96,"chili_pepper":0.88,"lime":0.88,"garlic":0.85,"onion":0.85,"rice":0.82,"avocado":0.8,"cilantro":0.8,"corn":0.82,"potato":0.92,"aji_amarillo":0.78,"tomato":0.7,"quinoa":0.88,"lamb":0.83},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-ABR","name":"Abancay","type":"City","continent":"South America","countryCode":"PE","latitude":-13.636,"longitude":-72.881,"region":"Apurímac","population":137870,"timeZone":"America/Lima","ingredients":{"potato":0.78,"quinoa":0.88,"lamb":0.85,"corn":0.82,"aji_amarillo":0.85,"chili_pepper":0.82,"cheese":0.97,"garlic":0.78,"onion":0.78,"trout":0.75,"egg":0.72},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-APA","name":"Apurímac","type":"City","continent":"South America","countryCode":"PE","latitude":-14.038,"longitude":-72.3789,"region":"Apurímac","population":72000,"timeZone":"America/Lima","ingredients":{"potato":0.92,"quinoa":0.88,"lamb":0.85,"corn":0.82,"aji_amarillo":0.85,"chili_pepper":0.97,"cheese":0.8,"garlic":0.78,"onion":0.78,"trout":0.75,"egg":0.6},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-JUN","name":"Jauja","type":"City","continent":"South America","countryCode":"PE","latitude":-11.775,"longitude":-75.4989,"region":"Junín","population":30000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"chili_pepper":0.88,"lime":0.88,"garlic":0.85,"onion":0.85,"rice":0.82,"avocado":0.8,"cilantro":0.7,"corn":0.82,"potato":0.92,"aji_amarillo":0.78,"tomato":0.7,"quinoa":0.97,"lamb":0.85},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-LAU","name":"La Unión","type":"City","continent":"South America","countryCode":"PE","latitude":-15.8318,"longitude":-72.4406,"region":"Arequipa","population":20000,"timeZone":"America/Lima","ingredients":{"potato":0.92,"quinoa":0.88,"lamb":0.85,"corn":0.82,"aji_amarillo":0.97,"chili_pepper":0.82,"cheese":0.8,"garlic":0.78,"onion":0.7,"trout":0.75,"egg":0.72},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-HUAR2","name":"Huarmey","type":"City","continent":"South America","countryCode":"PE","latitude":-10.0667,"longitude":-78.2,"region":"Áncash","population":15000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"chili_pepper":0.88,"lime":0.88,"garlic":0.85,"onion":0.97,"rice":0.82,"avocado":0.8,"cilantro":0.8,"corn":0.82,"potato":0.92,"aji_amarillo":0.78,"tomato":0.56,"quinoa":0.88,"lamb":0.85},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-CHA2","name":"Chala","type":"City","continent":"South America","countryCode":"PE","latitude":-15.7,"longitude":-74.23,"region":"Arequipa","population":12000,"timeZone":"America/Lima","ingredients":{"potato":0.92,"quinoa":0.88,"lamb":0.85,"corn":0.97,"aji_amarillo":0.85,"chili_pepper":0.82,"cheese":0.8,"garlic":0.78,"onion":0.78,"trout":0.65,"egg":0.72},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-CRI","name":"Crespo","type":"City","continent":"South America","countryCode":"PE","latitude":-12.15,"longitude":-76.92,"region":"Lima Region","population":10000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"chili_pepper":0.97,"lime":0.88,"garlic":0.85,"onion":0.85,"rice":0.82,"avocado":0.8,"cilantro":0.8,"corn":0.76,"potato":0.92,"aji_amarillo":0.78,"tomato":0.7,"quinoa":0.88,"lamb":0.85},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-PAO","name":"Pachacama","type":"City","continent":"South America","countryCode":"PE","latitude":-11.85,"longitude":-76.3,"region":"Junín","population":8000,"timeZone":"America/Lima","ingredients":{"fish":0.92,"chili_pepper":0.88,"lime":0.97,"garlic":0.85,"onion":0.85,"rice":0.82,"avocado":0.72,"cilantro":0.8,"corn":0.82,"potato":0.92,"aji_amarillo":0.78,"tomato":0.7,"quinoa":0.88,"lamb":0.85},"cookingMethods":{"frying":0.88,"grilling":0.85,"stewing":0.85,"boiling":0.82,"roasting":0.8,"steaming":0.75,"raw":0.78}},{"id":"PE-ARQ","name":"Arica","type":"City","continent":"South America","countryCode":"PE","latitude":-18.4783,"longitude":-70.3126,"region":"Tacna","population":9000,"timeZone":"America/Lima","ingredients":{"potato":0.96,"quinoa":0.88,"lamb":0.85,"corn":0.82,"aji_amarillo":0.85,"chili_pepper":0.8,"cheese":0.8,"garlic":0.78,"onion":0.78,"trout":0.75,"egg":0.72},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-INI","name":"Inírida","type":"City","continent":"South America","countryCode":"PE","latitude":3.87,"longitude":-67.92,"region":"Putumayo","population":15000,"timeZone":"America/Lima","ingredients":{"potato":0.96,"quinoa":0.92,"lamb":0.88,"corn":0.85,"aji_amarillo":0.85,"chili_pepper":0.82,"cheese":0.8,"garlic":0.78,"onion":0.78,"trout":0.75,"egg":0.72,"fish":0.76,"lime":0.8},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}},{"id":"PE-LO","name":"Loreto","type":"City","continent":"South America","countryCode":"PE","latitude":-3.7,"longitude":-73.25,"region":"Loreto","population":7000,"timeZone":"America/Lima","ingredients":{"potato":0.88,"quinoa":0.96,"lamb":0.88,"corn":0.85,"aji_amarillo":0.85,"chili_pepper":0.82,"cheese":0.78,"garlic":0.78,"onion":0.78,"trout":0.75,"egg":0.72,"fish":0.8,"lime":0.8},"cookingMethods":{"boiling":0.9,"stewing":0.88,"roasting":0.85,"grilling":0.8,"frying":0.78,"steaming":0.72}}]
+[
+  {
+    "id": "PE-LIM", "name": "Lima", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -12.0464, "longitude": -77.0428,
+    "region": "Lima Province", "population": 9600000, "timeZone": "America/Lima",
+    "ingredients": {
+      "fish": 0.97, "lime": 0.92, "aji_amarillo": 0.95, "onion": 0.88,
+      "garlic": 0.88, "cilantro": 0.85, "rice": 0.88, "potato": 0.90,
+      "chili_pepper": 0.82, "avocado": 0.82, "olive": 0.75, "egg": 0.78,
+      "corn": 0.80, "tomato": 0.72
+    },
+    "cookingMethods": {"frying": 0.88, "grilling": 0.85, "stewing": 0.85, "boiling": 0.82, "raw": 0.80, "steaming": 0.72}
+  },
+  {
+    "id": "PE-AQP", "name": "Arequipa", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -16.409, "longitude": -71.5375,
+    "region": "Arequipa", "population": 1029000, "timeZone": "America/Lima",
+    "ingredients": {
+      "chili_pepper": 0.97, "potato": 0.92, "corn": 0.82, "lamb": 0.88,
+      "aji_amarillo": 0.90, "rice": 0.80, "garlic": 0.85, "onion": 0.85,
+      "cheese": 0.82, "egg": 0.78, "peanut": 0.72, "quinoa": 0.85, "cassava": 0.60
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "roasting": 0.85, "grilling": 0.80, "frying": 0.78}
+  },
+  {
+    "id": "PE-TRU", "name": "Trujillo", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -8.1116, "longitude": -79.0288,
+    "region": "La Libertad", "population": 970000, "timeZone": "America/Lima",
+    "ingredients": {
+      "fish": 0.92, "wheat": 0.90, "duck": 0.78, "rice": 0.85, "lime": 0.85,
+      "corn": 0.82, "garlic": 0.82, "onion": 0.80, "chili_pepper": 0.80,
+      "potato": 0.80, "sugar_cane": 0.78, "cilantro": 0.78, "aji_amarillo": 0.72,
+      "avocado": 0.70, "cassava": 0.48
+    },
+    "cookingMethods": {"grilling": 0.90, "stewing": 0.88, "frying": 0.85, "boiling": 0.85, "raw": 0.75}
+  },
+  {
+    "id": "PE-CHI", "name": "Chiclayo", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -6.7714, "longitude": -79.8409,
+    "region": "Lambayeque", "population": 738000, "timeZone": "America/Lima",
+    "ingredients": {
+      "goat_meat": 0.92, "cilantro": 0.97, "fish": 0.85, "rice": 0.88,
+      "lime": 0.85, "garlic": 0.82, "onion": 0.82, "chili_pepper": 0.80,
+      "corn": 0.82, "potato": 0.80, "avocado": 0.72, "aji_amarillo": 0.78, "duck": 0.70
+    },
+    "cookingMethods": {"stewing": 0.92, "grilling": 0.88, "frying": 0.85, "boiling": 0.82, "raw": 0.72}
+  },
+  {
+    "id": "PE-PIU", "name": "Piura", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -5.1945, "longitude": -80.6328,
+    "region": "Piura", "population": 485000, "timeZone": "America/Lima",
+    "ingredients": {
+      "mango": 0.92, "fish": 0.82, "pork": 0.90, "goat_meat": 0.78, "rice": 0.88,
+      "garlic": 0.82, "onion": 0.80, "chili_pepper": 0.78, "lime": 0.82,
+      "corn": 0.80, "cilantro": 0.78, "plantain": 0.72, "banana": 0.70, "avocado": 0.68
+    },
+    "cookingMethods": {"grilling": 0.90, "stewing": 0.88, "frying": 0.85, "boiling": 0.82, "raw": 0.72}
+  },
+  {
+    "id": "PE-IQT", "name": "Iquitos", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -3.7437, "longitude": -73.2516,
+    "region": "Loreto", "population": 467000, "timeZone": "America/Lima",
+    "ingredients": {
+      "river_fish": 0.97, "plantain": 0.92, "cassava": 0.90, "palm_oil": 0.82,
+      "mango": 0.82, "pineapple": 0.78, "chili_pepper": 0.80, "garlic": 0.72,
+      "lemongrass": 0.75, "cilantro": 0.80, "wild_green": 0.78, "corn": 0.78,
+      "coconut": 0.70, "rice": 0.72
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.88, "roasting": 0.85, "grilling": 0.80, "steaming": 0.75}
+  },
+  {
+    "id": "PE-CUZ", "name": "Cusco", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -13.5319, "longitude": -71.9675,
+    "region": "Cusco", "population": 428000, "timeZone": "America/Lima",
+    "ingredients": {
+      "potato": 0.95, "quinoa": 0.90, "lamb": 0.88, "corn": 0.90, "trout": 0.82,
+      "aji_amarillo": 0.85, "beer": 0.78, "game_meat": 0.72, "chili_pepper": 0.75,
+      "garlic": 0.72, "onion": 0.72, "cheese": 0.70, "egg": 0.68, "cassava": 0.52
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.88, "roasting": 0.88, "grilling": 0.80, "frying": 0.75}
+  },
+  {
+    "id": "PE-HYO", "name": "Huancayo", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -12.065, "longitude": -75.2049,
+    "region": "Junín", "population": 364000, "timeZone": "America/Lima",
+    "ingredients": {
+      "potato": 0.95, "cheese": 0.90, "chili_pepper": 0.82, "quinoa": 0.85,
+      "lamb": 0.80, "egg": 0.80, "garlic": 0.72, "onion": 0.72, "corn": 0.80,
+      "aji_amarillo": 0.82, "avocado": 0.68, "rice": 0.70, "trout": 0.72
+    },
+    "cookingMethods": {"frying": 0.88, "grilling": 0.85, "stewing": 0.85, "boiling": 0.82, "roasting": 0.80}
+  },
+  {
+    "id": "PE-PCL", "name": "Pucallpa", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -8.3929, "longitude": -74.5821,
+    "region": "Ucayali", "population": 326000, "timeZone": "America/Lima",
+    "ingredients": {
+      "fish": 0.90, "plantain": 0.90, "cassava": 0.88, "rice": 0.85,
+      "beef": 0.78, "mango": 0.78, "wild_green": 0.82, "chili_pepper": 0.78,
+      "garlic": 0.70, "cilantro": 0.78, "lemongrass": 0.70, "corn": 0.80,
+      "coconut": 0.68, "palm_oil": 0.72
+    },
+    "cookingMethods": {"grilling": 0.92, "stewing": 0.88, "frying": 0.85, "boiling": 0.85, "smoking": 0.72}
+  },
+  {
+    "id": "PE-JUL", "name": "Juliaca", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -15.4909, "longitude": -70.1263,
+    "region": "Puno", "population": 273000, "timeZone": "America/Lima",
+    "ingredients": {
+      "trout": 0.88, "potato": 0.90, "quinoa": 0.85, "lamb": 0.82,
+      "aji_amarillo": 0.80, "corn": 0.78, "cheese": 0.88, "milk": 0.78,
+      "beef": 0.80, "garlic": 0.72, "onion": 0.75, "chili_pepper": 0.70,
+      "egg": 0.68, "rice": 0.62
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.88, "roasting": 0.85, "grilling": 0.80, "frying": 0.75}
+  },
+  {
+    "id": "PE-CJA", "name": "Cajamarca", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -7.1658, "longitude": -78.5,
+    "region": "Cajamarca", "population": 226031, "timeZone": "America/Lima",
+    "ingredients": {
+      "cheese": 0.97, "milk": 0.92, "butter": 0.82, "potato": 0.88,
+      "corn": 0.85, "beef": 0.82, "wheat": 0.78, "garlic": 0.75, "onion": 0.78,
+      "chili_pepper": 0.72, "cilantro": 0.72, "rice": 0.72, "egg": 0.70
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "grilling": 0.85, "frying": 0.80, "roasting": 0.78}
+  },
+  {
+    "id": "PE-ICA", "name": "Ica", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -14.0678, "longitude": -75.7298,
+    "region": "Ica", "population": 242923, "timeZone": "America/Lima",
+    "ingredients": {
+      "wine": 0.97, "olive": 0.90, "avocado": 0.88, "garlic": 0.82, "onion": 0.80,
+      "lime": 0.80, "chili_pepper": 0.72, "rice": 0.75, "potato": 0.80,
+      "aji_amarillo": 0.72, "cilantro": 0.70, "fish": 0.72, "corn": 0.65,
+      "cassava": 0.40
+    },
+    "cookingMethods": {"frying": 0.88, "grilling": 0.85, "stewing": 0.85, "boiling": 0.82, "raw": 0.78}
+  },
+  {
+    "id": "PE-TAR", "name": "Tarapoto", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -6.4861, "longitude": -76.3558,
+    "region": "San Martín", "population": 202154, "timeZone": "America/Lima",
+    "ingredients": {
+      "coffee": 0.92, "fish": 0.82, "plantain": 0.90, "cassava": 0.85,
+      "rice": 0.88, "chili_pepper": 0.78, "garlic": 0.72, "cilantro": 0.80,
+      "wild_green": 0.75, "mango": 0.78, "pineapple": 0.75, "corn": 0.78,
+      "dried_meat": 0.72, "palm_oil": 0.65
+    },
+    "cookingMethods": {"grilling": 0.90, "stewing": 0.88, "frying": 0.85, "boiling": 0.85, "smoking": 0.75}
+  },
+  {
+    "id": "PE-HUA", "name": "Huaura", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -10.0481, "longitude": -77.6108,
+    "region": "Lima Region", "population": 86101, "timeZone": "America/Lima",
+    "ingredients": {
+      "sugar_cane": 0.88, "fish": 0.80, "rice": 0.88, "potato": 0.82,
+      "lime": 0.85, "garlic": 0.80, "onion": 0.80, "chili_pepper": 0.78,
+      "avocado": 0.75, "corn": 0.78, "aji_amarillo": 0.72, "tomato": 0.70,
+      "cilantro": 0.72
+    },
+    "cookingMethods": {"frying": 0.88, "grilling": 0.85, "stewing": 0.85, "boiling": 0.82, "roasting": 0.78}
+  },
+  {
+    "id": "PE-PUN", "name": "Puno", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -15.8402, "longitude": -70.0219,
+    "region": "Puno", "population": 140839, "timeZone": "America/Lima",
+    "ingredients": {
+      "quinoa": 0.97, "potato": 0.92, "trout": 0.90, "lamb": 0.90, "corn": 0.90,
+      "aji_amarillo": 0.85, "llama_meat": 0.72, "chili_pepper": 0.80, "garlic": 0.68,
+      "onion": 0.75, "egg": 0.70, "rice": 0.58
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.88, "roasting": 0.85, "grilling": 0.80, "steaming": 0.72}
+  },
+  {
+    "id": "PE-TUM", "name": "Tumbes", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -3.5661, "longitude": -80.4513,
+    "region": "Tumbes", "population": 111595, "timeZone": "America/Lima",
+    "ingredients": {
+      "shrimp": 0.92, "fish": 0.88, "rice": 0.88, "plantain": 0.82,
+      "lime": 0.92, "garlic": 0.80, "onion": 0.78, "chili_pepper": 0.82,
+      "mango": 0.85, "coconut": 0.72, "cilantro": 0.80, "cassava": 0.70,
+      "corn": 0.72, "crab": 0.75
+    },
+    "cookingMethods": {"grilling": 0.90, "stewing": 0.88, "frying": 0.85, "boiling": 0.85, "raw": 0.78}
+  },
+  {
+    "id": "PE-HUM", "name": "Huánuco", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -9.9281, "longitude": -76.2426,
+    "region": "Huánuco", "population": 196068, "timeZone": "America/Lima",
+    "ingredients": {
+      "potato": 0.93, "corn": 0.88, "quinoa": 0.78, "pork": 0.85,
+      "lamb": 0.80, "beef": 0.78, "chili_pepper": 0.82, "garlic": 0.75,
+      "onion": 0.78, "aji_amarillo": 0.80, "cassava": 0.72, "egg": 0.72,
+      "cheese": 0.68, "rice": 0.65
+    },
+    "cookingMethods": {"roasting": 0.92, "boiling": 0.88, "stewing": 0.85, "grilling": 0.80, "frying": 0.75}
+  },
+  {
+    "id": "PE-CHA", "name": "Chachapoyas", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -6.232, "longitude": -77.8711,
+    "region": "Amazonas", "population": 31730, "timeZone": "America/Lima",
+    "ingredients": {
+      "potato": 0.90, "pork": 0.88, "cheese": 0.85, "beef": 0.78,
+      "chili_pepper": 0.75, "garlic": 0.75, "onion": 0.78, "cilantro": 0.72,
+      "rice": 0.80, "corn": 0.82, "egg": 0.78, "peanut": 0.70, "cassava": 0.62
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "grilling": 0.85, "frying": 0.80, "roasting": 0.75}
+  },
+  {
+    "id": "PE-HTZ", "name": "Chimbote", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -9.0733, "longitude": -78.59,
+    "region": "Áncash", "population": 313275, "timeZone": "America/Lima",
+    "ingredients": {
+      "anchovy": 0.98, "fish": 0.95, "smoked_fish": 0.82, "rice": 0.88,
+      "lime": 0.85, "garlic": 0.82, "onion": 0.80, "chili_pepper": 0.80,
+      "corn": 0.78, "cilantro": 0.78, "potato": 0.72, "avocado": 0.68,
+      "aji_amarillo": 0.72
+    },
+    "cookingMethods": {"grilling": 0.90, "stewing": 0.88, "frying": 0.85, "boiling": 0.85, "smoking": 0.80}
+  },
+  {
+    "id": "PE-MOQ", "name": "Moquegua", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -17.1935, "longitude": -70.9352,
+    "region": "Moquegua", "population": 58711, "timeZone": "America/Lima",
+    "ingredients": {
+      "wine": 0.90, "olive": 0.85, "avocado": 0.82, "potato": 0.90,
+      "quinoa": 0.88, "lamb": 0.82, "garlic": 0.78, "onion": 0.78,
+      "chili_pepper": 0.78, "aji_amarillo": 0.82, "trout": 0.72,
+      "cheese": 0.72, "peach": 0.68
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "roasting": 0.85, "grilling": 0.80, "frying": 0.75}
+  },
+  {
+    "id": "PE-TAR2", "name": "Tarma", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -11.4208, "longitude": -75.695,
+    "region": "Junín", "population": 91000, "timeZone": "America/Lima",
+    "ingredients": {
+      "garlic": 0.97, "potato": 0.90, "quinoa": 0.82, "carrot": 0.78,
+      "chili_pepper": 0.80, "lamb": 0.78, "onion": 0.85, "rice": 0.80,
+      "aji_amarillo": 0.72, "avocado": 0.72, "corn": 0.78, "tomato": 0.72,
+      "egg": 0.72
+    },
+    "cookingMethods": {"frying": 0.88, "grilling": 0.85, "stewing": 0.85, "boiling": 0.82, "roasting": 0.80, "steaming": 0.72}
+  },
+  {
+    "id": "PE-SUL", "name": "Sullana", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -4.8995, "longitude": -80.6983,
+    "region": "Piura", "population": 192066, "timeZone": "America/Lima",
+    "ingredients": {
+      "mango": 0.90, "banana": 0.82, "fish": 0.82, "goat_meat": 0.78,
+      "rice": 0.88, "garlic": 0.80, "onion": 0.80, "chili_pepper": 0.75,
+      "lime": 0.82, "corn": 0.78, "plantain": 0.72, "pork": 0.75,
+      "cilantro": 0.72, "cassava": 0.65
+    },
+    "cookingMethods": {"grilling": 0.90, "stewing": 0.88, "frying": 0.85, "boiling": 0.85, "smoking": 0.70}
+  },
+  {
+    "id": "PE-HUA2", "name": "Huancavelica", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -12.7764, "longitude": -74.976,
+    "region": "Huancavelica", "population": 32819, "timeZone": "America/Lima",
+    "ingredients": {
+      "potato": 0.97, "quinoa": 0.88, "lamb": 0.90, "aji_amarillo": 0.82,
+      "chili_pepper": 0.80, "corn": 0.80, "garlic": 0.72, "onion": 0.75,
+      "egg": 0.72, "rice": 0.62, "trout": 0.68, "cassava": 0.52
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.88, "roasting": 0.85, "grilling": 0.78, "steaming": 0.68}
+  },
+  {
+    "id": "PE-HUAR", "name": "Huaraz", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -9.529, "longitude": -77.5288,
+    "region": "Áncash", "population": 120000, "timeZone": "America/Lima",
+    "ingredients": {
+      "potato": 0.93, "trout": 0.88, "wheat": 0.80, "quinoa": 0.80,
+      "lamb": 0.82, "chili_pepper": 0.78, "garlic": 0.75, "onion": 0.78,
+      "corn": 0.82, "aji_amarillo": 0.78, "egg": 0.72, "rice": 0.70,
+      "butter": 0.68
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "roasting": 0.85, "frying": 0.80, "grilling": 0.78}
+  },
+  {
+    "id": "PE-ANC", "name": "Anchash", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -9.8355, "longitude": -78.945,
+    "region": "Áncash", "population": 300000, "timeZone": "America/Lima",
+    "ingredients": {
+      "potato": 0.90, "trout": 0.82, "quinoa": 0.78, "corn": 0.85,
+      "chili_pepper": 0.78, "lamb": 0.75, "garlic": 0.72, "onion": 0.75,
+      "wheat": 0.72, "aji_amarillo": 0.75, "rice": 0.78, "egg": 0.70,
+      "cassava": 0.62
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "frying": 0.85, "grilling": 0.80, "roasting": 0.75}
+  },
+  {
+    "id": "PE-PIU2", "name": "Pisco", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -13.7107, "longitude": -76.2052,
+    "region": "Ica", "population": 127017, "timeZone": "America/Lima",
+    "ingredients": {
+      "fish": 0.97, "lime": 0.93, "onion": 0.90, "garlic": 0.88, "avocado": 0.82,
+      "rice": 0.85, "potato": 0.85, "chili_pepper": 0.85, "aji_amarillo": 0.85,
+      "cilantro": 0.82, "shrimp": 0.80, "corn": 0.72, "wine": 0.70
+    },
+    "cookingMethods": {"frying": 0.88, "grilling": 0.85, "stewing": 0.85, "boiling": 0.82, "raw": 0.82, "steaming": 0.72}
+  },
+  {
+    "id": "PE-ABR", "name": "Abancay", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -13.636, "longitude": -72.881,
+    "region": "Apurímac", "population": 137870, "timeZone": "America/Lima",
+    "ingredients": {
+      "cheese": 0.90, "peanut": 0.85, "potato": 0.85, "quinoa": 0.82,
+      "lamb": 0.82, "chili_pepper": 0.85, "corn": 0.82, "aji_amarillo": 0.80,
+      "garlic": 0.78, "onion": 0.78, "apple": 0.72, "trout": 0.72, "egg": 0.68
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "roasting": 0.85, "grilling": 0.80, "frying": 0.75}
+  },
+  {
+    "id": "PE-APA", "name": "Apurímac", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -14.038, "longitude": -72.3789,
+    "region": "Apurímac", "population": 72000, "timeZone": "America/Lima",
+    "ingredients": {
+      "potato": 0.95, "lamb": 0.90, "chili_pepper": 0.92, "corn": 0.82,
+      "aji_amarillo": 0.82, "garlic": 0.78, "onion": 0.78, "cheese": 0.78,
+      "trout": 0.72, "quinoa": 0.80, "peanut": 0.72, "egg": 0.65
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "roasting": 0.88, "grilling": 0.80, "frying": 0.75}
+  },
+  {
+    "id": "PE-JUN", "name": "Jauja", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -11.775, "longitude": -75.4989,
+    "region": "Junín", "population": 30000, "timeZone": "America/Lima",
+    "ingredients": {
+      "quinoa": 0.97, "potato": 0.90, "lamb": 0.82, "corn": 0.80,
+      "aji_amarillo": 0.82, "chili_pepper": 0.75, "garlic": 0.80,
+      "onion": 0.80, "rice": 0.72, "trout": 0.72, "cheese": 0.68,
+      "peanut": 0.65, "egg": 0.65
+    },
+    "cookingMethods": {"frying": 0.88, "grilling": 0.85, "stewing": 0.85, "boiling": 0.82, "roasting": 0.80}
+  },
+  {
+    "id": "PE-LAU", "name": "La Unión", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -15.8318, "longitude": -72.4406,
+    "region": "Arequipa", "population": 20000, "timeZone": "America/Lima",
+    "ingredients": {
+      "aji_amarillo": 0.95, "potato": 0.90, "goat_meat": 0.82, "lamb": 0.85,
+      "milk": 0.78, "corn": 0.80, "chili_pepper": 0.80, "garlic": 0.72,
+      "onion": 0.68, "trout": 0.65, "cheese": 0.75, "egg": 0.68, "cassava": 0.52
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "roasting": 0.85, "grilling": 0.80, "frying": 0.72}
+  },
+  {
+    "id": "PE-HUAR2", "name": "Huarmey", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -10.0667, "longitude": -78.2,
+    "region": "Áncash", "population": 15000, "timeZone": "America/Lima",
+    "ingredients": {
+      "fish": 0.97, "anchovy": 0.85, "shrimp": 0.80, "onion": 0.90, "lime": 0.88,
+      "garlic": 0.82, "chili_pepper": 0.82, "rice": 0.82, "corn": 0.78,
+      "cilantro": 0.78, "potato": 0.78, "avocado": 0.72, "tomato": 0.68
+    },
+    "cookingMethods": {"frying": 0.88, "grilling": 0.85, "stewing": 0.85, "boiling": 0.82, "raw": 0.80}
+  },
+  {
+    "id": "PE-CHA2", "name": "Chala", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -15.7, "longitude": -74.23,
+    "region": "Arequipa", "population": 12000, "timeZone": "America/Lima",
+    "ingredients": {
+      "fish": 0.92, "potato": 0.85, "corn": 0.80, "quinoa": 0.78,
+      "lamb": 0.72, "aji_amarillo": 0.80, "chili_pepper": 0.78,
+      "garlic": 0.78, "onion": 0.78, "lime": 0.82, "cilantro": 0.75,
+      "rice": 0.75, "shrimp": 0.70
+    },
+    "cookingMethods": {"boiling": 0.90, "grilling": 0.88, "stewing": 0.85, "frying": 0.82, "steaming": 0.72}
+  },
+  {
+    "id": "PE-CRI", "name": "Crespo", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -12.15, "longitude": -76.92,
+    "region": "Lima Region", "population": 10000, "timeZone": "America/Lima",
+    "ingredients": {
+      "chili_pepper": 0.95, "fish": 0.88, "lime": 0.88, "garlic": 0.85,
+      "onion": 0.82, "rice": 0.88, "avocado": 0.80, "cilantro": 0.80,
+      "corn": 0.78, "potato": 0.85, "aji_amarillo": 0.78, "tomato": 0.72,
+      "egg": 0.72
+    },
+    "cookingMethods": {"frying": 0.90, "grilling": 0.85, "stewing": 0.85, "boiling": 0.82, "raw": 0.78}
+  },
+  {
+    "id": "PE-PAO", "name": "Pachacama", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -11.85, "longitude": -76.3,
+    "region": "Junín", "population": 8000, "timeZone": "America/Lima",
+    "ingredients": {
+      "lime": 0.95, "olive": 0.82, "avocado": 0.92, "fish": 0.80,
+      "garlic": 0.88, "onion": 0.82, "rice": 0.88, "potato": 0.88,
+      "chili_pepper": 0.72, "aji_amarillo": 0.82, "cilantro": 0.82,
+      "tomato": 0.80, "corn": 0.68
+    },
+    "cookingMethods": {"frying": 0.88, "grilling": 0.85, "stewing": 0.85, "boiling": 0.82, "raw": 0.82, "steaming": 0.72}
+  },
+  {
+    "id": "PE-ARQ", "name": "Arica", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -18.4783, "longitude": -70.3126,
+    "region": "Tacna", "population": 9000, "timeZone": "America/Lima",
+    "ingredients": {
+      "fish": 0.88, "olive": 0.80, "potato": 0.90, "quinoa": 0.85,
+      "lamb": 0.80, "aji_amarillo": 0.85, "chili_pepper": 0.78, "cheese": 0.75,
+      "garlic": 0.78, "onion": 0.78, "trout": 0.72, "corn": 0.80, "wine": 0.72
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "grilling": 0.85, "frying": 0.80, "roasting": 0.78}
+  },
+  {
+    "id": "PE-INI", "name": "Inírida", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": 3.87, "longitude": -67.92,
+    "region": "Putumayo", "population": 15000, "timeZone": "America/Lima",
+    "ingredients": {
+      "river_fish": 0.95, "cassava": 0.92, "plantain": 0.90, "corn": 0.82,
+      "pineapple": 0.78, "palm_oil": 0.75, "wild_green": 0.80, "chili_pepper": 0.78,
+      "garlic": 0.68, "mango": 0.75, "coconut": 0.70, "bean": 0.68, "rice": 0.72
+    },
+    "cookingMethods": {"boiling": 0.90, "stewing": 0.88, "roasting": 0.85, "grilling": 0.80, "steaming": 0.72}
+  },
+  {
+    "id": "PE-LO", "name": "Loreto", "type": "City", "continent": "South America",
+    "countryCode": "PE", "latitude": -3.7, "longitude": -73.25,
+    "region": "Loreto", "population": 7000, "timeZone": "America/Lima",
+    "ingredients": {
+      "river_fish": 0.97, "plantain": 0.92, "cassava": 0.88, "palm_oil": 0.85,
+      "pineapple": 0.82, "wild_green": 0.80, "lemongrass": 0.78, "chili_pepper": 0.75,
+      "garlic": 0.68, "coconut": 0.75, "corn": 0.78, "rice": 0.70, "mango": 0.72
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.88, "roasting": 0.85, "grilling": 0.80, "steaming": 0.72}
+  }
+]

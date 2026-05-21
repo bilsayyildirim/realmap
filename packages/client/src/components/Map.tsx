@@ -7,7 +7,7 @@ import { CityDrawer } from './CityDrawer';
 import { PlacesLayer } from './PlacesLayer';
 import { SearchBar } from './SearchBar';
 
-const TILE_URL = 'https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png';
+const STYLE_URL = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
 
 interface MapProps {
   center: [number, number];
@@ -29,18 +29,7 @@ export const Map = ({ center, zoom }: MapProps) => {
     try {
       map.current = new maplibregl.Map({
         container: mapContainer.current,
-        style: {
-          version: 8,
-          sources: {
-            'raster-tiles': {
-              type: 'raster',
-              tiles: [TILE_URL],
-              tileSize: 256,
-              attribution: '© CARTO, © OpenStreetMap contributors',
-            },
-          },
-          layers: [{ id: 'simple-tiles', type: 'raster', source: 'raster-tiles', minzoom: 0, maxzoom: 22 }],
-        },
+        style: STYLE_URL,
         center,
         zoom,
       });

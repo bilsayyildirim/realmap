@@ -383,11 +383,11 @@
     "timeZone": "America/Godthab",
     "ingredients": {
       "fish": 0.95,
-      "seal_meat": 0.9,
-      "shrimp": 0.9,
+      "seal_meat": 0.85,
+      "shrimp": 0.97,
       "berry": 0.88,
       "seaweed": 0.85,
-      "reindeer_meat": 0.8,
+      "reindeer_meat": 0.82,
       "butter": 0.75,
       "onion": 0.75,
       "oat": 0.72,
@@ -396,7 +396,8 @@
       "lamb": 0.72,
       "barley": 0.7,
       "potato": 0.7,
-      "beef": 0.7
+      "beef": 0.7,
+      "whale": 0.8
     },
     "cookingMethods": {
       "drying": 0.95,
@@ -419,20 +420,21 @@
     "timeZone": "America/Godthab",
     "ingredients": {
       "fish": 0.95,
-      "seal_meat": 0.9,
-      "berry": 0.9,
+      "seal_meat": 0.85,
+      "berry": 0.92,
       "seaweed": 0.88,
-      "reindeer_meat": 0.85,
+      "reindeer_meat": 0.78,
       "butter": 0.75,
       "onion": 0.75,
       "oat": 0.72,
       "rye_bread": 0.72,
       "cream": 0.72,
-      "lamb": 0.72,
+      "lamb": 0.88,
       "barley": 0.7,
       "potato": 0.7,
       "whale": 0.7,
-      "beef": 0.7
+      "beef": 0.7,
+      "shrimp": 0.78
     },
     "cookingMethods": {
       "drying": 0.95,
@@ -454,10 +456,10 @@
     "population": 1300,
     "timeZone": "America/Godthab",
     "ingredients": {
-      "fish": 0.95,
-      "seal_meat": 0.9,
-      "reindeer_meat": 0.9,
-      "berry": 0.88,
+      "fish": 0.9,
+      "seal_meat": 0.97,
+      "reindeer_meat": 0.92,
+      "berry": 0.82,
       "seaweed": 0.85,
       "butter": 0.75,
       "onion": 0.75,
@@ -467,8 +469,9 @@
       "lamb": 0.72,
       "barley": 0.7,
       "potato": 0.7,
-      "whale": 0.7,
-      "beef": 0.7
+      "whale": 0.9,
+      "beef": 0.7,
+      "shrimp": 0.62
     },
     "cookingMethods": {
       "drying": 0.95,
@@ -490,9 +493,9 @@
     "population": 2000,
     "timeZone": "America/Godthab",
     "ingredients": {
-      "fish": 0.95,
-      "seal_meat": 0.9,
-      "shrimp": 0.9,
+      "fish": 0.92,
+      "seal_meat": 0.97,
+      "shrimp": 0.68,
       "berry": 0.88,
       "seaweed": 0.85,
       "butter": 0.75,
@@ -501,10 +504,11 @@
       "rye_bread": 0.72,
       "cream": 0.72,
       "lamb": 0.72,
-      "reindeer_meat": 0.7,
+      "reindeer_meat": 0.75,
       "barley": 0.7,
       "potato": 0.7,
-      "beef": 0.7
+      "beef": 0.7,
+      "whale": 0.82
     },
     "cookingMethods": {
       "drying": 0.95,

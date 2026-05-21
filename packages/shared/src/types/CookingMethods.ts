@@ -19,7 +19,6 @@ export const CookingMethodsSchema = Type.Object({
   "marinating": Type.Optional(Type.Number()),
   "pickling": Type.Optional(Type.Number()),
   "poaching": Type.Optional(Type.Number()),
-  "pounding": Type.Optional(Type.Number()),
   "preserving": Type.Optional(Type.Number()),
   "raw": Type.Optional(Type.Number()),
   "roasting": Type.Optional(Type.Number()),

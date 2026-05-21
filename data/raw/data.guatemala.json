@@ -1,1 +1,519 @@
-[{"id":"GT-GUA","name":"Guatemala City","type":"City","continent":"North America","countryCode":"GT","latitude":14.6349,"longitude":-90.5069,"region":"Guatemala","population":3000000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.95,"rice":0.9,"plantain":0.9,"chicken":0.9,"pork":0.85,"beef":0.85,"avocado":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"coffee":0.88},"cookingMethods":{"boiling":0.95,"frying":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-MIX","name":"Mixco","type":"City","continent":"North America","countryCode":"GT","latitude":14.6333,"longitude":-90.606,"region":"Guatemala","population":500000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"chicken":0.85,"pork":0.85,"avocado":0.82,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"coffee":0.85},"cookingMethods":{"frying":0.95,"boiling":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-VNA","name":"Villa Nueva","type":"City","continent":"North America","countryCode":"GT","latitude":14.5289,"longitude":-90.587,"region":"Guatemala","population":650000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.8,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.82,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65},"cookingMethods":{"boiling":0.95,"frying":0.9,"grilling":0.9,"stewing":0.85}},{"id":"GT-QEZ","name":"Quetzaltenango","type":"City","continent":"North America","countryCode":"GT","latitude":14.8341,"longitude":-91.518,"region":"Quetzaltenango","population":180000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"chicken":0.85,"pork":0.85,"avocado":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"coffee":0.9,"potato":0.85},"cookingMethods":{"stewing":0.95,"boiling":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-PET","name":"San Miguel Petapa","type":"City","continent":"North America","countryCode":"GT","latitude":14.5028,"longitude":-90.5517,"region":"Guatemala","population":200000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"chicken":0.85,"pork":0.85,"avocado":0.78,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65},"cookingMethods":{"frying":0.95,"boiling":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-COB","name":"Cobán","type":"City","continent":"North America","countryCode":"GT","latitude":15.47,"longitude":-90.37,"region":"Alta Verapaz","population":200000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"coffee":0.95,"avocado":0.85,"chicken":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"pork":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"cardamom":0.88},"cookingMethods":{"boiling":0.95,"stewing":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-HUE","name":"Huehuetenango","type":"City","continent":"North America","countryCode":"GT","latitude":15.3133,"longitude":-91.4703,"region":"Huehuetenango","population":130000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"coffee":0.88,"avocado":0.85,"chicken":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"pork":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"potato":0.88},"cookingMethods":{"boiling":0.95,"stewing":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-CHI","name":"Chiquimula","type":"City","continent":"North America","countryCode":"GT","latitude":14.8061,"longitude":-89.544,"region":"Chiquimula","population":120000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.75,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.82,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65},"cookingMethods":{"boiling":0.95,"frying":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-ESC","name":"Escuintla","type":"City","continent":"North America","countryCode":"GT","latitude":14.2992,"longitude":-90.7857,"region":"Escuintla","population":100000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"fish":0.85,"shrimp":0.85,"chicken":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"avocado":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pork":0.72,"pumpkin":0.68,"cassava":0.65,"coconut":0.82},"cookingMethods":{"grilling":0.95,"boiling":0.9,"frying":0.9,"stewing":0.85}},{"id":"GT-PBA","name":"Puerto Barrios","type":"City","continent":"North America","countryCode":"GT","latitude":15.7167,"longitude":-88.5833,"region":"Izabal","population":90000,"timeZone":"America/Guatemala","ingredients":{"fish":0.95,"shrimp":0.9,"rice":0.9,"plantain":0.9,"coconut":0.88,"corn":0.9,"bean":0.85,"cassava":0.85,"lime":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"cilantro":0.8,"avocado":0.8,"garlic":0.8,"chili_pepper":0.78,"chicken":0.78,"pork":0.72,"pumpkin":0.68},"cookingMethods":{"steaming":0.95,"grilling":0.9,"boiling":0.9,"frying":0.85}},{"id":"GT-ANT","name":"Antigua Guatemala","type":"City","continent":"North America","countryCode":"GT","latitude":14.556,"longitude":-90.733,"region":"Sacatepéquez","population":47000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"coffee":0.92,"avocado":0.88,"chicken":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"pork":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65},"cookingMethods":{"stewing":0.95,"boiling":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-AMA","name":"Amatitlán","type":"City","continent":"North America","countryCode":"GT","latitude":14.477,"longitude":-90.659,"region":"Guatemala","population":102000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"fish":0.85,"shrimp":0.85,"avocado":0.76,"flatbread":0.82,"tomato":0.82,"onion":0.82,"chicken":0.8,"cilantro":0.8,"lime":0.78,"garlic":0.8,"chili_pepper":0.78,"pork":0.72,"pumpkin":0.68,"cassava":0.65},"cookingMethods":{"grilling":0.95,"steaming":0.9,"boiling":0.9,"frying":0.85}},{"id":"GT-PAL","name":"Palín","type":"City","continent":"North America","countryCode":"GT","latitude":14.404,"longitude":-90.698,"region":"Escuintla","population":70000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"chicken":0.85,"pork":0.85,"avocado":0.8,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"shrimp":0.78},"cookingMethods":{"frying":0.95,"boiling":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-BAR","name":"Barberena","type":"City","continent":"North America","countryCode":"GT","latitude":14.303,"longitude":-90.362,"region":"Santa Rosa","population":55000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.72,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.78,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"honey":0.78},"cookingMethods":{"boiling":0.95,"frying":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-SCP","name":"Santa Catarina Pinula","type":"City","continent":"North America","countryCode":"GT","latitude":14.598,"longitude":-90.488,"region":"Guatemala","population":180000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"chicken":0.85,"pork":0.85,"avocado":0.8,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"coffee":0.75},"cookingMethods":{"frying":0.95,"boiling":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-JAL","name":"Jalapa","type":"City","continent":"North America","countryCode":"GT","latitude":14.632,"longitude":-89.992,"region":"Jalapa","population":158000,"timeZone":"America/Guatemala","ingredients":{"corn":0.97,"bean":0.9,"rice":0.9,"plantain":0.9,"chicken":0.85,"pork":0.85,"avocado":0.72,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"coffee":0.8},"cookingMethods":{"stewing":0.95,"boiling":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-JUT","name":"Jutiapa","type":"City","continent":"North America","countryCode":"GT","latitude":14.29,"longitude":-89.895,"region":"Jutiapa","population":145000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.72,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.82,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65},"cookingMethods":{"boiling":0.95,"frying":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-ZAC","name":"Zacapa","type":"City","continent":"North America","countryCode":"GT","latitude":14.972,"longitude":-89.528,"region":"Zacapa","population":90000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.75,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.85,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65},"cookingMethods":{"frying":0.95,"boiling":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-ESQ","name":"Esquipulas","type":"City","continent":"North America","countryCode":"GT","latitude":14.566,"longitude":-89.35,"region":"Chiquimula","population":54000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.72,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"honey":0.78},"cookingMethods":{"boiling":0.95,"frying":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-SPC","name":"San Pedro Carchá","type":"City","continent":"North America","countryCode":"GT","latitude":15.483,"longitude":-90.316,"region":"Alta Verapaz","population":200000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"coffee":0.92,"avocado":0.85,"chicken":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"pork":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"cardamom":0.9},"cookingMethods":{"stewing":0.95,"boiling":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-FLO","name":"Flores","type":"City","continent":"North America","countryCode":"GT","latitude":16.93,"longitude":-89.892,"region":"Petén","population":30000,"timeZone":"America/Guatemala","ingredients":{"fish":0.8,"shrimp":0.9,"rice":0.9,"plantain":0.9,"corn":0.9,"coconut":0.85,"bean":0.85,"cassava":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"lime":0.8,"cilantro":0.8,"avocado":0.78,"garlic":0.8,"chili_pepper":0.78,"chicken":0.78,"pork":0.72,"pumpkin":0.68},"cookingMethods":{"steaming":0.95,"grilling":0.9,"boiling":0.9,"frying":0.85}},{"id":"GT-SBE","name":"San Benito","type":"City","continent":"North America","countryCode":"GT","latitude":16.91,"longitude":-89.885,"region":"Petén","population":50000,"timeZone":"America/Guatemala","ingredients":{"fish":0.8,"shrimp":0.9,"rice":0.9,"plantain":0.9,"corn":0.9,"coconut":0.85,"bean":0.85,"lime":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"cassava":0.8,"cilantro":0.8,"avocado":0.78,"garlic":0.8,"chili_pepper":0.78,"chicken":0.78,"pork":0.72,"pumpkin":0.68},"cookingMethods":{"grilling":0.95,"steaming":0.9,"boiling":0.9,"frying":0.85}},{"id":"GT-POP","name":"Poptún","type":"City","continent":"North America","countryCode":"GT","latitude":16.333,"longitude":-89.417,"region":"Petén","population":35000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"cassava":0.85,"avocado":0.85,"chicken":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"pork":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68},"cookingMethods":{"boiling":0.95,"frying":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-LIB","name":"La Libertad (Petén)","type":"Town","continent":"North America","countryCode":"GT","latitude":16.784,"longitude":-90.123,"region":"Petén","population":18000,"timeZone":"America/Guatemala","ingredients":{"fish":0.82,"shrimp":0.9,"rice":0.9,"plantain":0.9,"corn":0.9,"coconut":0.85,"bean":0.85,"lime":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"cassava":0.8,"cilantro":0.8,"avocado":0.75,"garlic":0.8,"chili_pepper":0.78,"chicken":0.78,"pork":0.72,"pumpkin":0.68},"cookingMethods":{"steaming":0.95,"grilling":0.9,"boiling":0.9,"frying":0.85}},{"id":"GT-PSJ","name":"Puerto San José","type":"City","continent":"North America","countryCode":"GT","latitude":13.935,"longitude":-90.817,"region":"Escuintla","population":30000,"timeZone":"America/Guatemala","ingredients":{"fish":0.95,"shrimp":0.88,"rice":0.9,"plantain":0.9,"corn":0.9,"coconut":0.88,"bean":0.85,"lime":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"cassava":0.8,"cilantro":0.8,"avocado":0.8,"garlic":0.8,"chili_pepper":0.78,"chicken":0.78,"pork":0.72,"pumpkin":0.68},"cookingMethods":{"grilling":0.95,"steaming":0.9,"boiling":0.9,"frying":0.85}},{"id":"GT-SIP","name":"Sipacate","type":"Town","continent":"North America","countryCode":"GT","latitude":13.92,"longitude":-91.15,"region":"Escuintla","population":20000,"timeZone":"America/Guatemala","ingredients":{"fish":0.95,"shrimp":0.85,"rice":0.9,"plantain":0.9,"corn":0.9,"coconut":0.85,"bean":0.85,"lime":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"cassava":0.8,"cilantro":0.8,"avocado":0.8,"garlic":0.8,"chili_pepper":0.78,"chicken":0.78,"pork":0.72,"pumpkin":0.68},"cookingMethods":{"steaming":0.95,"grilling":0.9,"boiling":0.9,"frying":0.85}},{"id":"GT-LIV","name":"Livingston","type":"Town","continent":"North America","countryCode":"GT","latitude":15.833,"longitude":-88.75,"region":"Izabal","population":17000,"timeZone":"America/Guatemala","ingredients":{"fish":0.95,"shrimp":0.88,"rice":0.9,"plantain":0.9,"coconut":0.9,"corn":0.9,"cassava":0.85,"bean":0.85,"lime":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"cilantro":0.8,"avocado":0.8,"garlic":0.8,"chili_pepper":0.78,"chicken":0.78,"pork":0.72,"pumpkin":0.68},"cookingMethods":{"steaming":0.95,"grilling":0.9,"boiling":0.9,"frying":0.85}},{"id":"GT-MOR","name":"Morales","type":"City","continent":"North America","countryCode":"GT","latitude":15.484,"longitude":-88.843,"region":"Izabal","population":100000,"timeZone":"America/Guatemala","ingredients":{"fish":0.95,"shrimp":0.9,"rice":0.9,"plantain":0.9,"corn":0.9,"coconut":0.85,"cassava":0.85,"bean":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"lime":0.8,"cilantro":0.8,"avocado":0.8,"garlic":0.8,"chili_pepper":0.78,"chicken":0.78,"pork":0.72,"pumpkin":0.68},"cookingMethods":{"grilling":0.95,"steaming":0.9,"boiling":0.9,"frying":0.85}},{"id":"GT-MAZ","name":"Mazatenango","type":"City","continent":"North America","countryCode":"GT","latitude":14.534,"longitude":-91.505,"region":"Suchitepéquez","population":90000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"shrimp":0.82,"coconut":0.8},"cookingMethods":{"boiling":0.95,"frying":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-RET","name":"Retalhuleu","type":"City","continent":"North America","countryCode":"GT","latitude":14.533,"longitude":-91.683,"region":"Retalhuleu","population":90000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"shrimp":0.8,"coconut":0.78},"cookingMethods":{"frying":0.95,"boiling":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-TOT","name":"Totonicapán","type":"City","continent":"North America","countryCode":"GT","latitude":14.915,"longitude":-91.359,"region":"Totonicapán","population":100000,"timeZone":"America/Guatemala","ingredients":{"corn":0.98,"bean":0.9,"rice":0.9,"plantain":0.9,"chicken":0.85,"pork":0.85,"avocado":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"potato":0.92},"cookingMethods":{"stewing":0.95,"boiling":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-SOL","name":"Sololá","type":"City","continent":"North America","countryCode":"GT","latitude":14.772,"longitude":-91.183,"region":"Sololá","population":80000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"chicken":0.85,"pork":0.85,"avocado":0.82,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"potato":0.85},"cookingMethods":{"stewing":0.95,"boiling":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-SLC","name":"Santa Lucía Cotzumalguapa","type":"City","continent":"North America","countryCode":"GT","latitude":14.332,"longitude":-91.025,"region":"Escuintla","population":123000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"shrimp":0.82,"coconut":0.75},"cookingMethods":{"boiling":0.95,"frying":0.9,"grilling":0.9,"stewing":0.85}},{"id":"GT-COQ","name":"Coatepeque","type":"City","continent":"North America","countryCode":"GT","latitude":14.7,"longitude":-91.867,"region":"Quetzaltenango","population":100000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.75,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"coffee":0.85},"cookingMethods":{"frying":0.95,"boiling":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-SMR","name":"San Marcos","type":"City","continent":"North America","countryCode":"GT","latitude":14.963,"longitude":-91.799,"region":"San Marcos","population":65000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.85,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"coffee":0.88,"potato":0.85},"cookingMethods":{"boiling":0.95,"stewing":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-MAL","name":"Malacatán","type":"Town","continent":"North America","countryCode":"GT","latitude":14.911,"longitude":-92.065,"region":"San Marcos","population":45000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.97,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.72,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.76,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"coffee":0.82},"cookingMethods":{"frying":0.95,"boiling":0.9,"stewing":0.9,"grilling":0.85}},{"id":"GT-SAL","name":"Salamá","type":"City","continent":"North America","countryCode":"GT","latitude":15.105,"longitude":-90.314,"region":"Baja Verapaz","population":70000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"coffee":0.85,"chicken":0.85,"avocado":0.78,"flatbread":0.82,"tomato":0.82,"onion":0.82,"pork":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"honey":0.82},"cookingMethods":{"stewing":0.95,"boiling":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-SCQ","name":"Santa Cruz del Quiché","type":"City","continent":"North America","countryCode":"GT","latitude":15.03,"longitude":-91.148,"region":"El Quiché","population":110000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"coffee":0.85,"chicken":0.85,"avocado":0.75,"flatbread":0.82,"tomato":0.82,"onion":0.82,"pork":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"potato":0.9},"cookingMethods":{"boiling":0.95,"stewing":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-CHM","name":"Chimaltenango","type":"City","continent":"North America","countryCode":"GT","latitude":14.654,"longitude":-90.817,"region":"Chimaltenango","population":80000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"pork":0.85,"chicken":0.85,"avocado":0.78,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"potato":0.88},"cookingMethods":{"stewing":0.95,"boiling":0.9,"frying":0.9,"grilling":0.85}},{"id":"GT-VCA","name":"Villa Canales","type":"City","continent":"North America","countryCode":"GT","latitude":14.484,"longitude":-90.531,"region":"Guatemala","population":200000,"timeZone":"America/Guatemala","ingredients":{"corn":0.95,"bean":0.9,"rice":0.9,"plantain":0.9,"chicken":0.85,"pork":0.85,"avocado":0.72,"flatbread":0.82,"tomato":0.82,"onion":0.82,"beef":0.8,"cilantro":0.8,"lime":0.8,"garlic":0.8,"chili_pepper":0.78,"pumpkin":0.68,"cassava":0.65,"coffee":0.78},"cookingMethods":{"frying":0.95,"boiling":0.9,"stewing":0.9,"grilling":0.85}}]
+[
+  {
+    "id": "GT-GUA", "name": "Guatemala City", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.6349, "longitude": -90.5069,
+    "region": "Guatemala", "population": 3000000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "flatbread": 0.97, "corn": 0.95, "pumpkin_seed": 0.92, "chicken": 0.90,
+      "coffee": 0.88, "tomato": 0.88, "bean": 0.85, "avocado": 0.85, "mole": 0.85,
+      "onion": 0.82, "garlic": 0.82, "cilantro": 0.82, "pork": 0.80, "beef": 0.80,
+      "sesame": 0.80, "lime": 0.78, "allspice": 0.75, "chili_pepper": 0.75,
+      "rice": 0.72, "egg": 0.72, "plantain": 0.68, "wheat": 0.60, "cassava": 0.42
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.90, "frying": 0.88, "grilling": 0.80}
+  },
+  {
+    "id": "GT-MIX", "name": "Mixco", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.6333, "longitude": -90.606,
+    "region": "Guatemala", "population": 500000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.85, "rice": 0.92, "plantain": 0.82, "chicken": 0.88,
+      "pork": 0.85, "beef": 0.80, "avocado": 0.78, "tomato": 0.88, "onion": 0.85,
+      "garlic": 0.82, "cilantro": 0.78, "chili_pepper": 0.72, "egg": 0.88,
+      "bread": 0.85, "flatbread": 0.72, "potato": 0.75, "coffee": 0.78, "lime": 0.78
+    },
+    "cookingMethods": {"frying": 0.95, "boiling": 0.88, "stewing": 0.88, "grilling": 0.82}
+  },
+  {
+    "id": "GT-VNA", "name": "Villa Nueva", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.5289, "longitude": -90.587,
+    "region": "Guatemala", "population": 650000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.85, "rice": 0.92, "plantain": 0.85, "chicken": 0.90,
+      "pork": 0.85, "beef": 0.78, "avocado": 0.75, "tomato": 0.85, "onion": 0.82,
+      "garlic": 0.80, "cilantro": 0.78, "chili_pepper": 0.70, "egg": 0.82,
+      "flatbread": 0.80, "sugar_cane": 0.70, "lime": 0.80, "pumpkin": 0.65,
+      "epazote": 0.72
+    },
+    "cookingMethods": {"boiling": 0.92, "frying": 0.90, "grilling": 0.88, "stewing": 0.85}
+  },
+  {
+    "id": "GT-QEZ", "name": "Quetzaltenango", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.8341, "longitude": -91.518,
+    "region": "Quetzaltenango", "population": 180000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.85, "bean": 0.82, "potato": 0.92, "wheat": 0.82, "pork": 0.92,
+      "chicken": 0.80, "beef": 0.78, "coffee": 0.90, "avocado": 0.72, "tomato": 0.78,
+      "onion": 0.82, "garlic": 0.78, "cilantro": 0.70, "lime": 0.68,
+      "chili_pepper": 0.62, "flatbread": 0.78, "egg": 0.85, "butter": 0.72,
+      "milk": 0.78, "sausage": 0.75, "rice": 0.68, "plantain": 0.55
+    },
+    "cookingMethods": {"stewing": 0.95, "boiling": 0.90, "frying": 0.88, "grilling": 0.78}
+  },
+  {
+    "id": "GT-PET", "name": "San Miguel Petapa", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.5028, "longitude": -90.5517,
+    "region": "Guatemala", "population": 200000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "flatbread": 0.92, "corn": 0.90, "fish": 0.88, "chicken": 0.85, "bean": 0.85,
+      "rice": 0.82, "tomato": 0.82, "onion": 0.80, "garlic": 0.78, "cilantro": 0.78,
+      "plantain": 0.78, "avocado": 0.78, "lime": 0.78, "pork": 0.75, "pumpkin": 0.72,
+      "chili_pepper": 0.70, "coffee": 0.68, "egg": 0.68, "beef": 0.60, "cassava": 0.48
+    },
+    "cookingMethods": {"frying": 0.92, "boiling": 0.90, "stewing": 0.88, "grilling": 0.82}
+  },
+  {
+    "id": "GT-COB", "name": "Cobán", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 15.47, "longitude": -90.37,
+    "region": "Alta Verapaz", "population": 200000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.85, "rice": 0.82, "plantain": 0.88, "coffee": 0.95,
+      "cardamom": 0.97, "chocolate": 0.82, "turkey": 0.80, "chicken": 0.78,
+      "tomato": 0.85, "onion": 0.82, "garlic": 0.78, "cilantro": 0.82,
+      "chili_pepper": 0.85, "allspice": 0.80, "avocado": 0.80, "flatbread": 0.70,
+      "pork": 0.68, "pumpkin": 0.78, "cassava": 0.75
+    },
+    "cookingMethods": {"boiling": 0.95, "stewing": 0.92, "frying": 0.85, "grilling": 0.75}
+  },
+  {
+    "id": "GT-HUE", "name": "Huehuetenango", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 15.3133, "longitude": -91.4703,
+    "region": "Huehuetenango", "population": 130000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.90, "bean": 0.88, "potato": 0.90, "wheat": 0.82, "coffee": 0.92,
+      "pork": 0.85, "chicken": 0.80, "avocado": 0.78, "tomato": 0.80, "onion": 0.82,
+      "garlic": 0.78, "cilantro": 0.78, "chili_pepper": 0.78, "flatbread": 0.82,
+      "beef": 0.70, "rice": 0.70, "plantain": 0.55, "egg": 0.78, "allspice": 0.72,
+      "epazote": 0.70
+    },
+    "cookingMethods": {"boiling": 0.95, "stewing": 0.90, "frying": 0.88, "grilling": 0.78}
+  },
+  {
+    "id": "GT-CHI", "name": "Chiquimula", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.8061, "longitude": -89.544,
+    "region": "Chiquimula", "population": 120000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.85, "rice": 0.82, "plantain": 0.72, "pork": 0.88,
+      "beef": 0.85, "chicken": 0.80, "chili_pepper": 0.95, "chili_guajillo": 0.82,
+      "goat_meat": 0.85, "tomato": 0.88, "onion": 0.85, "garlic": 0.82,
+      "cilantro": 0.75, "lime": 0.88, "avocado": 0.68, "dried_meat": 0.75,
+      "flatbread": 0.80, "egg": 0.75, "cassava": 0.62
+    },
+    "cookingMethods": {"grilling": 0.95, "frying": 0.90, "boiling": 0.88, "stewing": 0.82}
+  },
+  {
+    "id": "GT-ESC", "name": "Escuintla", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.2992, "longitude": -90.7857,
+    "region": "Escuintla", "population": 100000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.85, "bean": 0.80, "rice": 0.90, "plantain": 0.92, "sugar_cane": 0.92,
+      "beef": 0.88, "fish": 0.85, "shrimp": 0.80, "coconut": 0.78, "chicken": 0.78,
+      "tomato": 0.85, "onion": 0.82, "garlic": 0.78, "cilantro": 0.78, "lime": 0.82,
+      "avocado": 0.72, "pork": 0.68, "flatbread": 0.70, "chili_pepper": 0.70,
+      "mango": 0.75
+    },
+    "cookingMethods": {"grilling": 0.95, "boiling": 0.88, "frying": 0.88, "steaming": 0.80}
+  },
+  {
+    "id": "GT-PBA", "name": "Puerto Barrios", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 15.7167, "longitude": -88.5833,
+    "region": "Izabal", "population": 90000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "fish": 0.95, "shrimp": 0.92, "rice": 0.92, "plantain": 0.97, "coconut": 0.90,
+      "cassava": 0.88, "banana": 0.82, "bean": 0.78, "beef": 0.72, "chicken": 0.70,
+      "tomato": 0.82, "onion": 0.80, "garlic": 0.78, "cilantro": 0.82, "lime": 0.88,
+      "pork": 0.62, "flatbread": 0.65, "chili_pepper": 0.72, "avocado": 0.70,
+      "corn": 0.80
+    },
+    "cookingMethods": {"steaming": 0.95, "grilling": 0.90, "boiling": 0.88, "frying": 0.80}
+  },
+  {
+    "id": "GT-ANT", "name": "Antigua Guatemala", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.556, "longitude": -90.733,
+    "region": "Sacatepéquez", "population": 47000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.82, "rice": 0.82, "plantain": 0.78, "coffee": 0.95,
+      "chicken": 0.85, "pork": 0.78, "avocado": 0.88, "tomato": 0.90, "onion": 0.85,
+      "garlic": 0.82, "cilantro": 0.82, "chili_pepper": 0.80, "pumpkin_seed": 0.92,
+      "sesame": 0.85, "allspice": 0.82, "lime": 0.80, "mole": 0.85,
+      "chocolate": 0.72, "beef": 0.72
+    },
+    "cookingMethods": {"stewing": 0.95, "boiling": 0.90, "frying": 0.85, "grilling": 0.78}
+  },
+  {
+    "id": "GT-AMA", "name": "Amatitlán", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.477, "longitude": -90.659,
+    "region": "Guatemala", "population": 102000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.98, "bean": 0.85, "rice": 0.80, "plantain": 0.80, "fish": 0.90,
+      "chicken": 0.80, "pork": 0.75, "tomato": 0.82, "onion": 0.80, "garlic": 0.78,
+      "cilantro": 0.80, "chili_pepper": 0.72, "flatbread": 0.88, "pumpkin": 0.85,
+      "lime": 0.78, "avocado": 0.72, "beef": 0.62, "cassava": 0.58, "honey": 0.68,
+      "epazote": 0.78
+    },
+    "cookingMethods": {"boiling": 0.95, "stewing": 0.90, "grilling": 0.85, "steaming": 0.80}
+  },
+  {
+    "id": "GT-PAL", "name": "Palín", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.404, "longitude": -90.698,
+    "region": "Escuintla", "population": 70000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.82, "rice": 0.88, "plantain": 0.92, "chicken": 0.80,
+      "pork": 0.78, "beef": 0.72, "sugar_cane": 0.88, "coconut": 0.82, "tomato": 0.82,
+      "onion": 0.80, "garlic": 0.78, "cilantro": 0.78, "lime": 0.82, "avocado": 0.70,
+      "chili_pepper": 0.68, "chia_seed": 0.82, "mango": 0.80, "shrimp": 0.68,
+      "flatbread": 0.72
+    },
+    "cookingMethods": {"grilling": 0.92, "frying": 0.90, "boiling": 0.85, "steaming": 0.78}
+  },
+  {
+    "id": "GT-BAR", "name": "Barberena", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.303, "longitude": -90.362,
+    "region": "Santa Rosa", "population": 55000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.85, "rice": 0.85, "plantain": 0.82, "pork": 0.88,
+      "beef": 0.88, "chicken": 0.78, "coffee": 0.88, "cheese": 0.82, "avocado": 0.70,
+      "tomato": 0.82, "onion": 0.82, "garlic": 0.78, "cilantro": 0.75, "lime": 0.75,
+      "chili_pepper": 0.72, "flatbread": 0.82, "egg": 0.78, "cassava": 0.58,
+      "honey": 0.65
+    },
+    "cookingMethods": {"boiling": 0.92, "frying": 0.90, "stewing": 0.88, "grilling": 0.85}
+  },
+  {
+    "id": "GT-SCP", "name": "Santa Catarina Pinula", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.598, "longitude": -90.488,
+    "region": "Guatemala", "population": 180000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.82, "bean": 0.80, "rice": 0.92, "plantain": 0.80, "chicken": 0.90,
+      "beef": 0.92, "pork": 0.78, "avocado": 0.85, "tomato": 0.85, "onion": 0.82,
+      "garlic": 0.82, "cilantro": 0.80, "chili_pepper": 0.68, "egg": 0.92,
+      "bread": 0.85, "flatbread": 0.68, "coffee": 0.82, "lime": 0.78,
+      "pumpkin_seed": 0.68
+    },
+    "cookingMethods": {"frying": 0.95, "boiling": 0.88, "stewing": 0.88, "grilling": 0.82}
+  },
+  {
+    "id": "GT-JAL", "name": "Jalapa", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.632, "longitude": -89.992,
+    "region": "Jalapa", "population": 158000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.98, "bean": 0.88, "rice": 0.82, "plantain": 0.78, "coffee": 0.90,
+      "pork": 0.85, "chicken": 0.80, "beef": 0.78, "tomato": 0.90, "onion": 0.85,
+      "garlic": 0.80, "cilantro": 0.80, "lime": 0.80, "chili_pepper": 0.82,
+      "avocado": 0.70, "flatbread": 0.82, "pumpkin": 0.72, "epazote": 0.75,
+      "egg": 0.75, "cassava": 0.58
+    },
+    "cookingMethods": {"stewing": 0.92, "boiling": 0.90, "frying": 0.88, "grilling": 0.82}
+  },
+  {
+    "id": "GT-JUT", "name": "Jutiapa", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.29, "longitude": -89.895,
+    "region": "Jutiapa", "population": 145000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.85, "bean": 0.82, "rice": 0.82, "plantain": 0.72, "beef": 0.95,
+      "pork": 0.85, "chicken": 0.78, "goat_meat": 0.82, "cheese": 0.85,
+      "chili_pepper": 0.88, "tomato": 0.85, "onion": 0.82, "garlic": 0.80,
+      "cilantro": 0.78, "lime": 0.85, "avocado": 0.60, "flatbread": 0.82,
+      "dried_meat": 0.78, "egg": 0.75, "cassava": 0.58
+    },
+    "cookingMethods": {"grilling": 0.95, "boiling": 0.90, "frying": 0.88, "stewing": 0.82}
+  },
+  {
+    "id": "GT-ZAC", "name": "Zacapa", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.972, "longitude": -89.528,
+    "region": "Zacapa", "population": 90000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.82, "bean": 0.80, "rice": 0.85, "plantain": 0.70, "beef": 0.97,
+      "dried_meat": 0.95, "sugar_cane": 0.92, "cheese": 0.88, "pork": 0.78,
+      "chicken": 0.72, "chili_pepper": 0.85, "tomato": 0.85, "onion": 0.85,
+      "garlic": 0.80, "cilantro": 0.75, "lime": 0.88, "avocado": 0.60,
+      "flatbread": 0.75, "goat_meat": 0.70, "egg": 0.68
+    },
+    "cookingMethods": {"grilling": 0.95, "frying": 0.88, "boiling": 0.85, "stewing": 0.80}
+  },
+  {
+    "id": "GT-ESQ", "name": "Esquipulas", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.566, "longitude": -89.35,
+    "region": "Chiquimula", "population": 54000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.90, "bean": 0.88, "rice": 0.82, "plantain": 0.78, "pork": 0.88,
+      "chicken": 0.85, "beef": 0.78, "honey": 0.92, "avocado": 0.70, "tomato": 0.82,
+      "onion": 0.82, "garlic": 0.78, "cilantro": 0.78, "chili_pepper": 0.78,
+      "flatbread": 0.82, "pumpkin": 0.70, "egg": 0.78, "allspice": 0.75, "lime": 0.78,
+      "cassava": 0.62
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.90, "frying": 0.88, "grilling": 0.82}
+  },
+  {
+    "id": "GT-SPC", "name": "San Pedro Carchá", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 15.483, "longitude": -90.316,
+    "region": "Alta Verapaz", "population": 200000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.90, "bean": 0.88, "rice": 0.78, "plantain": 0.90, "coffee": 0.85,
+      "cardamom": 0.95, "chocolate": 0.75, "chicken": 0.82, "tomato": 0.80,
+      "onion": 0.78, "garlic": 0.75, "cilantro": 0.82, "chili_pepper": 0.80,
+      "allspice": 0.75, "avocado": 0.78, "cassava": 0.88, "pork": 0.68,
+      "pumpkin": 0.72, "flatbread": 0.70, "epazote": 0.68
+    },
+    "cookingMethods": {"stewing": 0.95, "boiling": 0.92, "frying": 0.82, "grilling": 0.72}
+  },
+  {
+    "id": "GT-FLO", "name": "Flores", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 16.93, "longitude": -89.892,
+    "region": "Petén", "population": 30000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.82, "rice": 0.82, "plantain": 0.85, "fish": 0.95,
+      "game_meat": 0.88, "cassava": 0.88, "pumpkin": 0.82, "honey": 0.82,
+      "tomato": 0.78, "onion": 0.78, "garlic": 0.78, "cilantro": 0.80, "lime": 0.85,
+      "chili_pepper": 0.78, "flatbread": 0.72, "chicken": 0.68, "avocado": 0.70,
+      "annatto": 0.75, "epazote": 0.70
+    },
+    "cookingMethods": {"boiling": 0.90, "grilling": 0.90, "stewing": 0.88, "frying": 0.78}
+  },
+  {
+    "id": "GT-SBE", "name": "San Benito", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 16.91, "longitude": -89.885,
+    "region": "Petén", "population": 50000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.90, "bean": 0.85, "rice": 0.90, "plantain": 0.88, "fish": 0.80,
+      "beef": 0.85, "pork": 0.80, "chicken": 0.78, "cassava": 0.78, "tomato": 0.82,
+      "onion": 0.80, "garlic": 0.78, "cilantro": 0.78, "lime": 0.80,
+      "chili_pepper": 0.72, "flatbread": 0.80, "shrimp": 0.65, "avocado": 0.68,
+      "egg": 0.72, "pumpkin": 0.65
+    },
+    "cookingMethods": {"grilling": 0.92, "boiling": 0.90, "frying": 0.88, "stewing": 0.80}
+  },
+  {
+    "id": "GT-POP", "name": "Poptún", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 16.333, "longitude": -89.417,
+    "region": "Petén", "population": 35000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.85, "rice": 0.85, "plantain": 0.88, "beef": 0.92,
+      "pork": 0.82, "milk": 0.82, "cheese": 0.78, "chicken": 0.78, "cassava": 0.90,
+      "game_meat": 0.65, "tomato": 0.80, "onion": 0.80, "garlic": 0.78,
+      "cilantro": 0.78, "lime": 0.80, "chili_pepper": 0.68, "flatbread": 0.78,
+      "avocado": 0.68, "pumpkin": 0.65
+    },
+    "cookingMethods": {"boiling": 0.90, "grilling": 0.90, "stewing": 0.88, "frying": 0.82}
+  },
+  {
+    "id": "GT-LIB", "name": "La Libertad (Petén)", "type": "Town", "continent": "North America",
+    "countryCode": "GT", "latitude": 16.784, "longitude": -90.123,
+    "region": "Petén", "population": 18000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.82, "rice": 0.80, "plantain": 0.88, "game_meat": 0.92,
+      "cassava": 0.95, "pumpkin": 0.85, "fish": 0.78, "honey": 0.80, "chicken": 0.65,
+      "tomato": 0.78, "onion": 0.78, "garlic": 0.75, "cilantro": 0.78, "lime": 0.82,
+      "chili_pepper": 0.75, "flatbread": 0.70, "annatto": 0.72, "epazote": 0.72,
+      "beef": 0.55
+    },
+    "cookingMethods": {"boiling": 0.92, "grilling": 0.88, "stewing": 0.85, "frying": 0.78}
+  },
+  {
+    "id": "GT-PSJ", "name": "Puerto San José", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 13.935, "longitude": -90.817,
+    "region": "Escuintla", "population": 30000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "fish": 0.97, "shrimp": 0.95, "crab": 0.82, "rice": 0.92, "plantain": 0.88,
+      "corn": 0.80, "coconut": 0.88, "bean": 0.75, "tomato": 0.85, "onion": 0.82,
+      "garlic": 0.80, "cilantro": 0.82, "lime": 0.92, "chili_pepper": 0.78,
+      "flatbread": 0.68, "beef": 0.65, "chicken": 0.68, "avocado": 0.70,
+      "cassava": 0.70, "sugar_cane": 0.75
+    },
+    "cookingMethods": {"grilling": 0.95, "steaming": 0.92, "boiling": 0.88, "frying": 0.80}
+  },
+  {
+    "id": "GT-SIP", "name": "Sipacate", "type": "Town", "continent": "North America",
+    "countryCode": "GT", "latitude": 13.92, "longitude": -91.15,
+    "region": "Escuintla", "population": 20000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "fish": 0.92, "shrimp": 0.85, "crab": 0.92, "rice": 0.85, "plantain": 0.90,
+      "corn": 0.82, "coconut": 0.92, "bean": 0.72, "tomato": 0.80, "onion": 0.78,
+      "garlic": 0.75, "cilantro": 0.82, "lime": 0.90, "chili_pepper": 0.72,
+      "cassava": 0.80, "avocado": 0.65, "beef": 0.55, "chicken": 0.60,
+      "flatbread": 0.65, "sugar_cane": 0.72
+    },
+    "cookingMethods": {"steaming": 0.95, "grilling": 0.92, "boiling": 0.85, "frying": 0.78}
+  },
+  {
+    "id": "GT-LIV", "name": "Livingston", "type": "Town", "continent": "North America",
+    "countryCode": "GT", "latitude": 15.833, "longitude": -88.75,
+    "region": "Izabal", "population": 17000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "fish": 0.95, "shrimp": 0.88, "coconut_milk": 0.98, "plantain": 0.98,
+      "cassava": 0.92, "rice": 0.82, "corn": 0.72, "bean": 0.70, "crab": 0.82,
+      "tomato": 0.78, "onion": 0.78, "garlic": 0.75, "cilantro": 0.82, "lime": 0.88,
+      "chili_pepper": 0.82, "coconut": 0.92, "chicken": 0.62, "pork": 0.55,
+      "flatbread": 0.58, "avocado": 0.62
+    },
+    "cookingMethods": {"steaming": 0.97, "boiling": 0.92, "grilling": 0.82, "frying": 0.72}
+  },
+  {
+    "id": "GT-MOR", "name": "Morales", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 15.484, "longitude": -88.843,
+    "region": "Izabal", "population": 100000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "beef": 0.85, "pork": 0.80, "rice": 0.92, "plantain": 0.95, "banana": 0.95,
+      "corn": 0.85, "coconut": 0.82, "bean": 0.82, "cassava": 0.78, "chicken": 0.80,
+      "tomato": 0.82, "onion": 0.82, "garlic": 0.78, "cilantro": 0.78, "lime": 0.82,
+      "chili_pepper": 0.70, "flatbread": 0.72, "fish": 0.72, "avocado": 0.70,
+      "egg": 0.70
+    },
+    "cookingMethods": {"grilling": 0.92, "boiling": 0.90, "frying": 0.88, "steaming": 0.78}
+  },
+  {
+    "id": "GT-MAZ", "name": "Mazatenango", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.534, "longitude": -91.505,
+    "region": "Suchitepéquez", "population": 90000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.85, "bean": 0.80, "rice": 0.90, "plantain": 0.92, "sugar_cane": 0.95,
+      "chocolate": 0.82, "palm_oil": 0.82, "beef": 0.85, "chicken": 0.80, "pork": 0.72,
+      "tomato": 0.82, "onion": 0.80, "garlic": 0.78, "cilantro": 0.78, "lime": 0.82,
+      "avocado": 0.70, "chili_pepper": 0.68, "flatbread": 0.68, "shrimp": 0.70,
+      "pineapple": 0.72
+    },
+    "cookingMethods": {"boiling": 0.90, "frying": 0.90, "grilling": 0.88, "stewing": 0.85}
+  },
+  {
+    "id": "GT-RET", "name": "Retalhuleu", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.533, "longitude": -91.683,
+    "region": "Retalhuleu", "population": 90000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.85, "bean": 0.82, "rice": 0.88, "plantain": 0.92, "sugar_cane": 0.88,
+      "coconut": 0.88, "fish": 0.80, "shrimp": 0.82, "beef": 0.80, "chicken": 0.78,
+      "tomato": 0.82, "onion": 0.80, "garlic": 0.78, "cilantro": 0.78, "lime": 0.85,
+      "avocado": 0.70, "pork": 0.70, "flatbread": 0.68, "chili_pepper": 0.65,
+      "pineapple": 0.68
+    },
+    "cookingMethods": {"grilling": 0.92, "boiling": 0.90, "frying": 0.88, "steaming": 0.82}
+  },
+  {
+    "id": "GT-TOT", "name": "Totonicapán", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.915, "longitude": -91.359,
+    "region": "Totonicapán", "population": 100000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.98, "bean": 0.88, "potato": 0.95, "wheat": 0.82, "pork": 0.90,
+      "chicken": 0.80, "avocado": 0.70, "tomato": 0.78, "onion": 0.82, "garlic": 0.78,
+      "cilantro": 0.70, "lime": 0.65, "chili_pepper": 0.65, "pumpkin": 0.82,
+      "flatbread": 0.90, "beef": 0.68, "egg": 0.82, "milk": 0.75, "allspice": 0.78,
+      "rice": 0.60, "plantain": 0.48
+    },
+    "cookingMethods": {"stewing": 0.95, "boiling": 0.92, "frying": 0.85, "grilling": 0.72}
+  },
+  {
+    "id": "GT-SOL", "name": "Sololá", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.772, "longitude": -91.183,
+    "region": "Sololá", "population": 80000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.95, "bean": 0.90, "potato": 0.88, "fish": 0.85, "chicken": 0.78,
+      "pork": 0.78, "beef": 0.70, "avocado": 0.80, "tomato": 0.82, "onion": 0.82,
+      "garlic": 0.78, "cilantro": 0.78, "lime": 0.75, "chili_pepper": 0.72,
+      "pumpkin": 0.82, "flatbread": 0.85, "rice": 0.70, "plantain": 0.52, "egg": 0.78,
+      "pumpkin_seed": 0.80
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.90, "grilling": 0.85, "frying": 0.82}
+  },
+  {
+    "id": "GT-SLC", "name": "Santa Lucía Cotzumalguapa", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.332, "longitude": -91.025,
+    "region": "Escuintla", "population": 123000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.85, "bean": 0.80, "rice": 0.88, "plantain": 0.90, "sugar_cane": 0.97,
+      "beef": 0.92, "pork": 0.75, "chicken": 0.75, "tomato": 0.85, "onion": 0.82,
+      "garlic": 0.80, "cilantro": 0.78, "lime": 0.80, "chili_pepper": 0.70,
+      "flatbread": 0.70, "avocado": 0.68, "shrimp": 0.72, "coconut": 0.70, "egg": 0.68,
+      "molasses": 0.72
+    },
+    "cookingMethods": {"grilling": 0.95, "boiling": 0.88, "frying": 0.88, "stewing": 0.80}
+  },
+  {
+    "id": "GT-COQ", "name": "Coatepeque", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.7, "longitude": -91.867,
+    "region": "Quetzaltenango", "population": 100000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.85, "rice": 0.90, "plantain": 0.82, "pork": 0.88,
+      "beef": 0.85, "chicken": 0.82, "coffee": 0.92, "avocado": 0.75, "tomato": 0.82,
+      "onion": 0.82, "garlic": 0.80, "cilantro": 0.78, "lime": 0.78,
+      "chili_pepper": 0.72, "flatbread": 0.82, "egg": 0.78, "cassava": 0.58,
+      "sugar_cane": 0.70, "fish": 0.62
+    },
+    "cookingMethods": {"frying": 0.92, "boiling": 0.90, "grilling": 0.88, "stewing": 0.85}
+  },
+  {
+    "id": "GT-SMR", "name": "San Marcos", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.963, "longitude": -91.799,
+    "region": "San Marcos", "population": 65000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.85, "bean": 0.82, "potato": 0.97, "wheat": 0.88, "coffee": 0.92,
+      "pork": 0.88, "chicken": 0.78, "beef": 0.72, "avocado": 0.70, "tomato": 0.78,
+      "onion": 0.80, "garlic": 0.75, "cilantro": 0.70, "lime": 0.65,
+      "chili_pepper": 0.60, "flatbread": 0.78, "egg": 0.85, "butter": 0.75,
+      "milk": 0.82, "rice": 0.65, "plantain": 0.48
+    },
+    "cookingMethods": {"stewing": 0.95, "boiling": 0.92, "frying": 0.85, "grilling": 0.72}
+  },
+  {
+    "id": "GT-MAL", "name": "Malacatán", "type": "Town", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.911, "longitude": -92.065,
+    "region": "San Marcos", "population": 45000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.85, "bean": 0.95, "rice": 0.90, "plantain": 0.88, "pork": 0.85,
+      "chicken": 0.82, "beef": 0.75, "coffee": 0.88, "avocado": 0.72, "tomato": 0.82,
+      "onion": 0.82, "garlic": 0.80, "cilantro": 0.78, "lime": 0.78,
+      "chili_pepper": 0.78, "flatbread": 0.80, "egg": 0.72, "cassava": 0.65,
+      "coconut": 0.62, "sugar_cane": 0.75
+    },
+    "cookingMethods": {"frying": 0.92, "boiling": 0.90, "stewing": 0.88, "grilling": 0.82}
+  },
+  {
+    "id": "GT-SAL", "name": "Salamá", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 15.105, "longitude": -90.314,
+    "region": "Baja Verapaz", "population": 70000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.90, "bean": 0.85, "rice": 0.82, "plantain": 0.80, "coffee": 0.88,
+      "honey": 0.95, "pumpkin_seed": 0.90, "pork": 0.82, "chicken": 0.80, "beef": 0.75,
+      "avocado": 0.75, "tomato": 0.82, "onion": 0.82, "garlic": 0.78, "cilantro": 0.78,
+      "lime": 0.78, "chili_pepper": 0.72, "flatbread": 0.82, "egg": 0.70, "pumpkin": 0.80
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.90, "frying": 0.88, "grilling": 0.82}
+  },
+  {
+    "id": "GT-SCQ", "name": "Santa Cruz del Quiché", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 15.03, "longitude": -91.148,
+    "region": "El Quiché", "population": 110000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.97, "bean": 0.92, "potato": 0.92, "chicken": 0.85, "pork": 0.82,
+      "avocado": 0.78, "tomato": 0.80, "onion": 0.85, "garlic": 0.80, "cilantro": 0.78,
+      "lime": 0.72, "chili_pepper": 0.78, "pumpkin": 0.85, "flatbread": 0.90,
+      "beef": 0.68, "egg": 0.80, "pumpkin_seed": 0.82, "allspice": 0.78, "rice": 0.65,
+      "plantain": 0.50
+    },
+    "cookingMethods": {"stewing": 0.95, "boiling": 0.92, "frying": 0.82, "grilling": 0.72}
+  },
+  {
+    "id": "GT-CHM", "name": "Chimaltenango", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.654, "longitude": -90.817,
+    "region": "Chimaltenango", "population": 80000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.92, "bean": 0.88, "potato": 0.88, "chicken": 0.97, "pork": 0.80,
+      "beef": 0.72, "egg": 0.90, "avocado": 0.78, "tomato": 0.82, "onion": 0.82,
+      "garlic": 0.80, "cilantro": 0.78, "lime": 0.75, "chili_pepper": 0.70,
+      "pumpkin": 0.78, "flatbread": 0.88, "rice": 0.68, "plantain": 0.55, "milk": 0.70,
+      "allspice": 0.72
+    },
+    "cookingMethods": {"boiling": 0.92, "stewing": 0.90, "frying": 0.88, "grilling": 0.80}
+  },
+  {
+    "id": "GT-VCA", "name": "Villa Canales", "type": "City", "continent": "North America",
+    "countryCode": "GT", "latitude": 14.484, "longitude": -90.531,
+    "region": "Guatemala", "population": 200000, "timeZone": "America/Guatemala",
+    "ingredients": {
+      "corn": 0.88, "bean": 0.85, "rice": 0.88, "plantain": 0.82, "pork": 0.92,
+      "chicken": 0.80, "beef": 0.75, "avocado": 0.72, "tomato": 0.82, "onion": 0.80,
+      "garlic": 0.78, "cilantro": 0.80, "lime": 0.80, "chili_pepper": 0.70,
+      "flatbread": 0.82, "fish": 0.78, "coffee": 0.72, "egg": 0.72, "cassava": 0.62,
+      "honey": 0.65
+    },
+    "cookingMethods": {"frying": 0.92, "boiling": 0.90, "stewing": 0.88, "grilling": 0.85}
+  }
+]

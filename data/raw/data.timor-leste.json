@@ -1,1 +1,300 @@
-[{"id": "TL-DIL", "name": "Dili", "type": "City", "continent": "Asia", "countryCode": "TL", "latitude": -8.5569, "longitude": 125.5603, "region": "Dili Municipality", "population": 277000, "timeZone": "Asia/Dili", "ingredients": {"rice": 0.95, "corn": 0.9, "coconut_milk": 0.9, "fish": 0.85, "banana": 0.8, "turmeric": 0.75, "ginger": 0.75, "chili_pepper": 0.7}, "cookingMethods": {"steaming": 0.9, "boiling": 0.85, "grilling": 0.8, "stewing": 0.75, "frying": 0.7}}, {"id": "TL-BAU", "name": "Baucau", "type": "City", "continent": "Asia", "countryCode": "TL", "latitude": -8.4967, "longitude": 126.6431, "region": "Baucau Municipality", "population": 155000, "timeZone": "Asia/Dili", "ingredients": {"rice": 0.9, "corn": 0.85, "coconut_milk": 0.85, "cassava": 0.8, "fish": 0.8, "banana": 0.75, "turmeric": 0.7, "chili_pepper": 0.65}, "cookingMethods": {"steaming": 0.9, "boiling": 0.85, "grilling": 0.8, "stewing": 0.75, "frying": 0.7}}, {"id": "TL-MAL", "name": "Maliana", "type": "City", "continent": "Asia", "countryCode": "TL", "latitude": -9.2983, "longitude": 125.4389, "region": "Bobonaro Municipality", "population": 58000, "timeZone": "Asia/Dili", "ingredients": {"rice": 0.9, "corn": 0.85, "cassava": 0.85, "banana": 0.8, "fish": 0.75, "turmeric": 0.7, "ginger": 0.7, "chili_pepper": 0.65}, "cookingMethods": {"steaming": 0.9, "boiling": 0.85, "grilling": 0.8, "stewing": 0.75, "frying": 0.7}}, {"id": "TL-SUA", "name": "Suai", "type": "City", "continent": "Asia", "countryCode": "TL", "latitude": -9.3333, "longitude": 125.3333, "region": "Cova Lima Municipality", "population": 30000, "timeZone": "Asia/Dili", "ingredients": {"fish": 0.9, "coconut_milk": 0.85, "rice": 0.85, "corn": 0.8, "banana": 0.75, "turmeric": 0.7, "ginger": 0.7, "chili_pepper": 0.65}, "cookingMethods": {"grilling": 0.9, "steaming": 0.85, "stewing": 0.8, "boiling": 0.75, "frying": 0.7}}, {"id": "TL-ERM", "name": "Ermera", "type": "City", "continent": "Asia", "countryCode": "TL", "latitude": -8.8689, "longitude": 125.4119, "region": "Ermera Municipality", "population": 40000, "timeZone": "Asia/Dili", "ingredients": {"rice": 0.9, "cassava": 0.85, "banana": 0.75, "chili_pepper": 0.7, "turmeric": 0.7, "coconut_milk": 0.7, "fish": 0.65, "sweet_potato": 0.72}, "cookingMethods": {"steaming": 0.9, "boiling": 0.85, "stewing": 0.8, "frying": 0.75, "grilling": 0.7}}, {"id": "TL-LIQ", "name": "Liquiça", "type": "City", "continent": "Asia", "countryCode": "TL", "latitude": -8.5475, "longitude": 125.4075, "region": "Liquiça Municipality", "population": 28000, "timeZone": "Asia/Dili", "ingredients": {"rice": 0.9, "corn": 0.85, "cassava": 0.85, "fish": 0.8, "banana": 0.75, "coconut_milk": 0.7, "turmeric": 0.7, "ginger": 0.65}, "cookingMethods": {"steaming": 0.9, "boiling": 0.85, "grilling": 0.8, "stewing": 0.75, "frying": 0.7}}, {"id": "TL-SAM", "name": "Same", "type": "City", "continent": "Asia", "countryCode": "TL", "latitude": -9.0019, "longitude": 126.1, "region": "Manufahi Municipality", "population": 20000, "timeZone": "Asia/Dili", "ingredients": {"rice": 0.85, "cassava": 0.85, "banana": 0.75, "fish": 0.7, "coconut_milk": 0.7, "turmeric": 0.65, "ginger": 0.65, "bean": 0.72}, "cookingMethods": {"steaming": 0.9, "boiling": 0.85, "stewing": 0.8, "frying": 0.75, "grilling": 0.7}}, {"id": "TL-OEC", "name": "Oecusse", "type": "City", "continent": "Asia", "countryCode": "TL", "latitude": -8.575, "longitude": 125.2917, "region": "Oecussi Special Administrative Region", "population": 19000, "timeZone": "Asia/Dili", "ingredients": {"fish": 0.9, "rice": 0.85, "corn": 0.85, "coconut_milk": 0.8, "banana": 0.75, "turmeric": 0.7, "ginger": 0.7, "chili_pepper": 0.65}, "cookingMethods": {"grilling": 0.9, "steaming": 0.85, "boiling": 0.8, "stewing": 0.75, "frying": 0.7}}, {"id": "TL-LOS", "name": "Lospalos", "type": "City", "continent": "Asia", "countryCode": "TL", "latitude": -8.4619, "longitude": 126.9194, "region": "Lautém Municipality", "population": 18000, "timeZone": "Asia/Dili", "ingredients": {"rice": 0.85, "corn": 0.8, "fish": 0.75, "banana": 0.7, "coconut_milk": 0.7, "turmeric": 0.65, "ginger": 0.65, "chili_pepper": 0.6}, "cookingMethods": {"steaming": 0.9, "boiling": 0.85, "grilling": 0.8, "stewing": 0.75, "frying": 0.7}}, {"id": "TL-AIN", "name": "Ainaro", "type": "City", "continent": "Asia", "countryCode": "TL", "latitude": -8.8419, "longitude": 125.4169, "region": "Ainaro Municipality", "population": 16000, "timeZone": "Asia/Dili", "ingredients": {"cassava": 0.85, "banana": 0.75, "fish": 0.7, "rice": 0.7, "corn": 0.7, "turmeric": 0.65, "ginger": 0.65, "chili_pepper": 0.6}, "cookingMethods": {"steaming": 0.9, "boiling": 0.85, "stewing": 0.8, "frying": 0.75, "grilling": 0.7}}]
+[
+  {
+    "id": "TL-DIL",
+    "name": "Dili",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "TL",
+    "latitude": -8.5569,
+    "longitude": 125.5603,
+    "region": "Dili Municipality",
+    "population": 277000,
+    "timeZone": "Asia/Dili",
+    "ingredients": {
+      "rice": 0.97,
+      "corn": 0.82,
+      "coconut_milk": 0.97,
+      "fish": 0.92,
+      "banana": 0.88,
+      "turmeric": 0.82,
+      "ginger": 0.75,
+      "chili_pepper": 0.7,
+      "coffee": 0.9,
+      "bread": 0.82,
+      "sweet_potato": 0.8
+    },
+    "cookingMethods": {
+      "steaming": 0.9,
+      "boiling": 0.85,
+      "grilling": 0.8,
+      "stewing": 0.75,
+      "frying": 0.7
+    }
+  },
+  {
+    "id": "TL-BAU",
+    "name": "Baucau",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "TL",
+    "latitude": -8.4967,
+    "longitude": 126.6431,
+    "region": "Baucau Municipality",
+    "population": 155000,
+    "timeZone": "Asia/Dili",
+    "ingredients": {
+      "rice": 0.9,
+      "corn": 0.85,
+      "coconut_milk": 0.85,
+      "cassava": 0.8,
+      "fish": 0.8,
+      "banana": 0.75,
+      "turmeric": 0.7,
+      "chili_pepper": 0.65
+    },
+    "cookingMethods": {
+      "steaming": 0.9,
+      "boiling": 0.85,
+      "grilling": 0.8,
+      "stewing": 0.75,
+      "frying": 0.7
+    }
+  },
+  {
+    "id": "TL-MAL",
+    "name": "Maliana",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "TL",
+    "latitude": -9.2983,
+    "longitude": 125.4389,
+    "region": "Bobonaro Municipality",
+    "population": 58000,
+    "timeZone": "Asia/Dili",
+    "ingredients": {
+      "rice": 0.9,
+      "corn": 0.85,
+      "cassava": 0.85,
+      "banana": 0.8,
+      "fish": 0.75,
+      "turmeric": 0.7,
+      "ginger": 0.7,
+      "chili_pepper": 0.65
+    },
+    "cookingMethods": {
+      "steaming": 0.9,
+      "boiling": 0.85,
+      "grilling": 0.8,
+      "stewing": 0.75,
+      "frying": 0.7
+    }
+  },
+  {
+    "id": "TL-SUA",
+    "name": "Suai",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "TL",
+    "latitude": -9.3333,
+    "longitude": 125.3333,
+    "region": "Cova Lima Municipality",
+    "population": 30000,
+    "timeZone": "Asia/Dili",
+    "ingredients": {
+      "fish": 0.9,
+      "coconut_milk": 0.72,
+      "rice": 0.75,
+      "corn": 0.95,
+      "banana": 0.75,
+      "turmeric": 0.7,
+      "ginger": 0.7,
+      "chili_pepper": 0.65,
+      "cassava": 0.95,
+      "sweet_potato": 0.92,
+      "taro": 0.85
+    },
+    "cookingMethods": {
+      "grilling": 0.9,
+      "steaming": 0.85,
+      "stewing": 0.8,
+      "boiling": 0.75,
+      "frying": 0.7
+    }
+  },
+  {
+    "id": "TL-ERM",
+    "name": "Ermera",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "TL",
+    "latitude": -8.8689,
+    "longitude": 125.4119,
+    "region": "Ermera Municipality",
+    "population": 40000,
+    "timeZone": "Asia/Dili",
+    "ingredients": {
+      "rice": 0.9,
+      "cassava": 0.85,
+      "banana": 0.75,
+      "chili_pepper": 0.7,
+      "turmeric": 0.7,
+      "coconut_milk": 0.7,
+      "fish": 0.65,
+      "sweet_potato": 0.72
+    },
+    "cookingMethods": {
+      "steaming": 0.9,
+      "boiling": 0.85,
+      "stewing": 0.8,
+      "frying": 0.75,
+      "grilling": 0.7
+    }
+  },
+  {
+    "id": "TL-LIQ",
+    "name": "Liquiça",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "TL",
+    "latitude": -8.5475,
+    "longitude": 125.4075,
+    "region": "Liquiça Municipality",
+    "population": 28000,
+    "timeZone": "Asia/Dili",
+    "ingredients": {
+      "rice": 0.9,
+      "corn": 0.85,
+      "cassava": 0.85,
+      "fish": 0.8,
+      "banana": 0.75,
+      "coconut_milk": 0.7,
+      "turmeric": 0.7,
+      "ginger": 0.65
+    },
+    "cookingMethods": {
+      "steaming": 0.9,
+      "boiling": 0.85,
+      "grilling": 0.8,
+      "stewing": 0.75,
+      "frying": 0.7
+    }
+  },
+  {
+    "id": "TL-SAM",
+    "name": "Same",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "TL",
+    "latitude": -9.0019,
+    "longitude": 126.1,
+    "region": "Manufahi Municipality",
+    "population": 20000,
+    "timeZone": "Asia/Dili",
+    "ingredients": {
+      "rice": 0.85,
+      "cassava": 0.85,
+      "banana": 0.75,
+      "fish": 0.7,
+      "coconut_milk": 0.7,
+      "turmeric": 0.65,
+      "ginger": 0.65,
+      "bean": 0.72
+    },
+    "cookingMethods": {
+      "steaming": 0.9,
+      "boiling": 0.85,
+      "stewing": 0.8,
+      "frying": 0.75,
+      "grilling": 0.7
+    }
+  },
+  {
+    "id": "TL-OEC",
+    "name": "Oecusse",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "TL",
+    "latitude": -8.575,
+    "longitude": 125.2917,
+    "region": "Oecussi Special Administrative Region",
+    "population": 19000,
+    "timeZone": "Asia/Dili",
+    "ingredients": {
+      "fish": 0.8,
+      "rice": 0.85,
+      "corn": 0.92,
+      "coconut_milk": 0.68,
+      "banana": 0.75,
+      "turmeric": 0.7,
+      "ginger": 0.7,
+      "chili_pepper": 0.65,
+      "cassava": 0.88,
+      "sweet_potato": 0.8
+    },
+    "cookingMethods": {
+      "grilling": 0.9,
+      "steaming": 0.85,
+      "boiling": 0.8,
+      "stewing": 0.75,
+      "frying": 0.7
+    }
+  },
+  {
+    "id": "TL-LOS",
+    "name": "Lospalos",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "TL",
+    "latitude": -8.4619,
+    "longitude": 126.9194,
+    "region": "Lautém Municipality",
+    "population": 18000,
+    "timeZone": "Asia/Dili",
+    "ingredients": {
+      "rice": 0.85,
+      "corn": 0.8,
+      "fish": 0.75,
+      "banana": 0.7,
+      "coconut_milk": 0.7,
+      "turmeric": 0.65,
+      "ginger": 0.65,
+      "chili_pepper": 0.6
+    },
+    "cookingMethods": {
+      "steaming": 0.9,
+      "boiling": 0.85,
+      "grilling": 0.8,
+      "stewing": 0.75,
+      "frying": 0.7
+    }
+  },
+  {
+    "id": "TL-AIN",
+    "name": "Ainaro",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "TL",
+    "latitude": -8.8419,
+    "longitude": 125.4169,
+    "region": "Ainaro Municipality",
+    "population": 16000,
+    "timeZone": "Asia/Dili",
+    "ingredients": {
+      "cassava": 0.85,
+      "banana": 0.75,
+      "fish": 0.7,
+      "rice": 0.7,
+      "corn": 0.7,
+      "turmeric": 0.65,
+      "ginger": 0.65,
+      "chili_pepper": 0.6
+    },
+    "cookingMethods": {
+      "steaming": 0.9,
+      "boiling": 0.85,
+      "stewing": 0.8,
+      "frying": 0.75,
+      "grilling": 0.7
+    }
+  }
+]

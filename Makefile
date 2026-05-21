@@ -255,6 +255,13 @@ build-clusters:
 		realmap-buildclusters:latest \
 		python3 /app/scripts/run.py
 
+	@echo "✂️  Splitting hex_grid.json into 6 chunks for client (iOS WebGL limit)..."
+	@if [ -f "data/hex_grid.json" ]; then \
+		python3 -c "import json,math;d=json.load(open('data/hex_grid.json'));feats=d.get('features',[]);n=len(feats);chunk=math.ceil(n/6);[open(f'data/hex_grid_{i}.json','w').write(json.dumps({'type':'FeatureCollection','features':feats[i*chunk:(i+1)*chunk]})) for i in range(6)];print(f'  Split {n} cells into 6 chunks (~{chunk} each)')"; \
+	else \
+		echo "  ⊘ hex_grid.json missing — skipping split"; \
+	fi
+
 	@echo "📋 Copying artifacts to client..."
 	@mkdir -p packages/client/public/data packages/client/src/data
 	@for file in \
@@ -263,11 +270,16 @@ build-clusters:
 		features_meta.json \
 		build_report.json \
 		insights.json \
-		hex_grid.json; \
+		hex_grid.json \
+		hex_grid_0.json \
+		hex_grid_1.json \
+		hex_grid_2.json \
+		hex_grid_3.json \
+		hex_grid_4.json \
+		hex_grid_5.json; \
 	do \
 		if [ -f "data/$$file" ]; then \
 			cp "data/$$file" "packages/client/public/data/$$file" && \
-			cp "data/$$file" "packages/client/src/data/$$file" && \
 			echo "  ✓ $$file"; \
 		else \
 			echo "  ⊘ Missing data/$$file — pipeline may have failed"; \
