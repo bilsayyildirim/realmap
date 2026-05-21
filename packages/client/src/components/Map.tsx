@@ -21,7 +21,7 @@ export const Map = ({ center, zoom }: MapProps) => {
 
   const [showPlaces, setShowPlaces] = useState(false);
   const [hexReady, setHexReady] = useState(false);
-  const [selectedCityName, setSelectedCityName] = useState<string | null>(null);
+  const [selectedCityId, setSelectedCityId] = useState<string | null>(null);
 
   useEffect(() => {
     if (!mapContainer.current) return;
@@ -77,8 +77,8 @@ export const Map = ({ center, zoom }: MapProps) => {
 
       {showPlaces && map.current && (
         <>
-          <PlacesLayer map={map.current} onCitySelect={setSelectedCityName} onHexReady={() => setHexReady(true)} />
-          <SearchBar map={map.current} onCitySelect={setSelectedCityName} />
+          <PlacesLayer map={map.current} onCitySelect={setSelectedCityId} onHexReady={() => setHexReady(true)} />
+          <SearchBar map={map.current} onCitySelect={setSelectedCityId} />
 
           <IconButton
             onClick={() => map.current?.flyTo({ center: [0, 20], zoom: 1.5, duration: 1400, essential: true })}
@@ -97,7 +97,7 @@ export const Map = ({ center, zoom }: MapProps) => {
         </>
       )}
 
-      <CityDrawer cityName={selectedCityName} onClose={() => setSelectedCityName(null)} />
+      <CityDrawer cityId={selectedCityId} onClose={() => setSelectedCityId(null)} />
     </>
   );
 };
