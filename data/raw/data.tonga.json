@@ -1,1 +1,320 @@
-[{"id": "TO-NUK", "name": "Nuku'alofa", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -21.1394, "longitude": -175.2018, "region": "Tongatapu", "population": 24000, "timeZone": "Pacific/Tongatapu", "ingredients": {"taro": 0.95, "coconut": 0.95, "fish": 0.98, "cassava": 0.9, "sweet_potato": 0.9, "banana": 0.85, "yam": 0.85, "pork": 0.8, "chicken": 0.8, "shellfish": 0.82}, "cookingMethods": {"earth_oven": 0.95, "boiling": 0.9, "roasting": 0.9, "steaming": 0.85}}, {"id": "TO-NEI", "name": "Neiafu", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -18.6506, "longitude": -173.9836, "region": "Vava'u", "population": 6000, "timeZone": "Pacific/Tongatapu", "ingredients": {"taro": 0.9, "coconut": 0.9, "breadfruit": 0.85, "banana": 0.85, "fish": 0.85, "yam": 0.8, "chicken": 0.8, "pork": 0.8, "garlic": 0.6, "onion": 0.65, "shellfish": 0.85, "pineapple": 0.78}, "cookingMethods": {"earth_oven": 0.9, "boiling": 0.9, "roasting": 0.85, "steaming": 0.8}}, {"id": "TO-HAP", "name": "Hapai", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -19.8, "longitude": -174.35, "region": "Ha'apai", "population": 5000, "timeZone": "Pacific/Tongatapu", "ingredients": {"taro": 0.9, "coconut": 0.9, "breadfruit": 0.85, "banana": 0.85, "fish": 0.92, "yam": 0.8, "chicken": 0.8, "pork": 0.8, "garlic": 0.6, "onion": 0.65, "pineapple": 0.82}, "cookingMethods": {"earth_oven": 0.9, "boiling": 0.9, "roasting": 0.85, "steaming": 0.8}}, {"id": "TO-EUA", "name": "Eua", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -21.4, "longitude": -174.9, "region": "Eua", "population": 5000, "timeZone": "Pacific/Tongatapu", "ingredients": {"taro": 0.9, "coconut": 0.9, "breadfruit": 0.85, "banana": 0.92, "fish": 0.85, "yam": 0.8, "chicken": 0.8, "pork": 0.8, "garlic": 0.6, "onion": 0.65, "shellfish": 0.8}, "cookingMethods": {"earth_oven": 0.9, "boiling": 0.9, "roasting": 0.85, "steaming": 0.8}}, {"id": "TO-VAI", "name": "Vaini", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -21.1833, "longitude": -175.1667, "region": "Tongatapu", "population": 4000, "timeZone": "Pacific/Tongatapu", "ingredients": {"taro": 0.9, "coconut": 0.9, "breadfruit": 0.85, "banana": 0.85, "fish": 0.85, "yam": 0.8, "chicken": 0.8, "pork": 0.8, "garlic": 0.6, "onion": 0.65, "pineapple": 0.85, "shellfish": 0.78}, "cookingMethods": {"earth_oven": 0.9, "boiling": 0.9, "roasting": 0.85, "steaming": 0.8}}, {"id": "TO-ATA", "name": "Atata", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -21.0833, "longitude": -175.2333, "region": "Tongatapu", "population": 3000, "timeZone": "Pacific/Tongatapu", "ingredients": {"taro": 0.9, "coconut": 0.9, "breadfruit": 0.85, "banana": 0.88, "fish": 0.9, "yam": 0.8, "chicken": 0.8, "pork": 0.8, "garlic": 0.6, "onion": 0.65}, "cookingMethods": {"earth_oven": 0.9, "boiling": 0.9, "roasting": 0.85, "steaming": 0.8}}, {"id": "TO-PEA", "name": "Pea", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -21.1333, "longitude": -175.1833, "region": "Tongatapu", "population": 2500, "timeZone": "Pacific/Tongatapu", "ingredients": {"taro": 0.98, "coconut": 0.9, "breadfruit": 0.85, "banana": 0.85, "fish": 0.85, "yam": 0.8, "chicken": 0.8, "pork": 0.8, "garlic": 0.6, "onion": 0.65, "shellfish": 0.88}, "cookingMethods": {"earth_oven": 0.9, "boiling": 0.9, "roasting": 0.85, "steaming": 0.8}}, {"id": "TO-HAK", "name": "Ha'akame", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -21.2167, "longitude": -175.2167, "region": "Tongatapu", "population": 2000, "timeZone": "Pacific/Tongatapu", "ingredients": {"taro": 0.9, "coconut": 0.9, "breadfruit": 0.85, "banana": 0.85, "fish": 0.95, "yam": 0.8, "chicken": 0.8, "pork": 0.8, "garlic": 0.6, "onion": 0.65, "pineapple": 0.8}, "cookingMethods": {"earth_oven": 0.9, "boiling": 0.9, "roasting": 0.85, "steaming": 0.8}}, {"id": "TO-TOF", "name": "Tofoa", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -21.1333, "longitude": -175.2167, "region": "Tongatapu", "population": 2000, "timeZone": "Pacific/Tongatapu", "ingredients": {"taro": 0.9, "coconut": 0.9, "breadfruit": 0.85, "banana": 0.9, "fish": 0.85, "yam": 0.8, "chicken": 0.8, "pork": 0.8, "garlic": 0.6, "onion": 0.65, "pineapple": 0.88}, "cookingMethods": {"earth_oven": 0.9, "boiling": 0.9, "roasting": 0.85, "steaming": 0.8}}, {"id": "TO-PAI", "name": "Pangai", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -19.8, "longitude": -174.35, "region": "Ha'apai", "population": 1800, "timeZone": "Pacific/Tongatapu", "ingredients": {"taro": 0.9, "coconut": 0.9, "breadfruit": 0.85, "banana": 0.85, "fish": 0.88, "yam": 0.8, "chicken": 0.8, "pork": 0.8, "garlic": 0.6, "onion": 0.65, "shellfish": 0.82}, "cookingMethods": {"earth_oven": 0.9, "boiling": 0.9, "roasting": 0.85, "steaming": 0.8}}]
+[
+  {
+    "id": "TO-NUK",
+    "name": "Nuku'alofa",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -21.1394,
+    "longitude": -175.2018,
+    "region": "Tongatapu",
+    "population": 24000,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "taro": 0.95,
+      "coconut": 0.95,
+      "fish": 0.98,
+      "cassava": 0.9,
+      "sweet_potato": 0.9,
+      "banana": 0.85,
+      "yam": 0.85,
+      "pork": 0.8,
+      "chicken": 0.8,
+      "shellfish": 0.82
+    },
+    "cookingMethods": {
+      "earth_oven": 0.95,
+      "boiling": 0.9,
+      "roasting": 0.9,
+      "steaming": 0.85
+    }
+  },
+  {
+    "id": "TO-NEI",
+    "name": "Neiafu",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -18.6506,
+    "longitude": -173.9836,
+    "region": "Vava'u",
+    "population": 6000,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "taro": 0.92,
+      "coconut": 0.9,
+      "breadfruit": 0.85,
+      "banana": 0.8,
+      "fish": 0.9,
+      "yam": 0.8,
+      "chicken": 0.8,
+      "pork": 0.8,
+      "garlic": 0.6,
+      "onion": 0.65,
+      "shellfish": 0.95,
+      "pineapple": 0.75
+    },
+    "cookingMethods": {
+      "earth_oven": 0.9,
+      "boiling": 0.9,
+      "roasting": 0.85,
+      "steaming": 0.8
+    }
+  },
+  {
+    "id": "TO-HAP",
+    "name": "Hapai",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -19.8,
+    "longitude": -174.35,
+    "region": "Ha'apai",
+    "population": 5000,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "taro": 0.9,
+      "coconut": 0.88,
+      "breadfruit": 0.85,
+      "banana": 0.75,
+      "fish": 0.95,
+      "yam": 0.72,
+      "chicken": 0.8,
+      "pork": 0.8,
+      "garlic": 0.6,
+      "onion": 0.65,
+      "pineapple": 0.95,
+      "shellfish": 0.78
+    },
+    "cookingMethods": {
+      "earth_oven": 0.9,
+      "boiling": 0.9,
+      "roasting": 0.85,
+      "steaming": 0.8
+    }
+  },
+  {
+    "id": "TO-EUA",
+    "name": "Eua",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -21.4,
+    "longitude": -174.9,
+    "region": "Eua",
+    "population": 5000,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "taro": 0.85,
+      "coconut": 0.9,
+      "breadfruit": 0.85,
+      "banana": 0.97,
+      "fish": 0.75,
+      "yam": 0.8,
+      "chicken": 0.8,
+      "pork": 0.95,
+      "garlic": 0.6,
+      "onion": 0.65,
+      "shellfish": 0.8,
+      "sweet_potato": 0.82
+    },
+    "cookingMethods": {
+      "earth_oven": 0.9,
+      "boiling": 0.9,
+      "roasting": 0.85,
+      "steaming": 0.8
+    }
+  },
+  {
+    "id": "TO-VAI",
+    "name": "Vaini",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -21.1833,
+    "longitude": -175.1667,
+    "region": "Tongatapu",
+    "population": 4000,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "taro": 0.85,
+      "coconut": 0.88,
+      "breadfruit": 0.85,
+      "banana": 0.85,
+      "fish": 0.78,
+      "yam": 0.8,
+      "chicken": 0.8,
+      "pork": 0.8,
+      "garlic": 0.6,
+      "onion": 0.65,
+      "pineapple": 0.92,
+      "shellfish": 0.72,
+      "kava": 0.8
+    },
+    "cookingMethods": {
+      "earth_oven": 0.9,
+      "boiling": 0.9,
+      "roasting": 0.85,
+      "steaming": 0.8
+    }
+  },
+  {
+    "id": "TO-ATA",
+    "name": "Atata",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -21.0833,
+    "longitude": -175.2333,
+    "region": "Tongatapu",
+    "population": 3000,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "taro": 0.9,
+      "coconut": 0.9,
+      "breadfruit": 0.85,
+      "banana": 0.88,
+      "fish": 0.9,
+      "yam": 0.8,
+      "chicken": 0.8,
+      "pork": 0.8,
+      "garlic": 0.6,
+      "onion": 0.65
+    },
+    "cookingMethods": {
+      "earth_oven": 0.9,
+      "boiling": 0.9,
+      "roasting": 0.85,
+      "steaming": 0.8
+    }
+  },
+  {
+    "id": "TO-PEA",
+    "name": "Pea",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -21.1333,
+    "longitude": -175.1833,
+    "region": "Tongatapu",
+    "population": 2500,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "taro": 0.99,
+      "coconut": 0.9,
+      "breadfruit": 0.85,
+      "banana": 0.75,
+      "fish": 0.88,
+      "yam": 0.8,
+      "chicken": 0.8,
+      "pork": 0.75,
+      "garlic": 0.6,
+      "onion": 0.65,
+      "shellfish": 0.95,
+      "seaweed": 0.82
+    },
+    "cookingMethods": {
+      "earth_oven": 0.9,
+      "boiling": 0.9,
+      "roasting": 0.85,
+      "steaming": 0.8
+    }
+  },
+  {
+    "id": "TO-HAK",
+    "name": "Ha'akame",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -21.2167,
+    "longitude": -175.2167,
+    "region": "Tongatapu",
+    "population": 2000,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "taro": 0.92,
+      "coconut": 0.9,
+      "breadfruit": 0.88,
+      "banana": 0.85,
+      "fish": 0.88,
+      "yam": 0.9,
+      "chicken": 0.8,
+      "pork": 0.8,
+      "garlic": 0.6,
+      "onion": 0.65,
+      "pineapple": 0.62,
+      "kava": 0.75
+    },
+    "cookingMethods": {
+      "earth_oven": 0.9,
+      "boiling": 0.9,
+      "roasting": 0.85,
+      "steaming": 0.8
+    }
+  },
+  {
+    "id": "TO-TOF",
+    "name": "Tofoa",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -21.1333,
+    "longitude": -175.2167,
+    "region": "Tongatapu",
+    "population": 2000,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "taro": 0.9,
+      "coconut": 0.9,
+      "breadfruit": 0.85,
+      "banana": 0.9,
+      "fish": 0.85,
+      "yam": 0.8,
+      "chicken": 0.8,
+      "pork": 0.8,
+      "garlic": 0.6,
+      "onion": 0.65,
+      "pineapple": 0.88
+    },
+    "cookingMethods": {
+      "earth_oven": 0.9,
+      "boiling": 0.9,
+      "roasting": 0.85,
+      "steaming": 0.8
+    }
+  },
+  {
+    "id": "TO-PAI",
+    "name": "Pangai",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -19.8,
+    "longitude": -174.35,
+    "region": "Ha'apai",
+    "population": 1800,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "taro": 0.8,
+      "coconut": 0.9,
+      "breadfruit": 0.85,
+      "banana": 0.8,
+      "fish": 0.95,
+      "yam": 0.8,
+      "chicken": 0.8,
+      "pork": 0.75,
+      "garlic": 0.6,
+      "onion": 0.65,
+      "shellfish": 0.82,
+      "dried_fish": 0.9,
+      "seaweed": 0.88,
+      "kava": 0.88
+    },
+    "cookingMethods": {
+      "earth_oven": 0.9,
+      "boiling": 0.9,
+      "roasting": 0.85,
+      "steaming": 0.8
+    }
+  }
+]

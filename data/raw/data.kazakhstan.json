@@ -11,25 +11,21 @@
     "population": 2000000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.95,
-      "beef": 0.95,
-      "horse_meat": 0.9,
-      "potato": 0.9,
-      "onion": 0.85,
-      "carrot": 0.85,
-      "butter": 0.8,
-      "tea": 0.8,
+      "lamb": 0.88,
+      "beef": 0.85,
+      "horse_meat": 0.8,
+      "apple": 0.82,
+      "potato": 0.85,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "bread": 0.8,
+      "rice": 0.8,
       "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "apple": 0.95,
-      "grape": 0.78,
-      "berry": 0.72
+      "yogurt": 0.78,
+      "butter": 0.75,
+      "honey": 0.72,
+      "dried_fruit": 0.75,
+      "cabbage": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -51,22 +47,18 @@
     "population": 1200000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.95,
-      "beef": 0.92,
-      "horse_meat": 0.9,
+      "lamb": 0.88,
+      "beef": 0.85,
+      "horse_meat": 0.82,
+      "wheat": 0.9,
       "potato": 0.88,
       "onion": 0.85,
-      "carrot": 0.85,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.85,
-      "wheat": 0.95,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.9,
-      "buckwheat": 0.65
+      "carrot": 0.8,
+      "bread": 0.82,
+      "yogurt": 0.78,
+      "dried_fruit": 0.72,
+      "rice": 0.7,
+      "kefir": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -89,23 +81,17 @@
     "timeZone": "Asia/Almaty",
     "ingredients": {
       "lamb": 0.95,
-      "beef": 0.95,
-      "horse_meat": 0.9,
-      "potato": 0.9,
-      "onion": 0.85,
+      "rice": 0.92,
+      "onion": 0.9,
       "carrot": 0.88,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.85,
-      "wheat": 0.78,
-      "rice": 0.9,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "apricot": 0.8,
-      "grape": 0.78
+      "dried_fruit": 0.85,
+      "tomato": 0.82,
+      "garlic": 0.82,
+      "sesame": 0.8,
+      "sunflower_oil": 0.78,
+      "potato": 0.75,
+      "pomegranate": 0.75,
+      "yogurt": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -127,28 +113,20 @@
     "population": 500000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "beef": 0.88,
-      "potato": 0.82,
-      "onion": 0.74,
-      "wheat": 0.68,
-      "horse_meat": 0.9,
-      "carrot": 0.58,
-      "beet": 0.52,
-      "butter": 0.48,
-      "tea": 0.46,
-      "kefir": 0.4,
-      "noodle": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "sauerkraut": 0.6,
-      "pork": 0.72
+      "lamb": 0.85,
+      "beef": 0.9,
+      "potato": 0.92,
+      "onion": 0.88,
+      "carrot": 0.85,
+      "cabbage": 0.8,
+      "bread": 0.85,
+      "sour_cream": 0.78,
+      "beet": 0.75,
+      "horse_meat": 0.72,
+      "pork": 0.68,
+      "pickle": 0.72,
+      "wheat": 0.82,
+      "butter": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -156,6 +134,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "baking": 0.8,
+      "pickling": 0.75
     }
   },
   {
@@ -170,29 +153,18 @@
     "population": 500000,
     "timeZone": "Asia/Aqtobe",
     "ingredients": {
-      "lamb": 0.88,
-      "beef": 0.88,
-      "potato": 0.8200000000000001,
-      "onion": 0.74,
-      "wheat": 0.7000000000000001,
-      "horse_meat": 0.9,
-      "carrot": 0.58,
-      "butter": 0.54,
-      "tea": 0.5,
-      "kefir": 0.46,
-      "beet": 0.72,
-      "noodle": 0.4,
-      "rice": 0.78,
-      "fish": 0.34,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
+      "lamb": 0.9,
+      "beef": 0.82,
+      "horse_meat": 0.82,
+      "potato": 0.88,
+      "onion": 0.85,
+      "carrot": 0.8,
       "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "garlic": 0.75,
-      "sauerkraut": 0.68
+      "rice": 0.75,
+      "bread": 0.78,
+      "yogurt": 0.78,
+      "dried_fruit": 0.72,
+      "kefir": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -214,29 +186,19 @@
     "population": 330000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "beef": 0.88,
-      "potato": 0.9,
-      "onion": 0.74,
-      "wheat": 0.7000000000000001,
-      "horse_meat": 0.9,
-      "carrot": 0.58,
-      "butter": 0.54,
-      "tea": 0.5,
-      "kefir": 0.46,
-      "beet": 0.42,
-      "noodle": 0.4,
-      "fish": 0.36,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "sauerkraut": 0.72,
-      "rye_bread": 0.72
+      "freshwater_fish": 0.9,
+      "beef": 0.9,
+      "potato": 0.92,
+      "wheat": 0.88,
+      "bread": 0.88,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "lamb": 0.78,
+      "cabbage": 0.78,
+      "sour_cream": 0.78,
+      "horse_meat": 0.68,
+      "beet": 0.72,
+      "dried_fish": 0.75
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -244,6 +206,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "baking": 0.82,
+      "smoking": 0.72
     }
   },
   {
@@ -258,28 +225,18 @@
     "population": 310000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "potato": 0.88,
-      "onion": 0.8200000000000001,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "carrot": 0.66,
-      "butter": 0.62,
-      "tea": 0.58,
-      "kefir": 0.54,
-      "mushroom": 0.68,
-      "noodle": 0.46,
-      "wheat": 0.46,
-      "berry": 0.72,
-      "apple": 0.38,
-      "rice": 0.36,
-      "cabbage": 0.32,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "fish": 0.82,
-      "millet": 0.8,
-      "honey": 0.75
+      "lamb": 0.85,
+      "beef": 0.88,
+      "apple": 0.88,
+      "honey": 0.85,
+      "potato": 0.9,
+      "freshwater_fish": 0.85,
+      "mushroom": 0.8,
+      "onion": 0.82,
+      "horse_meat": 0.78,
+      "carrot": 0.75,
+      "yogurt": 0.72,
+      "berry": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -302,26 +259,17 @@
     "timeZone": "Asia/Almaty",
     "ingredients": {
       "lamb": 0.88,
-      "beef": 0.88,
-      "potato": 0.8,
-      "onion": 0.74,
-      "horse_meat": 0.9,
-      "carrot": 0.62,
-      "wheat": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "beet": 0.4,
-      "noodle": 0.38,
-      "rice": 0.34,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "fish": 0.82,
-      "millet": 0.8,
-      "honey": 0.75,
-      "mushroom": 0.68,
-      "berry": 0.72
+      "beef": 0.85,
+      "horse_meat": 0.82,
+      "potato": 0.9,
+      "freshwater_fish": 0.8,
+      "apple": 0.82,
+      "onion": 0.82,
+      "carrot": 0.78,
+      "bread": 0.78,
+      "yogurt": 0.75,
+      "mushroom": 0.72,
+      "honey": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -343,24 +291,19 @@
     "population": 240000,
     "timeZone": "Asia/Qyzylorda",
     "ingredients": {
-      "lamb": 0.95,
-      "beef": 0.9,
+      "wheat": 0.95,
+      "bread": 0.92,
+      "beef": 0.88,
       "potato": 0.9,
-      "onion": 0.9,
-      "horse_meat": 0.85,
-      "carrot": 0.85,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "lamb": 0.8,
+      "sour_cream": 0.82,
       "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.98,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.88,
-      "buckwheat": 0.78,
-      "rye_bread": 0.78,
-      "sauerkraut": 0.72
+      "milk": 0.78,
+      "cabbage": 0.8,
+      "buckwheat": 0.72,
+      "beet": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -368,6 +311,11 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "baking": 0.92,
+      "boiling": 0.85,
+      "milling": 0.88
     }
   },
   {
@@ -382,23 +330,20 @@
     "population": 250000,
     "timeZone": "Asia/Oral",
     "ingredients": {
-      "lamb": 0.95,
-      "beef": 0.95,
+      "freshwater_fish": 0.92,
+      "lamb": 0.82,
+      "beef": 0.85,
       "potato": 0.9,
-      "onion": 0.9,
-      "horse_meat": 0.85,
-      "carrot": 0.85,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.88,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.8,
-      "buckwheat": 0.65,
-      "fish": 0.82
+      "onion": 0.88,
+      "carrot": 0.82,
+      "bread": 0.85,
+      "sour_cream": 0.78,
+      "beet": 0.75,
+      "cabbage": 0.8,
+      "horse_meat": 0.72,
+      "wheat": 0.85,
+      "pickle": 0.72,
+      "dried_fish": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -406,6 +351,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "baking": 0.8,
+      "smoking": 0.75
     }
   },
   {
@@ -420,23 +370,20 @@
     "population": 241000,
     "timeZone": "Asia/Qyzylorda",
     "ingredients": {
-      "rice": 0.95,
       "lamb": 0.95,
-      "beef": 0.9,
-      "potato": 0.85,
-      "onion": 0.85,
+      "rice": 0.97,
+      "onion": 0.9,
       "carrot": 0.88,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.8,
+      "fish": 0.85,
+      "freshwater_fish": 0.85,
+      "dried_fish": 0.8,
+      "garlic": 0.82,
+      "dried_fruit": 0.8,
       "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "fish": 0.72
+      "tomato": 0.75,
+      "yogurt": 0.8,
+      "cumin": 0.72,
+      "flatbread": 0.75
     },
     "cookingMethods": {
       "steaming": 0.95,
@@ -444,6 +391,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.9,
+      "boiling": 0.82,
+      "drying": 0.75
     }
   },
   {
@@ -458,26 +410,18 @@
     "population": 355000,
     "timeZone": "Asia/Aqtobe",
     "ingredients": {
+      "freshwater_fish": 0.97,
       "fish": 0.92,
-      "lamb": 0.85,
-      "beef": 0.8200000000000001,
-      "potato": 0.76,
-      "onion": 0.7000000000000001,
+      "lamb": 0.82,
+      "dried_fish": 0.9,
       "rice": 0.8,
-      "carrot": 0.6,
-      "butter": 0.56,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "camel_meat": 0.46,
-      "horse_meat": 0.82,
-      "noodle": 0.38,
-      "wheat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "dried_meat": 0.75,
-      "shrimp": 0.72
+      "onion": 0.88,
+      "potato": 0.82,
+      "tomato": 0.8,
+      "garlic": 0.78,
+      "carrot": 0.72,
+      "yogurt": 0.65,
+      "horse_meat": 0.62
     },
     "cookingMethods": {
       "steaming": 0.95,
@@ -485,6 +429,11 @@
       "boiling": 0.9,
       "roasting": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.9,
+      "smoking": 0.88,
+      "drying": 0.82
     }
   },
   {
@@ -499,29 +448,18 @@
     "population": 358000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "lamb": 0.88,
-      "potato": 0.8200000000000001,
-      "rice": 0.78,
-      "onion": 0.7000000000000001,
-      "horse_meat": 0.9,
-      "apricot": 0.82,
-      "carrot": 0.56,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "grape": 0.42,
-      "noodle": 0.8,
-      "wheat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "dried_fruit": 0.72
+      "lamb": 0.92,
+      "rice": 0.9,
+      "onion": 0.88,
+      "carrot": 0.85,
+      "flatbread": 0.88,
+      "garlic": 0.82,
+      "dried_fruit": 0.8,
+      "sesame": 0.8,
+      "tomato": 0.78,
+      "pomegranate": 0.75,
+      "yogurt": 0.72,
+      "cumin": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -543,28 +481,19 @@
     "population": 208000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "beef": 0.88,
-      "potato": 0.9,
-      "wheat": 0.74,
-      "onion": 0.68,
-      "horse_meat": 0.9,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "beet": 0.82,
-      "noodle": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.78,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "sauerkraut": 0.75,
-      "rye_bread": 0.72
+      "beef": 0.9,
+      "potato": 0.95,
+      "bread": 0.92,
+      "onion": 0.9,
+      "freshwater_fish": 0.82,
+      "cabbage": 0.85,
+      "carrot": 0.82,
+      "sour_cream": 0.8,
+      "beet": 0.78,
+      "wheat": 0.88,
+      "lamb": 0.65,
+      "pork": 0.72,
+      "butter": 0.75
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -572,6 +501,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.92,
+      "baking": 0.82,
+      "pickling": 0.78
     }
   },
   {
@@ -586,27 +520,20 @@
     "population": 150000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "beef": 0.88,
-      "potato": 0.85,
-      "onion": 0.8,
-      "wheat": 0.68,
-      "horse_meat": 0.9,
-      "carrot": 0.58,
-      "beet": 0.52,
-      "butter": 0.48,
-      "tea": 0.46,
-      "kefir": 0.4,
-      "noodle": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.72,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "pork": 0.78
+      "beef": 0.92,
+      "pork": 0.82,
+      "potato": 0.95,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "cabbage": 0.85,
+      "bread": 0.88,
+      "sour_cream": 0.82,
+      "beet": 0.8,
+      "pickle": 0.78,
+      "lard": 0.72,
+      "butter": 0.75,
+      "lamb": 0.7,
+      "wheat": 0.8
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -614,6 +541,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.92,
+      "baking": 0.85,
+      "pickling": 0.8
     }
   },
   {
@@ -628,26 +560,18 @@
     "population": 168000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "horse_meat": 0.9,
-      "lamb": 0.88,
+      "lamb": 0.92,
+      "horse_meat": 0.88,
+      "dried_meat": 0.85,
       "potato": 0.9,
-      "onion": 0.74,
-      "beef": 0.68,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "noodle": 0.46,
-      "wheat": 0.4,
-      "rice": 0.78,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.72,
-      "buckwheat": 0.72,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "onion": 0.85,
+      "beef": 0.82,
+      "flatbread": 0.8,
+      "carrot": 0.78,
+      "dried_fruit": 0.75,
+      "yogurt": 0.78,
+      "kefir": 0.75,
+      "wheat": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -655,6 +579,10 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "boiling": 0.8
     }
   },
   {
@@ -669,28 +597,20 @@
     "population": 37000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
+      "freshwater_fish": 0.95,
       "beef": 0.88,
-      "potato": 0.8200000000000001,
-      "onion": 0.76,
-      "berry": 0.72,
-      "horse_meat": 0.9,
-      "carrot": 0.6,
-      "butter": 0.56,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "noodle": 0.46,
-      "wheat": 0.42,
-      "mushroom": 0.7,
-      "rice": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "fish": 0.82,
-      "millet": 0.8,
-      "honey": 0.72,
-      "pine_nut": 0.78
+      "potato": 0.92,
+      "mushroom": 0.9,
+      "berry": 0.88,
+      "lamb": 0.78,
+      "honey": 0.85,
+      "sour_cream": 0.8,
+      "pork": 0.75,
+      "bread": 0.82,
+      "apple": 0.78,
+      "cabbage": 0.75,
+      "onion": 0.82,
+      "game_meat": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -698,6 +618,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "smoking": 0.88,
+      "boiling": 0.82,
+      "baking": 0.78
     }
   },
   {
@@ -712,34 +637,30 @@
     "population": 35000,
     "timeZone": "Asia/Qyzylorda",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.9,
-      "onion": 0.74,
-      "beef": 0.68,
-      "rice": 0.78,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.82,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "sauerkraut": 0.75,
-      "rye_bread": 0.72
+      "beef": 0.85,
+      "potato": 0.92,
+      "bread": 0.88,
+      "lamb": 0.78,
+      "onion": 0.88,
+      "cabbage": 0.82,
+      "carrot": 0.8,
+      "pork": 0.72,
+      "sour_cream": 0.78,
+      "beet": 0.75,
+      "rice": 0.68,
+      "pickle": 0.72,
+      "butter": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "baking": 0.82,
+      "pickling": 0.78
     }
   },
   {
@@ -754,28 +675,18 @@
     "population": 18000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "potato": 0.96,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "onion": 0.76,
-      "beef": 0.7000000000000001,
-      "carrot": 0.66,
-      "butter": 0.6,
-      "tea": 0.56,
-      "kefir": 0.52,
-      "noodle": 0.48,
-      "wheat": 0.46,
-      "rice": 0.78,
-      "cabbage": 0.38,
-      "flatbread": 0.36,
-      "mushroom": 0.34,
-      "berry": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.9,
+      "horse_meat": 0.85,
+      "beef": 0.78,
+      "potato": 0.88,
+      "freshwater_fish": 0.8,
+      "mushroom": 0.8,
+      "onion": 0.82,
+      "carrot": 0.78,
+      "berry": 0.78,
+      "yogurt": 0.75,
+      "dried_fruit": 0.72,
+      "honey": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -797,27 +708,18 @@
     "population": 5000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "potato": 0.92,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "onion": 0.68,
-      "carrot": 0.62,
-      "butter": 0.78,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "rice": 0.78,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
+      "lamb": 0.9,
+      "horse_meat": 0.85,
+      "dried_fruit": 0.82,
+      "flatbread": 0.88,
+      "onion": 0.82,
+      "raisin": 0.78,
+      "walnut": 0.75,
+      "carrot": 0.8,
+      "sesame": 0.72,
       "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "sauerkraut": 0.68
+      "kefir": 0.75,
+      "apricot": 0.78
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -825,6 +727,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "drying": 0.82,
+      "baking": 0.75
     }
   },
   {
@@ -839,29 +746,19 @@
     "population": 35000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "fish": 0.96,
-      "lamb": 0.88,
-      "beef": 0.8200000000000001,
-      "potato": 0.74,
-      "onion": 0.7000000000000001,
-      "rice": 0.78,
-      "carrot": 0.58,
-      "butter": 0.54,
-      "tea": 0.5,
-      "kefir": 0.78,
-      "horse_meat": 0.9,
-      "noodle": 0.4,
-      "wheat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "dried_fish": 0.75,
-      "shrimp": 0.68
+      "fish": 0.95,
+      "freshwater_fish": 0.92,
+      "lamb": 0.85,
+      "beef": 0.82,
+      "potato": 0.88,
+      "onion": 0.85,
+      "carrot": 0.8,
+      "dried_fish": 0.9,
+      "tomato": 0.78,
+      "garlic": 0.75,
+      "horse_meat": 0.68,
+      "rice": 0.72,
+      "bread": 0.78
     },
     "cookingMethods": {
       "steaming": 0.95,
@@ -869,6 +766,11 @@
       "boiling": 0.9,
       "roasting": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "smoking": 0.85,
+      "drying": 0.82
     }
   },
   {
@@ -883,28 +785,19 @@
     "population": 12000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "fish": 0.96,
-      "beef": 0.88,
-      "lamb": 0.88,
-      "potato": 0.74,
-      "onion": 0.7000000000000001,
-      "rice": 0.78,
-      "carrot": 0.58,
-      "butter": 0.75,
-      "tea": 0.5,
-      "kefir": 0.85,
-      "horse_meat": 0.9,
-      "noodle": 0.4,
-      "wheat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
+      "fish": 0.92,
+      "freshwater_fish": 0.9,
+      "lamb": 0.82,
+      "beef": 0.85,
+      "potato": 0.9,
+      "onion": 0.88,
+      "dried_fish": 0.85,
+      "carrot": 0.8,
+      "bread": 0.82,
+      "tomato": 0.78,
       "sour_cream": 0.75,
-      "milk": 0.7,
-      "dried_fish": 0.7
+      "cabbage": 0.72,
+      "garlic": 0.72
     },
     "cookingMethods": {
       "steaming": 0.95,
@@ -912,6 +805,11 @@
       "boiling": 0.9,
       "roasting": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "baking": 0.8,
+      "smoking": 0.82
     }
   },
   {
@@ -926,25 +824,20 @@
     "population": 160000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
+      "apple": 0.92,
       "lamb": 0.88,
-      "beef": 0.95,
-      "potato": 0.9,
-      "onion": 0.9,
-      "horse_meat": 0.85,
-      "carrot": 0.85,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "apple": 0.9,
-      "berry": 0.8,
-      "mushroom": 0.72
+      "beef": 0.82,
+      "horse_meat": 0.75,
+      "potato": 0.85,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "rice": 0.8,
+      "tomato": 0.78,
+      "garlic": 0.75,
+      "dried_fruit": 0.78,
+      "yogurt": 0.78,
+      "honey": 0.75,
+      "kefir": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -952,6 +845,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "boiling": 0.8,
+      "baking": 0.78
     }
   },
   {
@@ -966,26 +864,19 @@
     "population": 50000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.95,
-      "beef": 0.95,
-      "potato": 0.9,
-      "onion": 0.9,
-      "horse_meat": 0.85,
-      "carrot": 0.85,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "apple": 0.92,
-      "berry": 0.78,
-      "mushroom": 0.7,
-      "grape": 0.75
+      "apple": 0.95,
+      "lamb": 0.88,
+      "honey": 0.9,
+      "beef": 0.82,
+      "berry": 0.82,
+      "potato": 0.88,
+      "onion": 0.82,
+      "carrot": 0.78,
+      "mushroom": 0.78,
+      "yogurt": 0.8,
+      "kefir": 0.78,
+      "game_meat": 0.7,
+      "dried_fruit": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -993,6 +884,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.82,
+      "baking": 0.8,
+      "boiling": 0.75
     }
   },
   {
@@ -1007,27 +903,17 @@
     "population": 8000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "potato": 0.88,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "onion": 0.7000000000000001,
-      "carrot": 0.64,
-      "rice": 0.78,
-      "butter": 0.54,
-      "tea": 0.5,
-      "kefir": 0.46,
-      "fish": 0.42,
-      "noodle": 0.4,
-      "wheat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.97,
+      "camel_meat": 0.9,
+      "horse_meat": 0.88,
+      "kefir": 0.95,
+      "dried_meat": 0.92,
+      "flatbread": 0.88,
+      "yogurt": 0.92,
+      "millet": 0.88,
+      "onion": 0.75,
+      "dried_fruit": 0.72,
+      "potato": 0.6
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1035,6 +921,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.95,
+      "fermenting": 0.95,
+      "drying": 0.9
     }
   },
   {
@@ -1049,28 +940,18 @@
     "population": 22000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "potato": 0.88,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "onion": 0.7000000000000001,
-      "carrot": 0.66,
-      "butter": 0.6,
-      "tea": 0.56,
-      "kefir": 0.52,
-      "rice": 0.78,
-      "noodle": 0.46,
-      "wheat": 0.42,
-      "fish": 0.38,
-      "camel_meat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.9,
+      "horse_meat": 0.88,
+      "beef": 0.78,
+      "potato": 0.85,
+      "dried_meat": 0.85,
+      "flatbread": 0.82,
+      "onion": 0.82,
+      "kefir": 0.85,
+      "yogurt": 0.82,
+      "carrot": 0.75,
+      "bread": 0.72,
+      "millet": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1078,6 +959,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "boiling": 0.8,
+      "fermenting": 0.75
     }
   },
   {
@@ -1092,26 +978,19 @@
     "population": 15000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.92,
-      "potato": 0.88,
-      "horse_meat": 0.82,
-      "onion": 0.74,
-      "beef": 0.68,
-      "carrot": 0.78,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "rice": 0.85,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.88,
+      "noodle": 0.88,
+      "onion": 0.9,
+      "carrot": 0.85,
+      "tomato": 0.85,
+      "garlic": 0.85,
+      "apple": 0.8,
+      "beef": 0.78,
+      "chili_pepper": 0.78,
+      "rice": 0.72,
+      "vinegar": 0.72,
+      "sesame": 0.7,
+      "horse_meat": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1119,6 +998,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "stir_frying": 0.85,
+      "braising": 0.82,
+      "boiling": 0.78
     }
   },
   {
@@ -1133,26 +1017,18 @@
     "population": 21000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "lamb": 0.88,
-      "potato": 0.8,
+      "lamb": 0.95,
       "horse_meat": 0.9,
-      "onion": 0.68,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "noodle": 0.46,
-      "wheat": 0.4,
-      "rice": 0.78,
-      "beet": 0.34,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
+      "dried_meat": 0.9,
+      "kefir": 0.9,
+      "flatbread": 0.88,
+      "yogurt": 0.88,
       "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "onion": 0.8,
+      "potato": 0.72,
+      "beef": 0.65,
+      "carrot": 0.68,
+      "dried_fruit": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1160,6 +1036,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.93,
+      "fermenting": 0.88,
+      "smoking": 0.75
     }
   },
   {
@@ -1174,27 +1055,17 @@
     "population": 15000,
     "timeZone": "Asia/Aqtobe",
     "ingredients": {
-      "lamb": 0.88,
-      "potato": 0.88,
-      "horse_meat": 0.85,
-      "onion": 0.74,
-      "beef": 0.68,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "rice": 0.78,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.62,
-      "dried_meat": 0.72,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "camel_meat": 0.68
+      "lamb": 0.95,
+      "horse_meat": 0.88,
+      "dried_meat": 0.85,
+      "kefir": 0.85,
+      "flatbread": 0.85,
+      "yogurt": 0.82,
+      "onion": 0.82,
+      "potato": 0.78,
+      "millet": 0.78,
+      "carrot": 0.72,
+      "beef": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1202,6 +1073,10 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.9,
+      "smoking": 0.78
     }
   },
   {
@@ -1216,29 +1091,19 @@
     "population": 13000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "potato": 0.96,
-      "lamb": 0.88,
-      "beef": 0.8,
-      "onion": 0.74,
-      "horse_meat": 0.9,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "beet": 0.46,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "pine_nut": 0.72,
-      "mushroom": 0.75,
-      "berry": 0.72
+      "freshwater_fish": 0.9,
+      "lamb": 0.82,
+      "beef": 0.82,
+      "potato": 0.9,
+      "pine_nut": 0.8,
+      "mushroom": 0.85,
+      "berry": 0.82,
+      "bread": 0.85,
+      "onion": 0.82,
+      "sour_cream": 0.8,
+      "wheat": 0.8,
+      "honey": 0.78,
+      "horse_meat": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1246,6 +1111,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.85,
+      "smoking": 0.8,
+      "baking": 0.78
     }
   },
   {
@@ -1260,28 +1130,19 @@
     "population": 12000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "potato": 0.88,
-      "apple": 0.9,
-      "lamb": 0.88,
-      "onion": 0.7000000000000001,
-      "horse_meat": 0.9,
-      "carrot": 0.6,
-      "butter": 0.56,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "noodle": 0.46,
-      "wheat": 0.42,
-      "berry": 0.72,
-      "rice": 0.78,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "apple": 0.95,
+      "honey": 0.92,
+      "berry": 0.85,
+      "lamb": 0.85,
+      "potato": 0.85,
+      "onion": 0.82,
+      "beef": 0.78,
+      "mushroom": 0.8,
+      "yogurt": 0.82,
+      "carrot": 0.75,
+      "game_meat": 0.72,
+      "dried_fruit": 0.78,
+      "kefir": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1289,6 +1150,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "baking": 0.85,
+      "slow_cooking": 0.8,
+      "boiling": 0.75
     }
   },
   {
@@ -1303,27 +1169,19 @@
     "population": 13000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
+      "beef": 0.88,
       "potato": 0.92,
-      "onion": 0.8,
-      "horse_meat": 0.9,
-      "beef": 0.68,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "rice": 0.78,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.78,
-      "buckwheat": 0.72,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "sauerkraut": 0.78
+      "bread": 0.88,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "lamb": 0.75,
+      "cabbage": 0.8,
+      "sour_cream": 0.78,
+      "wheat": 0.85,
+      "horse_meat": 0.68,
+      "beet": 0.72,
+      "pork": 0.68,
+      "pickle": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1331,6 +1189,10 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.9,
+      "baking": 0.82
     }
   },
   {
@@ -1345,27 +1207,19 @@
     "population": 150000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.9,
-      "potato": 0.88,
-      "onion": 0.8,
-      "horse_meat": 0.9,
-      "beef": 0.68,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "rice": 0.46,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.78,
-      "milk": 0.75,
-      "bread": 0.72
+      "lamb": 0.85,
+      "beef": 0.88,
+      "freshwater_fish": 0.88,
+      "potato": 0.92,
+      "wheat": 0.88,
+      "bread": 0.88,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "horse_meat": 0.72,
+      "sour_cream": 0.8,
+      "cabbage": 0.78,
+      "mushroom": 0.75,
+      "berry": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1373,6 +1227,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "baking": 0.82,
+      "smoking": 0.72
     }
   },
   {
@@ -1387,26 +1246,19 @@
     "population": 11000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "potato": 0.88,
-      "onion": 0.8,
-      "horse_meat": 0.9,
-      "beef": 0.68,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "noodle": 0.46,
-      "wheat": 0.4,
-      "beet": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
+      "lamb": 0.9,
+      "horse_meat": 0.85,
+      "wheat": 0.9,
+      "bread": 0.88,
+      "potato": 0.9,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "beef": 0.82,
       "dried_meat": 0.8,
+      "kefir": 0.82,
+      "yogurt": 0.8,
       "sour_cream": 0.75,
-      "milk": 0.7
+      "millet": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1414,6 +1266,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "baking": 0.85,
+      "slow_cooking": 0.82,
+      "boiling": 0.8
     }
   },
   {
@@ -1428,23 +1285,19 @@
     "population": 10000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.9,
-      "beef": 0.95,
-      "potato": 0.9,
-      "onion": 0.9,
-      "horse_meat": 0.88,
-      "carrot": 0.8,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "rice": 0.88,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "apricot": 0.8
+      "lamb": 0.88,
+      "rice": 0.9,
+      "onion": 0.88,
+      "carrot": 0.85,
+      "flatbread": 0.85,
+      "garlic": 0.82,
+      "tomato": 0.82,
+      "dried_fruit": 0.8,
+      "sesame": 0.75,
+      "cucumber": 0.78,
+      "potato": 0.72,
+      "yogurt": 0.7,
+      "cumin": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1452,6 +1305,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.82,
+      "boiling": 0.78,
+      "grilling": 0.72
     }
   },
   {
@@ -1466,30 +1324,20 @@
     "population": 57000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "potato": 0.92,
-      "beef": 0.8,
-      "wheat": 0.74,
-      "onion": 0.68,
-      "horse_meat": 0.9,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "noodle": 0.4,
-      "beet": 0.8,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "sauerkraut": 0.75,
-      "rye_bread": 0.72,
-      "mushroom": 0.72,
-      "honey": 0.68
+      "beef": 0.92,
+      "pork": 0.82,
+      "potato": 0.97,
+      "bread": 0.95,
+      "onion": 0.9,
+      "cabbage": 0.9,
+      "sour_cream": 0.85,
+      "beet": 0.85,
+      "pickle": 0.88,
+      "carrot": 0.85,
+      "butter": 0.8,
+      "wheat": 0.9,
+      "lamb": 0.55,
+      "dill": 0.82
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1497,6 +1345,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.95,
+      "baking": 0.88,
+      "pickling": 0.9
     }
   },
   {
@@ -1511,33 +1364,29 @@
     "population": 7000,
     "timeZone": "Asia/Qyzylorda",
     "ingredients": {
-      "lamb": 0.88,
-      "beef": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.74,
-      "onion": 0.68,
-      "rice": 0.9,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "apricot": 0.72
+      "lamb": 0.92,
+      "rice": 0.95,
+      "onion": 0.88,
+      "carrot": 0.85,
+      "garlic": 0.82,
+      "dried_fruit": 0.8,
+      "horse_meat": 0.78,
+      "fish": 0.8,
+      "dried_fish": 0.75,
+      "tomato": 0.72,
+      "yogurt": 0.75,
+      "flatbread": 0.72,
+      "cumin": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "boiling": 0.8
     }
   },
   {
@@ -1552,27 +1401,18 @@
     "population": 5000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.8200000000000001,
-      "onion": 0.74,
-      "beef": 0.7000000000000001,
-      "carrot": 0.64,
-      "butter": 0.58,
-      "tea": 0.54,
-      "kefir": 0.5,
-      "noodle": 0.46,
-      "wheat": 0.42,
-      "rice": 0.78,
-      "cabbage": 0.36,
-      "flatbread": 0.34,
-      "mushroom": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "freshwater_fish": 0.9,
+      "lamb": 0.85,
+      "honey": 0.88,
+      "mushroom": 0.85,
+      "berry": 0.85,
+      "pine_nut": 0.82,
+      "potato": 0.85,
+      "onion": 0.8,
+      "horse_meat": 0.78,
+      "yogurt": 0.8,
+      "kefir": 0.78,
+      "game_meat": 0.75
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1580,6 +1420,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "smoking": 0.85,
+      "boiling": 0.8,
+      "slow_cooking": 0.78
     }
   },
   {
@@ -1595,22 +1440,17 @@
     "timeZone": "Asia/Aqtau",
     "ingredients": {
       "lamb": 0.9,
-      "beef": 0.95,
-      "potato": 0.9,
-      "onion": 0.9,
-      "horse_meat": 0.88,
-      "carrot": 0.85,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.78,
+      "fish": 0.85,
+      "dried_fish": 0.78,
       "rice": 0.8,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "camel_meat": 0.82
+      "potato": 0.82,
+      "onion": 0.82,
+      "carrot": 0.75,
+      "horse_meat": 0.72,
+      "tomato": 0.72,
+      "garlic": 0.7,
+      "yogurt": 0.65,
+      "dried_fruit": 0.58
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1632,27 +1472,18 @@
     "population": 12000,
     "timeZone": "Asia/Aqtau",
     "ingredients": {
-      "beef": 0.96,
+      "fish": 0.88,
+      "freshwater_fish": 0.85,
+      "lamb": 0.85,
       "potato": 0.88,
-      "onion": 0.8200000000000001,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "carrot": 0.64,
-      "butter": 0.58,
-      "tea": 0.54,
-      "kefir": 0.5,
-      "rice": 0.78,
-      "camel_meat": 0.42,
-      "noodle": 0.4,
-      "wheat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "onion": 0.85,
+      "carrot": 0.8,
+      "dried_fish": 0.78,
+      "tomato": 0.75,
+      "rice": 0.72,
+      "horse_meat": 0.68,
+      "yogurt": 0.65,
+      "garlic": 0.62
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1660,6 +1491,10 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.85,
+      "smoking": 0.75
     }
   },
   {
@@ -1674,25 +1509,22 @@
     "population": 179000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.95,
-      "beef": 0.95,
-      "potato": 0.9,
+      "lamb": 0.97,
+      "rice": 0.95,
+      "flatbread": 0.92,
       "onion": 0.9,
-      "horse_meat": 0.85,
-      "carrot": 0.85,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "rice": 0.92,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "apricot": 0.8,
-      "grape": 0.82,
-      "dried_fruit": 0.75
+      "carrot": 0.88,
+      "dried_fruit": 0.9,
+      "pomegranate": 0.85,
+      "sesame": 0.85,
+      "garlic": 0.8,
+      "cumin": 0.82,
+      "yogurt": 0.78,
+      "raisin": 0.8,
+      "tomato": 0.72,
+      "apricot": 0.78,
+      "walnut": 0.72,
+      "honey": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1700,6 +1532,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.9,
+      "braising": 0.82,
+      "baking": 0.75
     }
   },
   {
@@ -1714,27 +1551,18 @@
     "population": 4000,
     "timeZone": "Asia/Aqtau",
     "ingredients": {
-      "potato": 0.96,
-      "onion": 0.88,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "carrot": 0.7000000000000001,
-      "beef": 0.64,
-      "butter": 0.58,
-      "tea": 0.54,
-      "kefir": 0.5,
-      "noodle": 0.46,
-      "wheat": 0.42,
-      "camel_meat": 0.4,
-      "rice": 0.78,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.95,
+      "camel_meat": 0.85,
+      "dried_meat": 0.88,
+      "flatbread": 0.85,
+      "onion": 0.82,
+      "horse_meat": 0.8,
+      "carrot": 0.75,
+      "yogurt": 0.82,
+      "kefir": 0.8,
+      "fish": 0.65,
+      "dried_fish": 0.6,
+      "rice": 0.62
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1742,6 +1570,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "smoking": 0.78,
+      "drying": 0.8
     }
   },
   {
@@ -1756,27 +1589,19 @@
     "population": 60000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
+      "freshwater_fish": 0.95,
+      "fish": 0.88,
+      "lamb": 0.82,
+      "beef": 0.8,
       "potato": 0.88,
-      "onion": 0.8200000000000001,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "carrot": 0.64,
-      "rice": 0.78,
-      "apple": 0.54,
-      "butter": 0.5,
-      "tea": 0.46,
-      "kefir": 0.42,
-      "noodle": 0.4,
-      "wheat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "onion": 0.85,
+      "tomato": 0.82,
+      "garlic": 0.78,
+      "carrot": 0.78,
+      "rice": 0.75,
+      "dried_fish": 0.8,
+      "apple": 0.72,
+      "yogurt": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1784,6 +1609,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "smoking": 0.85,
+      "grilling": 0.8
     }
   },
   {
@@ -1798,27 +1628,19 @@
     "population": 75000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
+      "freshwater_fish": 0.88,
+      "beef": 0.85,
       "potato": 0.92,
-      "onion": 0.8,
-      "horse_meat": 0.9,
-      "beef": 0.68,
-      "carrot": 0.62,
-      "rice": 0.78,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
+      "wheat": 0.88,
+      "bread": 0.88,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "lamb": 0.78,
+      "cabbage": 0.8,
+      "sour_cream": 0.8,
+      "horse_meat": 0.68,
       "beet": 0.72,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "rye_bread": 0.7
+      "butter": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1826,6 +1648,10 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "baking": 0.82
     }
   },
   {
@@ -1840,27 +1666,18 @@
     "population": 20000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
+      "freshwater_fish": 0.88,
       "beef": 0.88,
-      "onion": 0.8,
-      "potato": 0.96,
-      "wheat": 0.68,
-      "horse_meat": 0.9,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "beet": 0.72,
-      "noodle": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "sauerkraut": 0.75
+      "potato": 0.9,
+      "wheat": 0.88,
+      "bread": 0.85,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "cabbage": 0.8,
+      "lamb": 0.75,
+      "sour_cream": 0.78,
+      "dried_fish": 0.72,
+      "horse_meat": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1868,6 +1685,10 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "baking": 0.8
     }
   },
   {
@@ -1882,27 +1703,18 @@
     "population": 15000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "potato": 0.88,
-      "onion": 0.8200000000000001,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "carrot": 0.66,
-      "butter": 0.6,
-      "tea": 0.56,
-      "kefir": 0.52,
-      "noodle": 0.48,
-      "wheat": 0.46,
-      "berry": 0.72,
-      "rice": 0.38,
-      "mushroom": 0.68,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "fish": 0.82,
-      "millet": 0.8,
-      "honey": 0.75
+      "lamb": 0.92,
+      "honey": 0.9,
+      "freshwater_fish": 0.82,
+      "mushroom": 0.85,
+      "berry": 0.88,
+      "apple": 0.88,
+      "horse_meat": 0.8,
+      "potato": 0.85,
+      "yogurt": 0.8,
+      "game_meat": 0.78,
+      "onion": 0.78,
+      "kefir": 0.75
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -1910,6 +1722,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "smoking": 0.78,
+      "boiling": 0.75
     }
   },
   {
@@ -1925,28 +1742,18 @@
     "timeZone": "Asia/Aqtau",
     "ingredients": {
       "fish": 0.97,
-      "lamb": 0.95,
-      "beef": 0.9,
-      "potato": 0.85,
+      "lamb": 0.82,
+      "camel_meat": 0.8,
+      "flatbread": 0.85,
       "onion": 0.85,
-      "carrot": 0.8,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.82,
-      "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "dried_fish": 0.7,
-      "shrimp": 0.92,
-      "tomato": 0.82,
-      "cucumber": 0.78,
-      "sunflower_oil": 0.8,
-      "garlic": 0.78
+      "tomato": 0.85,
+      "garlic": 0.82,
+      "rice": 0.8,
+      "potato": 0.75,
+      "dried_fish": 0.75,
+      "beef": 0.72,
+      "lemon": 0.7,
+      "yogurt": 0.6
     },
     "cookingMethods": {
       "steaming": 0.95,
@@ -1954,6 +1761,11 @@
       "boiling": 0.9,
       "roasting": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "grilling": 0.85,
+      "boiling": 0.8,
+      "smoking": 0.78
     }
   },
   {
@@ -1968,35 +1780,30 @@
     "population": 147000,
     "timeZone": "Asia/Aqtau",
     "ingredients": {
-      "lamb": 0.88,
-      "beef": 0.88,
-      "camel_meat": 0.97,
-      "potato": 0.76,
-      "onion": 0.7000000000000001,
-      "rice": 0.78,
-      "fish": 0.6,
-      "carrot": 0.56,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "horse_meat": 0.9,
-      "noodle": 0.38,
-      "wheat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "dried_fish": 0.78
+      "lamb": 0.95,
+      "camel_meat": 0.88,
+      "dried_meat": 0.9,
+      "flatbread": 0.88,
+      "onion": 0.85,
+      "horse_meat": 0.78,
+      "yogurt": 0.85,
+      "kefir": 0.82,
+      "fish": 0.72,
+      "dried_fish": 0.68,
+      "carrot": 0.7,
+      "rice": 0.65,
+      "garlic": 0.6
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.9,
+      "smoking": 0.8,
+      "drying": 0.82
     }
   },
   {
@@ -2011,27 +1818,18 @@
     "population": 9000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "potato": 0.88,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "onion": 0.68,
-      "carrot": 0.62,
-      "rice": 0.78,
-      "butter": 0.75,
-      "tea": 0.48,
-      "kefir": 0.78,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "honey": 0.72
+      "apple": 0.88,
+      "lamb": 0.92,
+      "beef": 0.78,
+      "potato": 0.85,
+      "onion": 0.85,
+      "honey": 0.82,
+      "carrot": 0.8,
+      "horse_meat": 0.78,
+      "kefir": 0.82,
+      "yogurt": 0.8,
+      "flatbread": 0.78,
+      "dried_fruit": 0.75
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -2039,6 +1837,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "baking": 0.78,
+      "boiling": 0.75
     }
   },
   {
@@ -2053,22 +1856,18 @@
     "population": 8000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.95,
-      "beef": 0.95,
-      "potato": 0.9,
-      "onion": 0.85,
-      "horse_meat": 0.95,
-      "carrot": 0.8,
-      "butter": 0.8,
-      "tea": 0.8,
-      "kefir": 0.75,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "beet": 0.68,
-      "buckwheat": 0.65
+      "lamb": 0.97,
+      "horse_meat": 0.92,
+      "dried_meat": 0.92,
+      "kefir": 0.9,
+      "flatbread": 0.9,
+      "yogurt": 0.88,
+      "camel_meat": 0.75,
+      "millet": 0.82,
+      "onion": 0.8,
+      "potato": 0.75,
+      "dried_fruit": 0.72,
+      "carrot": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -2076,6 +1875,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.95,
+      "smoking": 0.88,
+      "fermenting": 0.85
     }
   },
   {
@@ -2090,28 +1894,19 @@
     "population": 638000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "beef": 0.88,
+      "lamb": 0.92,
       "horse_meat": 0.9,
-      "potato": 0.74,
-      "onion": 0.68,
-      "kefir": 0.62,
-      "noodle": 0.58,
-      "wheat": 0.52,
-      "carrot": 0.48,
-      "butter": 0.46,
-      "rice": 0.78,
-      "cabbage": 0.38,
-      "flatbread": 0.34,
-      "tea": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
+      "dried_meat": 0.88,
+      "kefir": 0.88,
+      "flatbread": 0.85,
+      "yogurt": 0.85,
+      "potato": 0.82,
+      "onion": 0.82,
+      "carrot": 0.75,
+      "beef": 0.75,
+      "berry": 0.72,
       "honey": 0.72,
-      "pine_nut": 0.68
+      "wheat": 0.68
     },
     "cookingMethods": {
       "boiling": 0.9,
@@ -2119,6 +1914,11 @@
       "roasting": 0.85,
       "grilling": 0.8,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.9,
+      "smoking": 0.8,
+      "fermenting": 0.78
     }
   },
   {
@@ -2133,27 +1933,18 @@
     "population": 40000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "beef": 0.88,
-      "potato": 0.8,
-      "onion": 0.74,
-      "kefir": 0.68,
-      "horse_meat": 0.9,
-      "noodle": 0.58,
-      "wheat": 0.52,
-      "carrot": 0.48,
-      "rice": 0.46,
-      "cabbage": 0.4,
-      "flatbread": 0.38,
-      "butter": 0.34,
-      "tea": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "fish": 0.82,
-      "millet": 0.8,
-      "honey": 0.75,
-      "mushroom": 0.68,
-      "berry": 0.72
+      "lamb": 0.97,
+      "horse_meat": 0.93,
+      "dried_meat": 0.92,
+      "kefir": 0.92,
+      "flatbread": 0.88,
+      "yogurt": 0.9,
+      "honey": 0.85,
+      "berry": 0.85,
+      "mushroom": 0.82,
+      "onion": 0.78,
+      "dried_fruit": 0.72,
+      "camel_meat": 0.65
     },
     "cookingMethods": {
       "boiling": 0.85,
@@ -2161,6 +1952,11 @@
       "roasting": 0.8,
       "grilling": 0.75,
       "fermenting": 0.7
+    },
+    "methods": {
+      "slow_cooking": 0.95,
+      "smoking": 0.85,
+      "fermenting": 0.82
     }
   },
   {
@@ -2175,31 +1971,20 @@
     "population": 35000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "apple": 0.97,
+      "apple": 0.93,
       "lamb": 0.88,
-      "beef": 0.8200000000000001,
-      "potato": 0.76,
-      "onion": 0.72,
-      "kefir": 0.66,
-      "horse_meat": 0.9,
-      "noodle": 0.58,
-      "wheat": 0.54,
+      "beef": 0.8,
+      "honey": 0.88,
+      "potato": 0.85,
+      "onion": 0.82,
+      "carrot": 0.78,
+      "yogurt": 0.8,
+      "horse_meat": 0.72,
+      "kefir": 0.78,
       "berry": 0.8,
-      "carrot": 0.46,
-      "rice": 0.78,
-      "cabbage": 0.4,
-      "flatbread": 0.38,
-      "mushroom": 0.36,
-      "butter": 0.32,
-      "tea": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "honey": 0.75,
-      "pine_nut": 0.72
+      "dried_fruit": 0.78,
+      "flatbread": 0.75,
+      "garlic": 0.7
     },
     "cookingMethods": {
       "boiling": 0.85,
@@ -2207,6 +1992,11 @@
       "roasting": 0.8,
       "baking": 0.75,
       "fermenting": 0.7
+    },
+    "methods": {
+      "slow_cooking": 0.82,
+      "baking": 0.8,
+      "boiling": 0.75
     }
   },
   {
@@ -2221,27 +2011,19 @@
     "population": 62000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "fish": 0.96,
-      "lamb": 0.88,
-      "beef": 0.8200000000000001,
-      "kefir": 0.74,
-      "horse_meat": 0.9,
-      "noodle": 0.64,
-      "wheat": 0.58,
-      "potato": 0.54,
-      "onion": 0.5,
-      "rice": 0.78,
-      "cabbage": 0.42,
-      "flatbread": 0.4,
-      "carrot": 0.36,
-      "butter": 0.34,
-      "tea": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "freshwater_fish": 0.9,
+      "lamb": 0.85,
+      "beef": 0.82,
+      "potato": 0.88,
+      "onion": 0.85,
+      "carrot": 0.8,
+      "fish": 0.85,
+      "tomato": 0.78,
+      "apple": 0.8,
+      "yogurt": 0.75,
+      "horse_meat": 0.7,
+      "garlic": 0.72,
+      "rice": 0.72
     },
     "cookingMethods": {
       "boiling": 0.8,
@@ -2249,6 +2031,11 @@
       "roasting": 0.8,
       "grilling": 0.8,
       "smoking": 0.7
+    },
+    "methods": {
+      "grilling": 0.88,
+      "boiling": 0.8,
+      "smoking": 0.75
     }
   },
   {
@@ -2263,26 +2050,18 @@
     "population": 12000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "beef": 0.8,
-      "potato": 0.74,
-      "onion": 0.68,
-      "kefir": 0.62,
-      "noodle": 0.58,
-      "wheat": 0.52,
-      "beet": 0.48,
-      "carrot": 0.46,
-      "rice": 0.78,
-      "cabbage": 0.38,
-      "flatbread": 0.34,
-      "butter": 0.32,
-      "tea": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.97,
+      "horse_meat": 0.95,
+      "dried_meat": 0.92,
+      "kefir": 0.95,
+      "flatbread": 0.9,
+      "yogurt": 0.92,
+      "millet": 0.88,
+      "onion": 0.78,
+      "camel_meat": 0.68,
+      "dried_fruit": 0.72,
+      "potato": 0.65,
+      "beef": 0.55
     },
     "cookingMethods": {
       "boiling": 0.85,
@@ -2290,6 +2069,11 @@
       "roasting": 0.8,
       "grilling": 0.75,
       "fermenting": 0.7
+    },
+    "methods": {
+      "slow_cooking": 0.97,
+      "fermenting": 0.92,
+      "smoking": 0.78
     }
   },
   {
@@ -2304,30 +2088,19 @@
     "population": 3000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "apple": 0.92,
-      "beef": 0.76,
-      "potato": 0.72,
-      "onion": 0.66,
-      "kefir": 0.72,
-      "noodle": 0.58,
-      "wheat": 0.54,
-      "carrot": 0.5,
-      "rice": 0.78,
-      "berry": 0.72,
-      "cabbage": 0.4,
-      "flatbread": 0.38,
-      "mushroom": 0.36,
-      "butter": 0.32,
-      "tea": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "honey": 0.7
+      "apple": 0.9,
+      "lamb": 0.92,
+      "honey": 0.88,
+      "beef": 0.78,
+      "potato": 0.85,
+      "onion": 0.82,
+      "horse_meat": 0.8,
+      "kefir": 0.85,
+      "yogurt": 0.82,
+      "carrot": 0.75,
+      "berry": 0.78,
+      "dried_fruit": 0.75,
+      "flatbread": 0.72
     },
     "cookingMethods": {
       "boiling": 0.85,
@@ -2335,6 +2108,11 @@
       "roasting": 0.8,
       "baking": 0.75,
       "fermenting": 0.7
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "baking": 0.78,
+      "fermenting": 0.75
     }
   },
   {
@@ -2349,25 +2127,21 @@
     "population": 230000,
     "timeZone": "Asia/Oral",
     "ingredients": {
-      "lamb": 0.85,
+      "freshwater_fish": 0.92,
       "beef": 0.88,
-      "potato": 0.8200000000000001,
-      "onion": 0.74,
-      "kefir": 0.7000000000000001,
-      "horse_meat": 0.82,
-      "noodle": 0.58,
-      "wheat": 0.54,
-      "carrot": 0.5,
-      "rice": 0.8,
-      "cabbage": 0.42,
-      "flatbread": 0.4,
-      "butter": 0.36,
-      "tea": 0.34,
-      "beet": 0.32,
-      "buckwheat": 0.28,
-      "fish": 0.92,
-      "dried_meat": 0.75,
-      "shrimp": 0.72
+      "potato": 0.92,
+      "onion": 0.9,
+      "carrot": 0.85,
+      "cabbage": 0.85,
+      "bread": 0.9,
+      "sour_cream": 0.82,
+      "beet": 0.8,
+      "pork": 0.75,
+      "pickle": 0.8,
+      "dill": 0.8,
+      "lamb": 0.65,
+      "wheat": 0.88,
+      "butter": 0.78
     },
     "cookingMethods": {
       "boiling": 0.85,
@@ -2375,6 +2149,11 @@
       "roasting": 0.8,
       "grilling": 0.8,
       "smoking": 0.7
+    },
+    "methods": {
+      "boiling": 0.92,
+      "baking": 0.85,
+      "pickling": 0.85
     }
   },
   {
@@ -2389,33 +2168,30 @@
     "population": 42000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.92,
-      "beef": 0.74,
-      "onion": 0.68,
-      "beet": 0.72,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.78,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "sauerkraut": 0.7
+      "beef": 0.88,
+      "potato": 0.95,
+      "onion": 0.88,
+      "cabbage": 0.85,
+      "bread": 0.88,
+      "pork": 0.8,
+      "sour_cream": 0.82,
+      "beet": 0.78,
+      "carrot": 0.8,
+      "pickle": 0.8,
+      "wheat": 0.82,
+      "lamb": 0.72,
+      "lard": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.9,
+      "pickling": 0.82,
+      "baking": 0.78
     }
   },
   {
@@ -2430,35 +2206,30 @@
     "population": 54500,
     "timeZone": "Asia/Atyrau",
     "ingredients": {
-      "lamb": 0.88,
-      "beef": 0.88,
-      "camel_meat": 0.9,
-      "potato": 0.76,
-      "onion": 0.7000000000000001,
-      "fish": 0.82,
-      "carrot": 0.6,
-      "butter": 0.56,
-      "tea": 0.52,
-      "kefir": 0.48,
+      "fish": 0.92,
+      "freshwater_fish": 0.88,
+      "lamb": 0.85,
+      "potato": 0.88,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "dried_fish": 0.82,
       "rice": 0.78,
-      "horse_meat": 0.9,
-      "noodle": 0.38,
-      "wheat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "dried_fish": 0.85
+      "tomato": 0.8,
+      "garlic": 0.78,
+      "beef": 0.72,
+      "yogurt": 0.65,
+      "bread": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "smoking": 0.8,
+      "grilling": 0.72
     }
   },
   {
@@ -2473,32 +2244,30 @@
     "population": 35000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "beef": 0.8,
-      "potato": 0.74,
-      "onion": 0.68,
-      "cabbage": 0.62,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "beet": 0.34,
-      "rice": 0.78,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.85,
+      "beef": 0.85,
+      "horse_meat": 0.75,
+      "potato": 0.92,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "bread": 0.85,
+      "sour_cream": 0.78,
+      "cabbage": 0.8,
+      "wheat": 0.8,
+      "beet": 0.72,
+      "kefir": 0.72,
+      "dried_meat": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "slow_cooking": 0.8,
+      "baking": 0.75
     }
   },
   {
@@ -2513,34 +2282,33 @@
     "population": 80000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "horse_meat": 0.9,
       "lamb": 0.88,
-      "potato": 0.85,
-      "onion": 0.7000000000000001,
       "rice": 0.78,
-      "apricot": 0.6,
-      "carrot": 0.56,
-      "butter": 0.72,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "grape": 0.42,
-      "noodle": 0.38,
-      "wheat": 0.36,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
+      "potato": 0.92,
+      "pork": 0.72,
+      "beef": 0.85,
+      "onion": 0.88,
+      "cabbage": 0.82,
+      "flatbread": 0.7,
+      "carrot": 0.78,
       "sour_cream": 0.75,
-      "milk": 0.7
+      "bread": 0.8,
+      "pickle": 0.72,
+      "garlic": 0.7,
+      "horse_meat": 0.65,
+      "beet": 0.68,
+      "lard": 0.62
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.85,
+      "baking": 0.78,
+      "pickling": 0.72
     }
   },
   {
@@ -2555,26 +2323,17 @@
     "population": 69000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "beef": 0.85,
-      "potato": 0.8,
-      "onion": 0.75,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "rice": 0.78,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
+      "lamb": 0.9,
+      "horse_meat": 0.85,
+      "beef": 0.8,
+      "potato": 0.88,
+      "onion": 0.85,
+      "flatbread": 0.82,
+      "dried_meat": 0.82,
+      "carrot": 0.78,
+      "yogurt": 0.78,
+      "kefir": 0.75,
+      "dried_fruit": 0.7,
       "bread": 0.72
     },
     "cookingMethods": {
@@ -2582,6 +2341,10 @@
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "boiling": 0.8
     }
   },
   {
@@ -2596,34 +2359,29 @@
     "population": 16000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
+      "freshwater_fish": 0.95,
       "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.8200000000000001,
-      "onion": 0.74,
-      "beef": 0.7000000000000001,
-      "carrot": 0.64,
-      "butter": 0.58,
-      "tea": 0.54,
-      "kefir": 0.5,
-      "noodle": 0.46,
-      "wheat": 0.42,
-      "rice": 0.4,
-      "cabbage": 0.36,
-      "flatbread": 0.34,
-      "camel_meat": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "fish": 0.82,
-      "millet": 0.8,
-      "honey": 0.75,
-      "mushroom": 0.68,
-      "berry": 0.72
+      "horse_meat": 0.85,
+      "dried_fish": 0.88,
+      "onion": 0.85,
+      "potato": 0.88,
+      "mushroom": 0.82,
+      "berry": 0.8,
+      "yogurt": 0.78,
+      "honey": 0.78,
+      "carrot": 0.72,
+      "game_meat": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "smoking": 0.82,
+      "drying": 0.78
     }
   },
   {
@@ -2638,36 +2396,32 @@
     "population": 60000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "horse_meat": 0.9,
       "lamb": 0.88,
-      "potato": 0.76,
-      "onion": 0.72,
-      "rice": 0.78,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.54,
-      "kefir": 0.5,
-      "noodle": 0.8,
-      "wheat": 0.46,
-      "apricot": 0.8,
-      "grape": 0.38,
-      "cabbage": 0.36,
-      "flatbread": 0.32,
-      "beet": 0.3,
-      "buckwheat": 0.28,
-      "pomegranate": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "dried_fruit": 0.72
+      "rice": 0.9,
+      "onion": 0.9,
+      "tomato": 0.9,
+      "carrot": 0.85,
+      "garlic": 0.88,
+      "flatbread": 0.85,
+      "eggplant": 0.82,
+      "chili_pepper": 0.8,
+      "sesame": 0.78,
+      "dried_fruit": 0.72,
+      "yogurt": 0.72,
+      "cumin": 0.8,
+      "coriander": 0.75,
+      "pomegranate": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "braising": 0.8,
+      "grilling": 0.75
     }
   },
   {
@@ -2682,34 +2436,28 @@
     "population": 29000,
     "timeZone": "Asia/Aqtobe",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.8,
-      "onion": 0.74,
-      "beef": 0.68,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "rice": 0.78,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
+      "lamb": 0.9,
+      "beef": 0.82,
+      "horse_meat": 0.78,
+      "potato": 0.9,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "bread": 0.82,
+      "wheat": 0.8,
       "sour_cream": 0.75,
-      "milk": 0.7,
-      "camel_meat": 0.78,
-      "dried_fruit": 0.68
+      "cabbage": 0.72,
+      "yogurt": 0.7,
+      "dried_fruit": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.85,
+      "baking": 0.78
     }
   },
   {
@@ -2725,33 +2473,28 @@
     "timeZone": "Asia/Almaty",
     "ingredients": {
       "lamb": 0.88,
-      "beef": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.76,
-      "onion": 0.7000000000000001,
-      "rice": 0.85,
-      "carrot": 0.6,
-      "butter": 0.56,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "noodle": 0.46,
-      "wheat": 0.42,
-      "apricot": 0.78,
-      "cabbage": 0.36,
-      "flatbread": 0.34,
-      "grape": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "rice": 0.92,
+      "freshwater_fish": 0.85,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "garlic": 0.8,
+      "tomato": 0.8,
+      "dried_fruit": 0.82,
+      "dried_fish": 0.75,
+      "flatbread": 0.8,
+      "potato": 0.7,
+      "yogurt": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.82,
+      "slow_cooking": 0.78,
+      "grilling": 0.72
     }
   },
   {
@@ -2766,33 +2509,29 @@
     "population": 12000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.8200000000000001,
-      "onion": 0.76,
-      "beef": 0.7000000000000001,
-      "carrot": 0.66,
-      "butter": 0.6,
-      "tea": 0.56,
-      "kefir": 0.52,
-      "rice": 0.48,
-      "noodle": 0.46,
-      "wheat": 0.42,
-      "berry": 0.72,
-      "mushroom": 0.68,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "fish": 0.82,
-      "millet": 0.8,
-      "honey": 0.75
+      "freshwater_fish": 0.92,
+      "lamb": 0.82,
+      "beef": 0.8,
+      "potato": 0.9,
+      "onion": 0.85,
+      "carrot": 0.8,
+      "bread": 0.82,
+      "mushroom": 0.78,
+      "berry": 0.75,
+      "sour_cream": 0.75,
+      "yogurt": 0.72,
+      "horse_meat": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "smoking": 0.8,
+      "baking": 0.72
     }
   },
   {
@@ -2807,35 +2546,31 @@
     "population": 20000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
+      "apple": 0.92,
+      "grape": 0.88,
       "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.76,
-      "onion": 0.7000000000000001,
-      "apple": 0.9,
-      "carrot": 0.6,
-      "butter": 0.56,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "noodle": 0.46,
-      "wheat": 0.42,
-      "berry": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.34,
-      "flatbread": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "honey": 0.72
+      "beef": 0.78,
+      "potato": 0.85,
+      "onion": 0.85,
+      "carrot": 0.82,
+      "flatbread": 0.82,
+      "tomato": 0.82,
+      "honey": 0.8,
+      "berry": 0.78,
+      "rice": 0.72,
+      "garlic": 0.75,
+      "cucumber": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.82,
+      "baking": 0.8,
+      "grilling": 0.75
     }
   },
   {
@@ -2850,33 +2585,29 @@
     "population": 16000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
+      "wheat": 0.95,
+      "bread": 0.92,
+      "lamb": 0.82,
       "beef": 0.8,
-      "wheat": 0.8,
-      "onion": 0.68,
-      "potato": 0.62,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "noodle": 0.4,
-      "rice": 0.78,
-      "beet": 0.34,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.82,
-      "milk": 0.7,
-      "rye_bread": 0.72
+      "potato": 0.88,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "sour_cream": 0.8,
+      "horse_meat": 0.7,
+      "milk": 0.75,
+      "butter": 0.78,
+      "cabbage": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "baking": 0.95,
+      "boiling": 0.8,
+      "milling": 0.82
     }
   },
   {
@@ -2891,32 +2622,29 @@
     "population": 30000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "wheat": 0.88,
-      "beef": 0.74,
-      "potato": 0.68,
-      "onion": 0.62,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "beet": 0.4,
-      "noodle": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.72,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.95,
+      "horse_meat": 0.92,
+      "dried_meat": 0.9,
+      "kefir": 0.9,
+      "flatbread": 0.88,
+      "yogurt": 0.88,
+      "wheat": 0.82,
+      "onion": 0.82,
+      "potato": 0.8,
+      "millet": 0.8,
+      "beef": 0.72,
+      "carrot": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.92,
+      "fermenting": 0.85,
+      "baking": 0.78
     }
   },
   {
@@ -2931,32 +2659,29 @@
     "population": 15000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
+      "lamb": 0.92,
+      "horse_meat": 0.85,
+      "beef": 0.78,
+      "dried_meat": 0.82,
+      "kefir": 0.85,
+      "yogurt": 0.82,
       "wheat": 0.8,
-      "beef": 0.74,
-      "potato": 0.68,
-      "onion": 0.62,
-      "cabbage": 0.58,
-      "carrot": 0.52,
-      "butter": 0.48,
-      "tea": 0.46,
-      "kefir": 0.4,
-      "beet": 0.38,
-      "noodle": 0.34,
-      "rice": 0.78,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "flatbread": 0.82,
+      "potato": 0.85,
+      "onion": 0.82,
+      "millet": 0.78,
+      "carrot": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "fermenting": 0.82,
+      "baking": 0.75
     }
   },
   {
@@ -2971,34 +2696,31 @@
     "population": 20000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "horse_meat": 0.9,
-      "lamb": 0.88,
-      "potato": 0.76,
-      "onion": 0.7000000000000001,
-      "rice": 0.78,
-      "carrot": 0.6,
-      "butter": 0.56,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "noodle": 0.78,
-      "wheat": 0.42,
-      "apricot": 0.75,
-      "cabbage": 0.36,
-      "flatbread": 0.34,
-      "grape": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.85,
+      "beef": 0.82,
+      "potato": 0.92,
+      "onion": 0.88,
+      "carrot": 0.8,
+      "bread": 0.82,
+      "sour_cream": 0.78,
+      "cabbage": 0.8,
+      "horse_meat": 0.75,
+      "wheat": 0.8,
+      "rice": 0.7,
+      "beet": 0.7,
+      "pickle": 0.68,
+      "lard": 0.6
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.85,
+      "baking": 0.78,
+      "pickling": 0.72
     }
   },
   {
@@ -3013,35 +2735,30 @@
     "population": 30000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "horse_meat": 0.9,
-      "lamb": 0.88,
-      "potato": 0.85,
-      "onion": 0.72,
+      "lamb": 0.9,
+      "horse_meat": 0.82,
+      "potato": 0.88,
+      "onion": 0.85,
+      "carrot": 0.8,
       "rice": 0.78,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.54,
-      "kefir": 0.5,
-      "noodle": 0.46,
-      "wheat": 0.46,
-      "apricot": 0.4,
-      "cabbage": 0.38,
-      "flatbread": 0.36,
-      "grape": 0.32,
-      "beet": 0.68,
-      "buckwheat": 0.28,
-      "pomegranate": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "flatbread": 0.85,
+      "dried_fruit": 0.75,
+      "apricot": 0.78,
+      "pomegranate": 0.72,
+      "yogurt": 0.75,
+      "garlic": 0.72,
+      "cumin": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "boiling": 0.78,
+      "baking": 0.7
     }
   },
   {
@@ -3056,32 +2773,30 @@
     "population": 37000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "wheat": 0.88,
-      "horse_meat": 0.9,
-      "beef": 0.74,
-      "potato": 0.68,
-      "onion": 0.62,
-      "beet": 0.58,
-      "carrot": 0.52,
-      "butter": 0.48,
-      "tea": 0.46,
-      "kefir": 0.4,
-      "noodle": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.8,
+      "beef": 0.88,
+      "wheat": 0.9,
+      "bread": 0.88,
+      "potato": 0.9,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "horse_meat": 0.72,
+      "sour_cream": 0.78,
+      "beet": 0.72,
+      "yogurt": 0.75,
+      "cabbage": 0.78,
+      "dried_meat": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.88,
+      "baking": 0.85,
+      "slow_cooking": 0.75
     }
   },
   {
@@ -3096,32 +2811,29 @@
     "population": 7000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
+      "freshwater_fish": 0.85,
       "wheat": 0.92,
-      "beef": 0.8,
-      "horse_meat": 0.9,
-      "potato": 0.68,
-      "onion": 0.62,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "noodle": 0.4,
-      "beet": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.8,
-      "milk": 0.7
+      "lamb": 0.88,
+      "bread": 0.9,
+      "potato": 0.88,
+      "onion": 0.85,
+      "horse_meat": 0.82,
+      "carrot": 0.8,
+      "beef": 0.78,
+      "sour_cream": 0.78,
+      "millet": 0.72,
+      "dried_meat": 0.75
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "baking": 0.88,
+      "boiling": 0.85,
+      "slow_cooking": 0.8
     }
   },
   {
@@ -3136,33 +2848,31 @@
     "population": 13000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "wheat": 0.88,
-      "horse_meat": 0.9,
-      "beef": 0.74,
-      "onion": 0.68,
-      "potato": 0.62,
-      "carrot": 0.58,
-      "butter": 0.52,
-      "tea": 0.48,
-      "kefir": 0.46,
-      "noodle": 0.4,
-      "beet": 0.7,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
+      "wheat": 0.92,
+      "bread": 0.92,
+      "beef": 0.88,
+      "pork": 0.78,
+      "potato": 0.92,
+      "onion": 0.88,
+      "cabbage": 0.85,
+      "carrot": 0.82,
       "sour_cream": 0.82,
-      "milk": 0.7,
-      "rye_bread": 0.78
+      "pickle": 0.8,
+      "butter": 0.78,
+      "beet": 0.75,
+      "lamb": 0.65,
+      "rye_bread": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "boiling": 0.9,
+      "baking": 0.88,
+      "pickling": 0.82
     }
   },
   {
@@ -3177,32 +2887,30 @@
     "population": 12000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "wheat": 0.88,
-      "horse_meat": 0.9,
-      "beef": 0.74,
-      "potato": 0.68,
-      "onion": 0.62,
-      "carrot": 0.58,
-      "butter": 0.72,
-      "tea": 0.48,
-      "kefir": 0.75,
-      "noodle": 0.4,
-      "beet": 0.38,
-      "rice": 0.78,
-      "cabbage": 0.32,
-      "flatbread": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.85,
-      "milk": 0.7
+      "wheat": 0.92,
+      "bread": 0.9,
+      "lamb": 0.85,
+      "beef": 0.85,
+      "potato": 0.9,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "sour_cream": 0.8,
+      "butter": 0.78,
+      "milk": 0.78,
+      "cabbage": 0.75,
+      "pickle": 0.72,
+      "horse_meat": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "baking": 0.9,
+      "boiling": 0.85,
+      "pickling": 0.72
     }
   },
   {
@@ -3217,34 +2925,29 @@
     "population": 18000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.85,
-      "horse_meat": 0.9,
-      "beef": 0.8,
-      "potato": 0.74,
-      "onion": 0.68,
-      "carrot": 0.62,
-      "butter": 0.58,
-      "tea": 0.52,
-      "kefir": 0.48,
-      "rice": 0.9,
-      "noodle": 0.4,
-      "wheat": 0.38,
-      "cabbage": 0.34,
-      "flatbread": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "fish": 0.82,
-      "dried_fish": 0.65
+      "lamb": 0.9,
+      "horse_meat": 0.85,
+      "rice": 0.82,
+      "flatbread": 0.88,
+      "onion": 0.85,
+      "dried_meat": 0.82,
+      "kefir": 0.82,
+      "carrot": 0.78,
+      "yogurt": 0.8,
+      "dried_fruit": 0.75,
+      "millet": 0.72,
+      "garlic": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "steaming": 0.9,
       "roasting": 0.9,
       "grilling": 0.85
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "smoking": 0.75,
+      "drying": 0.72
     }
   },
   {
@@ -3259,25 +2962,20 @@
     "population": 220000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 1.0,
-      "beef": 0.9,
-      "horse_meat": 0.9,
-      "potato": 0.85,
-      "onion": 0.85,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.92,
-      "carrot": 0.75,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.8,
-      "tea": 0.7,
+      "beef": 0.92,
+      "potato": 0.95,
+      "pork": 0.85,
+      "cabbage": 0.9,
+      "onion": 0.9,
+      "bread": 0.92,
+      "sour_cream": 0.88,
       "beet": 0.85,
-      "buckwheat": 0.65,
-      "sauerkraut": 0.78,
-      "rye_bread": 0.8,
-      "sour_cream": 0.82
+      "carrot": 0.85,
+      "pickle": 0.85,
+      "buckwheat": 0.8,
+      "butter": 0.8,
+      "lamb": 0.6,
+      "dill": 0.82
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3285,6 +2983,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "boiling": 0.92,
+      "pickling": 0.88,
+      "baking": 0.85
     }
   },
   {
@@ -3299,23 +3002,19 @@
     "population": 62000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.9,
-      "beef": 0.95,
-      "horse_meat": 0.85,
-      "potato": 0.85,
-      "onion": 0.85,
-      "kefir": 0.8,
-      "noodle": 0.88,
-      "wheat": 0.78,
-      "carrot": 0.92,
-      "rice": 0.82,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "apricot": 0.72
+      "lamb": 0.92,
+      "rice": 0.88,
+      "onion": 0.9,
+      "carrot": 0.85,
+      "flatbread": 0.88,
+      "garlic": 0.82,
+      "tomato": 0.8,
+      "sesame": 0.78,
+      "dried_fruit": 0.75,
+      "eggplant": 0.72,
+      "chili_pepper": 0.7,
+      "cumin": 0.78,
+      "yogurt": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3323,6 +3022,11 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "braising": 0.8,
+      "baking": 0.72
     }
   },
   {
@@ -3338,24 +3042,19 @@
     "timeZone": "Asia/Almaty",
     "ingredients": {
       "lamb": 0.9,
-      "beef": 0.95,
-      "horse_meat": 0.9,
-      "potato": 0.8,
-      "onion": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.82,
-      "wheat": 0.78,
-      "carrot": 0.75,
-      "rice": 0.87,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "apricot": 0.9,
-      "grape": 0.75,
-      "dried_fruit": 0.78
+      "rice": 0.85,
+      "potato": 0.88,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "flatbread": 0.85,
+      "beef": 0.78,
+      "garlic": 0.8,
+      "tomato": 0.78,
+      "dried_fruit": 0.72,
+      "yogurt": 0.7,
+      "grape": 0.65,
+      "apricot": 0.68,
+      "cumin": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3363,6 +3062,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "boiling": 0.82,
+      "slow_cooking": 0.78,
+      "baking": 0.72
     }
   },
   {
@@ -3377,23 +3081,18 @@
     "population": 34000,
     "timeZone": "Asia/Qyzylorda",
     "ingredients": {
-      "fish": 1.0,
-      "rice": 0.95,
-      "lamb": 0.9,
-      "beef": 0.85,
-      "onion": 0.8,
-      "kefir": 0.8,
-      "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "potato": 0.75,
-      "carrot": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65
+      "dried_fish": 0.97,
+      "freshwater_fish": 0.9,
+      "fish": 0.88,
+      "lamb": 0.82,
+      "onion": 0.85,
+      "garlic": 0.78,
+      "potato": 0.8,
+      "rice": 0.75,
+      "tomato": 0.72,
+      "dried_fruit": 0.68,
+      "horse_meat": 0.65,
+      "carrot": 0.7
     },
     "cookingMethods": {
       "steaming": 0.95,
@@ -3401,6 +3100,11 @@
       "grilling": 0.9,
       "roasting": 0.85,
       "smoking": 0.8
+    },
+    "methods": {
+      "drying": 0.95,
+      "smoking": 0.82,
+      "boiling": 0.75
     }
   },
   {
@@ -3415,24 +3119,18 @@
     "population": 27000,
     "timeZone": "Asia/Aqtobe",
     "ingredients": {
-      "lamb": 1.0,
-      "beef": 0.95,
-      "camel_meat": 0.88,
+      "lamb": 0.95,
+      "horse_meat": 0.9,
+      "dried_meat": 0.88,
+      "onion": 0.85,
+      "kefir": 0.88,
+      "flatbread": 0.82,
       "potato": 0.8,
-      "onion": 0.8,
-      "kefir": 0.8,
-      "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "carrot": 0.75,
-      "rice": 0.8,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "fish": 0.78
+      "millet": 0.78,
+      "yogurt": 0.82,
+      "carrot": 0.72,
+      "camel_meat": 0.72,
+      "fish": 0.6
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3440,6 +3138,11 @@
       "steaming": 0.85,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.9,
+      "smoking": 0.78,
+      "fermenting": 0.75
     }
   },
   {
@@ -3454,25 +3157,18 @@
     "population": 17000,
     "timeZone": "Asia/Aqtau",
     "ingredients": {
-      "lamb": 1.0,
-      "camel_meat": 0.92,
-      "beef": 0.9,
-      "potato": 0.8,
-      "onion": 0.8,
-      "kefir": 0.8,
-      "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "carrot": 0.75,
-      "rice": 0.8,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "fish": 0.78,
-      "dried_fish": 0.72
+      "fish": 0.9,
+      "lamb": 0.92,
+      "camel_meat": 0.82,
+      "dried_fish": 0.85,
+      "flatbread": 0.85,
+      "onion": 0.82,
+      "potato": 0.78,
+      "rice": 0.72,
+      "tomato": 0.75,
+      "yogurt": 0.8,
+      "dried_meat": 0.78,
+      "garlic": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3480,6 +3176,11 @@
       "steaming": 0.85,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "boiling": 0.82,
+      "slow_cooking": 0.85,
+      "drying": 0.78
     }
   },
   {
@@ -3494,29 +3195,20 @@
     "population": 39000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "rice": 0.78,
-      "potato": 0.7000000000000001,
-      "onion": 0.66,
-      "kefir": 0.6,
-      "noodle": 0.56,
-      "wheat": 0.52,
-      "apricot": 0.82,
-      "grape": 0.46,
-      "carrot": 0.42,
-      "cabbage": 0.38,
-      "flatbread": 0.36,
-      "butter": 0.34,
-      "tea": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "dried_fruit": 0.72
+      "lamb": 0.9,
+      "rice": 0.88,
+      "tomato": 0.88,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "garlic": 0.85,
+      "flatbread": 0.85,
+      "eggplant": 0.8,
+      "pomegranate": 0.78,
+      "grape": 0.75,
+      "dried_fruit": 0.72,
+      "yogurt": 0.72,
+      "sesame": 0.7,
+      "cumin": 0.78
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3524,6 +3216,11 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "braising": 0.8,
+      "grilling": 0.75
     }
   },
   {
@@ -3538,27 +3235,18 @@
     "population": 37000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "lamb": 0.88,
-      "horse_meat": 0.97,
-      "potato": 0.74,
-      "onion": 0.7000000000000001,
-      "kefir": 0.64,
-      "apple": 0.54,
-      "noodle": 0.54,
-      "wheat": 0.5,
-      "rice": 0.78,
-      "carrot": 0.42,
-      "cabbage": 0.4,
-      "flatbread": 0.36,
-      "butter": 0.34,
-      "tea": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.92,
+      "horse_meat": 0.85,
+      "freshwater_fish": 0.8,
+      "potato": 0.88,
+      "mushroom": 0.82,
+      "berry": 0.8,
+      "apple": 0.85,
+      "onion": 0.82,
+      "honey": 0.78,
+      "kefir": 0.8,
+      "yogurt": 0.78,
+      "dried_meat": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3566,6 +3254,10 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "boiling": 0.8
     }
   },
   {
@@ -3580,28 +3272,18 @@
     "population": 33000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "apple": 0.88,
-      "potato": 0.7000000000000001,
-      "onion": 0.66,
-      "kefir": 0.6,
-      "noodle": 0.56,
-      "wheat": 0.52,
-      "carrot": 0.48,
-      "rice": 0.78,
-      "berry": 0.68,
-      "cabbage": 0.38,
-      "flatbread": 0.36,
-      "butter": 0.34,
-      "tea": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
+      "lamb": 0.85,
+      "beef": 0.85,
+      "potato": 0.92,
+      "apple": 0.82,
+      "onion": 0.85,
+      "carrot": 0.8,
+      "bread": 0.82,
+      "sour_cream": 0.78,
+      "cabbage": 0.8,
+      "mushroom": 0.75,
+      "pork": 0.7,
+      "pickle": 0.72,
       "honey": 0.72
     },
     "cookingMethods": {
@@ -3610,6 +3292,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "boiling": 0.85,
+      "baking": 0.78,
+      "pickling": 0.72
     }
   },
   {
@@ -3624,28 +3311,18 @@
     "population": 30000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
+      "freshwater_fish": 0.92,
       "lamb": 0.88,
-      "horse_meat": 0.9,
-      "apple": 0.74,
-      "potato": 0.7000000000000001,
-      "onion": 0.64,
-      "kefir": 0.78,
-      "noodle": 0.54,
-      "wheat": 0.5,
-      "rice": 0.78,
-      "carrot": 0.42,
-      "cabbage": 0.4,
-      "flatbread": 0.36,
-      "butter": 0.34,
-      "tea": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "dried_fruit": 0.68
+      "potato": 0.88,
+      "onion": 0.85,
+      "carrot": 0.82,
+      "dried_fish": 0.85,
+      "fish": 0.85,
+      "apple": 0.78,
+      "horse_meat": 0.72,
+      "yogurt": 0.75,
+      "rice": 0.7,
+      "tomato": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3653,6 +3330,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "boiling": 0.88,
+      "smoking": 0.82,
+      "drying": 0.78
     }
   },
   {
@@ -3668,25 +3350,17 @@
     "timeZone": "Asia/Almaty",
     "ingredients": {
       "lamb": 0.88,
-      "horse_meat": 0.9,
-      "beef": 0.8,
-      "potato": 0.85,
-      "onion": 0.68,
-      "kefir": 0.62,
-      "rice": 0.78,
-      "noodle": 0.52,
-      "wheat": 0.48,
-      "carrot": 0.46,
-      "cabbage": 0.4,
-      "flatbread": 0.38,
-      "butter": 0.34,
-      "tea": 0.32,
-      "beet": 0.72,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "beef": 0.85,
+      "potato": 0.92,
+      "onion": 0.88,
+      "carrot": 0.82,
+      "bread": 0.85,
+      "horse_meat": 0.75,
+      "cabbage": 0.78,
+      "sour_cream": 0.72,
+      "wheat": 0.8,
+      "flatbread": 0.72,
+      "kefir": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3694,6 +3368,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "boiling": 0.88,
+      "slow_cooking": 0.8,
+      "baking": 0.72
     }
   },
   {
@@ -3708,28 +3387,19 @@
     "population": 5000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.76,
-      "onion": 0.7000000000000001,
-      "kefir": 0.66,
-      "carrot": 0.6,
-      "rice": 0.78,
-      "noodle": 0.52,
-      "wheat": 0.48,
-      "apple": 0.46,
-      "cabbage": 0.42,
-      "flatbread": 0.38,
-      "butter": 0.36,
-      "tea": 0.34,
-      "mushroom": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.92,
+      "rice": 0.88,
+      "flatbread": 0.88,
+      "onion": 0.85,
+      "carrot": 0.8,
+      "garlic": 0.82,
+      "dried_fruit": 0.8,
+      "tomato": 0.78,
+      "sesame": 0.75,
+      "yogurt": 0.75,
+      "horse_meat": 0.7,
+      "cumin": 0.72,
+      "apple": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3737,6 +3407,10 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "boiling": 0.78
     }
   },
   {
@@ -3751,29 +3425,20 @@
     "population": 35000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.76,
-      "apple": 0.7000000000000001,
-      "onion": 0.66,
-      "carrot": 0.6,
-      "kefir": 0.56,
-      "noodle": 0.85,
-      "wheat": 0.48,
-      "rice": 0.82,
-      "berry": 0.42,
-      "cabbage": 0.38,
-      "flatbread": 0.36,
-      "butter": 0.34,
-      "tea": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "apricot": 0.72
+      "lamb": 0.9,
+      "rice": 0.85,
+      "onion": 0.9,
+      "carrot": 0.88,
+      "garlic": 0.88,
+      "tomato": 0.85,
+      "flatbread": 0.88,
+      "apple": 0.82,
+      "cucumber": 0.8,
+      "chili_pepper": 0.78,
+      "sesame": 0.75,
+      "beef": 0.78,
+      "noodle": 0.82,
+      "vinegar": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3781,6 +3446,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "stir_frying": 0.85,
+      "slow_cooking": 0.8,
+      "braising": 0.78
     }
   },
   {
@@ -3795,23 +3465,18 @@
     "population": 20000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 1.0,
-      "beef": 0.88,
-      "horse_meat": 0.9,
+      "wheat": 0.97,
+      "bread": 0.95,
+      "beef": 0.85,
       "potato": 0.9,
-      "onion": 0.8,
-      "carrot": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.9,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.75,
-      "buckwheat": 0.65,
-      "rye_bread": 0.78
+      "onion": 0.88,
+      "carrot": 0.85,
+      "sour_cream": 0.8,
+      "milk": 0.8,
+      "butter": 0.78,
+      "lamb": 0.7,
+      "pork": 0.72,
+      "cabbage": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3819,6 +3484,11 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "baking": 0.95,
+      "boiling": 0.82,
+      "milling": 0.85
     }
   },
   {
@@ -3833,26 +3503,17 @@
     "population": 23000,
     "timeZone": "Asia/Aqtau",
     "ingredients": {
-      "lamb": 1.0,
-      "camel_meat": 0.88,
-      "beef": 0.9,
-      "potato": 0.8,
-      "onion": 0.8,
-      "kefir": 0.8,
-      "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "carrot": 0.75,
-      "rice": 0.78,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "fish": 0.75,
-      "apricot": 0.72,
-      "dried_fruit": 0.7
+      "lamb": 0.97,
+      "camel_meat": 0.9,
+      "dried_meat": 0.92,
+      "flatbread": 0.88,
+      "kefir": 0.88,
+      "yogurt": 0.85,
+      "millet": 0.8,
+      "onion": 0.82,
+      "horse_meat": 0.75,
+      "dried_fruit": 0.72,
+      "fish": 0.55
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3860,6 +3521,11 @@
       "steaming": 0.85,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.92,
+      "smoking": 0.8,
+      "drying": 0.85
     }
   },
   {
@@ -3874,23 +3540,17 @@
     "population": 13000,
     "timeZone": "Asia/Aqtau",
     "ingredients": {
-      "lamb": 1.0,
-      "camel_meat": 0.9,
-      "beef": 0.85,
-      "potato": 0.8,
+      "lamb": 0.97,
+      "camel_meat": 0.88,
+      "horse_meat": 0.82,
+      "flatbread": 0.88,
+      "dried_meat": 0.9,
+      "yogurt": 0.85,
+      "kefir": 0.82,
       "onion": 0.8,
-      "kefir": 0.8,
-      "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "carrot": 0.75,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65
+      "millet": 0.75,
+      "potato": 0.7,
+      "carrot": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3898,6 +3558,11 @@
       "steaming": 0.85,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.92,
+      "drying": 0.85,
+      "smoking": 0.75
     }
   },
   {
@@ -3912,27 +3577,18 @@
     "population": 37000,
     "timeZone": "Asia/Aqtau",
     "ingredients": {
-      "camel_meat": 0.96,
-      "lamb": 0.88,
-      "beef": 0.8200000000000001,
-      "potato": 0.74,
-      "onion": 0.7000000000000001,
-      "kefir": 0.64,
-      "rice": 0.78,
-      "horse_meat": 0.9,
-      "noodle": 0.5,
-      "wheat": 0.46,
-      "carrot": 0.42,
-      "cabbage": 0.4,
-      "flatbread": 0.36,
-      "butter": 0.34,
-      "tea": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.95,
+      "camel_meat": 0.92,
+      "dried_meat": 0.9,
+      "flatbread": 0.88,
+      "kefir": 0.88,
+      "yogurt": 0.82,
+      "onion": 0.8,
+      "millet": 0.78,
+      "horse_meat": 0.72,
+      "dried_fruit": 0.68,
+      "date": 0.65,
+      "fish": 0.5
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -3940,6 +3596,11 @@
       "steaming": 0.85,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.92,
+      "drying": 0.88,
+      "smoking": 0.78
     }
   },
   {
@@ -3954,30 +3615,29 @@
     "population": 55000,
     "timeZone": "Asia/Qyzylorda",
     "ingredients": {
-      "rice": 1.0,
-      "lamb": 0.95,
-      "beef": 0.9,
-      "potato": 0.8,
-      "onion": 0.8,
-      "kefir": 0.8,
-      "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "carrot": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
+      "lamb": 0.88,
+      "rice": 0.92,
+      "freshwater_fish": 0.88,
       "dried_fish": 0.85,
-      "fish": 0.88
+      "onion": 0.85,
+      "carrot": 0.8,
+      "garlic": 0.78,
+      "dried_fruit": 0.75,
+      "horse_meat": 0.72,
+      "flatbread": 0.78,
+      "tomato": 0.7,
+      "yogurt": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
       "roasting": 0.85,
       "grilling": 0.8,
       "braising": 0.8
+    },
+    "methods": {
+      "boiling": 0.85,
+      "slow_cooking": 0.78,
+      "drying": 0.72
     }
   },
   {
@@ -3992,28 +3652,18 @@
     "population": 20000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.76,
-      "onion": 0.7000000000000001,
-      "kefir": 0.66,
-      "carrot": 0.6,
-      "rice": 0.78,
-      "apple": 0.52,
-      "noodle": 0.48,
-      "wheat": 0.46,
-      "cabbage": 0.42,
-      "flatbread": 0.38,
-      "berry": 0.36,
-      "butter": 0.34,
-      "tea": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.92,
+      "apple": 0.85,
+      "horse_meat": 0.85,
+      "kefir": 0.88,
+      "dried_meat": 0.85,
+      "flatbread": 0.82,
+      "honey": 0.8,
+      "potato": 0.8,
+      "onion": 0.8,
+      "yogurt": 0.82,
+      "berry": 0.75,
+      "carrot": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -4021,6 +3671,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "fermenting": 0.8,
+      "smoking": 0.72
     }
   },
   {
@@ -4035,28 +3690,19 @@
     "population": 38000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
+      "lamb": 0.95,
       "horse_meat": 0.9,
-      "lamb": 0.88,
-      "rice": 0.78,
-      "potato": 0.7000000000000001,
-      "onion": 0.66,
-      "kefir": 0.78,
-      "noodle": 0.56,
-      "wheat": 0.52,
-      "apricot": 0.48,
-      "carrot": 0.46,
-      "grape": 0.42,
-      "cabbage": 0.38,
-      "flatbread": 0.36,
-      "butter": 0.78,
-      "tea": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "kefir": 0.88,
+      "onion": 0.85,
+      "potato": 0.88,
+      "dried_meat": 0.85,
+      "flatbread": 0.82,
+      "carrot": 0.78,
+      "yogurt": 0.85,
+      "millet": 0.78,
+      "rice": 0.68,
+      "garlic": 0.65,
+      "cumin": 0.6
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -4064,6 +3710,11 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "smoking": 0.75,
+      "fermenting": 0.72
     }
   },
   {
@@ -4078,28 +3729,19 @@
     "population": 33000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.97,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.74,
-      "onion": 0.7000000000000001,
-      "kefir": 0.72,
-      "apple": 0.8,
-      "noodle": 0.54,
-      "wheat": 0.5,
-      "rice": 0.78,
-      "carrot": 0.42,
-      "cabbage": 0.4,
-      "flatbread": 0.36,
-      "butter": 0.34,
-      "tea": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7,
-      "berry": 0.68
+      "apple": 0.9,
+      "lamb": 0.9,
+      "beef": 0.78,
+      "potato": 0.85,
+      "honey": 0.82,
+      "onion": 0.82,
+      "carrot": 0.78,
+      "yogurt": 0.8,
+      "horse_meat": 0.75,
+      "freshwater_fish": 0.72,
+      "dried_fruit": 0.78,
+      "berry": 0.75,
+      "kefir": 0.72
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -4107,6 +3749,11 @@
       "roasting": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.85,
+      "baking": 0.8,
+      "boiling": 0.75
     }
   },
   {
@@ -4121,25 +3768,19 @@
     "population": 15000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.9,
-      "beef": 0.95,
-      "horse_meat": 0.9,
-      "potato": 0.8,
-      "onion": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "carrot": 0.75,
-      "rice": 0.87,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "apricot": 0.78,
-      "grape": 0.75,
-      "pomegranate": 0.68
+      "lamb": 0.95,
+      "horse_meat": 0.85,
+      "flatbread": 0.88,
+      "onion": 0.88,
+      "carrot": 0.8,
+      "rice": 0.82,
+      "dried_fruit": 0.82,
+      "garlic": 0.78,
+      "yogurt": 0.8,
+      "kefir": 0.78,
+      "dried_meat": 0.8,
+      "millet": 0.72,
+      "cumin": 0.65
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -4147,6 +3788,10 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "smoking": 0.72
     }
   },
   {
@@ -4161,23 +3806,19 @@
     "population": 50000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 1.0,
-      "beef": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.88,
-      "onion": 0.8,
-      "carrot": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.88,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.72,
-      "buckwheat": 0.65,
-      "sauerkraut": 0.75
+      "pork": 0.88,
+      "beef": 0.85,
+      "potato": 0.95,
+      "bread": 0.92,
+      "onion": 0.9,
+      "cabbage": 0.92,
+      "carrot": 0.85,
+      "sour_cream": 0.85,
+      "beet": 0.85,
+      "pickle": 0.9,
+      "rye_bread": 0.8,
+      "lard": 0.78,
+      "lamb": 0.48
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -4185,6 +3826,11 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "boiling": 0.92,
+      "pickling": 0.92,
+      "baking": 0.82
     }
   },
   {
@@ -4199,26 +3845,19 @@
     "population": 10000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 1.0,
-      "beef": 0.95,
-      "fish": 0.9,
-      "potato": 0.8,
-      "onion": 0.8,
-      "kefir": 0.8,
-      "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "carrot": 0.75,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "pine_nut": 0.75,
-      "berry": 0.72,
-      "mushroom": 0.72
+      "freshwater_fish": 0.92,
+      "lamb": 0.82,
+      "beef": 0.82,
+      "potato": 0.9,
+      "pine_nut": 0.8,
+      "mushroom": 0.85,
+      "berry": 0.82,
+      "onion": 0.85,
+      "bread": 0.82,
+      "sour_cream": 0.8,
+      "honey": 0.78,
+      "carrot": 0.78,
+      "horse_meat": 0.68
     },
     "cookingMethods": {
       "boiling": 0.9,
@@ -4226,6 +3865,11 @@
       "roasting": 0.85,
       "grilling": 0.85,
       "smoking": 0.75
+    },
+    "methods": {
+      "boiling": 0.85,
+      "smoking": 0.82,
+      "baking": 0.78
     }
   },
   {
@@ -4240,28 +3884,17 @@
     "population": 15000,
     "timeZone": "Asia/Aqtau",
     "ingredients": {
-      "fish": 1.0,
-      "lamb": 0.95,
-      "beef": 0.9,
-      "potato": 0.8,
-      "onion": 0.8,
-      "kefir": 0.9,
-      "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
+      "fish": 0.95,
+      "freshwater_fish": 0.92,
+      "lamb": 0.82,
+      "dried_fish": 0.9,
+      "onion": 0.85,
+      "potato": 0.82,
+      "tomato": 0.78,
       "carrot": 0.75,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.82,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "dried_fish": 0.95,
-      "millet": 0.82,
-      "dill": 0.8,
-      "sour_cream": 0.78,
-      "tomato": 0.55
+      "garlic": 0.8,
+      "rice": 0.72,
+      "yogurt": 0.62
     },
     "cookingMethods": {
       "steaming": 0.95,
@@ -4269,6 +3902,11 @@
       "grilling": 0.9,
       "roasting": 0.85,
       "smoking": 0.75
+    },
+    "methods": {
+      "boiling": 0.88,
+      "smoking": 0.85,
+      "drying": 0.8
     }
   },
   {
@@ -4283,23 +3921,18 @@
     "population": 8000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 1.0,
-      "beef": 0.95,
+      "lamb": 0.92,
       "horse_meat": 0.9,
-      "potato": 0.8,
-      "onion": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "carrot": 0.75,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
+      "dried_meat": 0.88,
       "honey": 0.85,
-      "berry": 0.72
+      "berry": 0.85,
+      "kefir": 0.88,
+      "yogurt": 0.85,
+      "freshwater_fish": 0.78,
+      "mushroom": 0.8,
+      "onion": 0.8,
+      "potato": 0.82,
+      "flatbread": 0.75
     },
     "cookingMethods": {
       "boiling": 0.9,
@@ -4307,6 +3940,11 @@
       "roasting": 0.85,
       "grilling": 0.8,
       "fermenting": 0.75
+    },
+    "methods": {
+      "slow_cooking": 0.9,
+      "smoking": 0.8,
+      "fermenting": 0.78
     }
   },
   {
@@ -4321,25 +3959,18 @@
     "population": 7000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "fish": 1.0,
-      "lamb": 0.9,
-      "beef": 0.85,
-      "potato": 0.8,
-      "onion": 0.8,
-      "kefir": 0.88,
-      "horse_meat": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "carrot": 0.75,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "tea": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "mushroom": 0.72,
-      "pine_nut": 0.68
+      "freshwater_fish": 0.9,
+      "lamb": 0.82,
+      "beef": 0.8,
+      "potato": 0.9,
+      "mushroom": 0.88,
+      "berry": 0.85,
+      "pine_nut": 0.78,
+      "onion": 0.82,
+      "bread": 0.8,
+      "sour_cream": 0.78,
+      "honey": 0.8,
+      "carrot": 0.75
     },
     "cookingMethods": {
       "steaming": 0.9,
@@ -4347,6 +3978,11 @@
       "roasting": 0.85,
       "grilling": 0.8,
       "smoking": 0.75
+    },
+    "methods": {
+      "boiling": 0.85,
+      "smoking": 0.8,
+      "baking": 0.75
     }
   },
   {
@@ -4361,27 +3997,19 @@
     "population": 12000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "beef": 0.96,
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "carrot": 0.74,
-      "potato": 0.7000000000000001,
-      "onion": 0.64,
-      "kefir": 0.58,
-      "rice": 0.78,
-      "noodle": 0.5,
-      "wheat": 0.46,
-      "cabbage": 0.42,
-      "flatbread": 0.4,
-      "berry": 0.36,
-      "butter": 0.34,
-      "tea": 0.32,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.92,
+      "horse_meat": 0.85,
+      "dried_meat": 0.82,
+      "kefir": 0.85,
+      "flatbread": 0.85,
+      "yogurt": 0.82,
+      "freshwater_fish": 0.78,
+      "potato": 0.8,
+      "berry": 0.75,
+      "honey": 0.72,
+      "wheat": 0.72,
+      "beef": 0.7,
+      "onion": 0.8
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -4389,6 +4017,11 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.88,
+      "fermenting": 0.8,
+      "smoking": 0.72
     }
   },
   {
@@ -4403,26 +4036,18 @@
     "population": 25000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 0.88,
-      "horse_meat": 0.9,
-      "beef": 0.8,
-      "potato": 0.74,
-      "onion": 0.68,
-      "carrot": 0.62,
-      "kefir": 0.58,
-      "noodle": 0.52,
-      "wheat": 0.48,
-      "beet": 0.46,
-      "rice": 0.78,
-      "cabbage": 0.38,
-      "flatbread": 0.34,
-      "butter": 0.32,
-      "tea": 0.28,
-      "buckwheat": 0.26,
-      "millet": 0.82,
-      "dried_meat": 0.8,
-      "sour_cream": 0.75,
-      "milk": 0.7
+      "lamb": 0.85,
+      "beef": 0.88,
+      "potato": 0.92,
+      "onion": 0.88,
+      "cabbage": 0.82,
+      "bread": 0.85,
+      "sour_cream": 0.78,
+      "carrot": 0.8,
+      "horse_meat": 0.72,
+      "beet": 0.72,
+      "wheat": 0.8,
+      "pickle": 0.7
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -4430,6 +4055,10 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "boiling": 0.88,
+      "baking": 0.8
     }
   },
   {
@@ -4444,24 +4073,18 @@
     "population": 12000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 1.0,
-      "beef": 0.95,
-      "horse_meat": 0.9,
-      "potato": 0.8,
-      "onion": 0.8,
-      "carrot": 0.8,
-      "kefir": 0.8,
-      "noodle": 0.78,
-      "wheat": 0.78,
-      "rice": 0.75,
-      "cabbage": 0.72,
-      "flatbread": 0.72,
-      "butter": 0.7,
-      "beet": 0.68,
-      "buckwheat": 0.65,
-      "pine_nut": 0.78,
-      "berry": 0.78,
-      "honey": 0.8
+      "lamb": 0.9,
+      "honey": 0.92,
+      "berry": 0.9,
+      "freshwater_fish": 0.88,
+      "mushroom": 0.85,
+      "potato": 0.85,
+      "game_meat": 0.82,
+      "pine_nut": 0.8,
+      "apple": 0.82,
+      "yogurt": 0.78,
+      "horse_meat": 0.72,
+      "onion": 0.78
     },
     "cookingMethods": {
       "boiling": 0.9,
@@ -4469,6 +4092,11 @@
       "roasting": 0.85,
       "grilling": 0.8,
       "braising": 0.8
+    },
+    "methods": {
+      "smoking": 0.85,
+      "boiling": 0.8,
+      "slow_cooking": 0.75
     }
   },
   {
@@ -4483,26 +4111,18 @@
     "population": 8000,
     "timeZone": "Asia/Oral",
     "ingredients": {
-      "beef": 0.96,
-      "lamb": 0.85,
-      "camel_meat": 0.8200000000000001,
-      "potato": 0.76,
-      "onion": 0.7000000000000001,
-      "kefir": 0.66,
-      "horse_meat": 0.82,
-      "noodle": 0.56,
-      "wheat": 0.52,
-      "carrot": 0.48,
-      "rice": 0.8,
-      "cabbage": 0.42,
-      "flatbread": 0.38,
-      "fish": 0.92,
-      "butter": 0.34,
-      "tea": 0.3,
-      "beet": 0.28,
-      "buckwheat": 0.26,
-      "dried_meat": 0.75,
-      "shrimp": 0.72
+      "lamb": 0.97,
+      "horse_meat": 0.92,
+      "dried_meat": 0.9,
+      "kefir": 0.88,
+      "flatbread": 0.88,
+      "yogurt": 0.85,
+      "onion": 0.82,
+      "millet": 0.82,
+      "freshwater_fish": 0.75,
+      "fish": 0.7,
+      "potato": 0.72,
+      "dried_fruit": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -4510,6 +4130,11 @@
       "steaming": 0.85,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.92,
+      "smoking": 0.8,
+      "fermenting": 0.78
     }
   },
   {
@@ -4524,23 +4149,18 @@
     "population": 14000,
     "timeZone": "Asia/Almaty",
     "ingredients": {
-      "lamb": 1.0,
-      "beef": 0.88,
-      "horse_meat": 0.9,
-      "potato": 0.85,
+      "lamb": 0.95,
+      "horse_meat": 0.88,
+      "beef": 0.78,
+      "dried_meat": 0.85,
+      "kefir": 0.88,
+      "yogurt": 0.85,
+      "flatbread": 0.82,
+      "potato": 0.82,
       "onion": 0.8,
-      "carrot": 0.8,
-      "kefir": 0.78,
-      "noodle": 0.78,
-      "wheat": 0.88,
-      "rice": 0.75,
-      "cabbage": 0.82,
-      "flatbread": 0.72,
-      "butter": 0.75,
-      "tea": 0.7,
-      "beet": 0.78,
-      "buckwheat": 0.65,
-      "sour_cream": 0.78
+      "millet": 0.78,
+      "carrot": 0.72,
+      "wheat": 0.68
     },
     "cookingMethods": {
       "boiling": 0.95,
@@ -4548,6 +4168,11 @@
       "steaming": 0.9,
       "grilling": 0.85,
       "braising": 0.8
+    },
+    "methods": {
+      "slow_cooking": 0.9,
+      "smoking": 0.8,
+      "fermenting": 0.78
     }
   }
 ]

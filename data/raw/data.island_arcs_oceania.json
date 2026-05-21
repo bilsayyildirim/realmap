@@ -1,1 +1,608 @@
-[{"id": "HT-PAP", "name": "Port-au-Prince", "type": "City", "continent": "North America", "countryCode": "HT", "latitude": 18.5944, "longitude": -72.3074, "region": "Ouest", "population": 2600000, "timeZone": "America/Port-au-Prince", "ingredients": {"rice": 0.95, "bean": 0.9, "plantain": 0.9, "goat_meat": 0.88, "wine": 0.85, "cassava": 0.8, "chili_pepper": 0.8, "coconut": 0.75}, "cookingMethods": {"stewing": 0.95, "marinating": 0.9, "grilling": 0.9, "frying": 0.85, "boiling": 0.85}}, {"id": "DO-SDQ", "name": "Santo Domingo", "type": "City", "continent": "North America", "countryCode": "DO", "latitude": 18.4861, "longitude": -69.9312, "region": "Distrito Nacional", "population": 3000000, "timeZone": "America/Santo_Domingo", "ingredients": {"rice": 0.95, "bean": 0.9, "plantain": 0.9, "chicken": 0.88, "wine": 0.85, "cassava": 0.85, "coconut": 0.8, "chili_pepper": 0.75}, "cookingMethods": {"stewing": 0.95, "grilling": 0.9, "boiling": 0.9, "frying": 0.85, "baking": 0.85}}, {"id": "JM-KIN", "name": "Kingston", "type": "City", "continent": "North America", "countryCode": "JM", "latitude": 17.9712, "longitude": -76.7936, "region": "Surrey", "population": 1200000, "timeZone": "America/Jamaica", "ingredients": {"jerk_spice": 0.95, "chicken": 0.9, "rice": 0.9, "bean": 0.88, "plantain": 0.85, "wine": 0.85, "chili_pepper": 0.8, "cassava": 0.8, "fish": 0.75, "coconut_oil": 0.65, "garlic": 0.8, "onion": 0.85}, "cookingMethods": {"grilling": 0.95, "smoking": 0.9, "stewing": 0.9, "frying": 0.85, "boiling": 0.85}}, {"id": "PR-SJU", "name": "San Juan", "type": "City", "continent": "North America", "countryCode": "PR", "latitude": 18.4655, "longitude": -66.1057, "region": "San Juan", "population": 320000, "timeZone": "America/Puerto_Rico", "ingredients": {"rice": 0.95, "bean": 0.9, "plantain": 0.9, "pork": 0.88, "sofrito": 0.85, "wine": 0.85, "cassava": 0.8, "coconut": 0.8, "fish": 0.75}, "cookingMethods": {"stewing": 0.95, "grilling": 0.9, "frying": 0.9, "boiling": 0.85, "baking": 0.85}}, {"id": "CU-HAV", "name": "Havana", "type": "City", "continent": "North America", "countryCode": "CU", "latitude": 23.1136, "longitude": -82.3666, "region": "La Habana", "population": 2100000, "timeZone": "America/Havana", "ingredients": {"rice": 0.95, "bean": 0.9, "pork": 0.9, "plantain": 0.88, "wine": 0.85, "cassava": 0.85, "fish": 0.75, "coffee": 0.75}, "cookingMethods": {"stewing": 0.95, "grilling": 0.9, "frying": 0.9, "boiling": 0.85, "baking": 0.85}}, {"id": "TT-POS", "name": "Port of Spain", "type": "City", "continent": "North America", "countryCode": "TT", "latitude": 10.66, "longitude": -61.508, "region": "Port of Spain", "population": 550000, "timeZone": "America/Port_of_Spain", "ingredients": {"rice": 0.95, "bean": 0.9, "chicken": 0.9, "plantain": 0.88, "tamarind": 0.85, "cassava": 0.8, "coconut": 0.8, "wine": 0.75}, "cookingMethods": {"stewing": 0.95, "grilling": 0.9, "boiling": 0.9, "frying": 0.85, "baking": 0.85}}, {"id": "BB-BGI", "name": "Bridgetown", "type": "City", "continent": "North America", "countryCode": "BB", "latitude": 13.0975, "longitude": -59.6167, "region": "Saint Michael", "population": 110000, "timeZone": "America/Barbados", "ingredients": {"fish": 0.95, "plantain": 0.9, "wine": 0.88, "cassava": 0.85, "rice": 0.8, "bean": 0.8, "chili_pepper": 0.75, "coconut": 0.82}, "cookingMethods": {"grilling": 0.95, "steaming": 0.9, "frying": 0.9, "stewing": 0.85, "boiling": 0.85}}, {"id": "BS-NAS", "name": "Nassau", "type": "City", "continent": "North America", "countryCode": "BS", "latitude": 25.047, "longitude": -77.3556, "region": "New Providence", "population": 275000, "timeZone": "America/Nassau", "ingredients": {"rice": 0.9, "bean": 0.9, "plantain": 0.88, "wine": 0.85, "cassava": 0.85, "fish": 0.8, "chili_pepper": 0.75, "coconut": 0.75}, "cookingMethods": {"frying": 0.95, "grilling": 0.9, "stewing": 0.9, "boiling": 0.85, "baking": 0.85}}, {"id": "ID-DPS", "name": "Denpasar", "type": "City", "continent": "Asia", "countryCode": "ID", "latitude": -8.65, "longitude": 115.2167, "region": "Bali", "population": 880000, "timeZone": "Asia/Makassar", "ingredients": {"rice": 0.95, "pork": 0.9, "chili_pepper": 0.9, "coconut": 0.88, "turmeric": 0.85, "fish": 0.85, "lemongrass": 0.8, "shrimp_paste": 0.8, "tamarind": 0.75, "cassava": 0.75}, "cookingMethods": {"grilling": 0.95, "steaming": 0.9, "frying": 0.9, "boiling": 0.85, "braising": 0.85}}, {"id": "ID-MES", "name": "Medan", "type": "City", "continent": "Asia", "countryCode": "ID", "latitude": 3.5952, "longitude": 98.6722, "region": "North Sumatra", "population": 2450000, "timeZone": "Asia/Jakarta", "ingredients": {"rice": 0.95, "beef": 0.9, "coconut": 0.9, "chili_pepper": 0.88, "turmeric": 0.85, "fish": 0.85, "lemongrass": 0.8, "shrimp_paste": 0.8, "cassava": 0.75, "tamarind": 0.75}, "cookingMethods": {"grilling": 0.95, "stewing": 0.9, "frying": 0.9, "boiling": 0.85, "braising": 0.85}}, {"id": "ID-UPG", "name": "Makassar", "type": "City", "continent": "Asia", "countryCode": "ID", "latitude": -5.1486, "longitude": 119.4328, "region": "South Sulawesi", "population": 1600000, "timeZone": "Asia/Makassar", "ingredients": {"rice": 0.95, "fish": 0.9, "coconut": 0.9, "chili_pepper": 0.88, "tamarind": 0.85, "shrimp_paste": 0.85, "lemongrass": 0.8, "cassava": 0.8, "beef": 0.75, "turmeric": 0.75}, "cookingMethods": {"grilling": 0.95, "steaming": 0.9, "frying": 0.9, "boiling": 0.85, "braising": 0.85}}, {"id": "ID-MDC", "name": "Manado", "type": "City", "continent": "Asia", "countryCode": "ID", "latitude": 1.4748, "longitude": 124.8428, "region": "North Sulawesi", "population": 480000, "timeZone": "Asia/Makassar", "ingredients": {"rice": 0.95, "fish": 0.9, "chili_pepper": 0.9, "coconut": 0.88, "lemongrass": 0.85, "turmeric": 0.85, "shrimp_paste": 0.8, "cassava": 0.8, "tamarind": 0.75, "sweet_potato": 0.75}, "cookingMethods": {"grilling": 0.95, "steaming": 0.9, "frying": 0.9, "boiling": 0.85, "braising": 0.85}}, {"id": "ID-JAY", "name": "Jayapura", "type": "City", "continent": "Asia", "countryCode": "ID", "latitude": -2.5337, "longitude": 140.7181, "region": "Papua", "population": 300000, "timeZone": "Asia/Jayapura", "ingredients": {"sago": 0.95, "fish": 0.9, "cassava": 0.9, "coconut": 0.85, "chili_pepper": 0.85, "pandan": 0.8, "sweet_potato": 0.8, "pork": 0.75, "taro": 0.75}, "cookingMethods": {"baking": 0.95, "steaming": 0.9, "grilling": 0.9, "boiling": 0.85, "frying": 0.85}}, {"id": "FJ-SUV", "name": "Suva", "type": "City", "continent": "Oceania", "countryCode": "FJ", "latitude": -18.1248, "longitude": 178.4501, "region": "Central", "population": 180000, "timeZone": "Pacific/Fiji", "ingredients": {"cassava": 0.95, "taro": 0.9, "coconut": 0.9, "fish": 0.88, "breadfruit": 0.85, "chili_pepper": 0.85, "wine": 0.8, "plantain": 0.75, "seaweed": 0.75}, "cookingMethods": {"steaming": 0.95, "earth_oven": 0.9, "grilling": 0.9, "boiling": 0.85, "frying": 0.85}}, {"id": "WS-APW", "name": "Apia", "type": "City", "continent": "Oceania", "countryCode": "WS", "latitude": -13.8333, "longitude": -171.7667, "region": "Tuamasaga", "population": 38000, "timeZone": "Pacific/Apia", "ingredients": {"taro": 0.95, "breadfruit": 0.9, "coconut": 0.9, "fish": 0.88, "cassava": 0.85, "pork": 0.8, "chili_pepper": 0.8, "plantain": 0.75, "seaweed": 0.75}, "cookingMethods": {"earth_oven": 0.95, "steaming": 0.9, "grilling": 0.9, "boiling": 0.85, "frying": 0.85}}, {"id": "TO-TBU", "name": "Nukuʻalofa", "type": "City", "continent": "Oceania", "countryCode": "TO", "latitude": -21.1394, "longitude": -175.2047, "region": "Tongatapu", "population": 24000, "timeZone": "Pacific/Tongatapu", "ingredients": {"cassava": 0.95, "taro": 0.9, "coconut": 0.9, "fish": 0.88, "breadfruit": 0.85, "pork": 0.8, "chili_pepper": 0.8, "plantain": 0.75, "seaweed": 0.75}, "cookingMethods": {"earth_oven": 0.95, "steaming": 0.9, "grilling": 0.9, "boiling": 0.85, "frying": 0.85}}, {"id": "PG-POM", "name": "Port Moresby", "type": "City", "continent": "Oceania", "countryCode": "PG", "latitude": -9.4438, "longitude": 147.1803, "region": "National Capital", "population": 400000, "timeZone": "Pacific/Port_Moresby", "ingredients": {"sago": 0.95, "taro": 0.9, "cassava": 0.9, "sweet_potato": 0.88, "fish": 0.85, "coconut": 0.85, "pork": 0.8, "chili_pepper": 0.75, "breadfruit": 0.75}, "cookingMethods": {"steaming": 0.95, "earth_oven": 0.9, "grilling": 0.9, "boiling": 0.85, "frying": 0.85}}, {"id": "PF-PPT", "name": "Papeete", "type": "City", "continent": "Oceania", "countryCode": "PF", "latitude": -17.5332, "longitude": -149.5665, "region": "Tahiti", "population": 26000, "timeZone": "Pacific/Tahiti", "ingredients": {"fish": 0.9, "coconut": 0.9, "taro": 0.88, "breadfruit": 0.85, "vanilla": 0.85, "cassava": 0.8, "wine": 0.75, "plantain": 0.75}, "cookingMethods": {"marinating": 0.95, "steaming": 0.9, "earth_oven": 0.9, "grilling": 0.85, "boiling": 0.85}}, {"id": "SB-HIR", "name": "Honiara", "type": "City", "continent": "Oceania", "countryCode": "SB", "latitude": -9.437, "longitude": 159.951, "region": "Guadalcanal", "population": 85000, "timeZone": "Pacific/Guadalcanal", "ingredients": {"taro": 0.95, "cassava": 0.9, "fish": 0.9, "coconut": 0.88, "breadfruit": 0.85, "pork": 0.85, "plantain": 0.8, "seaweed": 0.75, "chili_pepper": 0.75}, "cookingMethods": {"earth_oven": 0.95, "steaming": 0.9, "grilling": 0.9, "boiling": 0.85, "frying": 0.85}}, {"id": "VU-VLI", "name": "Port Vila", "type": "City", "continent": "Oceania", "countryCode": "VU", "latitude": -17.7333, "longitude": 168.3278, "region": "Shefa", "population": 50000, "timeZone": "Pacific/Efate", "ingredients": {"taro": 0.95, "cassava": 0.9, "coconut": 0.9, "fish": 0.88, "breadfruit": 0.85, "pork": 0.85, "kava": 0.8, "chili_pepper": 0.75, "plantain": 0.75}, "cookingMethods": {"earth_oven": 0.95, "steaming": 0.9, "grilling": 0.9, "boiling": 0.85, "frying": 0.85}}]
+[
+  {
+    "id": "HT-PAP",
+    "name": "Port-au-Prince",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "HT",
+    "latitude": 18.5944,
+    "longitude": -72.3074,
+    "region": "Ouest",
+    "population": 2600000,
+    "timeZone": "America/Port-au-Prince",
+    "ingredients": {
+      "rice": 0.95,
+      "bean": 0.9,
+      "plantain": 0.9,
+      "goat_meat": 0.88,
+      "wine": 0.85,
+      "cassava": 0.8,
+      "chili_pepper": 0.8,
+      "coconut": 0.75
+    },
+    "cookingMethods": {
+      "stewing": 0.95,
+      "marinating": 0.9,
+      "grilling": 0.9,
+      "frying": 0.85,
+      "boiling": 0.85
+    }
+  },
+  {
+    "id": "DO-SDQ",
+    "name": "Santo Domingo",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "DO",
+    "latitude": 18.4861,
+    "longitude": -69.9312,
+    "region": "Distrito Nacional",
+    "population": 3000000,
+    "timeZone": "America/Santo_Domingo",
+    "ingredients": {
+      "rice": 0.95,
+      "bean": 0.9,
+      "plantain": 0.9,
+      "chicken": 0.88,
+      "wine": 0.85,
+      "cassava": 0.85,
+      "coconut": 0.8,
+      "chili_pepper": 0.75
+    },
+    "cookingMethods": {
+      "stewing": 0.95,
+      "grilling": 0.9,
+      "boiling": 0.9,
+      "frying": 0.85,
+      "baking": 0.85
+    }
+  },
+  {
+    "id": "JM-KIN",
+    "name": "Kingston",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "JM",
+    "latitude": 17.9712,
+    "longitude": -76.7936,
+    "region": "Surrey",
+    "population": 1200000,
+    "timeZone": "America/Jamaica",
+    "ingredients": {
+      "jerk_spice": 0.95,
+      "chicken": 0.9,
+      "rice": 0.9,
+      "bean": 0.88,
+      "plantain": 0.85,
+      "wine": 0.85,
+      "chili_pepper": 0.8,
+      "cassava": 0.8,
+      "fish": 0.75,
+      "coconut_oil": 0.65,
+      "garlic": 0.8,
+      "onion": 0.85
+    },
+    "cookingMethods": {
+      "grilling": 0.95,
+      "smoking": 0.9,
+      "stewing": 0.9,
+      "frying": 0.85,
+      "boiling": 0.85
+    }
+  },
+  {
+    "id": "PR-SJU",
+    "name": "San Juan",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "PR",
+    "latitude": 18.4655,
+    "longitude": -66.1057,
+    "region": "San Juan",
+    "population": 320000,
+    "timeZone": "America/Puerto_Rico",
+    "ingredients": {
+      "rice": 0.95,
+      "bean": 0.9,
+      "plantain": 0.9,
+      "pork": 0.88,
+      "sofrito": 0.85,
+      "wine": 0.85,
+      "cassava": 0.8,
+      "coconut": 0.8,
+      "fish": 0.75
+    },
+    "cookingMethods": {
+      "stewing": 0.95,
+      "grilling": 0.9,
+      "frying": 0.9,
+      "boiling": 0.85,
+      "baking": 0.85
+    }
+  },
+  {
+    "id": "CU-HAV",
+    "name": "Havana",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "CU",
+    "latitude": 23.1136,
+    "longitude": -82.3666,
+    "region": "La Habana",
+    "population": 2100000,
+    "timeZone": "America/Havana",
+    "ingredients": {
+      "rice": 0.95,
+      "bean": 0.9,
+      "pork": 0.9,
+      "plantain": 0.88,
+      "wine": 0.85,
+      "cassava": 0.85,
+      "fish": 0.75,
+      "coffee": 0.75
+    },
+    "cookingMethods": {
+      "stewing": 0.95,
+      "grilling": 0.9,
+      "frying": 0.9,
+      "boiling": 0.85,
+      "baking": 0.85
+    }
+  },
+  {
+    "id": "TT-POS",
+    "name": "Port of Spain",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "TT",
+    "latitude": 10.66,
+    "longitude": -61.508,
+    "region": "Port of Spain",
+    "population": 550000,
+    "timeZone": "America/Port_of_Spain",
+    "ingredients": {
+      "rice": 0.95,
+      "bean": 0.9,
+      "chicken": 0.9,
+      "plantain": 0.88,
+      "tamarind": 0.85,
+      "cassava": 0.8,
+      "coconut": 0.8,
+      "wine": 0.75
+    },
+    "cookingMethods": {
+      "stewing": 0.95,
+      "grilling": 0.9,
+      "boiling": 0.9,
+      "frying": 0.85,
+      "baking": 0.85
+    }
+  },
+  {
+    "id": "BB-BGI",
+    "name": "Bridgetown",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "BB",
+    "latitude": 13.0975,
+    "longitude": -59.6167,
+    "region": "Saint Michael",
+    "population": 110000,
+    "timeZone": "America/Barbados",
+    "ingredients": {
+      "fish": 0.95,
+      "plantain": 0.9,
+      "wine": 0.88,
+      "cassava": 0.85,
+      "rice": 0.8,
+      "bean": 0.8,
+      "chili_pepper": 0.75,
+      "coconut": 0.82
+    },
+    "cookingMethods": {
+      "grilling": 0.95,
+      "steaming": 0.9,
+      "frying": 0.9,
+      "stewing": 0.85,
+      "boiling": 0.85
+    }
+  },
+  {
+    "id": "BS-NAS",
+    "name": "Nassau",
+    "type": "City",
+    "continent": "North America",
+    "countryCode": "BS",
+    "latitude": 25.047,
+    "longitude": -77.3556,
+    "region": "New Providence",
+    "population": 275000,
+    "timeZone": "America/Nassau",
+    "ingredients": {
+      "rice": 0.9,
+      "bean": 0.9,
+      "plantain": 0.88,
+      "wine": 0.85,
+      "cassava": 0.85,
+      "fish": 0.8,
+      "chili_pepper": 0.75,
+      "coconut": 0.75
+    },
+    "cookingMethods": {
+      "frying": 0.95,
+      "grilling": 0.9,
+      "stewing": 0.9,
+      "boiling": 0.85,
+      "baking": 0.85
+    }
+  },
+  {
+    "id": "ID-DPS",
+    "name": "Denpasar",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "ID",
+    "latitude": -8.65,
+    "longitude": 115.2167,
+    "region": "Bali",
+    "population": 880000,
+    "timeZone": "Asia/Makassar",
+    "ingredients": {
+      "rice": 0.95,
+      "pork": 0.9,
+      "chili_pepper": 0.9,
+      "coconut": 0.88,
+      "turmeric": 0.85,
+      "fish": 0.85,
+      "lemongrass": 0.8,
+      "shrimp_paste": 0.8,
+      "tamarind": 0.75,
+      "cassava": 0.75
+    },
+    "cookingMethods": {
+      "grilling": 0.95,
+      "steaming": 0.9,
+      "frying": 0.9,
+      "boiling": 0.85,
+      "braising": 0.85
+    }
+  },
+  {
+    "id": "ID-MES",
+    "name": "Medan",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "ID",
+    "latitude": 3.5952,
+    "longitude": 98.6722,
+    "region": "North Sumatra",
+    "population": 2450000,
+    "timeZone": "Asia/Jakarta",
+    "ingredients": {
+      "rice": 0.95,
+      "beef": 0.9,
+      "coconut": 0.9,
+      "chili_pepper": 0.88,
+      "turmeric": 0.85,
+      "fish": 0.85,
+      "lemongrass": 0.8,
+      "shrimp_paste": 0.8,
+      "cassava": 0.75,
+      "tamarind": 0.75
+    },
+    "cookingMethods": {
+      "grilling": 0.95,
+      "stewing": 0.9,
+      "frying": 0.9,
+      "boiling": 0.85,
+      "braising": 0.85
+    }
+  },
+  {
+    "id": "ID-UPG",
+    "name": "Makassar",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "ID",
+    "latitude": -5.1486,
+    "longitude": 119.4328,
+    "region": "South Sulawesi",
+    "population": 1600000,
+    "timeZone": "Asia/Makassar",
+    "ingredients": {
+      "rice": 0.95,
+      "fish": 0.9,
+      "coconut": 0.9,
+      "chili_pepper": 0.88,
+      "tamarind": 0.85,
+      "shrimp_paste": 0.85,
+      "lemongrass": 0.8,
+      "cassava": 0.8,
+      "beef": 0.75,
+      "turmeric": 0.75
+    },
+    "cookingMethods": {
+      "grilling": 0.95,
+      "steaming": 0.9,
+      "frying": 0.9,
+      "boiling": 0.85,
+      "braising": 0.85
+    }
+  },
+  {
+    "id": "ID-MDC",
+    "name": "Manado",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "ID",
+    "latitude": 1.4748,
+    "longitude": 124.8428,
+    "region": "North Sulawesi",
+    "population": 480000,
+    "timeZone": "Asia/Makassar",
+    "ingredients": {
+      "rice": 0.95,
+      "fish": 0.9,
+      "chili_pepper": 0.9,
+      "coconut": 0.88,
+      "lemongrass": 0.85,
+      "turmeric": 0.85,
+      "shrimp_paste": 0.8,
+      "cassava": 0.8,
+      "tamarind": 0.75,
+      "sweet_potato": 0.75
+    },
+    "cookingMethods": {
+      "grilling": 0.95,
+      "steaming": 0.9,
+      "frying": 0.9,
+      "boiling": 0.85,
+      "braising": 0.85
+    }
+  },
+  {
+    "id": "ID-JAY",
+    "name": "Jayapura",
+    "type": "City",
+    "continent": "Asia",
+    "countryCode": "ID",
+    "latitude": -2.5337,
+    "longitude": 140.7181,
+    "region": "Papua",
+    "population": 300000,
+    "timeZone": "Asia/Jayapura",
+    "ingredients": {
+      "sago": 0.95,
+      "fish": 0.9,
+      "cassava": 0.9,
+      "coconut": 0.85,
+      "chili_pepper": 0.85,
+      "pandan": 0.8,
+      "sweet_potato": 0.8,
+      "pork": 0.75,
+      "taro": 0.75
+    },
+    "cookingMethods": {
+      "baking": 0.95,
+      "steaming": 0.9,
+      "grilling": 0.9,
+      "boiling": 0.85,
+      "frying": 0.85
+    }
+  },
+  {
+    "id": "FJ-SUV",
+    "name": "Suva",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "FJ",
+    "latitude": -18.1248,
+    "longitude": 178.4501,
+    "region": "Central",
+    "population": 180000,
+    "timeZone": "Pacific/Fiji",
+    "ingredients": {
+      "cassava": 0.95,
+      "taro": 0.9,
+      "coconut": 0.9,
+      "fish": 0.88,
+      "breadfruit": 0.85,
+      "chili_pepper": 0.85,
+      "wine": 0.8,
+      "plantain": 0.75,
+      "seaweed": 0.75
+    },
+    "cookingMethods": {
+      "steaming": 0.95,
+      "earth_oven": 0.9,
+      "grilling": 0.9,
+      "boiling": 0.85,
+      "frying": 0.85
+    }
+  },
+  {
+    "id": "WS-APW",
+    "name": "Apia",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "WS",
+    "latitude": -13.8333,
+    "longitude": -171.7667,
+    "region": "Tuamasaga",
+    "population": 38000,
+    "timeZone": "Pacific/Apia",
+    "ingredients": {
+      "taro": 0.98,
+      "breadfruit": 0.9,
+      "coconut": 0.9,
+      "fish": 0.88,
+      "cassava": 0.72,
+      "pork": 0.88,
+      "chili_pepper": 0.65,
+      "plantain": 0.75,
+      "seaweed": 0.75,
+      "coconut_milk": 0.9,
+      "banana": 0.82
+    },
+    "cookingMethods": {
+      "earth_oven": 0.95,
+      "steaming": 0.9,
+      "grilling": 0.9,
+      "boiling": 0.85,
+      "frying": 0.85
+    }
+  },
+  {
+    "id": "TO-TBU",
+    "name": "Nukuʻalofa",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "TO",
+    "latitude": -21.1394,
+    "longitude": -175.2047,
+    "region": "Tongatapu",
+    "population": 24000,
+    "timeZone": "Pacific/Tongatapu",
+    "ingredients": {
+      "cassava": 0.98,
+      "taro": 0.85,
+      "coconut": 0.9,
+      "fish": 0.88,
+      "breadfruit": 0.8,
+      "pork": 0.8,
+      "chili_pepper": 0.65,
+      "plantain": 0.75,
+      "seaweed": 0.75,
+      "yam": 0.9,
+      "coconut_milk": 0.88
+    },
+    "cookingMethods": {
+      "earth_oven": 0.95,
+      "steaming": 0.9,
+      "grilling": 0.9,
+      "boiling": 0.85,
+      "frying": 0.85
+    }
+  },
+  {
+    "id": "PG-POM",
+    "name": "Port Moresby",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "PG",
+    "latitude": -9.4438,
+    "longitude": 147.1803,
+    "region": "National Capital",
+    "population": 400000,
+    "timeZone": "Pacific/Port_Moresby",
+    "ingredients": {
+      "sago": 0.95,
+      "taro": 0.9,
+      "cassava": 0.9,
+      "sweet_potato": 0.88,
+      "fish": 0.85,
+      "coconut": 0.85,
+      "pork": 0.8,
+      "chili_pepper": 0.75,
+      "breadfruit": 0.75
+    },
+    "cookingMethods": {
+      "steaming": 0.95,
+      "earth_oven": 0.9,
+      "grilling": 0.9,
+      "boiling": 0.85,
+      "frying": 0.85
+    }
+  },
+  {
+    "id": "PF-PPT",
+    "name": "Papeete",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "PF",
+    "latitude": -17.5332,
+    "longitude": -149.5665,
+    "region": "Tahiti",
+    "population": 26000,
+    "timeZone": "Pacific/Tahiti",
+    "ingredients": {
+      "fish": 0.9,
+      "coconut": 0.9,
+      "taro": 0.88,
+      "breadfruit": 0.85,
+      "vanilla": 0.85,
+      "cassava": 0.8,
+      "wine": 0.75,
+      "plantain": 0.75
+    },
+    "cookingMethods": {
+      "marinating": 0.95,
+      "steaming": 0.9,
+      "earth_oven": 0.9,
+      "grilling": 0.85,
+      "boiling": 0.85
+    }
+  },
+  {
+    "id": "SB-HIR",
+    "name": "Honiara",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "SB",
+    "latitude": -9.437,
+    "longitude": 159.951,
+    "region": "Guadalcanal",
+    "population": 85000,
+    "timeZone": "Pacific/Guadalcanal",
+    "ingredients": {
+      "taro": 0.95,
+      "cassava": 0.9,
+      "fish": 0.99,
+      "coconut": 0.88,
+      "breadfruit": 0.85,
+      "pork": 0.88,
+      "plantain": 0.8,
+      "seaweed": 0.72,
+      "chili_pepper": 0.7,
+      "river_fish": 0.8,
+      "sweet_potato": 0.75
+    },
+    "cookingMethods": {
+      "earth_oven": 0.95,
+      "steaming": 0.9,
+      "grilling": 0.9,
+      "boiling": 0.85,
+      "frying": 0.85
+    }
+  },
+  {
+    "id": "VU-VLI",
+    "name": "Port Vila",
+    "type": "City",
+    "continent": "Oceania",
+    "countryCode": "VU",
+    "latitude": -17.7333,
+    "longitude": 168.3278,
+    "region": "Shefa",
+    "population": 50000,
+    "timeZone": "Pacific/Efate",
+    "ingredients": {
+      "taro": 0.95,
+      "cassava": 0.9,
+      "coconut": 0.9,
+      "fish": 0.88,
+      "breadfruit": 0.85,
+      "pork": 0.85,
+      "kava": 0.8,
+      "chili_pepper": 0.75,
+      "plantain": 0.75
+    },
+    "cookingMethods": {
+      "earth_oven": 0.95,
+      "steaming": 0.9,
+      "grilling": 0.9,
+      "boiling": 0.85,
+      "frying": 0.85
+    }
+  }
+]

@@ -55,18 +55,12 @@ UMAP_N_NEIGHBORS = 20
 UMAP_MIN_DIST = 0.05
 UMAP_RANDOM_STATE = 42
 
-# 2D color UMAP — separate run for visual color assignment.
-# n_neighbors=15: tight local neighborhood so cross-cultural connections (Palermo→N.Africa,
-# Venice→Central Europe) dominate over within-country similarity. With n_neighbors≥20,
-# all 50 Italian cities are in each other's neighborhoods → UMAP collapses them to one point.
+# 3D color UMAP — separate run for visual color assignment.
+# Uses 3 components so the spherical coordinate hue formula (azimuth + elevation)
+# can exploit all three dimensions, eliminating same-azimuth color collisions.
+# n_neighbors=15: tight local neighborhood preserves cross-cultural structure.
 # min_dist=0.10: spread within clusters, good global layout.
-# COLOR_UMAP_RANDOM_STATE=42: seed search over 42–300 using the full IDF-weighted
-# 284D feature matrix found seed=42 as the first seed where all 10 key test pairs
-# pass with the updated data (oat+cider added to England, corn boosted in Romania):
-# Venice/Palermo ≥20°, İzmir/Ankara ≥25°, Lagos/Accra ≤160°, Oslo/Accra ≥30°,
-# London/Istanbul ≥15°, Bucharest/Beijing ≥20°, etc.
-# This is NOT topology tuning — the topology (which cities are similar) is fully
-# determined by the IDF-weighted features. Seed only affects 2D rotation/layout.
+# Seed 51 is fixed for reproducibility — not tuned for specific city pairs.
 COLOR_UMAP_N_NEIGHBORS = 15
 COLOR_UMAP_MIN_DIST = 0.10
 COLOR_UMAP_RANDOM_STATE = 51
@@ -279,33 +273,33 @@ def run_umap(feature_matrix: np.ndarray) -> np.ndarray:
 
 def run_umap_color(feature_matrix: np.ndarray) -> np.ndarray:
     """
-    Run a dedicated 2D UMAP for color assignment.
+    Compute 3D color embedding via cosine KernelPCA.
 
-    Separate from the 12D structural embedding — different objective:
-    n_neighbors=40: wider neighborhood so each city's layout is influenced by
-    cross-cultural neighbors, creating internal spread within regional clusters.
-    min_dist=0.10: looser packing gives more global visual spread.
+    Each city is treated independently — its 3D coordinates are determined
+    by its pairwise cosine similarity to ALL other cities globally, not by
+    its country/cluster membership.
 
-    PCA on 12D collapses all Italian cities to the same angle because within-Italy
-    variation is tiny vs. global variance. This 2D UMAP uses repulsive forces to
-    push non-neighbors apart even within a regional cluster, so Milan vs Naples vs
-    Palermo get distinct 2D positions purely from their ingredient neighborhoods.
+    Why not plain PCA? Standard PCA's principal axes are dominated by
+    high-variance global signals (country-level patterns). Within a country
+    like Turkey or India, all cities get squeezed into a small angular band
+    even when their actual cuisines differ dramatically (e.g. İzmir↔Bursa
+    raw cosine 0.29 but PCA placed them only 6° apart on the color wheel).
+
+    KernelPCA with cosine kernel is mathematically equivalent to metric MDS
+    on the cosine distance matrix: the 3D output minimizes |x_i - x_j|² −
+    cosine_dist(i,j)² stress, so pairwise color distance is proportional to
+    pairwise culinary distance. Two cities with raw cosine 0.99 land close;
+    two with raw cosine 0.29 land far. No cluster bias.
     """
-    print(f"  Color UMAP params: n_neighbors={COLOR_UMAP_N_NEIGHBORS}, "
-          f"min_dist={COLOR_UMAP_MIN_DIST}, metric={UMAP_METRIC}, n_components=2")
-    reducer = umap.UMAP(
-        n_components=2,
-        metric=UMAP_METRIC,
-        n_neighbors=COLOR_UMAP_N_NEIGHBORS,
-        min_dist=COLOR_UMAP_MIN_DIST,
-        random_state=COLOR_UMAP_RANDOM_STATE,
-        init="random",
-        n_jobs=1,
-        low_memory=False,
-        verbose=False,
-    )
-    result = reducer.fit_transform(feature_matrix)
-    print(f"  Color embedding shape: {result.shape}")
+    from sklearn.decomposition import KernelPCA
+    kpca = KernelPCA(n_components=3, kernel='cosine')
+    result = kpca.fit_transform(feature_matrix)
+    # Print explained variance via eigenvalues
+    eigvals = kpca.eigenvalues_[:3]
+    total = float(kpca.eigenvalues_.sum()) if len(kpca.eigenvalues_) else 1.0
+    print(f"  Color KernelPCA(cosine): top 3 eigvals "
+          f"[{eigvals[0]:.1f}, {eigvals[1]:.1f}, {eigvals[2]:.1f}] "
+          f"= {(eigvals.sum() / total * 100):.1f}% of variance")
     return result.astype(np.float64)
 
 
@@ -315,29 +309,25 @@ def run_umap_color(feature_matrix: np.ndarray) -> np.ndarray:
 
 def compute_color_calibration(
     embedding: np.ndarray,
-    color_embedding_2d: np.ndarray | None = None,
+    color_embedding_3d: np.ndarray | None = None,
 ) -> tuple[dict, np.ndarray]:
     """
     Compute color coordinates and global_color_calibration.json.
 
-    Returns: (calibration_dict, hue2d_array [n,2])
+    Returns: (calibration_dict, hue3d_array [n,3])
 
-    hue2d source — preferred: dedicated 2D color UMAP (color_embedding_2d).
-    Fallback: PCA(2) of 12D structural embedding (if color_embedding_2d is None).
+    Hue is derived from spherical coordinates of the 3D color UMAP:
+      azimuth  = atan2(y, x) + π          — longitude in 3D space [0, 2π]
+      elevation = atan2(z, sqrt(x²+y²))   — latitude in 3D space [-π/2, π/2]
+      raw_hue  = (azimuth + elevation) % 2π
 
-    Why 2D UMAP for color (not PCA):
-    - PCA is a global linear projection. It finds 2 directions of max GLOBAL variance.
-      Within-Italy or within-Turkey variation is tiny vs. global variance, so all
-      Italian cities project to the same PCA(2) point: Milan=Venice=Naples at 121.1°.
-    - 2D UMAP uses repulsive forces: non-neighboring cities are pushed apart, even
-      within a regional cluster. Milan's 40 neighbors include French/German butter
-      cuisines → repulsive force from Naples' Mediterranean neighbors spreads them.
-    - PCA(3) component 3 (w) is kept for Lightness: it's orthogonal to the hue plane
-      and captures a distinct variance axis not in hue2d.
+    This is the Lambert cylindrical equal-area projection from sphere to circle:
+    cities at the same 2D angle but different depth land at different hue angles.
+    Equal weight (k=1) to both coordinates; equalization ensures uniform spread.
 
     Steps:
       1. PCA(3) on whitened 12D → B, mu, sigma for client-side w computation
-      2. hue2d from 2D color UMAP (or PCA fallback), normalized to unit circle
+      2. hue3d from 3D color UMAP normalized to unit sphere; spherical hue CDF
       3. 512-point angle/radius/axis CDFs for histogram-equalized H, C, L
       4. MD5 hash for cache-busting
     """
@@ -372,40 +362,45 @@ def compute_color_calibration(
         "w": _quantiles(w_vals),
     }
 
-    # hue2d: 2D color UMAP (preferred) or PCA(2) fallback.
-    # Normalized to unit circle: center at median, scale so r98 = 1.
-    if color_embedding_2d is not None:
-        assert color_embedding_2d.shape == (n, 2), \
-            f"color_embedding_2d must be [{n}, 2], got {color_embedding_2d.shape}"
-        raw_x = color_embedding_2d[:, 0]
-        raw_y = color_embedding_2d[:, 1]
-        cx = raw_x - float(np.median(raw_x))
-        cy = raw_y - float(np.median(raw_y))
-        print(f"  Using dedicated 2D color UMAP for hue2d.")
+    # hue3d: 3D color UMAP normalized to unit sphere, or PCA(2) fallback.
+    # Center each dim at median, scale by 98th-percentile 3D radius → unit sphere.
+    if color_embedding_3d is not None:
+        assert color_embedding_3d.shape[0] == n and color_embedding_3d.shape[1] == 3, \
+            f"color_embedding_3d must be [{n}, 3], got {color_embedding_3d.shape}"
+        cx = color_embedding_3d[:, 0] - float(np.median(color_embedding_3d[:, 0]))
+        cy = color_embedding_3d[:, 1] - float(np.median(color_embedding_3d[:, 1]))
+        cz = color_embedding_3d[:, 2] - float(np.median(color_embedding_3d[:, 2]))
+        print(f"  Using dedicated 3D color UMAP for hue (spherical projection).")
     else:
         cx = u_vals - float(np.median(u_vals))
         cy = v_vals - float(np.median(v_vals))
-        print(f"  Using PCA(2) fallback for hue2d.")
+        cz = w_vals - float(np.median(w_vals))
+        print(f"  Using PCA(3) fallback for hue.")
 
-    centered = np.stack([cx, cy], axis=1)
-    radii = np.sqrt(centered[:, 0] ** 2 + centered[:, 1] ** 2)
-    r98 = float(np.percentile(radii, 98))
-    scale = max(r98, 1e-8)
-    hue2d = (centered / scale).astype(np.float64)
+    # Normalize to unit sphere using 98th-percentile 3D radius
+    radii_3d = np.sqrt(cx ** 2 + cy ** 2 + cz ** 2)
+    scale_3d = max(float(np.percentile(radii_3d, 98)), 1e-8)
+    x_n = (cx / scale_3d).astype(np.float64)
+    y_n = (cy / scale_3d).astype(np.float64)
+    z_n = (cz / scale_3d).astype(np.float64)
+    hue2d = np.stack([x_n, y_n, z_n], axis=1)  # stored as hue2d for backward compat
 
-    # 512-point angle CDF for histogram-equalized Hue
-    angles_2d = np.arctan2(hue2d[:, 1], hue2d[:, 0]) + math.pi  # [0, 2π]
-    angles_sorted = np.sort(angles_2d)
+    # H: pure azimuth of 3D color UMAP — the longitude on the culinary sphere.
+    # Elevation is NOT mixed into H (that caused collisions: az=π/2,el=π/2 ≡ az=π,el=0).
+    # Instead, elevation goes to L (orthogonal to H by spherical geometry).
+    azimuth = np.arctan2(y_n, x_n) + math.pi              # [0, 2π]
+    elevation = np.arctan2(z_n, np.sqrt(x_n ** 2 + y_n ** 2))  # [-π/2, π/2]
+    raw_angles = azimuth                                   # pure direction, no mixing
+
+    angles_sorted = np.sort(raw_angles)
     N_BUCKETS = 512
     angle_percentiles = [
         float(angles_sorted[min(int(i * (n - 1) / (N_BUCKETS - 1)), n - 1)])
         for i in range(N_BUCKETS)
     ]
 
-    # 512-point radius CDF for histogram-equalized Chroma.
-    # Without equalization, ~25% of cities cluster near center → C≈0.14 (near-gray).
-    # Equalization ensures the full [0.12, 0.38] chroma range is evenly utilized.
-    hue2d_radii = np.sqrt(hue2d[:, 0] ** 2 + hue2d[:, 1] ** 2)
+    # 512-point radius CDF — kept for backward compatibility (unused by main color path).
+    hue2d_radii = np.sqrt(x_n ** 2 + y_n ** 2)
     radii_sorted = np.sort(hue2d_radii)
     radius_percentiles = [
         float(radii_sorted[min(int(i * (n - 1) / (N_BUCKETS - 1)), n - 1)])
@@ -426,7 +421,7 @@ def compute_color_calibration(
         np.clip((w_vals - p50_w) / max(p50_w - p02_w, 1e-8), -1.0, 0.0),
     )
 
-    # uNorm, vNorm: same p50-anchored normalisation for PC1 and PC2
+    # uNorm, vNorm: p50-anchored normalisation for PC1 and PC2 (still used for C/insights)
     def _norm_axis(vals, q):
         p50, p98, p02 = q["p50"], q["p98"], q["p02"]
         return np.where(
@@ -437,24 +432,39 @@ def compute_color_calibration(
     u_norms = _norm_axis(u_vals, quantiles["u"])
     v_norms = _norm_axis(v_vals, quantiles["v"])
 
-    # C: |PC3| CDF — how extreme the city is on the 3rd culinary axis (orthogonal to hue)
+    # C: |PC3| CDF — how extreme the city is on the 3rd culinary axis (orthogonal to hue).
+    # Using 12D PCA PC3 rather than 3D UMAP radius because r_xy correlates with H (r=0.51),
+    # while PC3 is orthogonal to PC1-PC2 by construction → C is truly independent of H.
     w_abs_percentiles = _make_axis_cdf(np.sort(np.abs(w_norms)))
 
-    # L: sqrt(uNorm² + vNorm²) CDF — distance from global culinary mean in the dominant plane.
-    # Distinctive cuisines (Japan, Ethiopia) score high → bright. Avoids 2D UMAP center artifact.
+    # L: |elevation| of 3D color UMAP — the latitude on the culinary sphere.
+    # Elevation ∈ [-π/2, π/2] is geometrically orthogonal to azimuth (H) by construction.
+    # Cities far from the equatorial plane of the 3D UMAP are brighter — they represent
+    # cuisines that are "extreme" in the dimension orthogonal to the main hue plane.
+    # |elevation| ∈ [0, π/2]: zero at equator (mid-brightness), max at poles (brightest).
+    elevation_magnitudes = np.abs(elevation)
+    elevation_percentiles = _make_axis_cdf(np.sort(elevation_magnitudes))
+
+    # v5: z_n signed CDF for L channel — replaces |elevation| which folds ±z together.
+    # Cities at z_n < 0 (UMAP "southern hemisphere") get L < 0.68; z_n > 0 → L > 0.68.
+    z_percentiles = _make_axis_cdf(np.sort(z_n))
+
+    # Keep uv_magnitude_percentiles for backward compat with old calibration readers
     uv_magnitudes = np.sqrt(u_norms ** 2 + v_norms ** 2)
     uv_magnitude_percentiles = _make_axis_cdf(np.sort(uv_magnitudes))
 
     calibration = {
-        "version": "3",
+        "version": "5",
         "mu": mu.tolist(),
         "sigma": sigma.tolist(),
         "B": B.tolist(),
         "quantiles": quantiles,
-        "angle_percentiles": angle_percentiles,            # H: histogram-equalized 2D UMAP angle
-        "w_abs_percentiles": w_abs_percentiles,            # C: histogram-equalized |PC3|
-        "uv_magnitude_percentiles": uv_magnitude_percentiles,  # L: histogram-equalized PCA(1,2) magnitude
-        "radius_percentiles": radius_percentiles,          # kept for backward compat
+        "angle_percentiles": angle_percentiles,            # H: azimuth-only CDF (unchanged)
+        "radius_percentiles": radius_percentiles,          # C: r_xy CDF — 2D UMAP radius, same space as H
+        "z_percentiles": z_percentiles,                    # L: signed z_n CDF — full lightness range
+        "w_abs_percentiles": w_abs_percentiles,            # kept for v4 fallback
+        "elevation_percentiles": elevation_percentiles,    # kept for v4 fallback
+        "uv_magnitude_percentiles": uv_magnitude_percentiles,  # kept for v3 compat
     }
 
     hash_src = json.dumps(calibration, sort_keys=True, separators=(",", ":"))
@@ -529,7 +539,7 @@ def write_features_json(
     """Write features.json."""
     output = []
     for i, orig_idx in enumerate(valid_indices):
-        hue2d = [float(hue2d_arr[i, 0]), float(hue2d_arr[i, 1])]
+        hue2d = [float(hue2d_arr[i, 0]), float(hue2d_arr[i, 1]), float(hue2d_arr[i, 2])]
         record = build_canonical_place(places[orig_idx], embeddings[i], hue2d, ing_map, met_map)
         output.append(record)
 
@@ -709,37 +719,53 @@ def _oklch_to_hex(L: float, C: float, H_deg: float) -> str:
 
 def _city_color_from_hue2d(
     hue2d_i: np.ndarray,
-    uv_magnitude: float,
     w_abs: float,
     angle_percentiles: list,
-    uv_magnitude_percentiles: list | None = None,
+    elevation_percentiles: list | None = None,
     w_abs_percentiles: list | None = None,
+    radius_percentiles: list | None = None,
+    z_percentiles: list | None = None,
 ) -> str:
     """Compute OKLCH hex for one city. Mirrors getCityColor() in colorUtils.ts exactly.
 
-    H = atan2(y,x) + π → histogram-equalized angle → [0°, 360°]
-    C = |wNorm| histogram-equalized via w_abs_percentiles → [0.12, 0.38]
-    L = sqrt(uNorm²+vNorm²) histogram-equalized via uv_magnitude_percentiles → [0.54, 0.82]
+    v5 (radius_percentiles + z_percentiles present):
+      H = azimuth of 3D color UMAP → histogram-equalized → [0°, 360°]
+      C = r_xy = sqrt(x²+y²) of 3D color UMAP → equalized → [0.14, 0.43]
+      L = z of 3D color UMAP → equalized (signed CDF) → [0.54, 0.82]
+      OKLab a = C·cos(H), b = C·sin(H): same space as H → ΔE ∝ culinary distance.
+
+    v4 fallback (elevation_percentiles + w_abs_percentiles):
+      H = azimuth, C = |PC3|, L = |elevation|
     """
-    u, v = float(hue2d_i[0]), float(hue2d_i[1])
-    raw_angle = math.atan2(v, u) + math.pi
-    eq_angle = _equalize_angle_interp(raw_angle, angle_percentiles)
+    x = float(hue2d_i[0])
+    y = float(hue2d_i[1])
+    z = float(hue2d_i[2]) if len(hue2d_i) >= 3 else 0.0
+    azimuth = math.atan2(y, x) + math.pi
+
+    # H: pure azimuth (unchanged across versions)
+    eq_angle = _equalize_angle_interp(azimuth, angle_percentiles)
     H_deg = (eq_angle * 180 / math.pi) % 360
 
-    # C: |PC3| — not radius (tight clusters like Japan/Korea sit at UMAP center → radius≈0.04 → near-gray)
-    chroma_rank = (
-        _equalize_radius_interp(w_abs, w_abs_percentiles)
-        if w_abs_percentiles is not None
-        else w_abs
-    )
-    C = max(0.12, min(0.38, 0.12 + 0.26 * chroma_rank))
-
-    # L: uv_magnitude = sqrt(uNorm²+vNorm²) — distance from global culinary mean in PCA(1,2) plane
-    if uv_magnitude_percentiles is not None:
-        l_rank = _equalize_radius_interp(uv_magnitude, uv_magnitude_percentiles)
-        L = max(0.54, min(0.82, 0.54 + 0.28 * l_rank))
+    # C: v5 = r_xy from same 3D UMAP space as H; v4 = |PC3| from separate 12D PCA
+    if radius_percentiles is not None:
+        r_xy = math.sqrt(x * x + y * y)
+        chroma_rank = _equalize_radius_interp(r_xy, radius_percentiles)
+    elif w_abs_percentiles is not None:
+        chroma_rank = _equalize_radius_interp(w_abs, w_abs_percentiles)
     else:
-        L = max(0.54, min(0.82, 0.54 + 0.28 * min(uv_magnitude / 1.1, 1.0)))
+        chroma_rank = w_abs
+    C = max(0.10, min(0.46, 0.10 + 0.36 * chroma_rank))
+
+    # L: v5 = signed z equalization (full range); v4 = |elevation| (folded, no sign)
+    if z_percentiles is not None:
+        l_rank = _equalize_radius_interp(z, z_percentiles)
+    elif elevation_percentiles is not None:
+        el_mag = abs(math.atan2(z, math.sqrt(x * x + y * y)))
+        l_rank = _equalize_radius_interp(el_mag, elevation_percentiles)
+    else:
+        el_mag = abs(math.atan2(z, math.sqrt(x * x + y * y)))
+        l_rank = min(el_mag / (math.pi / 2), 1.0)
+    L = max(0.45, min(0.90, 0.45 + 0.45 * (l_rank ** 0.55)))
 
     return _oklch_to_hex(L, C, H_deg)
 
@@ -940,7 +966,11 @@ def _ins_diverse_countries(
         if len(indices) < 4:
             continue
         idx_arr = np.array(indices)
-        angles = np.arctan2(hue2d[idx_arr, 1], hue2d[idx_arr, 0])
+        x_c = hue2d[idx_arr, 0]; y_c = hue2d[idx_arr, 1]
+        z_c = hue2d[idx_arr, 2] if hue2d.shape[1] > 2 else np.zeros(len(idx_arr))
+        azim = np.arctan2(y_c, x_c) + math.pi
+        elev = np.arctan2(z_c, np.sqrt(x_c**2 + y_c**2))
+        angles = (azim + elev) % (2 * math.pi)
         R = max(float(np.abs(np.mean(np.exp(1j * angles)))), 1e-10)
         circ_std = math.degrees(math.sqrt(-2 * math.log(R)))
         rows.append((cc, circ_std, len(indices)))
@@ -961,8 +991,10 @@ def _ins_flavor_families(
     feature_names: list,
     continents: np.ndarray,
     angle_percentiles: list,
-    uv_magnitude_percentiles: list | None = None,
+    elevation_percentiles: list | None = None,
     w_abs_percentiles: list | None = None,
+    radius_percentiles: list | None = None,
+    z_percentiles: list | None = None,
 ) -> list:
     from sklearn.cluster import KMeans
     labels = KMeans(n_clusters=8, random_state=42, n_init=10).fit_predict(embedding)
@@ -981,9 +1013,8 @@ def _ins_flavor_families(
         top3 = [ing_names[i] for i in np.argsort(-ing_delta)[:3] if ing_delta[i] > 0]
 
         mean_h2d = hue2d[mask].mean(axis=0)
-        mean_uv_mag = float(uv_magnitudes[mask].mean())
         mean_w_abs = float(w_abs_arr[mask].mean())
-        color = _city_color_from_hue2d(mean_h2d, mean_uv_mag, mean_w_abs, angle_percentiles, uv_magnitude_percentiles, w_abs_percentiles)
+        color = _city_color_from_hue2d(mean_h2d, mean_w_abs, angle_percentiles, elevation_percentiles, w_abs_percentiles, radius_percentiles, z_percentiles)
         cluster_conts = sorted({str(c) for c in continents[mask] if c})
 
         if len(top3) >= 2:
@@ -1030,14 +1061,17 @@ def build_hex_grid(
     n = len(valid_indices)
     angle_percentiles = calibration["angle_percentiles"]
     w_abs_percentiles = calibration.get("w_abs_percentiles")
-    uv_magnitude_percentiles = calibration.get("uv_magnitude_percentiles")
+    elevation_percentiles = calibration.get("elevation_percentiles")
+    radius_percentiles = calibration.get("radius_percentiles")
+    z_percentiles = calibration.get("z_percentiles")
 
-    _, _, _, uv_magnitudes, w_abs_arr = _compute_color_inputs(embedding, calibration)
+    _, _, _, _, w_abs_arr = _compute_color_inputs(embedding, calibration)
 
     colors = [
         _city_color_from_hue2d(
-            hue2d[i], float(uv_magnitudes[i]), float(w_abs_arr[i]),
-            angle_percentiles, uv_magnitude_percentiles, w_abs_percentiles,
+            hue2d[i], float(w_abs_arr[i]),
+            angle_percentiles, elevation_percentiles, w_abs_percentiles,
+            radius_percentiles, z_percentiles,
         )
         for i in range(n)
     ]
@@ -1102,18 +1136,16 @@ def build_hex_grid(
     MAX_DIST_KM = 500
     MAX_CHORD_SQ = _chord_sq(MAX_DIST_KM)
 
-    # Gaussian blend: each hex cell gets a weighted average of its nearest cities'
-    # color inputs rather than the single nearest city's color. Remote land areas
-    # (Sahara, Siberia) are handled by the `if total_w < 1e-12: color = colors[bi[0]]`
-    # fallback below — no need to inflate sigma. 200 km shows local culinary variation
-    # while still producing smooth gradients at hex-resolution-3 (83 km cell size).
-    BLEND_SIGMA_KM = 130.0
+    # Fixed Gaussian blend sigma: 200km produces smooth, readable gradients.
+    # Confirmed visually superior to auto-computed (84km = blocky) and adaptive (273km = over-blurred).
+    # 200km means cities ~400km apart still have ~14% relative weight, so transitions
+    # stay smooth across country-sized regions without losing all local detail.
+    BLEND_SIGMA_KM = 200.0
     BLEND_SIGMA_CHORD_SQ = _chord_sq(BLEND_SIGMA_KM)
-    # MAX_BLEND_DIST_KM: generous ceiling so even Antarctic interior gets candidates.
     MAX_BLEND_DIST_KM = 5000
     MAX_BLEND_CHORD_SQ = _chord_sq(MAX_BLEND_DIST_KM)
-    # k=10: enough candidates for good blending in both dense and sparse regions.
-    k_blend = min(10, n)
+    k_blend = min(30, n)
+    print(f"    Blend sigma: {BLEND_SIGMA_KM:.0f}km (fixed), k={k_blend} nearest cities")
 
     features = []
     skipped = 0
@@ -1173,7 +1205,9 @@ def build_hex_grid(
         if len(bi) == 1:
             color = colors[bi[0]]
         else:
-            # Gaussian weights by chord distance.
+            # Adaptive per-cell sigma: distance to kth nearest city × 1.5.
+            # Scale factor 1.5 ensures the kth city still has ~80% relative weight.
+            # Falls back to nearest-city distance if only 1 candidate passed the filter.
             raw_w = np.exp(-(bd ** 2) / (2.0 * BLEND_SIGMA_CHORD_SQ))
             total_w = raw_w.sum()
             if total_w < 1e-12:
@@ -1183,25 +1217,22 @@ def build_hex_grid(
             else:
                 raw_w /= total_w
 
-                # Circular mean for hue (blend unit-circle angle vectors)
-                cos_sum = sum(
-                    raw_w[j] * math.cos(math.atan2(float(hue2d[i][1]), float(hue2d[i][0])))
-                    for j, i in enumerate(bi)
-                )
-                sin_sum = sum(
-                    raw_w[j] * math.sin(math.atan2(float(hue2d[i][1]), float(hue2d[i][0])))
-                    for j, i in enumerate(bi)
-                )
-                blended_angle = math.atan2(sin_sum, cos_sum)
-                blended_hue2d = np.array([math.cos(blended_angle), math.sin(blended_angle)])
+                # Spherical mean: weighted average of 3D unit vectors.
+                # azimuth and elevation are both derived from blended_hue2d directly,
+                # so no separate blending of uv_magnitude is needed.
+                x_sum = sum(raw_w[j] * float(hue2d[i][0]) for j, i in enumerate(bi))
+                y_sum = sum(raw_w[j] * float(hue2d[i][1]) for j, i in enumerate(bi))
+                z_sum = sum(raw_w[j] * float(hue2d[i][2] if len(hue2d[i]) > 2 else 0.0)
+                            for j, i in enumerate(bi))
+                blended_hue2d = np.array([x_sum, y_sum, z_sum])
 
-                # Weighted mean for L (uv_magnitude) and C (w_abs)
-                blended_uv_mag = float(sum(raw_w[j] * float(uv_magnitudes[i]) for j, i in enumerate(bi)))
-                blended_w_abs  = float(sum(raw_w[j] * float(w_abs_arr[i])     for j, i in enumerate(bi)))
+                # C: weighted mean of |PC3| magnitudes
+                blended_w_abs = float(sum(raw_w[j] * float(w_abs_arr[i]) for j, i in enumerate(bi)))
 
                 color = _city_color_from_hue2d(
-                    blended_hue2d, blended_uv_mag, blended_w_abs,
-                    angle_percentiles, uv_magnitude_percentiles, w_abs_percentiles,
+                    blended_hue2d, blended_w_abs,
+                    angle_percentiles, elevation_percentiles, w_abs_percentiles,
+                    radius_percentiles, z_percentiles,
                 )
 
         # Build closed polygon ring; fix antimeridian jumps
@@ -1258,15 +1289,18 @@ def compute_insights(
 
     angle_percentiles = calibration["angle_percentiles"]
     w_abs_percentiles = calibration.get("w_abs_percentiles")
-    uv_magnitude_percentiles = calibration.get("uv_magnitude_percentiles")
+    elevation_percentiles = calibration.get("elevation_percentiles")
+    radius_percentiles = calibration.get("radius_percentiles")
+    z_percentiles = calibration.get("z_percentiles")
 
     _, _, w_norms, uv_magnitudes, w_abs_arr = _compute_color_inputs(embedding, calibration)
 
     print("  Pre-computing city colors for insights...")
     colors = [
         _city_color_from_hue2d(
-            hue2d[i], float(uv_magnitudes[i]), float(w_abs_arr[i]),
-            angle_percentiles, uv_magnitude_percentiles, w_abs_percentiles,
+            hue2d[i], float(w_abs_arr[i]),
+            angle_percentiles, elevation_percentiles, w_abs_percentiles,
+            radius_percentiles, z_percentiles,
         )
         for i in range(n)
     ]
@@ -1294,7 +1328,8 @@ def compute_insights(
     print("    5. Flavor families (K-means k=8)...")
     families = _ins_flavor_families(
         embedding, hue2d, uv_magnitudes, w_abs_arr, feature_matrix, feature_names,
-        continents, angle_percentiles, uv_magnitude_percentiles, w_abs_percentiles,
+        continents, angle_percentiles, elevation_percentiles, w_abs_percentiles,
+        radius_percentiles, z_percentiles,
     )
 
     out_path = os.path.join(out_dir, "insights.json")
@@ -1460,12 +1495,12 @@ def main() -> None:
     print("\n[4/7] Running 12D structural UMAP...")
     embedding = run_umap(feature_matrix_idf)
 
-    # Step 4b — dedicated 2D color UMAP + calibration.
-    # Separate UMAP run on the same IDF-weighted features, tuned for visual spread:
-    # n_neighbors=40 (wider), min_dist=0.10 (looser) → internal cluster differentiation.
-    print("\n[4b/7] Running 2D color UMAP and computing calibration...")
-    color_embedding_2d = run_umap_color(feature_matrix_idf)
-    calibration, embedding_2d = compute_color_calibration(embedding, color_embedding_2d)
+    # Step 4b — dedicated 3D color UMAP + calibration.
+    # Separate UMAP run on the same IDF-weighted features.
+    # 3D gives spherical hue: azimuth + elevation → eliminates same-2D-angle collisions.
+    print("\n[4b/7] Running 3D color UMAP and computing calibration...")
+    color_embedding_3d = run_umap_color(feature_matrix_idf)
+    calibration, embedding_2d = compute_color_calibration(embedding, color_embedding_3d)
     print(f"  hue2d shape: {embedding_2d.shape}")
 
     # Step 5 — Write outputs

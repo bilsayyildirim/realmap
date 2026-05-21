@@ -1,1 +1,316 @@
-[{"id":"LV-RIX","name":"Riga","type":"City","continent":"Europe","countryCode":"LV","latitude":56.9496,"longitude":24.1052,"region":"Riga","population":614618,"timeZone":"Europe/Riga","ingredients":{"rye_bread":0.95,"potato":0.95,"pork":0.9,"dill":0.9,"sour_cream":0.9,"herring":0.85,"mushroom":0.8,"barley":0.8,"carrot":0.8},"cookingMethods":{"boiling":0.95,"baking":0.9,"pickling":0.9,"frying":0.85}},{"id":"LV-DGV","name":"Daugavpils","type":"City","continent":"Europe","countryCode":"LV","latitude":55.8744,"longitude":26.5356,"region":"Latgale","population":80300,"timeZone":"Europe/Riga","ingredients":{"potato":0.95,"pork":0.92,"sour_cream":0.9,"rye_bread":0.82,"barley":0.85,"mushroom":0.85,"onion":0.82,"garlic":0.75,"dill":0.78,"cabbage":0.75,"carrot":0.7},"cookingMethods":{"boiling":0.95,"baking":0.9,"pickling":0.85,"frying":0.8}},{"id":"LV-LPK","name":"Liepāja","type":"City","continent":"Europe","countryCode":"LV","latitude":56.5047,"longitude":21.0108,"region":"Kurzeme","population":68700,"timeZone":"Europe/Riga","ingredients":{"herring":0.97,"fish":0.88,"rye_bread":0.9,"potato":0.9,"pork":0.85,"dill":0.85,"sour_cream":0.82,"onion":0.8,"carrot":0.75,"cabbage":0.72,"barley":0.7},"cookingMethods":{"pickling":0.95,"boiling":0.9,"baking":0.85,"frying":0.8}},{"id":"LV-JEL","name":"Jelgava","type":"City","continent":"Europe","countryCode":"LV","latitude":56.6527,"longitude":23.7211,"region":"Zemgale","population":55500,"timeZone":"Europe/Riga","ingredients":{"barley":0.95,"pork":0.92,"potato":0.9,"rye_bread":0.82,"sour_cream":0.85,"mushroom":0.82,"onion":0.82,"dill":0.78,"carrot":0.72,"cabbage":0.7,"butter":0.68},"cookingMethods":{"boiling":0.95,"baking":0.9,"pickling":0.85,"frying":0.8}},{"id":"LV-JUR","name":"Jūrmala","type":"City","continent":"Europe","countryCode":"LV","latitude":56.968,"longitude":23.7706,"region":"Riga","population":49600,"timeZone":"Europe/Riga","ingredients":{"herring":0.95,"fish":0.9,"smoked_fish":0.78,"rye_bread":0.92,"potato":0.9,"dill":0.88,"sour_cream":0.85,"onion":0.8,"mushroom":0.75,"carrot":0.72,"cream":0.68},"cookingMethods":{"pickling":0.95,"boiling":0.9,"baking":0.85,"frying":0.8}},{"id":"LV-REZ","name":"Rēzekne","type":"City","continent":"Europe","countryCode":"LV","latitude":56.5097,"longitude":27.3331,"region":"Latgale","population":27000,"timeZone":"Europe/Riga","ingredients":{"potato":0.95,"barley":0.9,"pork":0.9,"rye_bread":0.82,"mushroom":0.88,"sour_cream":0.85,"onion":0.82,"garlic":0.72,"dill":0.75,"cabbage":0.72,"carrot":0.68},"cookingMethods":{"boiling":0.95,"baking":0.9,"pickling":0.85,"frying":0.8}},{"id":"LV-VAL","name":"Valmiera","type":"City","continent":"Europe","countryCode":"LV","latitude":57.541,"longitude":25.427,"region":"Vidzeme","population":24200,"timeZone":"Europe/Riga","ingredients":{"barley":0.95,"pork":0.92,"potato":0.9,"rye_bread":0.82,"mushroom":0.88,"sour_cream":0.85,"onion":0.8,"dill":0.8,"berry":0.75,"carrot":0.7,"butter":0.68},"cookingMethods":{"boiling":0.95,"baking":0.9,"pickling":0.85,"frying":0.8}},{"id":"LV-VEN","name":"Ventspils","type":"City","continent":"Europe","countryCode":"LV","latitude":57.3894,"longitude":21.5606,"region":"Kurzeme","population":34000,"timeZone":"Europe/Riga","ingredients":{"herring":0.95,"fish":0.9,"rye_bread":0.9,"potato":0.9,"pork":0.82,"dill":0.85,"sour_cream":0.85,"onion":0.82,"carrot":0.75,"cabbage":0.72,"smoked_fish":0.7},"cookingMethods":{"pickling":0.95,"boiling":0.9,"baking":0.85,"frying":0.8}},{"id":"LV-OGR","name":"Ogre","type":"City","continent":"Europe","countryCode":"LV","latitude":56.8167,"longitude":24.6167,"region":"Vidzeme","population":23300,"timeZone":"Europe/Riga","ingredients":{"potato":0.95,"barley":0.9,"pork":0.9,"rye_bread":0.8,"mushroom":0.85,"sour_cream":0.85,"onion":0.82,"dill":0.78,"carrot":0.72,"cabbage":0.7,"fish":0.65},"cookingMethods":{"boiling":0.95,"baking":0.9,"pickling":0.85,"frying":0.8}},{"id":"LV-JKB","name":"Jēkabpils","type":"City","continent":"Europe","countryCode":"LV","latitude":56.4997,"longitude":25.8667,"region":"Latgale","population":22000,"timeZone":"Europe/Riga","ingredients":{"potato":0.95,"barley":0.9,"pork":0.88,"fish":0.78,"mushroom":0.85,"sour_cream":0.85,"onion":0.82,"rye_bread":0.8,"dill":0.78,"carrot":0.72,"cabbage":0.68},"cookingMethods":{"boiling":0.95,"baking":0.9,"pickling":0.85,"frying":0.8}}]
+[
+  {
+    "id": "LV-RIX",
+    "name": "Riga",
+    "type": "City",
+    "continent": "Europe",
+    "countryCode": "LV",
+    "latitude": 56.9496,
+    "longitude": 24.1052,
+    "region": "Riga",
+    "population": 614618,
+    "timeZone": "Europe/Riga",
+    "ingredients": {
+      "rye_bread": 0.95,
+      "potato": 0.95,
+      "pork": 0.9,
+      "dill": 0.9,
+      "sour_cream": 0.9,
+      "herring": 0.85,
+      "mushroom": 0.8,
+      "barley": 0.8,
+      "carrot": 0.8
+    },
+    "cookingMethods": {
+      "boiling": 0.95,
+      "baking": 0.9,
+      "pickling": 0.9,
+      "frying": 0.85
+    }
+  },
+  {
+    "id": "LV-DGV",
+    "name": "Daugavpils",
+    "type": "City",
+    "continent": "Europe",
+    "countryCode": "LV",
+    "latitude": 55.8744,
+    "longitude": 26.5356,
+    "region": "Latgale",
+    "population": 80300,
+    "timeZone": "Europe/Riga",
+    "ingredients": {
+      "potato": 0.97,
+      "pork": 0.92,
+      "sour_cream": 0.95,
+      "rye_bread": 0.82,
+      "barley": 0.78,
+      "mushroom": 0.85,
+      "onion": 0.82,
+      "garlic": 0.75,
+      "dill": 0.9,
+      "cabbage": 0.75,
+      "carrot": 0.7,
+      "river_fish": 0.85,
+      "fish": 0.85
+    },
+    "cookingMethods": {
+      "boiling": 0.95,
+      "baking": 0.9,
+      "pickling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LV-LPK",
+    "name": "Liepāja",
+    "type": "City",
+    "continent": "Europe",
+    "countryCode": "LV",
+    "latitude": 56.5047,
+    "longitude": 21.0108,
+    "region": "Kurzeme",
+    "population": 68700,
+    "timeZone": "Europe/Riga",
+    "ingredients": {
+      "herring": 0.97,
+      "fish": 0.88,
+      "rye_bread": 0.9,
+      "potato": 0.9,
+      "pork": 0.85,
+      "dill": 0.85,
+      "sour_cream": 0.82,
+      "onion": 0.8,
+      "carrot": 0.75,
+      "cabbage": 0.72,
+      "barley": 0.7
+    },
+    "cookingMethods": {
+      "pickling": 0.95,
+      "boiling": 0.9,
+      "baking": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LV-JEL",
+    "name": "Jelgava",
+    "type": "City",
+    "continent": "Europe",
+    "countryCode": "LV",
+    "latitude": 56.6527,
+    "longitude": 23.7211,
+    "region": "Zemgale",
+    "population": 55500,
+    "timeZone": "Europe/Riga",
+    "ingredients": {
+      "barley": 0.95,
+      "pork": 0.92,
+      "potato": 0.9,
+      "rye_bread": 0.82,
+      "sour_cream": 0.85,
+      "mushroom": 0.82,
+      "onion": 0.82,
+      "dill": 0.78,
+      "carrot": 0.72,
+      "cabbage": 0.7,
+      "butter": 0.68
+    },
+    "cookingMethods": {
+      "boiling": 0.95,
+      "baking": 0.9,
+      "pickling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LV-JUR",
+    "name": "Jūrmala",
+    "type": "City",
+    "continent": "Europe",
+    "countryCode": "LV",
+    "latitude": 56.968,
+    "longitude": 23.7706,
+    "region": "Riga",
+    "population": 49600,
+    "timeZone": "Europe/Riga",
+    "ingredients": {
+      "herring": 0.95,
+      "fish": 0.9,
+      "smoked_fish": 0.78,
+      "rye_bread": 0.92,
+      "potato": 0.9,
+      "dill": 0.88,
+      "sour_cream": 0.85,
+      "onion": 0.8,
+      "mushroom": 0.75,
+      "carrot": 0.72,
+      "cream": 0.68
+    },
+    "cookingMethods": {
+      "pickling": 0.95,
+      "boiling": 0.9,
+      "baking": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LV-REZ",
+    "name": "Rēzekne",
+    "type": "City",
+    "continent": "Europe",
+    "countryCode": "LV",
+    "latitude": 56.5097,
+    "longitude": 27.3331,
+    "region": "Latgale",
+    "population": 27000,
+    "timeZone": "Europe/Riga",
+    "ingredients": {
+      "potato": 0.95,
+      "barley": 0.95,
+      "pork": 0.9,
+      "rye_bread": 0.88,
+      "mushroom": 0.92,
+      "sour_cream": 0.82,
+      "onion": 0.82,
+      "garlic": 0.72,
+      "dill": 0.78,
+      "cabbage": 0.72,
+      "carrot": 0.68
+    },
+    "cookingMethods": {
+      "boiling": 0.95,
+      "baking": 0.9,
+      "pickling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LV-VAL",
+    "name": "Valmiera",
+    "type": "City",
+    "continent": "Europe",
+    "countryCode": "LV",
+    "latitude": 57.541,
+    "longitude": 25.427,
+    "region": "Vidzeme",
+    "population": 24200,
+    "timeZone": "Europe/Riga",
+    "ingredients": {
+      "barley": 0.95,
+      "pork": 0.92,
+      "potato": 0.9,
+      "rye_bread": 0.82,
+      "mushroom": 0.88,
+      "sour_cream": 0.85,
+      "onion": 0.8,
+      "dill": 0.8,
+      "berry": 0.75,
+      "carrot": 0.7,
+      "butter": 0.68
+    },
+    "cookingMethods": {
+      "boiling": 0.95,
+      "baking": 0.9,
+      "pickling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LV-VEN",
+    "name": "Ventspils",
+    "type": "City",
+    "continent": "Europe",
+    "countryCode": "LV",
+    "latitude": 57.3894,
+    "longitude": 21.5606,
+    "region": "Kurzeme",
+    "population": 34000,
+    "timeZone": "Europe/Riga",
+    "ingredients": {
+      "herring": 0.95,
+      "fish": 0.9,
+      "rye_bread": 0.9,
+      "potato": 0.9,
+      "pork": 0.82,
+      "dill": 0.85,
+      "sour_cream": 0.85,
+      "onion": 0.82,
+      "carrot": 0.75,
+      "cabbage": 0.72,
+      "smoked_fish": 0.7
+    },
+    "cookingMethods": {
+      "pickling": 0.95,
+      "boiling": 0.9,
+      "baking": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LV-OGR",
+    "name": "Ogre",
+    "type": "City",
+    "continent": "Europe",
+    "countryCode": "LV",
+    "latitude": 56.8167,
+    "longitude": 24.6167,
+    "region": "Vidzeme",
+    "population": 23300,
+    "timeZone": "Europe/Riga",
+    "ingredients": {
+      "potato": 0.95,
+      "barley": 0.85,
+      "pork": 0.9,
+      "rye_bread": 0.8,
+      "mushroom": 0.85,
+      "sour_cream": 0.85,
+      "onion": 0.82,
+      "dill": 0.78,
+      "carrot": 0.72,
+      "cabbage": 0.7,
+      "fish": 0.65,
+      "river_fish": 0.88,
+      "trout": 0.8,
+      "apple": 0.78
+    },
+    "cookingMethods": {
+      "boiling": 0.95,
+      "baking": 0.9,
+      "pickling": 0.85,
+      "frying": 0.8
+    }
+  },
+  {
+    "id": "LV-JKB",
+    "name": "Jēkabpils",
+    "type": "City",
+    "continent": "Europe",
+    "countryCode": "LV",
+    "latitude": 56.4997,
+    "longitude": 25.8667,
+    "region": "Latgale",
+    "population": 22000,
+    "timeZone": "Europe/Riga",
+    "ingredients": {
+      "potato": 0.95,
+      "barley": 0.88,
+      "pork": 0.88,
+      "fish": 0.9,
+      "mushroom": 0.8,
+      "sour_cream": 0.85,
+      "onion": 0.82,
+      "rye_bread": 0.8,
+      "dill": 0.78,
+      "carrot": 0.72,
+      "cabbage": 0.68,
+      "honey": 0.78
+    },
+    "cookingMethods": {
+      "boiling": 0.95,
+      "baking": 0.9,
+      "pickling": 0.85,
+      "frying": 0.8
+    }
+  }
+]

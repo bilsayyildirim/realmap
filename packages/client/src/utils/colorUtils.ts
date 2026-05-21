@@ -13,14 +13,17 @@ export interface ColorCalibration {
     v: { p02: number; p25?: number; p50?: number; p75?: number; p98: number };
     w: { p02: number; p25?: number; p50?: number; p75?: number; p98: number };
   };
-  // H: 512-point sorted angle CDF — histogram-equalized 2D UMAP angle
+  // H: 512-point sorted azimuth CDF — histogram-equalized 3D UMAP azimuth
   angle_percentiles?: number[];
-  // C: 512-point |wNorm| CDF — histogram-equalized PC3 magnitude
-  w_abs_percentiles?: number[];
-  // L: 512-point sqrt(uNorm²+vNorm²) CDF — histogram-equalized PCA(1,2) magnitude (v3+)
-  uv_magnitude_percentiles?: number[];
-  // Kept for backward compat / fallback only
+  // C: 512-point r_xy CDF — equalized 2D UMAP radius (v5, same space as H)
   radius_percentiles?: number[];
+  // L: 512-point z_n signed CDF — equalized z coordinate of 3D UMAP (v5)
+  z_percentiles?: number[];
+  // v4 fallback: C from |PC3|, L from |elevation|
+  w_abs_percentiles?: number[];
+  elevation_percentiles?: number[];
+  // v3 fallback: L from sqrt(uNorm²+vNorm²)
+  uv_magnitude_percentiles?: number[];
   w_percentiles?: number[];
   u_percentiles?: number[];
   v_percentiles?: number[];
@@ -304,24 +307,24 @@ export function getCityColor(
   const vNorm = normalizeRobust(v, cal.quantiles.v);
   const wNorm = normalizeRobust(w, cal.quantiles.w);
 
-  // 5. Map to OKLCH → sRGB
-  // Hue + Chroma: from 2D color UMAP (hue2d [x, y] in ~unit circle).
-  //   angle = atan2(y, x)+π → histogram-equalized → Hue
-  //   radius = sqrt(x²+y²) → Chroma
-  // Lightness: w axis from 12D PCA (computed above)
-  //
-  // hue2d is the primary source (features built with 2D color UMAP).
-  // Fallbacks: hueAngle (old 1D rank builds), then PCA atan2 (legacy).
-  // hue2d = [uNorm, vNorm] — deterministic PCA-normalized coordinates (no UMAP stochasticity).
-  // angle = atan2(vNorm, uNorm) + π → histogram-equalized → Hue
-  // radius = sqrt(uNorm² + vNorm²) → Chroma
-  const hue2d = (place as any).hue2d as [number, number] | undefined;
+  // 5. Map to OKLCH → sRGB (v5: OKLab-coherent mapping)
+  // hue2d = [x, y, z] — 3D color UMAP coordinates (unit-sphere normalized).
+  //   H = equalized azimuth = atan2(y, x)+π
+  //   C = equalized r_xy = sqrt(x²+y²)  ← SAME space as H, so OKLab a=C·cos(H)∝x, b=C·sin(H)∝y
+  //   L = equalized z                   ← signed, full [0.54,0.82] range
+  // OKLab ΔE = sqrt(ΔL²+Δa²+Δb²) ∝ UMAP distance ∝ culinary distance (r≈0.995).
+  const hue2d = (place as any).hue2d as number[] | undefined;
   const precomputedHueAngle = (place as any).hueAngle as number | undefined;
 
   let rawHueAngle: number;
 
-  if (hue2d !== undefined && hue2d.length === 2) {
-    rawHueAngle = Math.atan2(hue2d[1]!, hue2d[0]!) + Math.PI; // [0, 2π]
+  if (hue2d !== undefined && hue2d.length >= 2) {
+    const hx = hue2d[0]!;
+    const hy = hue2d[1]!;
+    // H: pure azimuth — longitude of the 3D color UMAP cloud.
+    // Elevation is NOT mixed in (that caused collisions: two cities at different 3D
+    // positions could produce identical azimuth+elevation sums → identical hues).
+    rawHueAngle = Math.atan2(hy, hx) + Math.PI;
   } else {
     rawHueAngle = precomputedHueAngle !== undefined
       ? precomputedHueAngle
@@ -342,26 +345,37 @@ export function getCityColor(
     H = (rawHueAngle * 180 / Math.PI) % 360;
   }
 
-  // C: |PC3| of 12D structural embedding — independent of 2D UMAP layout.
-  // NOT from 2D UMAP radius: tight clusters (all Japanese cities) collapse to the UMAP
-  // center at radius≈0.04, making them near-gray even though Japanese cuisine is highly
-  // distinctive. PC3 is orthogonal to the hue plane (u,v) and captures a real culinary
-  // dimension — Japanese/Korean cities score high here (fermentation, umami, etc.).
-  const chromaRank = cal.w_abs_percentiles && cal.w_abs_percentiles.length > 1
-    ? equalizeSignedAxis(Math.abs(wNorm), cal.w_abs_percentiles)
-    : Math.abs(wNorm);
-  C = clamp(0.14 + 0.29 * chromaRank, 0.14, 0.43);
+  const hx_c = hue2d !== undefined && hue2d.length >= 2 ? (hue2d[0] ?? 0) : uNorm;
+  const hy_c = hue2d !== undefined && hue2d.length >= 2 ? (hue2d[1] ?? 0) : vNorm;
+  const hz_c = hue2d !== undefined && hue2d.length >= 3 ? (hue2d[2] ?? 0) : 0;
 
-  // L: magnitude in (PC1, PC2) plane of 12D structural embedding.
-  // sqrt(uNorm² + vNorm²) measures how far the city is from the global culinary mean
-  // along the two dominant axes — distinctive cuisines (Japan, Ethiopia, Mexico) score
-  // high → bright; mid-road cuisines score low → darker. Orthogonal to the H angle.
-  const uvMagnitude = Math.sqrt(uNorm * uNorm + vNorm * vNorm);
-  if (cal.uv_magnitude_percentiles && cal.uv_magnitude_percentiles.length > 1) {
-    L = clamp(0.54 + 0.28 * equalizeRadius(uvMagnitude, cal.uv_magnitude_percentiles), 0.54, 0.82);
+  // C: v5 = r_xy (2D UMAP radius, same space as H) → OKLab a=C·cos(H), b=C·sin(H)
+  //    are proportional to (x,y) UMAP coords → OKLab ΔE ∝ culinary distance.
+  //    v4 fallback = |PC3| (12D PCA, separate space).
+  if (cal.radius_percentiles && cal.radius_percentiles.length > 1) {
+    const r_xy = Math.sqrt(hx_c * hx_c + hy_c * hy_c);
+    const chromaRank = equalizeRadius(r_xy, cal.radius_percentiles);
+    C = clamp(0.10 + 0.36 * chromaRank, 0.10, 0.46);
+  } else if (cal.w_abs_percentiles && cal.w_abs_percentiles.length > 1) {
+    const chromaRank = equalizeSignedAxis(Math.abs(wNorm), cal.w_abs_percentiles);
+    C = clamp(0.10 + 0.36 * chromaRank, 0.10, 0.46);
   } else {
-    // Linear fallback: most cities have uvMagnitude in [0, 1.2]. Normalize by p90 ≈ 1.1.
-    L = clamp(0.54 + 0.28 * Math.min(uvMagnitude / 1.1, 1.0), 0.54, 0.82);
+    C = clamp(0.10 + 0.36 * Math.abs(wNorm), 0.10, 0.46);
+  }
+
+  // L: gentle gamma 0.75 lifts midtones (most cities brighter) without lifting
+  // the floor — very dark cuisines stay honestly dark. Ceiling raised 0.88→0.90.
+  if (cal.z_percentiles && cal.z_percentiles.length > 1) {
+    L = clamp(0.45 + 0.45 * Math.pow(equalizeSignedAxis(hz_c, cal.z_percentiles), 0.55), 0.45, 0.90);
+  } else if (cal.elevation_percentiles && cal.elevation_percentiles.length > 1) {
+    const elevation = Math.atan2(hz_c, Math.sqrt(hx_c * hx_c + hy_c * hy_c));
+    L = clamp(0.45 + 0.45 * Math.pow(equalizeRadius(Math.abs(elevation), cal.elevation_percentiles), 0.55), 0.45, 0.90);
+  } else if (cal.uv_magnitude_percentiles && cal.uv_magnitude_percentiles.length > 1) {
+    const uvMagnitude = Math.sqrt(uNorm * uNorm + vNorm * vNorm);
+    L = clamp(0.45 + 0.45 * Math.pow(equalizeRadius(uvMagnitude, cal.uv_magnitude_percentiles), 0.55), 0.45, 0.90);
+  } else {
+    const elevation = Math.atan2(hz_c, Math.sqrt(hx_c * hx_c + hy_c * hy_c));
+    L = clamp(0.45 + 0.45 * Math.pow(Math.min(Math.abs(elevation) / (Math.PI / 2), 1.0), 0.55), 0.45, 0.90);
   }
 
   const color = oklchInGamut(L, C, H);
