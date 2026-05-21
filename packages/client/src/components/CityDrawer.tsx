@@ -37,6 +37,75 @@ function distToScore(dist: number): number {
   return Math.max(3, Math.min(99, Math.round((1 - dist / 35) * 100)));
 }
 
+// ── Flavor profile axes ──────────────────────────────────────────────────────
+// Six perceptual dimensions humans actually understand. Each axis aggregates
+// related ingredients into a 0–1 score: max single ingredient × 0.65 + sum × 0.07,
+// so one strong marker ≈ 0.65 and two strong markers ≈ 1.0.
+const FLAVOR_AXES: { key: string; label: string; icon: string; keys: string[] }[] = [
+  { key: 'heat',    label: 'Heat',    icon: '🌶',
+    keys: ['chili_pepper','paprika','black_pepper','pepper','chili_ancho','chili_guajillo','chili_pastor','aleppo_pepper','cayenne','peperoncino','berbere','harissa'] },
+  { key: 'fat',     label: 'Fat',     icon: '🧈',
+    keys: ['olive_oil','butter','lard','ghee','palm_oil','sunflower_oil','coconut_oil','cream','sesame_oil','mustard_oil','tahini'] },
+  { key: 'sour',    label: 'Sour',    icon: '🍋',
+    keys: ['lemon','lime','vinegar','tamarind','pomegranate','sumac','barberry','sour_orange','pomegranate_molasses'] },
+  { key: 'ferment', label: 'Ferment', icon: '🧫',
+    keys: ['yogurt','cheese','soy_sauce','miso','kimchi','wine','beer','sauerkraut','fermented_fish','kefir','tofu','feta'] },
+  { key: 'sea',     label: 'Sea',     icon: '🌊',
+    keys: ['fish','shellfish','sea_urchin','shrimp','crab','smoked_fish','cod','salmon','herring','anchovy','mussel','octopus','squid','lobster','dried_fish','freshwater_fish','sardine','tuna','oyster'] },
+  { key: 'meat',    label: 'Meat',    icon: '🥩',
+    keys: ['beef','lamb','pork','chicken','goat_meat','game_meat','venison','horse_meat','duck','reindeer_meat','camel_meat','smoked_meat','sausage'] },
+];
+
+function axisScore(ings: Record<string, number>, keys: string[]): number {
+  const present = keys.map(k => ings[k] ?? 0).filter(v => v > 0);
+  if (present.length === 0) return 0;
+  const max = Math.max(...present);
+  const sum = present.reduce((a, b) => a + b, 0);
+  return Math.min(1, max * 0.65 + sum * 0.07);
+}
+
+// ── Cultural tags (auto-inferred chips) ──────────────────────────────────────
+function cultureTags(ings: Record<string, number>, axes: Record<string, number>):
+  { icon: string; label: string }[]
+{
+  const tags: { icon: string; label: string }[] = [];
+  const g = (k: string) => ings[k] ?? 0;
+
+  if (axes.sea > 0.7)                                    tags.push({ icon: '🐟', label: 'Seafood-heavy' });
+  if (axes.meat > 0.75)                                  tags.push({ icon: '🥩', label: 'Meat-forward' });
+  if (axes.heat > 0.7)                                   tags.push({ icon: '🌶️', label: 'Spicy' });
+  if (axes.ferment > 0.75)                               tags.push({ icon: '🧫', label: 'Fermented-rich' });
+  if (g('wine') > 0.7)                                   tags.push({ icon: '🍷', label: 'Wine country' });
+  if (g('tea') > 0.7)                                    tags.push({ icon: '🍵', label: 'Tea culture' });
+  if (g('olive_oil') > 0.92)                             tags.push({ icon: '🫒', label: 'Olive-oil culture' });
+  if (g('pork') < 0.05 && (g('lamb') + g('goat_meat')) > 0.7) tags.push({ icon: '🌙', label: 'No pork' });
+  if ((g('coconut') + g('plantain') + g('banana')) > 1.5) tags.push({ icon: '🌴', label: 'Tropical' });
+  if ((g('yogurt') + g('cheese') + g('butter')) > 2.0)   tags.push({ icon: '🧀', label: 'Dairy-rich' });
+  if (g('date') > 0.5 || (g('lamb') + g('camel_meat')) > 1.3) {
+    // already handled by 'No pork' for Muslim regions; this is desert/Bedouin
+  }
+
+  // Dominant staple
+  const staples: [string, string, string][] = [
+    ['rice', '🍚', 'Rice staple'],
+    ['wheat', '🌾', 'Wheat staple'],
+    ['corn', '🌽', 'Corn staple'],
+    ['millet', '🌾', 'Millet staple'],
+    ['sorghum', '🌾', 'Sorghum staple'],
+    ['potato', '🥔', 'Potato staple'],
+    ['cassava', '🥔', 'Cassava staple'],
+  ];
+  const stapleScores = staples.map(([k]) => g(k));
+  const top = Math.max(...stapleScores);
+  if (top > 0.85) {
+    const i = stapleScores.indexOf(top);
+    const [, icon, label] = staples[i]!;
+    tags.push({ icon, label });
+  }
+
+  return tags.slice(0, 5);
+}
+
 export const CityDrawer = ({ cityId, onClose }: Props) => {
   const { places } = usePlaces();
 
@@ -55,7 +124,7 @@ export const CityDrawer = ({ cityId, onClose }: Props) => {
     const cityColor = emb ? getCityColor(city as any) : '#888';
 
     const topIngredients = ingredients
-      ? Object.entries(ingredients).sort((a, b) => b[1] - a[1]).slice(0, 8)
+      ? Object.entries(ingredients).sort((a, b) => b[1] - a[1]).slice(0, 6)
       : [];
 
     const topMethods = cookingMethods
@@ -64,9 +133,8 @@ export const CityDrawer = ({ cityId, onClose }: Props) => {
 
     const cityCC = (city as any).countryCode ?? '';
 
-    // Similar cities: nearest by Euclidean distance in embedding space, excluding same country.
-    // Cross-country comparison is more interesting than listing same-country variants.
-    const similarCities = !emb ? [] : places
+    // Cross-country distances: similar (nearest) + opposite (furthest), excluding same country.
+    const crossCountry = !emb ? [] : places
       .filter((p) => p.name !== city.name && (p as any).countryCode !== cityCC)
       .flatMap((p) => {
         const pe = Array.isArray((p as any).embedding) ? (p as any).embedding as number[] : null;
@@ -74,8 +142,15 @@ export const CityDrawer = ({ cityId, onClose }: Props) => {
         const dist = euclidean(emb, pe);
         return [{ place: p, dist, similarity: distToScore(dist) }];
       })
-      .sort((a, b) => a.dist - b.dist)
-      .slice(0, 7);
+      .sort((a, b) => a.dist - b.dist);
+    const similarCities = crossCountry.slice(0, 5);
+    const oppositeCity = crossCountry.length ? crossCountry[crossCountry.length - 1] : null;
+
+    // Flavor profile + cultural tags (the visual upgrade)
+    const ingsRec = ingredients ?? {};
+    const flavorScores: Record<string, number> = {};
+    for (const a of FLAVOR_AXES) flavorScores[a.key] = axisScore(ingsRec, a.keys);
+    const tags = cultureTags(ingsRec, flavorScores);
 
     // What defines this city: ingredients significantly above the neighbor average
     const neighborAvg: Record<string, number> = {};
@@ -94,7 +169,7 @@ export const CityDrawer = ({ cityId, onClose }: Props) => {
       .sort((a, b) => b.diff - a.diff)
       .slice(0, 5);
 
-    return { cityColor, topIngredients, topMethods, similarCities, uniqueIngredients };
+    return { cityColor, topIngredients, topMethods, similarCities, oppositeCity, uniqueIngredients, flavorScores, tags };
   }, [city, places]);
 
   const open = !!city && !!data;
@@ -188,7 +263,63 @@ export const CityDrawer = ({ cityId, onClose }: Props) => {
             {continent ? ` · ${continent}` : ''}
             {pop ? ` · ${Number(pop).toLocaleString()} people` : ''}
           </Typography>
+
+          {/* Cultural tags — auto-inferred at-a-glance chips */}
+          {(data?.tags.length ?? 0) > 0 && (
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, mt: 1.2 }}>
+              {data!.tags.map((t) => (
+                <Box
+                  key={t.label}
+                  sx={{
+                    display: 'inline-flex', alignItems: 'center', gap: 0.4,
+                    px: 0.9, py: 0.3, borderRadius: '999px',
+                    bgcolor: `${cityColor}22`,
+                    border: `1px solid ${cityColor}33`,
+                    fontSize: 10.5, color: '#ddd',
+                    fontFeatureSettings: '"tnum"',
+                  }}
+                >
+                  <span style={{ fontSize: 11 }}>{t.icon}</span>
+                  <span>{t.label}</span>
+                </Box>
+              ))}
+            </Box>
+          )}
         </Box>
+
+        {/* ── Flavor Profile — 6-axis personality ── */}
+        {data?.flavorScores && (
+          <>
+            <Divider sx={{ borderColor: '#1e1e30' }} />
+            <Box sx={{ px: 2, py: 1.5 }}>
+              <Typography sx={{ fontSize: 10, textTransform: 'uppercase', letterSpacing: 1, color: '#555', mb: 1 }}>
+                Flavor profile
+              </Typography>
+              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', columnGap: 1.5, rowGap: 0.7 }}>
+                {FLAVOR_AXES.map((axis) => {
+                  const score = data.flavorScores[axis.key] ?? 0;
+                  const pct = Math.round(score * 100);
+                  return (
+                    <Box key={axis.key}>
+                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5, mb: '2px' }}>
+                        <Typography sx={{ fontSize: 11, lineHeight: 1 }}>{axis.icon}</Typography>
+                        <Typography sx={{ fontSize: 11, color: '#aaa', flex: 1 }}>
+                          {axis.label}
+                        </Typography>
+                        <Typography sx={{ fontSize: 10, color: '#555' }}>
+                          {pct}
+                        </Typography>
+                      </Box>
+                      <Box sx={{ bgcolor: '#1e1e30', borderRadius: 1, height: 3, overflow: 'hidden' }}>
+                        <Box sx={{ bgcolor: cityColor, height: 3, width: `${pct}%`, borderRadius: 1, transition: 'width 0.6s ease' }} />
+                      </Box>
+                    </Box>
+                  );
+                })}
+              </Box>
+            </Box>
+          </>
+        )}
 
         {/* ── Signature Ingredients ── */}
         {(data?.topIngredients.length ?? 0) > 0 && (
@@ -309,6 +440,32 @@ export const CityDrawer = ({ cityId, onClose }: Props) => {
                   </Box>
                 );
               })}
+
+              {/* Culinary opposite — the antipode */}
+              {data?.oppositeCity && (() => {
+                const p = data.oppositeCity.place;
+                const pcc = (p as any).countryCode ?? '';
+                const col = getCityColor(p as any);
+                const pFlag = countryFlag(pcc);
+                const pCountry = Country.getCountryByCode(pcc)?.name ?? pcc;
+                return (
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 1.5, pt: 1.2, borderTop: '1px dashed #2a2a3e' }}>
+                    <Box sx={{ fontSize: 10, color: '#555', minWidth: 38 }}>opposite</Box>
+                    <Box sx={{
+                      width: 9, height: 9, borderRadius: '50%', bgcolor: col,
+                      boxShadow: `0 0 6px ${col}99`, flexShrink: 0,
+                    }} />
+                    <Box sx={{ flex: 1, minWidth: 0 }}>
+                      <Typography component="span" sx={{ fontSize: 12, fontWeight: 500, color: '#ddd' }}>
+                        {p.name}
+                      </Typography>
+                      <Typography component="span" sx={{ fontSize: 11, color: '#555', ml: 0.8 }}>
+                        {pFlag} {pCountry}
+                      </Typography>
+                    </Box>
+                  </Box>
+                );
+              })()}
             </Box>
           </>
         )}
