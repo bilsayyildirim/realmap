@@ -14,6 +14,7 @@ import { Place } from '@realmap/shared';
 import { geoVoronoi } from 'd3-geo-voronoi';
 import { getCityColor } from './colorUtils';
 import { createBlurredHeatmapFeatures } from './heatmapUtils';
+import { dataUrl } from './dataUrl';
 
 // ---------------------------------------------------------------------------------
 // Constants & module‑level caches
@@ -229,7 +230,8 @@ export async function initHexLayer(map: maplibregl.Map): Promise<void> {
   await Promise.all(
     Array.from({ length: HEX_CHUNKS }, async (_, i) => {
       try {
-        const res = await fetch(`/data/hex_grid_${i}.json`);
+        const url = await dataUrl(`/data/hex_grid_${i}.json`);
+        const res = await fetch(url, { cache: 'no-store' });
         if (!res.ok) return;
         const geojson = await res.json();
         if (map.getSource(`hex-source-${i}`)) return;

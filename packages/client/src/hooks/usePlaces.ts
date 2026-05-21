@@ -1,5 +1,6 @@
 import { Place } from '@realmap/shared';
 import { useEffect, useState } from 'react';
+import { dataUrl } from '../utils/dataUrl';
 
 function cleanRecord<T extends Record<string, any>>(
   obj?: T,
@@ -33,8 +34,9 @@ async function fetchPlacesOnce(): Promise<Place[]> {
   if (placesCache) return placesCache;
   const candidates = ['/data/features.json', '/src/data/features.json'];
   let arr: any[] | null = null;
-  for (const url of candidates) {
+  for (const path of candidates) {
     try {
+      const url = await dataUrl(path);
       const res = await fetch(url, { cache: 'no-store' });
       if (!res.ok) continue;
       const parsed = await res.json();
