@@ -1,5 +1,6 @@
-import PublicIcon from '@mui/icons-material/Public';
-import { IconButton } from '@mui/material';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import CloseIcon from '@mui/icons-material/Close';
+import { Box, Dialog, IconButton, Typography } from '@mui/material';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { useEffect, useRef, useState } from 'react';
@@ -22,6 +23,7 @@ export const Map = ({ center, zoom }: MapProps) => {
   const [showPlaces, setShowPlaces] = useState(false);
   const [hexReady, setHexReady] = useState(false);
   const [selectedCityId, setSelectedCityId] = useState<string | null>(null);
+  const [helpOpen, setHelpOpen] = useState(false);
 
   useEffect(() => {
     if (!mapContainer.current) return;
@@ -32,6 +34,7 @@ export const Map = ({ center, zoom }: MapProps) => {
         style: STYLE_URL,
         center,
         zoom,
+        attributionControl: false,
       });
 
       map.current.on('load', () => {
@@ -81,9 +84,9 @@ export const Map = ({ center, zoom }: MapProps) => {
           <SearchBar map={map.current} onCitySelect={setSelectedCityId} />
 
           <IconButton
-            onClick={() => map.current?.flyTo({ center: [0, 20], zoom: 1.5, duration: 1400, essential: true })}
+            onClick={() => setHelpOpen(true)}
             size="small"
-            title="Reset view"
+            title="What is this?"
             sx={{
               position: 'fixed', bottom: 24, right: 12,
               bgcolor: 'rgba(10,10,22,0.82)', backdropFilter: 'blur(12px)',
@@ -92,10 +95,73 @@ export const Map = ({ center, zoom }: MapProps) => {
               '&:hover': { bgcolor: 'rgba(20,20,40,0.92)', color: 'white' },
             }}
           >
-            <PublicIcon fontSize="small" />
+            <HelpOutlineIcon fontSize="small" />
           </IconButton>
         </>
       )}
+
+      <Dialog
+        open={helpOpen}
+        onClose={() => setHelpOpen(false)}
+        maxWidth="xs"
+        fullWidth
+        PaperProps={{
+          sx: {
+            bgcolor: 'rgba(18,18,30,0.98)',
+            backdropFilter: 'blur(24px)',
+            border: '1px solid rgba(255,255,255,0.10)',
+            color: '#eee',
+            borderRadius: 3,
+            boxShadow: '0 20px 60px rgba(0,0,0,0.6)',
+          },
+        }}
+      >
+        <Box sx={{ position: 'relative', px: 3, pt: 2.5, pb: 2.5 }}>
+          <IconButton
+            onClick={() => setHelpOpen(false)}
+            size="small"
+            sx={{ position: 'absolute', top: 8, right: 8, color: '#666', '&:hover': { color: '#eee' } }}
+          >
+            <CloseIcon fontSize="small" />
+          </IconButton>
+
+          <Typography sx={{ fontSize: 16, fontWeight: 600, color: '#fff', mb: 1.5 }}>
+            What is this?
+          </Typography>
+
+          <Typography sx={{ fontSize: 13, color: '#ccc', lineHeight: 1.55, mb: 2 }}>
+            A map of how the world eats. Each city's color reflects what people actually cook
+            and eat there — same colors mean similar cuisines. Cities cluster by genuine
+            culinary kinship, not by country borders or politics. The map paints itself
+            from food data alone.
+          </Typography>
+
+          <Typography sx={{ fontSize: 10, textTransform: 'uppercase', letterSpacing: 1, color: '#666', mb: 0.8 }}>
+            Method
+          </Typography>
+          <Box component="ul" sx={{ pl: 2, m: 0, '& li': { fontSize: 12, color: '#aaa', lineHeight: 1.7 } }}>
+            <li>
+              <strong style={{ color: '#ddd' }}>364-D city vectors</strong> — ingredient & cooking-method scores per city
+            </li>
+            <li>
+              <strong style={{ color: '#ddd' }}>KernelPCA (cosine)</strong> — distance-preserving projection to 3D
+            </li>
+            <li>
+              <strong style={{ color: '#ddd' }}>OKLCH</strong> — perceptually uniform color mapping
+            </li>
+            <li>
+              <strong style={{ color: '#ddd' }}>H3 resolution 4</strong> — hexagonal grid (~22 km cells)
+            </li>
+            <li>
+              <strong style={{ color: '#ddd' }}>Gaussian blend σ=50 km</strong> — smooth local gradients
+            </li>
+          </Box>
+
+          <Typography sx={{ fontSize: 10, color: '#444', mt: 2.2, lineHeight: 1.5 }}>
+            Map: © CARTO, © OpenStreetMap contributors.
+          </Typography>
+        </Box>
+      </Dialog>
 
       <CityDrawer cityId={selectedCityId} onClose={() => setSelectedCityId(null)} />
     </>
