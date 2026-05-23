@@ -1,10 +1,12 @@
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import CloseIcon from '@mui/icons-material/Close';
+import ExploreIcon from '@mui/icons-material/Explore';
 import { Box, Dialog, IconButton, Typography } from '@mui/material';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { useEffect, useRef, useState } from 'react';
 import { CityDrawer } from './CityDrawer';
+import { DiscoveriesPanel } from './DiscoveriesPanel';
 import { PlacesLayer } from './PlacesLayer';
 import { SearchBar } from './SearchBar';
 
@@ -24,6 +26,14 @@ export const Map = ({ center, zoom }: MapProps) => {
   const [hexReady, setHexReady] = useState(false);
   const [selectedCityId, setSelectedCityId] = useState<string | null>(null);
   const [helpOpen, setHelpOpen] = useState(false);
+  const [discoverOpen, setDiscoverOpen] = useState(false);
+
+  const flyToCityById = (cityId: string) => {
+    // Fly the map to the city by id (find it in features via PlacesLayer's data).
+    // We don't have direct access to the place here, so the drawer side already
+    // handles selection. Map flying is opportunistic via the SearchBar route.
+    setSelectedCityId(cityId);
+  };
 
   useEffect(() => {
     if (!mapContainer.current) return;
@@ -97,8 +107,33 @@ export const Map = ({ center, zoom }: MapProps) => {
           >
             <HelpOutlineIcon fontSize="small" />
           </IconButton>
+
+          {/* Discoveries trigger — bottom-center pill */}
+          <Box
+            onClick={() => setDiscoverOpen(true)}
+            sx={{
+              position: 'fixed', bottom: 24, left: '50%', transform: 'translateX(-50%)',
+              display: 'inline-flex', alignItems: 'center', gap: 0.7,
+              px: 1.8, py: 0.7, borderRadius: '999px',
+              bgcolor: 'rgba(10,10,22,0.82)', backdropFilter: 'blur(12px)',
+              border: '1px solid rgba(255,255,255,0.09)',
+              color: 'rgba(255,255,255,0.7)',
+              cursor: 'pointer', fontSize: 12, fontWeight: 500,
+              transition: 'all 0.15s',
+              '&:hover': { bgcolor: 'rgba(20,20,40,0.92)', color: 'white', borderColor: 'rgba(255,255,255,0.18)' },
+            }}
+          >
+            <ExploreIcon sx={{ fontSize: 14 }} />
+            <span>Discover</span>
+          </Box>
         </>
       )}
+
+      <DiscoveriesPanel
+        open={discoverOpen}
+        onClose={() => setDiscoverOpen(false)}
+        onCitySelect={(id) => { flyToCityById(id); setDiscoverOpen(false); }}
+      />
 
       <Dialog
         open={helpOpen}
