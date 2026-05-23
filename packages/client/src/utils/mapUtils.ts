@@ -15,6 +15,7 @@ import { geoVoronoi } from 'd3-geo-voronoi';
 import { getCityColor } from './colorUtils';
 import { createBlurredHeatmapFeatures } from './heatmapUtils';
 import { dataUrl } from './dataUrl';
+import type { RegionTag } from './regionTags';
 
 // ---------------------------------------------------------------------------------
 // Constants & module‑level caches
@@ -449,4 +450,83 @@ export async function updateHeatmapSource(
       features: heatmapFeatures,
     });
   }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Region tag layer — one defining ingredient/cooking-method label per country,
+// sized by score, fading out at city zoom. Renders ABOVE hex grid, BELOW city
+// dots.  Source data is computed once on the client from features.json.
+// ─────────────────────────────────────────────────────────────────────────────
+
+let tagInitialized = false;
+
+export function initTagLayer(map: maplibregl.Map): void {
+  if (tagInitialized) return;
+  try {
+    if (map.getSource('region-tags')) return;
+  } catch { return; }
+  tagInitialized = true;
+
+  map.addSource('region-tags', {
+    type: 'geojson',
+    data: { type: 'FeatureCollection', features: [] },
+  });
+
+  // Place tags above hex grid but below places (city dots).
+  const beforeId = map.getLayer('places') ? 'places' : undefined;
+
+  map.addLayer(
+    {
+      id: 'region-tags',
+      type: 'symbol',
+      source: 'region-tags',
+      layout: {
+        'text-field': ['get', 'label'],
+        // size scales with score AND zoom; hidden at high zoom where city dots take over
+        'text-size': [
+          'interpolate', ['linear'], ['zoom'],
+          1, ['*', ['get', 'score'], 14],
+          3, ['*', ['get', 'score'], 28],
+          5, ['*', ['get', 'score'], 20],
+          7, 0,
+        ],
+        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+        'text-letter-spacing': 0.08,
+        'text-transform': 'uppercase',
+        'text-allow-overlap': false,
+        'text-ignore-placement': false,
+        'text-padding': 4,
+      },
+      paint: {
+        'text-color': '#ffffff',
+        'text-halo-color': 'rgba(0,0,0,0.85)',
+        'text-halo-width': 1.6,
+        'text-halo-blur': 0.4,
+        'text-opacity': [
+          'interpolate', ['linear'], ['zoom'],
+          0, 0.5,
+          2, 0.92,
+          4, 0.95,
+          6, 0.4,
+          6.8, 0,
+        ],
+      },
+    },
+    beforeId,
+  );
+}
+
+export function updateTagSource(map: maplibregl.Map, tags: RegionTag[]): void {
+  const src = map.getSource('region-tags') as maplibregl.GeoJSONSource | undefined;
+  if (!src) return;
+  const features = tags.map((t) => ({
+    type: 'Feature' as const,
+    geometry: { type: 'Point' as const, coordinates: [t.lng, t.lat] },
+    properties: {
+      label: t.label.replace(/_/g, ' '),
+      score: t.score,
+      kind: t.kind,
+    },
+  }));
+  src.setData({ type: 'FeatureCollection', features });
 }

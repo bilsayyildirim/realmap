@@ -6,12 +6,15 @@ import {
   createPlaceFeature,
   initHexLayer,
   initializeMapLayers,
+  initTagLayer,
   initVoronoiLayer,
   updateGlowSource,
   updateHeatmapSource,
   updateMapSource,
+  updateTagSource,
   updateVoronoiSource,
 } from '../utils/mapUtils';
+import { computeRegionTags } from '../utils/regionTags';
 
 interface PlacesLayerProps {
   map: maplibregl.Map;
@@ -40,6 +43,7 @@ export const PlacesLayer = ({
       try {
         initializeMapLayers(map);
         initVoronoiLayer(map);
+        initTagLayer(map);
         void initHexLayer(map).then(() => onHexReady?.());
 
         map.on('click', 'places', (e: maplibregl.MapLayerMouseEvent) => {
@@ -80,6 +84,7 @@ export const PlacesLayer = ({
       await updateMapSource(map, 'places', features);
       updateGlowSource(map, features);
       updateVoronoiSource(map, features);
+      updateTagSource(map, computeRegionTags(places));
       if (places) await updateHeatmapSource(map, places);
     };
 
