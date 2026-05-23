@@ -1,10 +1,18 @@
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import CloseIcon from '@mui/icons-material/Close';
-import { Box, Dialog, IconButton, Typography } from '@mui/material';
+import TuneIcon from '@mui/icons-material/Tune';
+import { Box, Button, Dialog, IconButton, Typography } from '@mui/material';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { usePlaces } from '../hooks/usePlaces';
+import {
+  computeItemCatalog,
+  computeItemThresholds,
+  placeMatches,
+} from '../utils/filterUtils';
 import { CityDrawer } from './CityDrawer';
+import { DiscoverDrawer } from './DiscoverDrawer';
 import { PlacesLayer } from './PlacesLayer';
 import { SearchBar } from './SearchBar';
 
@@ -24,6 +32,20 @@ export const Map = ({ center, zoom }: MapProps) => {
   const [hexReady, setHexReady] = useState(false);
   const [selectedCityId, setSelectedCityId] = useState<string | null>(null);
   const [helpOpen, setHelpOpen] = useState(false);
+
+  const [discoverOpen, setDiscoverOpen] = useState(false);
+  const [selectedItems, setSelectedItems] = useState<Set<string>>(new Set());
+
+  const { places } = usePlaces();
+
+  const catalog = useMemo(() => computeItemCatalog(places ?? []), [places]);
+  const thresholds = useMemo(() => computeItemThresholds(places ?? []), [places]);
+  const matchCount = useMemo(() => {
+    if (!places || selectedItems.size === 0) return 0;
+    let n = 0;
+    for (const p of places) if (placeMatches(p, selectedItems, thresholds)) n++;
+    return n;
+  }, [places, selectedItems, thresholds]);
 
   useEffect(() => {
     if (!mapContainer.current) return;
@@ -61,6 +83,15 @@ export const Map = ({ center, zoom }: MapProps) => {
     };
   }, [center, zoom]);
 
+  const toggleItem = (key: string) => {
+    setSelectedItems((prev) => (prev.has(key) ? new Set() : new Set([key])));
+  };
+
+  const handleDiscoverClose = () => {
+    setDiscoverOpen(false);
+    setSelectedItems(new Set());
+  };
+
   return (
     <>
       <div ref={mapContainer} style={{ width: '100%', height: '100%' }} />
@@ -80,8 +111,39 @@ export const Map = ({ center, zoom }: MapProps) => {
 
       {showPlaces && map.current && (
         <>
-          <PlacesLayer map={map.current} onCitySelect={setSelectedCityId} onHexReady={() => setHexReady(true)} />
+          <PlacesLayer
+            map={map.current}
+            onCitySelect={setSelectedCityId}
+            onHexReady={() => setHexReady(true)}
+            discoverOpen={discoverOpen}
+            selectedItems={selectedItems}
+            thresholds={thresholds}
+          />
           <SearchBar map={map.current} onCitySelect={setSelectedCityId} />
+
+          {/* Discover button (bottom-center) */}
+          <Button
+            onClick={() => setDiscoverOpen(true)}
+            startIcon={<TuneIcon fontSize="small" />}
+            sx={{
+              position: 'fixed', bottom: 22, left: '50%', transform: 'translateX(-50%)',
+              bgcolor: 'rgba(10,10,22,0.82)',
+              backdropFilter: 'blur(12px)',
+              border: '1px solid rgba(255,255,255,0.09)',
+              color: 'rgba(255,255,255,0.85)',
+              textTransform: 'none',
+              fontSize: 13,
+              fontWeight: 500,
+              letterSpacing: 0.3,
+              borderRadius: 999,
+              px: 2.2, py: 0.7,
+              minWidth: 0,
+              '&:hover': { bgcolor: 'rgba(20,20,40,0.92)', color: 'white' },
+              display: discoverOpen ? 'none' : 'inline-flex',
+            }}
+          >
+            Discover
+          </Button>
 
           <IconButton
             onClick={() => setHelpOpen(true)}
@@ -98,6 +160,15 @@ export const Map = ({ center, zoom }: MapProps) => {
             <HelpOutlineIcon fontSize="small" />
           </IconButton>
 
+          <DiscoverDrawer
+            open={discoverOpen}
+            onClose={handleDiscoverClose}
+            catalog={catalog}
+            selected={selectedItems}
+            onToggle={toggleItem}
+            onClear={() => setSelectedItems(new Set())}
+            matchCount={matchCount}
+          />
         </>
       )}
 

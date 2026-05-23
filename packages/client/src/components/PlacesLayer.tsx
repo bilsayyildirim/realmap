@@ -8,24 +8,31 @@ import {
   initializeMapLayers,
   initTagLayer,
   initVoronoiLayer,
+  setTagsVisible,
   updateGlowSource,
   updateHeatmapSource,
   updateMapSource,
   updateTagSource,
   updateVoronoiSource,
 } from '../utils/mapUtils';
-import { computeRegionTags } from '../utils/regionTags';
+import { computeRegionTags, computeSelectedTags } from '../utils/regionTags';
 
 interface PlacesLayerProps {
   map: maplibregl.Map;
   onCitySelect: (cityId: string) => void;
   onHexReady?: () => void;
+  discoverOpen: boolean;
+  selectedItems: Set<string>;
+  thresholds: Map<string, number>;
 }
 
 export const PlacesLayer = ({
   map,
   onCitySelect,
   onHexReady,
+  discoverOpen,
+  selectedItems,
+  thresholds,
 }: PlacesLayerProps) => {
   const { places, loading, error } = usePlaces();
   const [isInitialized, setIsInitialized] = useState(false);
@@ -44,6 +51,8 @@ export const PlacesLayer = ({
         initializeMapLayers(map);
         initVoronoiLayer(map);
         initTagLayer(map);
+        // Tags hidden by default; shown only when Discover is open.
+        setTagsVisible(map, false);
         void initHexLayer(map).then(() => onHexReady?.());
 
         map.on('click', 'places', (e: maplibregl.MapLayerMouseEvent) => {
@@ -64,7 +73,7 @@ export const PlacesLayer = ({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [map, places, loading, error]);
 
-  // Update map source whenever places load (runs after isInitialized flips to true)
+  // Update map source whenever places load
   useEffect(() => {
     if (!isInitialized || !map || loading || error) return;
 
@@ -84,7 +93,6 @@ export const PlacesLayer = ({
       await updateMapSource(map, 'places', features);
       updateGlowSource(map, features);
       updateVoronoiSource(map, features);
-      updateTagSource(map, computeRegionTags(places));
       if (places) await updateHeatmapSource(map, places);
     };
 
@@ -99,6 +107,22 @@ export const PlacesLayer = ({
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [places, map, loading, error, isInitialized]);
+
+  // Tag layer: visibility tracks Discover drawer. When chips are selected,
+  // paint only those labels at the regions where each item is strong.
+  // Otherwise show the normal TF-IDF region tags.
+  useEffect(() => {
+    if (!isInitialized || !map || !places || loading || error) return;
+
+    setTagsVisible(map, discoverOpen);
+
+    if (!discoverOpen) return;
+
+    const tags = selectedItems.size > 0
+      ? computeSelectedTags(places, selectedItems, thresholds)
+      : computeRegionTags(places);
+    updateTagSource(map, tags);
+  }, [discoverOpen, selectedItems, thresholds, places, map, loading, error, isInitialized]);
 
   return null;
 };

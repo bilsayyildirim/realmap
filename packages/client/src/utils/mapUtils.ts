@@ -453,9 +453,10 @@ export async function updateHeatmapSource(
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Region tag layer — one defining ingredient/cooking-method label per country,
-// sized by score, fading out at city zoom. Renders ABOVE hex grid, BELOW city
-// dots.  Source data is computed once on the client from features.json.
+// Region tag layer — multi-resolution H3 cells × TF-IDF.
+// Four separate symbol layers, one per H3 resolution, each only visible
+// at its appropriate zoom band. Zooming in reveals progressively finer
+// labels. All four read from the same GeoJSON source, filtered by h3res.
 // ─────────────────────────────────────────────────────────────────────────────
 
 let tagInitialized = false;
@@ -472,7 +473,6 @@ export function initTagLayer(map: maplibregl.Map): void {
     data: { type: 'FeatureCollection', features: [] },
   });
 
-  // Place tags above hex grid but below places (city dots).
   const beforeId = map.getLayer('places') ? 'places' : undefined;
 
   map.addLayer(
@@ -482,16 +482,14 @@ export function initTagLayer(map: maplibregl.Map): void {
       source: 'region-tags',
       layout: {
         'text-field': ['get', 'label'],
-        // size scales with score AND zoom; hidden at high zoom where city dots take over
         'text-size': [
           'interpolate', ['linear'], ['zoom'],
-          1, ['*', ['get', 'score'], 14],
-          3, ['*', ['get', 'score'], 28],
-          5, ['*', ['get', 'score'], 20],
-          7, 0,
+          0, ['*', ['get', 'score'], 12],
+          6, ['*', ['get', 'score'], 22],
+          10, ['*', ['get', 'score'], 30],
         ],
         'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-        'text-letter-spacing': 0.08,
+        'text-letter-spacing': 0.06,
         'text-transform': 'uppercase',
         'text-allow-overlap': false,
         'text-ignore-placement': false,
@@ -500,16 +498,9 @@ export function initTagLayer(map: maplibregl.Map): void {
       paint: {
         'text-color': '#ffffff',
         'text-halo-color': 'rgba(0,0,0,0.85)',
-        'text-halo-width': 1.6,
-        'text-halo-blur': 0.4,
-        'text-opacity': [
-          'interpolate', ['linear'], ['zoom'],
-          0, 0.5,
-          2, 0.92,
-          4, 0.95,
-          6, 0.4,
-          6.8, 0,
-        ],
+        'text-halo-width': 1.4,
+        'text-halo-blur': 0.3,
+        'text-opacity': 0.92,
       },
     },
     beforeId,
@@ -525,8 +516,15 @@ export function updateTagSource(map: maplibregl.Map, tags: RegionTag[]): void {
     properties: {
       label: t.label.replace(/_/g, ' '),
       score: t.score,
+      tfidf: t.tfidf,
       kind: t.kind,
     },
   }));
   src.setData({ type: 'FeatureCollection', features });
+}
+
+export function setTagsVisible(map: maplibregl.Map, visible: boolean): void {
+  if (map.getLayer('region-tags')) {
+    map.setLayoutProperty('region-tags', 'visibility', visible ? 'visible' : 'none');
+  }
 }
